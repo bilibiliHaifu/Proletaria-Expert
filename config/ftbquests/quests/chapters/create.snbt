@@ -3,7 +3,7 @@
 	group: "1DFE3EE269C0174B"
 	order_index: 3
 	filename: "create"
-	title: "Create"
+	title: "机械动力"
 	icon: "create:large_cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
