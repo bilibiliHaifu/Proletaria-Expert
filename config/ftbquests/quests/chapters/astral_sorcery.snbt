@@ -3,7 +3,7 @@
 	group: "1DFE3EE269C0174B"
 	order_index: 1
 	filename: "astral_sorcery"
-	title: "Astral Sorcery"
+	title: "星辉魔法"
 	icon: "astralsorcery:aquamarine"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -29,7 +29,7 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			subtitle: "Hold this in your offhand and look around the world, dark blue patchs indicate a strong starlight level"
+			subtitle: "将它拿在手上，环顾四周，深蓝色代表着那片区域拥有更高的星能。"
 			dependencies: ["417BB258D594ECFC"]
 			id: "0B3B07E1686F67C4"
 			tasks: [{
