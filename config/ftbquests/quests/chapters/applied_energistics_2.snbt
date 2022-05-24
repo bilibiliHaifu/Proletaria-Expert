@@ -3,7 +3,7 @@
 	group: "1DFE3EE269C0174B"
 	order_index: 0
 	filename: "applied_energistics_2"
-	title: "Applied Energistics 2"
+	title: "应用能源2"
 	icon: "chisel:futura/controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -332,7 +332,7 @@
 			}]
 		}
 		{
-			title: "Wrench"
+			title: "扳手"
 			x: -3.0d
 			y: 4.5d
 			min_required_dependencies: 1
