@@ -1,5 +1,5 @@
 {
-  "name": "Multiblock Structures",
-  "description": "A library of some structures that you will need to progress.$(br2)Click the little eye icon next to the structure preview to visualize it in the world!",
+  "name": "多方块结构",
+  "description": "一个存储了你发展所需多方块结构的库。$(br2)点击结构边上的小眼睛将结构预览呈现在世界中！",
   "icon": "masterfulmachinery:blueprint"
 }

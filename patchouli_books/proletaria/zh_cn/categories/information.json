@@ -1,5 +1,5 @@
 {
-  "name": "Information",
-  "description": "This category will tell you useful information about the changes we have made to the modpack",
+  "name": "信息",
+  "description": "这个分类会告诉你一些有用的信息，包括我们对这个整合包作的修改。",
   "icon": "minecraft:paper"
 }

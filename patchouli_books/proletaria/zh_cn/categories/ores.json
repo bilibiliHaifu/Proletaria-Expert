@@ -1,5 +1,5 @@
 {
-  "name": "Ores",
-  "description": "Ores don't spawn the same as they always do. They are locked behind certain dimensions or contraptions.$(br2)Here is the list of said dimensions and contraptions, and what they contain!",
+  "name": "矿物",
+  "description": "矿物不像它们平常那样生成。在某些特定维度或奇特装置之后才能解锁它们。$(br2)这里是上述维度和奇特装置的列表，还有它们包含的矿物！",
   "icon": "emendatusenigmatica:copper_chunk"
 }
