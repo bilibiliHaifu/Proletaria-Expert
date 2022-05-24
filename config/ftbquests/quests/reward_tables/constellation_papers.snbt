@@ -5,7 +5,7 @@
 	loot_size: 1
 	rewards: [
 		{
-			title: "Aevitas"
+			title: "生息座"
 			item: {
 				id: "astralsorcery:constellation_paper"
 				Count: 1b
@@ -17,7 +17,7 @@
 			}
 		}
 		{
-			title: "Vicio"
+			title: "御虚座"
 			item: {
 				id: "astralsorcery:constellation_paper"
 				Count: 1b
@@ -29,7 +29,7 @@
 			}
 		}
 		{
-			title: "Armara"
+			title: "甲御座"
 			item: {
 				id: "astralsorcery:constellation_paper"
 				Count: 1b
@@ -41,7 +41,7 @@
 			}
 		}
 		{
-			title: "Discidia"
+			title: "攻烈座"
 			item: {
 				id: "astralsorcery:constellation_paper"
 				Count: 1b
@@ -53,7 +53,7 @@
 			}
 		}
 		{
-			title: "Evorsio"
+			title: "解离座"
 			item: {
 				id: "astralsorcery:constellation_paper"
 				Count: 1b
