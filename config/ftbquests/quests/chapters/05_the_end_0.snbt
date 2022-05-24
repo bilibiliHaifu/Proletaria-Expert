@@ -1,0 +1,1478 @@
+{
+	id: "72F301472B035BB5"
+	group: "5BC5B0C01671D322"
+	order_index: 4
+	filename: "05_the_end_0"
+	title: "05 - The End?"
+	icon: "angelring:itemring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "masterfulmachinery:compressor_controller"
+			x: -3.0d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "All pistons must be fully extended inorder for the structure to be complete."
+			dependencies: ["10D39BAC3438F5E6"]
+			size: 1.5d
+			id: "1D02CFF609D18199"
+			tasks: [
+				{
+					id: "1B057129E75E2299"
+					type: "item"
+					item: "masterfulmachinery:compressor_controller"
+				}
+				{
+					id: "77D5E30DF0BC7303"
+					type: "item"
+					item: "tconstruct:blazing_blood_bucket"
+				}
+				{
+					id: "366967F5F0868593"
+					type: "item"
+					item: "tconstruct:blazing_blood_bucket"
+				}
+				{
+					id: "4098C24D38AC619E"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 37L
+				}
+				{
+					id: "0E885DE3DA1BA8F0"
+					type: "item"
+					item: "tconstruct:scorched_road_stairs"
+					count: 6L
+				}
+				{
+					id: "2D931101A955D589"
+					type: "item"
+					item: "minecraft:piston"
+					count: 5L
+				}
+				{
+					id: "668D4323BEA2CE19"
+					type: "item"
+					title: "Any #forge:storage_blocks/aluminum"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/aluminum"
+						}
+					}
+				}
+				{
+					id: "3360ADB80EF5AD6F"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					count: 8L
+				}
+				{
+					id: "434DC141B38DE26F"
+					type: "item"
+					item: "masterfulmachinery:compressor_default_port_energy_input"
+				}
+				{
+					id: "48AC7844AD24D214"
+					type: "item"
+					item: "masterfulmachinery:compressor_default_port_items_input"
+				}
+				{
+					id: "2F98DA943160D920"
+					type: "item"
+					item: "masterfulmachinery:compressor_default_port_items_output"
+				}
+			]
+			rewards: [{
+				id: "29A52E160F2E3512"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["2BBA883B1BC6C430"]
+			id: "73AABBE353D17142"
+			tasks: [
+				{
+					id: "5DAC0753BE786B0C"
+					type: "item"
+					item: "emendatusenigmatica:nickel_chunk"
+				}
+				{
+					id: "11DEE9388175997A"
+					type: "item"
+					item: "emendatusenigmatica:nickel_ingot"
+				}
+			]
+			rewards: [{
+				id: "37E2768F1963A428"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["73AABBE353D17142"]
+			id: "10D39BAC3438F5E6"
+			tasks: [
+				{
+					id: "7673D6BBC8DBD2C2"
+					type: "item"
+					item: "pneumaticcraft:reinforced_bricks"
+					count: 8L
+				}
+				{
+					id: "3BD9A68D7672E5B1"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "50090A27B5890CD6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["1D02CFF609D18199"]
+			id: "639AB9AA5FF81F12"
+			tasks: [{
+				id: "62BDC9DC03FD9A82"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+			rewards: [{
+				id: "6879FB6441792D43"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			icon: "masterfulmachinery:pressure_former_controller"
+			x: 0.018707482993221447d
+			y: -1.9421768707483267d
+			shape: "diamond"
+			subtitle: "Refer to the BEIB for building hologram."
+			dependencies: [
+				"639AB9AA5FF81F12"
+				"3E42F1EF6664DBDB"
+			]
+			size: 1.5d
+			id: "7C2BF6449AF19499"
+			tasks: [
+				{
+					id: "4BED8F8F7F72FEDC"
+					type: "item"
+					item: "masterfulmachinery:pressure_former_controller"
+				}
+				{
+					id: "01C33857A7C734C4"
+					type: "item"
+					item: "appliedenergistics2:sky_stone_brick"
+					count: 51L
+				}
+				{
+					id: "6F04B9AC2ECA5C51"
+					type: "item"
+					item: "masterfulmachinery:pressure_former_default_port_fluids_input"
+				}
+				{
+					id: "21EC5D73AD0E56DF"
+					type: "item"
+					item: "masterfulmachinery:pressure_former_default_port_energy_input"
+				}
+				{
+					id: "254CC37960A721EA"
+					type: "item"
+					item: "masterfulmachinery:pressure_former_default_port_pncr_pressure_input"
+				}
+				{
+					id: "1009F81655C4AC4A"
+					type: "item"
+					title: "Pressure Former - Item Input Port"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "proletaria:pressure_former_ports_item_input"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "7434A1D3283779AF"
+					type: "item"
+					item: "thermal:lumium_glass"
+					count: 29L
+				}
+				{
+					id: "7645BD7BE9A3EAA1"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					count: 2L
+				}
+				{
+					id: "4117AEB2414BDC2B"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+					count: 5L
+				}
+				{
+					id: "7D4BE5AA2D372995"
+					type: "item"
+					item: "pneumaticcraft:heat_sink"
+					count: 8L
+				}
+				{
+					id: "331901A8023C47FD"
+					type: "item"
+					item: "create:mechanical_piston"
+					count: 3L
+				}
+				{
+					id: "6DF9EDA5F164CFB0"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+				{
+					id: "31037D7D48A93852"
+					type: "item"
+					item: "appliedenergistics2:inscriber"
+				}
+				{
+					id: "33B50E8673D2F34A"
+					type: "item"
+					item: "masterfulmachinery:pressure_former_default_port_items_output"
+				}
+			]
+			rewards: [{
+				id: "2043EEE772B90A8A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["423157362122BFDC"]
+			id: "06B8E80067D6D242"
+			tasks: [
+				{
+					id: "7A07938AAE7074A7"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+				}
+				{
+					id: "0A4CB05E0602C595"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+				}
+			]
+			rewards: [{
+				id: "686C010EDD25E72D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["06B8E80067D6D242"]
+			id: "6DFD98ACED774D0D"
+			tasks: [
+				{
+					id: "45D59136221A211D"
+					type: "item"
+					item: "appliedenergistics2:drive"
+				}
+				{
+					id: "1978D1E080912518"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+					count: 8L
+				}
+				{
+					id: "48DEB7FA949E00E7"
+					type: "item"
+					item: "appliedenergistics2:terminal"
+				}
+				{
+					id: "0F83C28015BDE24A"
+					type: "item"
+					item: "appliedenergistics2:1k_cell_component"
+				}
+				{
+					id: "784456C561790E7A"
+					type: "item"
+					item: "appliedenergistics2:1k_fluid_cell_component"
+				}
+			]
+			rewards: [{
+				id: "0CABCA81DF6E9132"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			dependencies: [
+				"43D38E22FFDECE01"
+				"513ED214B4E0C34A"
+			]
+			id: "46D6361CF1A3A25B"
+			tasks: [{
+				id: "1E7093DCAE7B005A"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+			rewards: [{
+				id: "15C6570A07BFDF54"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["2BBA883B1BC6C430"]
+			id: "221023D477FDC6AD"
+			tasks: [
+				{
+					id: "22B10C7FB90FB20E"
+					type: "item"
+					item: "emendatusenigmatica:aluminum_chunk"
+				}
+				{
+					id: "65540918B6F7D7F4"
+					type: "item"
+					item: "emendatusenigmatica:aluminum_ingot"
+				}
+				{
+					id: "5BEA593E20D52FE5"
+					type: "item"
+					item: "appliedenergistics2:certus_quartz_crystal"
+				}
+			]
+			rewards: [{
+				id: "659806B0B35ECE87"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "0379D4C318C99917"
+			tasks: [
+				{
+					id: "1310C9A47AFC8E16"
+					type: "item"
+					item: "pneumaticcraft:air_compressor"
+				}
+				{
+					id: "3C2D574065A9B682"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "44B389B8C1B1D76C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["0379D4C318C99917"]
+			id: "7B5A984069C90ADD"
+			tasks: [
+				{
+					id: "6B0D77E729996113"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 20L
+				}
+				{
+					id: "2A2B27D8750CEBB9"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+				{
+					id: "1BFFB69509A564A5"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+				{
+					id: "2E9570D07A8B0016"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+			]
+			rewards: [{
+				id: "1963C7231A1B2F44"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: [
+				"1D4637A730416E98"
+				"7B5A984069C90ADD"
+			]
+			id: "5FA8552DE75B84A1"
+			tasks: [
+				{
+					id: "56D34439B88E1F2C"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "652A8A1F375E9BE3"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+					count: 4L
+				}
+				{
+					id: "605CDB74619B006F"
+					type: "item"
+					item: "pneumaticcraft:vortex_tube"
+					count: 2L
+				}
+				{
+					id: "187859F43706B65A"
+					type: "item"
+					item: "pneumaticcraft:thermal_lagging"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "2720935085308474"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Oil Extraction"
+			icon: "immersivepetroleum:pumpjack"
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["2BBA883B1BC6C430"]
+			id: "1D4637A730416E98"
+			tasks: [
+				{
+					id: "772F7B8BC1B030D4"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "6BA2487D15F1183F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "22B1B9CBC9A01DF6"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6L
+				}
+				{
+					id: "675A59FDFEAB92D6"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "66B9E66D053F81F5"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "7A986F0ADC916774"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 2L
+				}
+				{
+					id: "1854EBDF652E5482"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4L
+				}
+				{
+					id: "05D30109AE0E6CE6"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4L
+				}
+				{
+					id: "4C73AE27207104A4"
+					type: "observation"
+					icon: "immersivepetroleum:pumpjack"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersivepetroleum:pumpjack"
+				}
+			]
+			rewards: [{
+				id: "35CF3102C3D516A2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["4C17BD19E2602AD5"]
+			id: "0A6E6A4A34044D31"
+			tasks: [{
+				id: "6914D3F10361D420"
+				type: "observation"
+				title: "Celestial Altar"
+				icon: "astralsorcery:altar_constellation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "astralsorcery:altar_constellation"
+			}]
+			rewards: [{
+				id: "5E5879C1ECE8C936"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["0A6E6A4A34044D31"]
+			id: "43D38E22FFDECE01"
+			tasks: [{
+				id: "2DB93CD6F7356037"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5331349BEA707E67"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.5d
+			dependencies: [
+				"43D38E22FFDECE01"
+				"32C3E6402CE07450"
+			]
+			id: "674CEB1A5DA386E8"
+			tasks: [
+				{
+					id: "3A59539832F61800"
+					type: "item"
+					item: "botania:gaia_pylon"
+				}
+				{
+					id: "034F4826FCE1E5B6"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "6340AEA9EBD74A67"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "4FE5412F05A102F8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Guardians of the Gaia(xy)"
+			x: 3.0d
+			y: 13.25d
+			dependencies: ["674CEB1A5DA386E8"]
+			id: "3D6B7294671D4365"
+			tasks: [
+				{
+					id: "2F9367A866B374C5"
+					type: "kill"
+					title: "Kill your Doppleganger"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+				{
+					id: "153D76A2EA00717D"
+					type: "item"
+					item: "botania:life_essence"
+				}
+			]
+			rewards: [{
+				id: "0ED13ACC5CF68EE7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.25d
+			dependencies: ["0171957FA8EDEA99"]
+			id: "32C3E6402CE07450"
+			tasks: [{
+				id: "2CE157245CA15026"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "1F0B15BC96AE50B9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 15.0d
+			dependencies: ["3D6B7294671D4365"]
+			id: "6D3BF41091D0122A"
+			tasks: [{
+				id: "3422C40749FED865"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "73E8FCFEAD56D784"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 16.5d
+			dependencies: [
+				"6D3BF41091D0122A"
+				"68B50AD7291C8588"
+			]
+			id: "47789E5352F01897"
+			tasks: [{
+				id: "00A7EE06A96A0F7B"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "51144151AD1F7546"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 15.0d
+			dependencies: ["46D6361CF1A3A25B"]
+			id: "68B50AD7291C8588"
+			tasks: [
+				{
+					id: "4D1BEF144011135A"
+					type: "item"
+					item: "appliedenergistics2:spatial_io_port"
+				}
+				{
+					id: "4C38EC924DA557A4"
+					type: "item"
+					item: "appliedenergistics2:16_cubed_spatial_storage_cell"
+				}
+				{
+					id: "6DA290F34D408D87"
+					type: "item"
+					item: "appliedenergistics2:spatial_pylon"
+					count: 15L
+				}
+			]
+			rewards: [
+				{
+					id: "33619877777BDADE"
+					type: "item"
+					item: "waystones:waystone"
+					count: 2
+				}
+				{
+					id: "1B5B57EC9BFCA3D2"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 15.0d
+			dependencies: ["49F939BDE2D0F9F4"]
+			id: "271515BEEB0BFDCF"
+			tasks: [{
+				id: "6B6B90B96AC39A9F"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+			rewards: [{
+				id: "0205AEAC8FB7AE3F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 13.5d
+			dependencies: ["5F877E962CC60C6A"]
+			id: "49F939BDE2D0F9F4"
+			tasks: [{
+				id: "106CE1BB2B20D633"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				count: 8L
+			}]
+			rewards: [{
+				id: "513F02C9BC151D0B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 13.5d
+			dependencies: ["49F939BDE2D0F9F4"]
+			id: "256179565A92C1E2"
+			tasks: [{
+				id: "5DEE63F826624BD9"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+			rewards: [{
+				id: "6CDCBA961B623E6A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["75D7B84AFEFDA79A"]
+			id: "08B94D4FA709362B"
+			tasks: [{
+				id: "6303F0CB990CC300"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+			rewards: [{
+				id: "382BA3889D4B82D2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["5FA8552DE75B84A1"]
+			id: "75D7B84AFEFDA79A"
+			tasks: [{
+				id: "0F579D8DF8FD6936"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			rewards: [{
+				id: "18041669460C7458"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["08B94D4FA709362B"]
+			id: "54DC4E2FC6697704"
+			tasks: [
+				{
+					id: "717B2F90FB316EBD"
+					type: "item"
+					item: "pneumaticcraft:amadron_tablet"
+				}
+				{
+					id: "430B0DF829858182"
+					type: "item"
+					item: "pneumaticcraft:charging_station"
+				}
+			]
+			rewards: [{
+				id: "2340B1A82BB51008"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["54DC4E2FC6697704"]
+			id: "209066828016F41D"
+			tasks: [
+				{
+					id: "2030FF3EC8E0915C"
+					type: "item"
+					item: "pneumaticcraft:pcb_blueprint"
+				}
+				{
+					id: "3B684C3F2B13E070"
+					type: "item"
+					item: "pneumaticcraft:uv_light_box"
+				}
+			]
+			rewards: [{
+				id: "07ACB6E90ECA0012"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			dependencies: ["08B94D4FA709362B"]
+			id: "6D7A23D383080265"
+			tasks: [{
+				id: "546BF899777EC652"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+			rewards: [{
+				id: "42331BAEAF8AF01C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			dependencies: ["6D7A23D383080265"]
+			id: "15E8189432D1EC9E"
+			tasks: [{
+				id: "3AE0384BC3EE3661"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+			rewards: [{
+				id: "711B661DB03D0C56"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: [
+				"209066828016F41D"
+				"15E8189432D1EC9E"
+			]
+			id: "47F3A56B3BE23A64"
+			tasks: [{
+				id: "349AD35429F09CC1"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+			rewards: [{
+				id: "7564E93FA7728C35"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			dependencies: ["3BA973804D7E1363"]
+			id: "5F877E962CC60C6A"
+			tasks: [
+				{
+					id: "66832403FF6BD20E"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+				{
+					id: "56E1A2D5F951777B"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "52E9073D9E7E8E14"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "5A11E29C581411A0"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "01AC0D3A87FCBB81"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "33CAA34EC6B49662"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "75E6C0B8582C6F1A"
+					type: "item"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+				}
+			]
+			rewards: [{
+				id: "3F1925F88D7F9D27"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 16.5d
+			dependencies: [
+				"271515BEEB0BFDCF"
+				"6D3BF41091D0122A"
+				"1D64CC9C64F0502D"
+			]
+			id: "7AB3A5F5712CC43D"
+			tasks: [{
+				id: "5B44B424BCECB636"
+				type: "observation"
+				title: "Iridescent Altar"
+				icon: "astralsorcery:altar_radiance"
+				timer: 0L
+				observe_type: 0
+				to_observe: "astralsorcery:altar_radiance"
+			}]
+			rewards: [{
+				id: "09ABEB35DDCAB52E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["2BBA883B1BC6C430"]
+			id: "337FF82CBF9E93AC"
+			tasks: [{
+				id: "4C3876F3CCAEDFDF"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [{
+				id: "333702D7202D9E70"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: [
+				"Fulminating Grenade spawns lightning when thrown, use it to charge your certus!"
+				"Fulminating Explosives also work the same way but as a block form."
+			]
+			dependencies: ["221023D477FDC6AD"]
+			id: "5797B0A3732FFB8F"
+			tasks: [
+				{
+					id: "0D53FA064E694775"
+					type: "item"
+					item: "thermal:lightning_grenade"
+				}
+				{
+					id: "2E53563D213ACB40"
+					type: "item"
+					item: "appliedenergistics2:charged_certus_quartz_crystal"
+				}
+			]
+			rewards: [{
+				id: "2C7D1F6AF9E14C2A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["5797B0A3732FFB8F"]
+			id: "3E42F1EF6664DBDB"
+			tasks: [{
+				id: "77CB59F87D10A904"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+			}]
+			rewards: [{
+				id: "1ED6AB85CEC88154"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 19.5d
+			dependencies: ["32D530D06EF07D6F"]
+			id: "11AB9CB610DABA71"
+			tasks: [{
+				id: "72D3D38E6D0FE487"
+				type: "item"
+				item: "kubejs:rune_balance"
+			}]
+			rewards: [{
+				id: "14FFA23D82E2EBDB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "What you dreamed of for so long"
+			x: 0.0d
+			y: 21.5d
+			shape: "gear"
+			description: [
+				"There you have it! Finally you get your hands on what you wanted the entire time!"
+				""
+				""
+				"This is the end of what is possible."
+				""
+				""
+				"Or is it?"
+			]
+			dependencies: ["11AB9CB610DABA71"]
+			size: 2.0d
+			id: "1A43908F83F7A850"
+			tasks: [{
+				id: "13C284E6161D8FBB"
+				type: "item"
+				item: "angelring:itemring"
+			}]
+			rewards: [
+				{
+					id: "374E018FA187EE08"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 500
+				}
+				{
+					id: "3B6810A40B22930F"
+					type: "advancement"
+					team_reward: false
+					auto: "invisible"
+					advancement: "proletaria:gamestages/obtain_angel_ring"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["0B65ED1DBC7F5E69"]
+			id: "0171957FA8EDEA99"
+			tasks: [{
+				id: "52BC2E04E41CFC63"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+			rewards: [{
+				id: "514751A70CB7781D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Gaia Simulation Chamber"
+			x: 4.5d
+			y: 18.0d
+			shape: "circle"
+			description: ["Using the Dice of Fate inside of a Ore Laser Drill within the Spatial Dimension built from Applied Energistics Spatial IO Port will allow you to get vast amounts of Gaia Spirit"]
+			dependencies: ["47789E5352F01897"]
+			optional: true
+			id: "602AA949BA5D79D3"
+			tasks: [{
+				id: "00B33CE8BBF1BD53"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			shape: "circle"
+			dependencies: ["08B94D4FA709362B"]
+			optional: true
+			id: "729C3CF4DA4EB27B"
+			tasks: [{
+				id: "1F8C73C57845ABCD"
+				type: "item"
+				item: "pneumaticcraft:heat_frame"
+			}]
+			rewards: [{
+				id: "412116D7A74DCB54"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["47F3A56B3BE23A64"]
+			id: "3BA973804D7E1363"
+			tasks: [
+				{
+					id: "7E2CEBCB0BF3751D"
+					type: "item"
+					item: "pneumaticcraft:capacitor"
+					count: 2L
+				}
+				{
+					id: "7E4274B2784B048F"
+					type: "item"
+					item: "pneumaticcraft:transistor"
+					count: 2L
+				}
+				{
+					id: "45EFB3E639B2F16D"
+					type: "item"
+					item: "kubejs:resistor"
+					count: 2L
+				}
+				{
+					id: "6040B8565135352B"
+					type: "item"
+					item: "pneumaticcraft:printed_circuit_board"
+				}
+			]
+			rewards: [{
+				id: "6CF708D2D806EF10"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["337FF82CBF9E93AC"]
+			id: "4C17BD19E2602AD5"
+			tasks: [{
+				id: "4FD85BFAD12B17ED"
+				type: "item"
+				item: {
+					id: "astralsorcery:attuned_rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "64BDA2E99DD61A7A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 18.0d
+			dependencies: ["7AB3A5F5712CC43D"]
+			id: "32D530D06EF07D6F"
+			tasks: [
+				{
+					id: "31A68B18E8E43868"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "73FB1415902E1A2A"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "4E39E8FD445C68FF"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "04E520CACC0BF959"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+				{
+					id: "3AFA76ED8EC682FF"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "19900A6FB791E586"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "26A0B7A1756D8ACA"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+			]
+			rewards: [{
+				id: "3E081FC55ED10FC5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["7C2BF6449AF19499"]
+			id: "423157362122BFDC"
+			tasks: [
+				{
+					id: "020C4146570BB0E9"
+					type: "item"
+					item: "appliedenergistics2:inscriber"
+				}
+				{
+					id: "70889A7BB85C8446"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor_press"
+				}
+				{
+					id: "3142DA4A7F89563C"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor_press"
+				}
+				{
+					id: "103AEB0E36FA8B7F"
+					type: "item"
+					item: "appliedenergistics2:logic_processor_press"
+				}
+				{
+					id: "761715011B8B5E34"
+					type: "item"
+					item: "appliedenergistics2:silicon_press"
+				}
+				{
+					id: "3FD2DA49EFA6D310"
+					type: "item"
+					item: "appliedenergistics2:energy_acceptor"
+				}
+			]
+			rewards: [{
+				id: "283D8E5A2B8C4661"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["6DFD98ACED774D0D"]
+			id: "513ED214B4E0C34A"
+			tasks: [{
+				id: "3683322E24CD86A0"
+				type: "item"
+				item: "pneumaticcraft:advanced_pcb"
+			}]
+			rewards: [{
+				id: "28AA188582FD7294"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "You lost something?"
+			tags: ["repeat"]
+			x: 2.0d
+			y: 1.5d
+			shape: "circle"
+			dependencies: ["337FF82CBF9E93AC"]
+			optional: true
+			id: "31EE949098FB5729"
+			tasks: [{
+				id: "7613CE89E66C3351"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20E8C1FBB02198D0"
+				type: "choice"
+				icon: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				table_id: 2832448380882295526L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			dependencies: ["75E74097A6628E98"]
+			id: "1D64CC9C64F0502D"
+			tasks: [
+				{
+					id: "2CB100081ACCDF68"
+					type: "item"
+					item: "kubejs:blood_orb"
+				}
+				{
+					id: "4F1DBB7A02A97630"
+					type: "item"
+					item: "kubejs:dark_orb"
+				}
+			]
+		}
+		{
+			icon: "astralsorcery:infuser"
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["43D38E22FFDECE01"]
+			id: "0B65ED1DBC7F5E69"
+			tasks: [
+				{
+					id: "0FFA24813D6FCF2C"
+					type: "item"
+					item: "astralsorcery:infuser"
+				}
+				{
+					id: "1D9724386DC36979"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16L
+				}
+				{
+					id: "0994130CFB2C1AB3"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 4L
+				}
+				{
+					id: "6C84319CEFBABE57"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "7573B0F5F715F73D"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 20L
+				}
+				{
+					id: "6A0843A08CDB3A59"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+			]
+			rewards: [{
+				id: "3FEDC746FC6795D4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.0d
+			dependencies: ["3BA973804D7E1363"]
+			id: "71FB373D03EB2335"
+			tasks: [{
+				id: "63A113C651E36BA7"
+				type: "item"
+				item: "pneumaticcraft:vacuum_pump"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			dependencies: [
+				"0171957FA8EDEA99"
+				"71FB373D03EB2335"
+			]
+			id: "75E74097A6628E98"
+			tasks: [{
+				id: "58C8385DB009B124"
+				type: "item"
+				item: "kubejs:empty_orb"
+			}]
+		}
+	]
+}

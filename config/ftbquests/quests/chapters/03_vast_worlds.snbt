@@ -1,0 +1,1608 @@
+{
+	id: "4994E0408458B2E5"
+	group: "5BC5B0C01671D322"
+	order_index: 2
+	filename: "03_vast_worlds"
+	title: "03 - Vast Worlds"
+	icon: "minecraft:dragon_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Visit the Exotic items shop to sell your items for Pro Coins"
+			dependencies: ["6233041CE3AB0D9D"]
+			id: "6B8BA58D07BB971C"
+			tasks: [{
+				id: "2FF704E5FDF74BE5"
+				type: "checkmark"
+				title: "Low on coins?"
+			}]
+			rewards: [{
+				id: "78999987FE7DAF9E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Explorers of the Desert"
+			icon: "atum:limestone_brick_large"
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Just look around, we are looking for a girafi tomb map"
+			description: ["Alternativly you can go to the shop and buy a map"]
+			dependencies: ["186FC53FE0375088"]
+			id: "077943CC81D969EA"
+			tasks: [
+				{
+					id: "5B8D436EFCFF76AF"
+					type: "advancement"
+					advancement: "proletaria:proletaria_exploration/atum_atum/gatehouse"
+					criterion: ""
+				}
+				{
+					id: "1E811CECB6DC17DA"
+					type: "advancement"
+					advancement: "proletaria:proletaria_exploration/atum_atum/mineshaft"
+					criterion: ""
+				}
+				{
+					id: "00B49B55A761FFEB"
+					type: "advancement"
+					advancement: "proletaria:proletaria_exploration/atum_atum/ruin"
+					criterion: ""
+				}
+				{
+					id: "18A0B911AD726CE1"
+					type: "checkmark"
+					title: "FOUND IT"
+				}
+			]
+			rewards: [{
+				id: "73B230C7409C2A2F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Ancient Egyptian Desert"
+			disable_toast: true
+			x: 0.5d
+			y: -1.0d
+			subtitle: "Refer to your PIP for more information on how to build it"
+			description: [
+				"Create the portal by throwing the Scarab into the Portal Structure filled with Water "
+				"{image:proletaria:textures/quests/atum_portal.png width:140 height:110 align:1}"
+			]
+			dependencies: ["6233041CE3AB0D9D"]
+			id: "186FC53FE0375088"
+			tasks: [{
+				id: "1CC28CB58AF1CE99"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+		}
+		{
+			title: "Girafi Tomb"
+			x: 0.5d
+			y: 2.0d
+			description: ["Girafi Tomb can be found by exploring the Atum world, dungeons have a chance of giving you a map!"]
+			dependencies: ["077943CC81D969EA"]
+			dependency_requirement: "one_started"
+			id: "17C8118C8AFEC799"
+			tasks: [
+				{
+					id: "5019B9419EBC09CB"
+					type: "advancement"
+					icon: {
+						id: "minecraft:filled_map"
+						Count: 1b
+						tag: {
+							map: 21
+						}
+					}
+					advancement: "proletaria:proletaria_exploration/atum_atum/girafi_tomb"
+					criterion: ""
+				}
+				{
+					id: "0995B3738409BC32"
+					type: "item"
+					item: "atum:idol_of_labor"
+				}
+			]
+			rewards: [{
+				id: "7A29F43C3DDB1FBA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Advanced Tools"
+			x: -4.0d
+			y: 2.0d
+			shape: "circle"
+			dependencies: ["6D54EDED9BDAD40E"]
+			optional: true
+			id: "3E17446B3F469810"
+			tasks: [{
+				id: "0894E1D6722687D4"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "atum:godforged_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "60E44380FD50F352"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Slay the Dead"
+			x: -1.0d
+			y: 2.0d
+			description: [
+				"To open up the Pyramid doors, you will have to place Nebu Torches at the entrance blocks engraved with yellow outlines."
+				""
+				"Once you locate Pharoah's Tomb, you will have to place Nebu Torches on the corners of the tomb (on the same block as the entrance)"
+				"Then when you open the tomb, you will be faced to slay the dead."
+				""
+				"Pharaoh can be a challenge to defeat with just some base equipment. Come back to this later if you're struggling in defeating the Pharaoh."
+			]
+			dependencies: ["077943CC81D969EA"]
+			id: "79BEE1CF3D4171B1"
+			tasks: [
+				{
+					id: "737952713C6AD8EC"
+					type: "advancement"
+					advancement: "proletaria:proletaria_exploration/atum_atum/pyramid"
+					criterion: ""
+				}
+				{
+					id: "71AC760F06C4726A"
+					type: "kill"
+					title: "Kill Pharaoh"
+					entity: "atum:pharaoh"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "641A2DAB0A4143FE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Reforging God's Will"
+			x: -2.5d
+			y: 2.0d
+			shape: "circle"
+			subtitle: "Reforge Pharaoh's items into other sets!"
+			description: [
+				"You can reforge Pharaoh's loot pieces into different types using the Godforge."
+				"Simply smelt the item in the Godforge with a bucket of lava as the fuel, craft the Godforged block and break it with the Nebu Hammer."
+				"Once you have the shards from the God that you want, you can craft their specific Godforged Block to target the set you are aiming for."
+			]
+			dependencies: ["79BEE1CF3D4171B1"]
+			optional: true
+			id: "6D54EDED9BDAD40E"
+			tasks: [
+				{
+					id: "2416034C9BE2EC7B"
+					type: "item"
+					item: "atum:godforge"
+				}
+				{
+					id: "0E93C715A05EB12C"
+					type: "item"
+					item: "atum:nebu_hammer"
+				}
+			]
+			rewards: [{
+				id: "5BF312CF0664E3B5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Godly Accessories"
+			x: -1.0d
+			y: 5.0d
+			subtitle: "Look at 'Reforging God's Will' quest to help you get this item"
+			description: ["Follow the Godforged quests to help you obtain this item."]
+			dependencies: ["79BEE1CF3D4171B1"]
+			id: "52A6CE8339E58409"
+			tasks: [{
+				id: "415C97B65F0ACCDD"
+				type: "item"
+				item: {
+					id: "atum:atems_bounty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "399DBDAB2C880467"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "God's Helping Hand"
+			x: -3.0d
+			y: 7.0d
+			description: ["Use Atem's Bounty and fish in The Atum to catch these fish."]
+			dependencies: ["52A6CE8339E58409"]
+			id: "004607C35E41C0CD"
+			tasks: [
+				{
+					id: "0675E0D4FA4E7CDC"
+					type: "item"
+					item: "atum:fish_jeweled"
+				}
+				{
+					id: "4956B33C12104251"
+					type: "item"
+					item: "atum:fish_forsaken"
+				}
+			]
+			rewards: [{
+				id: "3066C67B4535AD39"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "The Nether Fortress"
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["58575FCAF4133B22"]
+			id: "63B7D1BBE87BAB85"
+			tasks: [
+				{
+					id: "5480F1FD1B49039E"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "4B8D9A94B2DECFAE"
+					type: "advancement"
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "318D1E94EAE8EBAF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Slay the Evil"
+			x: -1.5d
+			y: 7.0d
+			description: ["Withers are more powerful, make sure you are prepared when trying to face them!"]
+			dependencies: ["63B7D1BBE87BAB85"]
+			id: "56488C4B514BB7DA"
+			tasks: [
+				{
+					id: "342706CF29ED5B43"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "7884CB161DDEC20F"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "77062AE81E0AEAF1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Burning Soul"
+			x: 0.5d
+			y: 7.0d
+			description: [
+				"Capture a Blaze with your Empty Blaze Burner"
+				""
+				"Blaze Burner will heat up the Basin under a Mixer. Feed it fuel to make it work!"
+			]
+			dependencies: ["63B7D1BBE87BAB85"]
+			id: "58EBBF98D5884EC6"
+			tasks: [
+				{
+					id: "236742405463A414"
+					type: "item"
+					item: "create:empty_blaze_burner"
+				}
+				{
+					id: "480A7221943BE500"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+			rewards: [{
+				id: "548B44980F13532F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mixing God and Science"
+			x: 3.0d
+			y: 7.0d
+			dependencies: [
+				"3647ED6747C38867"
+				"58EBBF98D5884EC6"
+			]
+			id: "68A4225B2D8E25F7"
+			tasks: [{
+				id: "04529D05C6E68222"
+				type: "item"
+				item: "eidolon:pewter_blend"
+			}]
+			rewards: [{
+				id: "3DB47B1F668E6E65"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Metal of the Gods"
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Nebu ore is found underground in Atum"
+			dependencies: ["186FC53FE0375088"]
+			id: "3647ED6747C38867"
+			tasks: [{
+				id: "2582BE5F045DBCB1"
+				type: "item"
+				item: "atum:nebu_ingot"
+			}]
+			rewards: [{
+				id: "602123894210B54D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			description: [
+				"Ars Ecclesia is your guide to Eidolon."
+				"Make sure you double check all recipes in JEI as they may be changed."
+			]
+			dependencies: ["68A4225B2D8E25F7"]
+			id: "02F40480CE2241C8"
+			tasks: [{
+				id: "6A87E9CAE8F3562A"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [
+				{
+					id: "6352F75208D73BC3"
+					type: "item"
+					item: "eidolon:codex"
+				}
+				{
+					id: "5ED76FD1836E3949"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Brewing and Alchemy"
+			x: 3.0d
+			y: 10.0d
+			subtitle: "Refer to Ars Ecclesia on Artifice and Alchemy"
+			description: [
+				"Crucible Recipes require you to do things in steps, if you take to long doing a single step then you will fail and lose any items thrown in."
+				""
+				"During a step, you can throw in items and stir in any order."
+				"Just make sure you're fast enough."
+			]
+			dependencies: ["02F40480CE2241C8"]
+			id: "5B6656FD76253CF0"
+			tasks: [{
+				id: "78A333BE21B4B0C5"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [{
+				id: "75E6D5ABF7CF74DE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "6ACC6454CC492FC3"
+			tasks: [
+				{
+					id: "77F37DF4CDC1C261"
+					type: "item"
+					item: "eidolon:crimson_essence"
+				}
+				{
+					id: "4F49EA669AAAF0C7"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+			]
+			rewards: [{
+				id: "471791EF39681C34"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "0A7FC06F23ED56C3"
+			tasks: [
+				{
+					id: "1B2B5457BABFEB37"
+					type: "item"
+					item: "eidolon:fungus_sprouts"
+				}
+				{
+					id: "21F8E291EB5BEFE6"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+			]
+			rewards: [{
+				id: "45C62D045DCD3034"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "0A60613708A2C770"
+			tasks: [
+				{
+					id: "1D348D2FC5A4DC6E"
+					type: "item"
+					item: "eidolon:death_essence"
+				}
+				{
+					id: "3EE4AD34C56ABA2A"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+			]
+			rewards: [{
+				id: "4AFD1D8ACD508E85"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "73F91C326046F2F2"
+			tasks: [
+				{
+					id: "42BAA5456CD6318A"
+					type: "item"
+					item: "eidolon:ender_calx"
+				}
+				{
+					id: "2ACD7386A3434BCE"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+			]
+			rewards: [{
+				id: "17DF154344225640"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Sacrifical Rituals"
+			x: 7.0d
+			y: 12.0d
+			description: [
+				"Read the Dictionary of Spirits to find out the layout of the Ritual Penacle."
+				""
+				"You can place sacrifical bowls anywhere near the penacle and it will take items from them"
+				""
+				"Once you place all the items in the sacrifical bowls, place the center item in the Golden Sacrificial Bowl."
+			]
+			dependencies: ["07DEBFB91DD7CE3B"]
+			id: "08DF17B52FC2335A"
+			tasks: [
+				{
+					id: "6F1A3B8389F24274"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "6A134186D0351531"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+			rewards: [{
+				id: "61540783C514A1D1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 12.0d
+			dependencies: ["5A1C1639FB00BEE0"]
+			id: "2BA3753F576F6817"
+			tasks: [{
+				id: "5D1698700538A314"
+				type: "item"
+				item: "occultism:candle_white"
+			}]
+			rewards: [{
+				id: "54EAD10F98B615F0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Childhood Memories"
+			x: 7.0d
+			y: 10.0d
+			dependencies: [
+				"04D22B55F99B2A1E"
+				"4A38AB5BA2179F85"
+				"3ABD489B2DE4DE6B"
+				"5B6656FD76253CF0"
+			]
+			id: "07DEBFB91DD7CE3B"
+			tasks: [
+				{
+					id: "0FBB96EDADEE7FE0"
+					type: "item"
+					item: "occultism:chalk_white_impure"
+				}
+				{
+					id: "05B16D329A4050EE"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "42562E58FE943614"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Burning the Unknown"
+			x: 6.0d
+			y: 9.0d
+			dependencies: ["6233041CE3AB0D9D"]
+			id: "04D22B55F99B2A1E"
+			tasks: [{
+				id: "6FF0E6886F1F7640"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+			rewards: [{
+				id: "63194277D646AE2B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Burning the Unknown"
+			x: 7.0d
+			y: 9.0d
+			dependencies: ["1F905543F83811A2"]
+			id: "4A38AB5BA2179F85"
+			tasks: [{
+				id: "6E454925FF2A098B"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+			}]
+			rewards: [{
+				id: "101A927BB378BFA2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Burning the Unknown"
+			x: 8.0d
+			y: 9.0d
+			dependencies: ["3D1DF1DFF10510A2"]
+			id: "3ABD489B2DE4DE6B"
+			tasks: [{
+				id: "5872366BE5C80C95"
+				type: "item"
+				item: "occultism:burnt_otherstone"
+			}]
+			rewards: [{
+				id: "3DFE098B9FFF18A6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Is this wood?"
+			x: 7.0d
+			y: 8.0d
+			description: ["Eat the Demon's Dream Fruit, then chop down the tree grown from the Unstable Otherworld Sapling"]
+			dependencies: ["3D1DF1DFF10510A2"]
+			id: "1F905543F83811A2"
+			tasks: [{
+				id: "0E142E9F0CC46F74"
+				type: "item"
+				item: "occultism:otherworld_log"
+			}]
+			rewards: [{
+				id: "3BB5DA2D85AFCFF9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Otherwordly Efforts"
+			x: 8.0d
+			y: 8.0d
+			description: [
+				"Set the Demon's Dream Fruit on fire (with Flint and Steel) to create Spirit Fire, do it on a flammable block to keep it burning forever."
+				""
+				"Throw Saplings into the fire to get Otherworld Sapling, once you plant and grow them you can eat the Demon's Dream Fruit to reveal the real nature of the tree"
+				""
+				"Throw stone into the fire to get Otherworld Stone."
+			]
+			dependencies: ["079256F18F57B54F"]
+			id: "3D1DF1DFF10510A2"
+			tasks: [
+				{
+					id: "0A37EBAF90A492FC"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "55B84879EF1E0423"
+					type: "item"
+					title: "Unstable Otherworld Sapling"
+					icon: "occultism:otherworld_sapling"
+					item: {
+						id: "occultism:otherworld_sapling_natural"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "3734AD637EE14CFC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "This is some of the good stuff if you know what I mean ;)"
+			x: 8.0d
+			y: 7.0d
+			description: [
+				"Dictionary of Spirits is your guide to Occultism."
+				""
+				"Eating this fruit will put you under the effect of The Third Eye"
+			]
+			dependencies: ["6233041CE3AB0D9D"]
+			id: "079256F18F57B54F"
+			tasks: [{
+				id: "262FAFF1AA849314"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [
+				{
+					id: "371580ABB45E2421"
+					type: "item"
+					item: "occultism:dictionary_of_spirits"
+				}
+				{
+					id: "2C91AF80C3438EF0"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 11.0d
+			subtitle: "Butcher them animals"
+			description: ["Killing animals such as Pigs, Cows, Sheep, Horse and Llamas will occasioanlly drop Tallow."]
+			dependencies: ["6233041CE3AB0D9D"]
+			id: "5A1C1639FB00BEE0"
+			tasks: [{
+				id: "04BDF629C927E1EC"
+				type: "item"
+				item: {
+					id: "occultism:butcher_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EC9C63255F6D527"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "The Dark Lord Retuns"
+			x: 7.0d
+			y: 16.0d
+			subtitle: "Refer to the Ars Ecclesia on how Theurgy works"
+			dependencies: [
+				"2BA3753F576F6817"
+				"08DF17B52FC2335A"
+				"0A7FC06F23ED56C3"
+				"0D458E4009190B91"
+				"201C51D543D84245"
+			]
+			id: "78C4D5F9AFE79FA3"
+			tasks: [{
+				id: "40B2CCA3531606A7"
+				type: "item"
+				item: "eidolon:straw_effigy"
+			}]
+			rewards: [{
+				id: "00B7F7BA6375DB1E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Polish what is Treated"
+			x: 9.5d
+			y: 10.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "2C0A0925BC9AF3D8"
+			tasks: [{
+				id: "6802ECD70DE12291"
+				type: "item"
+				item: "eidolon:polished_planks"
+			}]
+			rewards: [{
+				id: "6F52033B7767FFC8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Altars of Power"
+			x: 9.5d
+			y: 16.0d
+			description: ["Altars can be any shape and size."]
+			dependencies: ["2C0A0925BC9AF3D8"]
+			id: "0D458E4009190B91"
+			tasks: [{
+				id: "00C7A11E16FE2FF9"
+				type: "item"
+				item: "eidolon:wooden_altar"
+			}]
+			rewards: [{
+				id: "0E64F13094818CE7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 18.0d
+			subtitle: "Give the Ars Ecclesia to a Witch"
+			dependencies: ["78C4D5F9AFE79FA3"]
+			id: "441A199447185DFD"
+			tasks: [{
+				id: "07CF15AF1F1028C6"
+				type: "custom"
+				title: "Obtain the Wicked Sign"
+				icon: "eidolon:codex"
+			}]
+			rewards: [{
+				id: "6A780DBDF9288D88"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 17.0d
+			shape: "circle"
+			subtitle: "Give the Ars Ecclesia to a Cleric"
+			dependencies: ["78C4D5F9AFE79FA3"]
+			optional: true
+			id: "2E4030414EE45B87"
+			tasks: [{
+				id: "6C796E1F3F2FB35D"
+				type: "custom"
+				title: "Obtain the Sacred Sign"
+				icon: "eidolon:codex"
+			}]
+			rewards: [{
+				id: "5706C716503EFDDA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Candles"
+			x: 8.5d
+			y: 17.0d
+			shape: "circle"
+			dependencies: ["0D458E4009190B91"]
+			optional: true
+			id: "7B974045005E0B75"
+			tasks: [{
+				id: "083D3E4BA99C5ED6"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "eidolon:candle"
+								Count: 1b
+							}
+							{
+								id: "eidolon:candlestick"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C2B4AC31A69543B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 18.0d
+			shape: "circle"
+			dependencies: ["0D458E4009190B91"]
+			optional: true
+			id: "5A60021A4415998F"
+			tasks: [{
+				id: "18FF423CED310E31"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [{
+				id: "3927D726490B16FE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: 17.0d
+			shape: "circle"
+			dependencies: ["0D458E4009190B91"]
+			optional: true
+			id: "251B803671BCEAB2"
+			tasks: [{
+				id: "2977E48B80145E2F"
+				type: "item"
+				item: "minecraft:lantern"
+			}]
+			rewards: [{
+				id: "4E024DF49EC32EEC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 17.0d
+			shape: "circle"
+			dependencies: ["0D458E4009190B91"]
+			optional: true
+			id: "5F4E8DC6E3C03006"
+			tasks: [
+				{
+					id: "29196D47AD0B746C"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "56D799BED4B842CA"
+					type: "item"
+					item: "minecraft:flower_pot"
+				}
+			]
+			rewards: [{
+				id: "101BF1B8DA4F9DC1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 19.5d
+			description: [
+				"Reputation Required: 3"
+				""
+				"Pray once a day to gain the reputation for The Dark Lord"
+				""
+				"P.S. You will have to wait about 18 minutes or sleep. Increasing the time of day doesn't affect the timer."
+			]
+			dependencies: ["441A199447185DFD"]
+			id: "0ABC86D1A4F7CF5F"
+			tasks: [{
+				id: "78EFBB1BF4422BB3"
+				type: "custom"
+				title: "Obtain the Blood Sign"
+				icon: "eidolon:codex"
+			}]
+			rewards: [{
+				id: "4EC666F45AE2744F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Goblet of Fire"
+			x: 7.0d
+			y: 21.0d
+			description: ["The goblet can be placed on the altar and is used to take blood sacrifices"]
+			dependencies: ["0ABC86D1A4F7CF5F"]
+			id: "014BC93A747CD2A7"
+			tasks: [{
+				id: "5A5FEAB06B79318D"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "58ABC722771F67D9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 22.5d
+			description: ["With the goblet on the Altar, sacrifice an animal near it and chant the spell!"]
+			dependencies: ["014BC93A747CD2A7"]
+			id: "185AA8F0B947FE7B"
+			tasks: [{
+				id: "7DA967C950E92725"
+				type: "custom"
+				title: "Obtain the Soul Sign"
+				icon: "eidolon:codex"
+			}]
+			rewards: [{
+				id: "6ABE6DFBA0C48261"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Touch of Darkness"
+			x: 7.0d
+			y: 24.0d
+			description: ["Touch of Darkness Spell"]
+			dependencies: ["185AA8F0B947FE7B"]
+			id: "5D82AEBDA7161F45"
+			tasks: [{
+				id: "34A3D3ACDA2A64A5"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "7F575F92845F5836"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Elder Statue"
+			x: 7.0d
+			y: 25.5d
+			description: ["Change your altar to use Stone Altar and Elder Statue."]
+			dependencies: ["5D82AEBDA7161F45"]
+			id: "21521C4B7E2BFB59"
+			tasks: [
+				{
+					id: "6B2F7ECDC5C4F552"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "531B6D17A4F24198"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+			rewards: [{
+				id: "548B4978BB29AB8F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 27.0d
+			description: [
+				"Reputation Required: 15"
+				""
+				"Once you have enough reputation, sacrifice a villager to The Dark Lord and gain the Mind Symbol"
+			]
+			dependencies: ["21521C4B7E2BFB59"]
+			id: "75454D4FC41CF56F"
+			tasks: [{
+				id: "4F5532D227289763"
+				type: "custom"
+				title: "Obtain the Mind Sign"
+				icon: "eidolon:codex"
+			}]
+			rewards: [{
+				id: "4419F73BF6461B88"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			dependencies: ["6ACC6454CC492FC3"]
+			id: "67597A2633996842"
+			tasks: [{
+				id: "264B400668AABAC0"
+				type: "item"
+				item: "eidolon:brazier"
+			}]
+			rewards: [{
+				id: "14527CDFFDB1AC06"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 13.5d
+			dependencies: ["0A60613708A2C770"]
+			id: "3222D3893BC54B97"
+			tasks: [
+				{
+					id: "70FAC15EE731F611"
+					type: "item"
+					item: "eidolon:necrotic_focus"
+				}
+				{
+					id: "7011436BD975E00E"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "67DA291339DE55FD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 14.5d
+			subtitle: "Refer to the Ars Ecclesia on how Rituals work"
+			dependencies: [
+				"67597A2633996842"
+				"3222D3893BC54B97"
+			]
+			id: "0673E6B7DB43030E"
+			tasks: [{
+				id: "679424014579E870"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [{
+				id: "2B8AB782FA76F200"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 16.0d
+			dependencies: ["0673E6B7DB43030E"]
+			id: "201C51D543D84245"
+			tasks: [{
+				id: "64A054D64EBAD8DB"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+			rewards: [{
+				id: "2775B9EEAF82BBBC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 17.5d
+			subtitle: "Summon Crushing Foliot"
+			description: ["Crushing Foliot can crush certain items into dust forms; will be required for progression"]
+			dependencies: ["201C51D543D84245"]
+			id: "236EB71CA832E476"
+			tasks: [{
+				id: "53212EF2D8514727"
+				type: "checkmark"
+				title: "Crusher Foliot Ritual"
+			}]
+			rewards: [{
+				id: "27340A85E5F058CC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 19.0d
+			dependencies: ["236EB71CA832E476"]
+			id: "13BE0582ABB0BA8D"
+			tasks: [{
+				id: "79BD5CC7A1DF73D8"
+				type: "item"
+				item: "emendatusenigmatica:gold_dust"
+			}]
+			rewards: [{
+				id: "6E6EAFB2E7C0FFB6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 20.5d
+			dependencies: ["13BE0582ABB0BA8D"]
+			id: "6D11727F0E5A6249"
+			tasks: [
+				{
+					id: "268DE4A77D69E70E"
+					type: "item"
+					item: "occultism:chalk_gold_impure"
+				}
+				{
+					id: "1FE5F97D933BD9DA"
+					type: "item"
+					item: {
+						id: "occultism:chalk_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3DF920986CDC09D3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Possessed Endermites"
+			x: 1.0d
+			y: 22.0d
+			subtitle: "Refer to the Dictionary of Spirits on how to perform the ritual"
+			description: ["Possessed Endermites have 100% chance of dropping endstone"]
+			dependencies: ["6D11727F0E5A6249"]
+			id: "3C70BCEA89C928A9"
+			tasks: [{
+				id: "4E91C4EFC39AA4FD"
+				type: "kill"
+				entity: "occultism:possessed_endermite"
+				value: 1L
+			}]
+			rewards: [{
+				id: "36B8FB13B5BDC4E4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 13.5d
+			dependencies: ["73F91C326046F2F2"]
+			id: "1980E267019B7A96"
+			tasks: [{
+				id: "1DF2D18981C38985"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [{
+				id: "44733FC4884AE632"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 24.5d
+			dependencies: ["2F12DB0DDCD259E1"]
+			id: "542009B37BB13B3C"
+			tasks: [
+				{
+					id: "50922CA2A2BB63B3"
+					type: "item"
+					title: "Ender Sushi"
+					item: "kubejs:ender_sushi"
+				}
+				{
+					id: "43A2B11ECA270765"
+					type: "gamestage"
+					icon: "minecraft:end_stone"
+					stage: "end_access"
+				}
+			]
+			rewards: [{
+				id: "700B46F5B5EBF024"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Preparing the Meal!"
+			x: -1.5d
+			y: 22.0d
+			dependencies: [
+				"004607C35E41C0CD"
+				"56488C4B514BB7DA"
+				"3C70BCEA89C928A9"
+			]
+			id: "2F12DB0DDCD259E1"
+			tasks: [
+				{
+					id: "1F0E9F356B276D5D"
+					type: "item"
+					item: "atum:fish_jeweled"
+				}
+				{
+					id: "37ABA63F01AD2112"
+					type: "item"
+					item: "atum:ectoplasm"
+				}
+				{
+					id: "2F77322F294BE386"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "6B88357BD9160B2E"
+					type: "item"
+					item: "occultism:crushed_end_stone"
+				}
+				{
+					id: "56324C9B6086D11F"
+					type: "item"
+					item: "sushigocrafting:nori_sheets"
+				}
+			]
+			rewards: [{
+				id: "0FBB8BDF7D14FAB0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 17.5d
+			dependencies: ["236EB71CA832E476"]
+			id: "1C1D1A5B7F934F66"
+			tasks: [{
+				id: "02B972A671B13AE4"
+				type: "item"
+				item: "emendatusenigmatica:obsidian_dust"
+			}]
+			rewards: [{
+				id: "235AC8E59D468D1F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Touch of the Void"
+			x: 4.0d
+			y: 27.0d
+			description: ["Similar to the Touch of Darkness spell for the Unholy Symbol"]
+			dependencies: [
+				"1C1D1A5B7F934F66"
+				"75454D4FC41CF56F"
+			]
+			id: "7BA72C3085BEE40C"
+			tasks: [{
+				id: "203099677E19F11A"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [{
+				id: "7E2F5EF5C59626EC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Find a Stronghold"
+			x: 1.0d
+			y: 27.0d
+			dependencies: ["7BA72C3085BEE40C"]
+			id: "77AAACEA00D8AEBC"
+			tasks: [{
+				id: "35846F1EB946A72E"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/stronghold"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5FFA5F56389F7335"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Go to The End"
+			x: -1.5d
+			y: 27.0d
+			dependencies: [
+				"77AAACEA00D8AEBC"
+				"542009B37BB13B3C"
+			]
+			id: "5E0A8389C70306FC"
+			tasks: [{
+				id: "618FE17E008F9FB1"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "4CA0851E3D99A7D6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Fight the Beast"
+			x: -1.5d
+			y: 29.0d
+			shape: "gear"
+			dependencies: ["5E0A8389C70306FC"]
+			size: 2.0d
+			id: "252180425E1A6C0A"
+			tasks: [{
+				id: "5B09720AB6B039B8"
+				type: "kill"
+				title: "Kill the Queen"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2BAAD26F0252C7E5"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 150
+				}
+				{
+					id: "76DDEC0EAC9EE221"
+					type: "item"
+					item: {
+						id: "curios:crown"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05083D6D2B95A4B5"
+					type: "item"
+					item: "betterendforge:guidebook"
+				}
+				{
+					id: "71B1F86622A87763"
+					type: "advancement"
+					team_reward: false
+					auto: "invisible"
+					advancement: "proletaria:gamestages/kill_ender_dragon"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 15.0d
+			shape: "circle"
+			description: ["Soul Enchanter allows you to enchant items using Soul Shards"]
+			dependencies: ["1980E267019B7A96"]
+			optional: true
+			id: "1A8D59CA389057A4"
+			tasks: [{
+				id: "584DA9893D8C0554"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [{
+				id: "79990F8AD2B0AAA0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 15.0d
+			shape: "circle"
+			subtitle: "Gathering of Souls"
+			description: ["Killing with the Reaper's Scythe will allow you to gain Soul Shards without having to perform a ritual"]
+			dependencies: ["1980E267019B7A96"]
+			optional: true
+			id: "5BA5D41709B4335E"
+			tasks: [{
+				id: "46D90EE2624D98A8"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "717CB1BE164033FE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Taste the Heat"
+			x: 0.5d
+			y: 3.5d
+			subtitle: "Eating the Fiery Snack will unlock access to the Nether"
+			description: ["Helping info, Tarantulas spawn in The Atum between y=40 and y=62"]
+			dependencies: ["17C8118C8AFEC799"]
+			id: "58575FCAF4133B22"
+			tasks: [
+				{
+					id: "2E6F53E769303B96"
+					type: "item"
+					item: "kubejs:fiery_snack"
+				}
+				{
+					id: "55DBC6ABCE0BED10"
+					type: "gamestage"
+					icon: "minecraft:netherrack"
+					stage: "nether_access"
+				}
+			]
+			rewards: [{
+				id: "550B29634C6A8774"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "The Natures compass will find specific biomes and guide you to them."
+			description: ["Right click to open the gui then at the top is a search box, type in the biome your looking for then click start search in the top right corner."]
+			dependencies: ["6233041CE3AB0D9D"]
+			id: "7F4616FB60EE277B"
+			tasks: [{
+				id: "5C22259B6266A6FC"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7A657E34DC4B5882"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

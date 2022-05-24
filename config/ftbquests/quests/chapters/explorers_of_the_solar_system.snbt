@@ -1,0 +1,1066 @@
+{
+	id: "3C8C9D73A7C82979"
+	group: "053C5D3100185318"
+	order_index: 2
+	filename: "explorers_of_the_solar_system"
+	title: "Explorers of the Solar System"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			disable_toast: true
+			x: -5.0d
+			y: -6.0d
+			id: "37D8FDD39302D560"
+			tasks: [{
+				id: "30D491F894339BB0"
+				type: "dimension"
+				disable_toast: true
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: 1.5d
+			id: "4D1E3537A6007611"
+			tasks: [{
+				id: "45E44F93B1690072"
+				type: "dimension"
+				disable_toast: true
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 9.0d
+			y: 1.5d
+			id: "678019D86B6B2F85"
+			tasks: [{
+				id: "1A703A7CF8F16494"
+				type: "dimension"
+				disable_toast: true
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 7.0d
+			y: -6.0d
+			id: "4FBC064479BC9B16"
+			tasks: [{
+				id: "5707B61413DEA0D8"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["678019D86B6B2F85"]
+			id: "66EFA05B8B24D1B8"
+			tasks: [{
+				id: "68B55FA4FE1BC4B5"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/the_end/endcity"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "36939B132C5AA3EF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			dependencies: ["4FBC064479BC9B16"]
+			id: "0D963AABFD197251"
+			tasks: [{
+				id: "718E5512B63A67FB"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/atum_atum/gatehouse"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "22E0C8D5B316D99F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["4D1E3537A6007611"]
+			id: "0E7500A5F7943442"
+			tasks: [{
+				id: "4B3E743B1E0B9802"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/the_nether/bastion_remnant"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31D1C626AB5EC20F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["4D1E3537A6007611"]
+			id: "5599CC9589F840A1"
+			tasks: [{
+				id: "7C8BC2A311D29AB2"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/the_nether/fortress"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2511FD537F62E937"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["4D1E3537A6007611"]
+			id: "029D995C4FADC6CF"
+			tasks: [{
+				id: "29695B813E208A8F"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/the_nether/nether_fossil"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1518FA9CD381B025"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["4D1E3537A6007611"]
+			id: "5C06EC9045753919"
+			tasks: [{
+				id: "17F84A3332FEE626"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/ruined_portal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "53B28FF8F297ED55"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["4D1E3537A6007611"]
+			id: "27359E9C83E8BB3E"
+			tasks: [{
+				id: "3656BF2EBD98CF13"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/the_nether/soul_prison"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6D2E7B385A5970FC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["678019D86B6B2F85"]
+			id: "652D45C6670FA42C"
+			tasks: [{
+				id: "464D87418BCBA406"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/the_end/end_ruins"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "59D456DDCB4973D2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["4FBC064479BC9B16"]
+			id: "49F85815EE1980FF"
+			tasks: [{
+				id: "481AD30EE9BD3990"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/atum_atum/girafi_tomb"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "66DB9C172ACCFD41"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["4FBC064479BC9B16"]
+			id: "7159CDAA8CB9A5E7"
+			tasks: [{
+				id: "5B69EC4D5F9CFC32"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/atum_atum/mineshaft"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "54231A5EE6334381"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.0d
+			dependencies: ["4FBC064479BC9B16"]
+			id: "5D85230CBC6BE2EB"
+			tasks: [{
+				id: "5FD457A4FA2B7AA9"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/atum_atum/pyramid"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3BC6183CF7B431E7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			dependencies: ["4FBC064479BC9B16"]
+			id: "2EDF265BE51B3C29"
+			tasks: [{
+				id: "44D762F925474565"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/atum_atum/ruin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "576363BF6C9E8AF2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.0d
+			dependencies: ["4FBC064479BC9B16"]
+			id: "3D25F618F74D7737"
+			tasks: [{
+				id: "121768CA49B74285"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/atum_atum/tomb"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1376781DB3C60711"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "10B90F16603C2525"
+			tasks: [{
+				id: "61EFF27583AC87CE"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/ancient_shrine"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "502FA5B162E4646F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "4BB9CBA4729528CB"
+			tasks: [{
+				id: "345795F1834EDC7C"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/meteorite"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "42771D0CB1503217"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "7EFD64BA4C1415E2"
+			tasks: [{
+				id: "082F7E007DBA083A"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/desert_shrine"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "073AE1AB0EAF4028"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "7DFB535F57C36910"
+			tasks: [{
+				id: "24D7CEA870D18577"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/small_shrine"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7D8A2640A90ABCF1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "28C34DB08A84BF42"
+			tasks: [{
+				id: "0CB2719A63FAB9A7"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/buried_treasure"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1BB03B436D8ED08C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "61809FCFC4127122"
+			tasks: [{
+				id: "1EAF66D0CE8BE716"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/bigger_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4E5226F603B234C6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "2ACBAE8044CAD419"
+			tasks: [{
+				id: "07227C4F5F49A6B1"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/leviathan"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "74DF81C2F30F0F36"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "5C531ACC4A2B2B77"
+			tasks: [{
+				id: "7730B921231E3377"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/snowy_temple"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "79ACD7DCE41FFD9E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "198BE4E5C1F0281F"
+			tasks: [{
+				id: "2D3BA4543147751A"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/battle_tower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3522414D0B085531"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "522360C1242F36F3"
+			tasks: [{
+				id: "7E534F148AB79DB9"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/catacomb"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "78B8953B36CC2670"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "2226587001AEC9FD"
+			tasks: [{
+				id: "0F2612651B85444D"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/warped_garden"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2CB9A18F5A28A449"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "662A783D427A8862"
+			tasks: [{
+				id: "47438BB424CA1416"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6BE21E41CB32485E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "76031F76C3ECEEF9"
+			tasks: [{
+				id: "2D432AAFFB7F6829"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/desert_pyramid"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3A19805715AA4AEC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "602A79674D67BC00"
+			tasks: [{
+				id: "479E859F7270D3ED"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/lab"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0444EC6C8545737F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "141B9C09A43C7943"
+			tasks: [{
+				id: "50EEBD5C24AA72EE"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/stray_tower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "083F3E88EAE9B877"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "30F35A7DEA42E90D"
+			tasks: [{
+				id: "6DC82EBFD63DFF3E"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/igloo"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5EC1545F8D84922F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "46A317A755337FB5"
+			tasks: [{
+				id: "18A1B81ABC810817"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/jungle_pyramid"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "646ED212FCB4EAD7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "6AA5119081D7C733"
+			tasks: [{
+				id: "446B84FC39189034"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/mansion"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5867FC2BF22983C3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "71EC11B13CB5680B"
+			tasks: [{
+				id: "1CF7A2C9B25438CA"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/mineshaft"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7D52A585DE157C79"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "6A6D11D7711182F3"
+			tasks: [{
+				id: "1E3883DD04F7AA74"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/monument"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "062308F63815E9DD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "1787EE2A0C9A4901"
+			tasks: [{
+				id: "534BC32798F9041B"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/ocean_ruin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "594643B5DBE7F402"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "49EFB1B6DC47F363"
+			tasks: [{
+				id: "47776DBF16FCC0DA"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/pillager_outpost"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5DA332EF6840EA57"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "6E0C9F817A1B9F53"
+			tasks: [{
+				id: "5419D8232B12EC50"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/shipwreck"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "62D88285A0C67C20"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "7F292FC183699F09"
+			tasks: [{
+				id: "379D01F31E1A73F8"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/stronghold"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "71DFD8F631076AA5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "7EF2A122D650ED72"
+			tasks: [{
+				id: "2395D379AB36FE24"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/swamp_hut"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7443B8597FCC5E2B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "1E2942FF8EE65CDE"
+			tasks: [{
+				id: "0CF0264431D105D6"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/derelict_tower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7D3AB9FB15E2A29B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "6702F89A7A2FD128"
+			tasks: [{
+				id: "5085A51548D34B46"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/ice_tower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "55EAC1CB6B877E1E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "3790E48EC5F4C4C4"
+			tasks: [{
+				id: "743A22DAD967F7CA"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/jungle_tower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "33C68388C468888C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "7C0858EE49621810"
+			tasks: [{
+				id: "05B4A654AA2CA8D8"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/ocean_tower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2506FFCEB782086D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "3991FB6D8382F677"
+			tasks: [{
+				id: "0733E2814A32A665"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/tower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5F26B1C2F59D87FB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "76991A41AC6E04B0"
+			tasks: [{
+				id: "0309814DA23A5559"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/big_tree"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "48EC0682583D96D3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "4ABC4D8A7BD1F3BA"
+			tasks: [{
+				id: "2FBC18377DEEE89D"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/castle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1641210728E64687"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "77DBBEA96D008006"
+			tasks: [{
+				id: "594C7A63D455B713"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/castle_ruin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "596DA2B52326E0A6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "1E473BAAB1E792F2"
+			tasks: [{
+				id: "4DF5BCC294B5B52F"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/desert_house"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6B43E74384725C77"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "203808F7236A0534"
+			tasks: [{
+				id: "646DC75A14132CEF"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/forge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "54D63DF5F289896C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "4787C853057E0614"
+			tasks: [{
+				id: "27B6E7E0EA3F07C4"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/player_house"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "03F619F4CA0EB427"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "3C5090311283008E"
+			tasks: [{
+				id: "5BA1882AAB390911"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/spawner_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "275DF88EA7D62BB0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "21F3E05856331D1F"
+			tasks: [{
+				id: "15454604DF9618BC"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/tower_ruin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "74943CBCB11FF77C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "1E76433CCCB57321"
+			tasks: [{
+				id: "7AC9768AFA043606"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/witch_hut"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E1A5B0391A68E2D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "0E93ED36F4100E2C"
+			tasks: [{
+				id: "2B92F396FD441ECE"
+				type: "advancement"
+				advancement: "proletaria:proletaria_exploration/overworld/village"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3464D8680D7D60AC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			dependencies: ["37D8FDD39302D560"]
+			id: "6DC3EF6583BEDA63"
+			tasks: [{
+				id: "653576D76D8F0429"
+				type: "advancement"
+				advancement: "tconstruct:world/sky_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "40D078BC6F7ED379"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["4D1E3537A6007611"]
+			id: "098CF0FA9B60F5D8"
+			tasks: [{
+				id: "29E42AA0B0C9A8A3"
+				type: "advancement"
+				advancement: "tconstruct:world/blood_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0EA26BA8BB08DD6E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			dependencies: ["678019D86B6B2F85"]
+			id: "6E486AB41F15F90A"
+			tasks: [{
+				id: "35F7FA092841381C"
+				type: "advancement"
+				advancement: "tconstruct:world/ender_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1EE396DC5D595CF7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

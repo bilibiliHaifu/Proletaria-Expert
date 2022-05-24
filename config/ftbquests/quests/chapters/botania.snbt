@@ -1,0 +1,3852 @@
+{
+	id: "01F0CB318C395765"
+	group: "1DFE3EE269C0174B"
+	order_index: 2
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:mana_tablet"
+		Count: 1b
+		tag: {
+			mana: 500000
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 15.0d
+			y: -9.5d
+			id: "20C891D82CB6474F"
+			tasks: [{
+				id: "70D74C3FB0DE40E2"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "37DC5F61B6D3E607"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.0d
+			dependencies: ["65F5D8334153FB1B"]
+			id: "0AD9E41D289DF458"
+			tasks: [{
+				id: "2C5F8BB2EA94286E"
+				type: "item"
+				item: {
+					id: "botania:manasteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F8A758332FA18C9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			dependencies: ["65F5D8334153FB1B"]
+			id: "789A602C9AEC8CFF"
+			tasks: [{
+				id: "54DF7E4A54D7F8B7"
+				type: "item"
+				item: {
+					id: "botania:manasteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "44C1D22BEBFA1182"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.0d
+			dependencies: ["65F5D8334153FB1B"]
+			id: "67805DB9297B76D5"
+			tasks: [{
+				id: "3C2719D5C8C49A74"
+				type: "item"
+				item: {
+					id: "botania:manasteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2AB2F08ABE847E00"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.0d
+			dependencies: ["65F5D8334153FB1B"]
+			id: "5AEC2165475DC594"
+			tasks: [{
+				id: "73F10432C5D70BFD"
+				type: "item"
+				item: {
+					id: "botania:manasteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DC71B1697E1492B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			disable_toast: true
+			x: 13.5d
+			y: -9.5d
+			subtitle: "Use these to move mana from one mana pool to another, or to power the altar."
+			description: ["Did you know you can put wool on these to jazz them up a bit."]
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "3DBFAF9D41A22576"
+			tasks: [{
+				id: "4974EDCDB6A9ECC6"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [
+				{
+					id: "27B17275DAC2DED3"
+					type: "item"
+					item: "minecraft:orange_wool"
+				}
+				{
+					id: "36D37068229B2255"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			dependencies: [
+				"2905A895098DFE41"
+				"0AD9E41D289DF458"
+				"22CC1BC9645437A7"
+			]
+			id: "6E59E535CDF20734"
+			tasks: [{
+				id: "2BD544EB30F553E3"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D066F6A4D87A6C8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: 3.0d
+			dependencies: [
+				"2905A895098DFE41"
+				"789A602C9AEC8CFF"
+				"22CC1BC9645437A7"
+			]
+			id: "2A31F154E423DE87"
+			tasks: [{
+				id: "6837F8A718B720BF"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "17B96C6EFD25CDB7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: 4.0d
+			dependencies: [
+				"2905A895098DFE41"
+				"67805DB9297B76D5"
+				"22CC1BC9645437A7"
+			]
+			id: "2CE88515D2B7E1EA"
+			tasks: [{
+				id: "64FD0AC77AAFD2D9"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B33F64FA4B80346"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: 5.0d
+			dependencies: [
+				"2905A895098DFE41"
+				"5AEC2165475DC594"
+				"22CC1BC9645437A7"
+			]
+			id: "26E6BC82B75EDA0D"
+			tasks: [{
+				id: "24952A4CA4DF81E1"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A387BEAF03A4210"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -8.0d
+			dependencies: ["20C891D82CB6474F"]
+			id: "6B06A2BF647C94A5"
+			tasks: [{
+				id: "129925617F150240"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+			rewards: [{
+				id: "3C293B81C5295336"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Dice of Fate"
+			icon: {
+				id: "botania:dice"
+				Count: 1b
+				tag: { }
+			}
+			disable_toast: true
+			x: 14.0d
+			y: 8.0d
+			subtitle: "Godly Accessories"
+			description: [
+				"The Dice of Fate will grant you one of six items."
+				"Each one provide a unique ability."
+			]
+			dependencies: ["47789E5352F01897"]
+			id: "5A6B40D2CBA71371"
+			tasks: [{
+				id: "13C2A171AD91228F"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "738F7769E71A6FFE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 9.0d
+			dependencies: ["5A6B40D2CBA71371"]
+			id: "52A33FA7998C1D6E"
+			tasks: [{
+				id: "29704E05CE869FAF"
+				type: "item"
+				item: {
+					id: "botania:infinite_fruit"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "60CE73FAF7B055D7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 9.5d
+			dependencies: ["5A6B40D2CBA71371"]
+			id: "1473D61FDBA16B0E"
+			tasks: [{
+				id: "60779FB9CD301BD4"
+				type: "item"
+				item: {
+					id: "botania:king_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "257CBD53696C1317"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: 9.0d
+			dependencies: ["5A6B40D2CBA71371"]
+			id: "6683D334BA1E1DFE"
+			tasks: [{
+				id: "6113D9C1A156198C"
+				type: "item"
+				item: {
+					id: "botania:flugel_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "61438FD0F892AF68"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 7.0d
+			dependencies: ["5A6B40D2CBA71371"]
+			id: "6061E72C6B2D337F"
+			tasks: [{
+				id: "0CD1B2D0B21FBF11"
+				type: "item"
+				item: {
+					id: "botania:thor_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "693FB71C1573726A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.5d
+			dependencies: ["5A6B40D2CBA71371"]
+			id: "6F6B893F8C483317"
+			tasks: [{
+				id: "2C270EEB92076421"
+				type: "item"
+				item: {
+					id: "botania:odin_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -6585923373020134851L
+						baubleUUIDLeast: -5213214015114569876L
+					}
+				}
+			}]
+			rewards: [{
+				id: "13044F332D0C5F9B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: 7.0d
+			dependencies: ["5A6B40D2CBA71371"]
+			id: "093BE5C130436032"
+			tasks: [{
+				id: "2ABA5A4EC7151D14"
+				type: "item"
+				item: {
+					id: "botania:loki_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1E989870B80386D7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: -8.0d
+			subtitle: "Great Mana Spreader"
+			dependencies: [
+				"5020DB616698F559"
+				"3DBFAF9D41A22576"
+			]
+			id: "6D330D20D86EF515"
+			tasks: [{
+				id: "51F5D16EFC319CCF"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "03F1CD8678A55A0D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: -6.5d
+			subtitle: "Greater Mana Spreader"
+			dependencies: ["6D330D20D86EF515"]
+			id: "706BAB62B659BF76"
+			tasks: [{
+				id: "14F859FA26F891C4"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [{
+				id: "174CEB5CCB0B9477"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -16.5d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "19D613E5396EA134"
+			tasks: [{
+				id: "07C4FC4F260CA0FB"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "360C1A05907EBE25"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -15.5d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "72B1727DDB772E12"
+			tasks: [{
+				id: "382253BFB8C87821"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "3AF69FF22567EE78"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -16.5d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "4D7BC6775DDBDCDD"
+			tasks: [{
+				id: "03FC1F9E9C153E25"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "13C4D9DD963578D4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -14.5d
+			dependencies: ["601DC060A317BA31"]
+			id: "690DE7C9896C6DDB"
+			tasks: [{
+				id: "14B290B80C2CB876"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "21CFF32A30B4FACE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.5d
+			dependencies: ["3E42F1EF6664DBDB"]
+			id: "14FF53EC4D123B50"
+			tasks: [{
+				id: "66608526EC1FF6F5"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "0C5672B2C8B58A11"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -15.5d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "7C9D1E5381145A94"
+			tasks: [{
+				id: "6F79AB2F90E2D915"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [{
+				id: "50272A9CCCF349DD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -14.5d
+			dependencies: ["601DC060A317BA31"]
+			id: "5FCB435501EF52A1"
+			tasks: [{
+				id: "1B804C3BF9138AB3"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "11CBC94FA731C02E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -15.5d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "2B0176143CB1759B"
+			tasks: [{
+				id: "793386C797F03FDB"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [{
+				id: "5028C6CB07573B85"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			icon: "botania:dandelifeon"
+			x: 4.0d
+			y: -13.5d
+			dependencies: ["3E42F1EF6664DBDB"]
+			id: "2A4B672A5FC66FAB"
+			tasks: [
+				{
+					id: "496B252B800E81C6"
+					type: "item"
+					item: "botania:dandelifeon"
+				}
+				{
+					id: "4B6592A757E7A8FE"
+					type: "item"
+					item: "botania:cell_block"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "4B14578478FBFA95"
+					type: "item"
+					item: "botania:cell_block"
+					count: 16
+				}
+				{
+					id: "647203C6D5FABA80"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -14.5d
+			dependencies: ["601DC060A317BA31"]
+			id: "73BEB643F63E3A81"
+			tasks: [{
+				id: "717F193BF13ACEB1"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [{
+				id: "2B65B9B499D37B91"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -13.5d
+			dependencies: ["3E42F1EF6664DBDB"]
+			id: "15DD7C474245A658"
+			tasks: [{
+				id: "70088820636F2543"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+			rewards: [{
+				id: "60C01A6C11B0518D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "5DCD7AC7D50FF0A4"
+			tasks: [{
+				id: "72E739C338203C89"
+				type: "item"
+				item: "botania:bellethorn"
+			}]
+			rewards: [{
+				id: "3B04C793A650CE41"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "2D830DDE2C5F10D9"
+			tasks: [{
+				id: "2FFE549D9852686A"
+				type: "item"
+				item: "botania:dreadthorn"
+			}]
+			rewards: [{
+				id: "71D189287AAA2609"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["601DC060A317BA31"]
+			id: "40B2EED039BF63A7"
+			tasks: [{
+				id: "0A1DE0D31DA19495"
+				type: "item"
+				item: "botania:heisei_dream"
+			}]
+			rewards: [{
+				id: "2FCFF99749401E63"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "785045BBC41A5896"
+			tasks: [{
+				id: "47041EF729897DD8"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+			rewards: [{
+				id: "122244DBEF25C305"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "7DF0D1748CFED0D6"
+			tasks: [{
+				id: "6AC89D09DD02B425"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+			rewards: [{
+				id: "59073098965A9BA1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "4FAEC031AF47976C"
+			tasks: [{
+				id: "5D877A1CB1473695"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+			rewards: [{
+				id: "18CD062A79C41858"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "4B41C1E88AB2298D"
+			tasks: [{
+				id: "05F082DB98FED387"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "58142279BD687958"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "555D0048E32856AE"
+			tasks: [{
+				id: "302C52749399D075"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [{
+				id: "56DA9E6B5D69A8EE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "512A8F2750DEE1CF"
+			tasks: [{
+				id: "748A777A3CE6543C"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [{
+				id: "56863E40B466BE80"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "14C58B7EDCEF5AA8"
+			tasks: [{
+				id: "14591DF87DA13547"
+				type: "item"
+				item: "botania:tangleberrie"
+			}]
+			rewards: [{
+				id: "1B04A95BA67549F4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "657A64DD4E9B2847"
+			tasks: [{
+				id: "455BBE8111C5F6FE"
+				type: "item"
+				item: "botania:jiyuulia"
+			}]
+			rewards: [{
+				id: "55FEE492BCDCC493"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "2DB88FBD11B71700"
+			tasks: [{
+				id: "42924A5B72B0D603"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+			rewards: [{
+				id: "19B23577F804DDEB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "2F8537DFDF1BFCD8"
+			tasks: [{
+				id: "32B09742CA7C20D0"
+				type: "item"
+				item: "botania:hyacidus"
+			}]
+			rewards: [{
+				id: "3AAB9DA4BE8849FB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "09FC133F354A8A5F"
+			tasks: [{
+				id: "284B518290A479F6"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [{
+				id: "5B27CD51E72C9EA1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "00122EC1E3A17471"
+			tasks: [{
+				id: "19B3F2F1DF0A8B93"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [{
+				id: "7BCA9822A1EFC637"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			dependencies: ["3E42F1EF6664DBDB"]
+			id: "5D94D1C64995B7FB"
+			tasks: [{
+				id: "0A374E67EC9D3CAD"
+				type: "item"
+				item: "botania:loonium"
+			}]
+			rewards: [{
+				id: "29BB03CC76F6FB5E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "0EA7E30CEE3C1FA5"
+			tasks: [{
+				id: "3B61C75C7C767C7A"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+			rewards: [{
+				id: "725BA2F5269F2CE7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "4D46F0109715BAB6"
+			tasks: [{
+				id: "0AA247B2ED97CBB3"
+				type: "item"
+				item: "botania:vinculotus"
+			}]
+			rewards: [{
+				id: "556E32DB72E085FF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "50DCC74BC79725FA"
+			tasks: [{
+				id: "0D49AB0AF3B31BCA"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+			rewards: [{
+				id: "671CD8E906A4068A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "2AB487CAA0DDCDFD"
+			tasks: [{
+				id: "02AD9FA385F55EC3"
+				type: "item"
+				item: "botania:medumone"
+			}]
+			rewards: [{
+				id: "18A0F5C0746394A5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "727B7AB3D40961E5"
+			tasks: [{
+				id: "508B35BCA78E5B44"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [{
+				id: "08DD33488C7D2CEE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "5FA87AFFF6B6D77E"
+			tasks: [{
+				id: "27A40A1CB984D214"
+				type: "item"
+				item: "botania:bubbell"
+			}]
+			rewards: [{
+				id: "5F0924263120A67A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "4CE978F5DC5E1A19"
+			tasks: [{
+				id: "65944B81FDA6D28B"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+			rewards: [{
+				id: "6B5924EE499F7563"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -9.0d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "0CFE7C94D41EB510"
+			tasks: [{
+				id: "12B4F6CA7B073EDD"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "46A7DC1C36F4DCC4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -11.0d
+			dependencies: ["58D898509FBB2E02"]
+			id: "6B73B0B9E28AF298"
+			tasks: [{
+				id: "685D056E3069F7BC"
+				type: "item"
+				item: "botania:labellia"
+			}]
+			rewards: [{
+				id: "3D86755FA8A0A575"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -18.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "02DE458545AF1BFE"
+			tasks: [{
+				id: "50E4A2B3947FB28C"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "35DF7DF04185D41A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -18.0d
+			dependencies: ["02DE458545AF1BFE"]
+			id: "2B13672A46E9CA31"
+			tasks: [{
+				id: "35E081CF43C362D9"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "096CA9329AB2A741"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -16.0d
+			dependencies: ["201C51D543D84245"]
+			id: "11F35003F9451DF1"
+			tasks: [{
+				id: "1EF98CCBA5E03C86"
+				type: "item"
+				item: {
+					id: "botania:aura_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2A7D37AF114F3110"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -16.0d
+			dependencies: ["11F35003F9451DF1"]
+			id: "7D9C0B6708C0C7FC"
+			tasks: [{
+				id: "297ACE9845620CBB"
+				type: "item"
+				item: {
+					id: "botania:aura_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0906D56F7874FDE6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -17.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "6A588AA719352BE9"
+			tasks: [{
+				id: "0FD391E2083D2DE9"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "007F0B01D44857FD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -17.0d
+			dependencies: ["6A588AA719352BE9"]
+			id: "658005EFF4516721"
+			tasks: [{
+				id: "636E46217713EA72"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "08105E0C305AE714"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -15.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "1260512E84FF584D"
+			tasks: [{
+				id: "076D1EAD58B06005"
+				type: "item"
+				item: {
+					id: "botania:water_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1E95AF00206FB9A0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.0d
+			y: -19.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "40E5CF3F57AF22F6"
+			tasks: [{
+				id: "28A8CDA33C8B24B0"
+				type: "item"
+				item: {
+					id: "botania:swap_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "212F0DEB34B4FB3C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -15.0d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "6BFC4C0F2F16DF88"
+			tasks: [{
+				id: "079885D45CF3F428"
+				type: "item"
+				item: {
+					id: "botania:dodge_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "35D3745B1142780C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.0d
+			y: -14.0d
+			dependencies: ["186FC53FE0375088"]
+			id: "302AF18F033AC57C"
+			tasks: [{
+				id: "464737F0AE2F6055"
+				type: "item"
+				item: {
+					id: "botania:mining_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6C83709DA03E5AD5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: -18.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "5E1501BCD5570BF3"
+			tasks: [{
+				id: "1C6D4D0B8AF865C0"
+				type: "item"
+				item: {
+					id: "botania:invisibility_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "31A221FEF2C732CB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: -17.0d
+			dependencies: ["201C51D543D84245"]
+			id: "0A0AA9724DEE1E82"
+			tasks: [{
+				id: "25BCA3E2E268FE3B"
+				type: "item"
+				item: {
+					id: "botania:holy_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5CCB181A9EF79AB6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: -16.0d
+			dependencies: ["201C51D543D84245"]
+			id: "6F69937A3159EE75"
+			tasks: [{
+				id: "2E931992D2DDB64E"
+				type: "item"
+				item: {
+					id: "botania:unholy_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "52DFC8BC1C66E236"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: -15.0d
+			dependencies: ["201C51D543D84245"]
+			id: "4C2BD54E1B671C24"
+			tasks: [{
+				id: "6C922D78D87781E3"
+				type: "item"
+				item: {
+					id: "botania:balance_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2B2FEC5E933CF5F1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: -16.0d
+			dependencies: ["745B991667372CE8"]
+			id: "30D1ADAA34F67C03"
+			tasks: [{
+				id: "15774D98E96E4EE8"
+				type: "item"
+				item: {
+					id: "botania:pixie_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 7009392637244231669L
+						baubleUUIDLeast: -6981380480565270366L
+					}
+				}
+			}]
+			rewards: [{
+				id: "712D3F5DE99B03B5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: -17.0d
+			dependencies: [
+				"44C83AE747BA6538"
+				"6A588AA719352BE9"
+			]
+			id: "7699B257BAA1E9D2"
+			tasks: [{
+				id: "5926117A08054BAA"
+				type: "item"
+				item: {
+					id: "botania:reach_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 163282316223856678L
+						baubleUUIDLeast: -8769096169655035005L
+					}
+				}
+			}]
+			rewards: [{
+				id: "604C4D64BE02A9A8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: -11.0d
+			subtitle: "Traverse the Terrain"
+			description: ["Sojourner's Sash will help you travel through terrain, increasing your speed, jump height, step assist, etc."]
+			dependencies: ["64D6136659D3D1A4"]
+			id: "42A0460D1A3EA87B"
+			tasks: [{
+				id: "73E6D42D8736B449"
+				type: "item"
+				item: {
+					id: "botania:travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "29D84A395717C104"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: -9.5d
+			subtitle: "Journey to the Far Lands"
+			description: [
+				"Upgraded version of the Sojourner's Sash"
+				""
+				"Can do everything it can, but... MORE O.O"
+			]
+			dependencies: ["42A0460D1A3EA87B"]
+			id: "64C89B4CF9EC5A4D"
+			tasks: [{
+				id: "6BC90262F19B3F11"
+				type: "item"
+				item: {
+					id: "botania:super_travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "462A176467220AAD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 26.0d
+			y: -10.0d
+			subtitle: "And you don't stop movin' ..."
+			description: [
+				"Alternative to Sojourner's Sash."
+				""
+				"Allows you to accelerate over a long period of time, eventually gaining up to ludicrous speeds!"
+			]
+			dependencies: ["42A0460D1A3EA87B"]
+			id: "1419C3C054111C58"
+			tasks: [{
+				id: "0311926CF9C203FA"
+				type: "item"
+				item: {
+					id: "botania:speed_up_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0A3E002BAFB63F36"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 28.0d
+			y: -10.0d
+			subtitle: "Back off..."
+			description: [
+				"Alternate to the Sojourner's Sash."
+				""
+				"When worn, this sash will negate all knockback from outside sources."
+			]
+			dependencies: ["42A0460D1A3EA87B"]
+			id: "6A17E96322091F42"
+			tasks: [{
+				id: "10E93DAC24557E36"
+				type: "item"
+				item: {
+					id: "botania:knockback_belt"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -6937483696597809448L
+						baubleUUIDLeast: -7047908437835095426L
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C1A37DA1FB17968"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 25.0d
+			y: -8.5d
+			subtitle: "Scouting enemies"
+			description: ["Reveals nearby enemies by making them glow!"]
+			dependencies: ["7BA72C3085BEE40C"]
+			id: "053A6CC1615178CD"
+			tasks: [{
+				id: "0F16567FDAF1E2FE"
+				type: "item"
+				item: {
+					id: "botania:third_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5B209324070C441E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 25.0d
+			y: -7.5d
+			subtitle: "Botanist's Best Friend"
+			description: ["Allows you to see Mana Bursts through walls and the working range of functional flora."]
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "44A2F91A2F8FA83D"
+			tasks: [{
+				id: "465FF283AE03D8A0"
+				type: "item"
+				item: {
+					id: "botania:monocle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "240F778ADF787461"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 25.0d
+			y: -6.5d
+			subtitle: "Friend of my Enemy is their Enemy?"
+			description: ["Turns mobs who damage you against other hostile mobs in the area."]
+			dependencies: ["0673E6B7DB43030E"]
+			id: "0A140E96BD50E758"
+			tasks: [{
+				id: "17FCBB8132F1B8B4"
+				type: "item"
+				item: {
+					id: "botania:diva_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7AAF78A6C39B3D7E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: -6.5d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "3DDC98CBDE993A33"
+			tasks: [{
+				id: "69AF3D6E84665FA1"
+				type: "item"
+				item: {
+					id: "botania:ice_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5808C49AA95184F1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 26.5d
+			y: -5.5d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "67736231C62D0BF6"
+			tasks: [{
+				id: "4B003ACD9DD1C4AE"
+				type: "item"
+				item: {
+					id: "botania:lava_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7916A12111EB2F9F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 26.5d
+			y: -4.5d
+			dependencies: ["67736231C62D0BF6"]
+			id: "46CE902AB33AB576"
+			tasks: [{
+				id: "34E1104CD13EF3E6"
+				type: "item"
+				item: {
+					id: "botania:super_lava_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "018497CD554A407E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.5d
+			y: -5.5d
+			dependencies: ["5B6656FD76253CF0"]
+			id: "733556DA3CB14A6E"
+			tasks: [{
+				id: "1744B2E46E4BC1E0"
+				type: "item"
+				item: {
+					id: "botania:cloud_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4C64F26FFE071170"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.5d
+			y: -4.5d
+			dependencies: ["733556DA3CB14A6E"]
+			id: "5E518943DE99A831"
+			tasks: [{
+				id: "780F31C3E8FE1898"
+				type: "item"
+				item: {
+					id: "botania:super_cloud_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "74AF5187C5935BBD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.5d
+			dependencies: ["6B06A2BF647C94A5"]
+			id: "22D7422E48A8CBED"
+			tasks: [
+				{
+					id: "690E07108111CB91"
+					type: "item"
+					item: "botania:white_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "6F056524E2F3BA81"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "080FB655FFD9D849"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "19060E12374EA3AF"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "5DBAE3181E7B11C4"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "6FA9625BCACB6C51"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "4CF3AC34C7C9007C"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "36940E511279A108"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "6D6E6A182F7C4846"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "342CB4542AA4CDEA"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "190C3A52F8C418BB"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "5D700D584E8E0811"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "6BEC06F317B846F0"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "3963230AC6A49B9E"
+					type: "item"
+					item: "botania:green_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "5E4EC827A0CB40F8"
+					type: "item"
+					item: "botania:red_mystical_flower"
+					count: 16L
+				}
+				{
+					id: "60B1CA080847C368"
+					type: "item"
+					item: "botania:black_mystical_flower"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "6E0DEE77A793F6F1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: -9.5d
+			dependencies: ["20C891D82CB6474F"]
+			id: "4E8D709777303923"
+			tasks: [{
+				id: "1AFE169343F416D4"
+				type: "custom"
+				title: "Lexica Botania (Elven Edition)"
+				icon: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "22E42A0ED4BA6376"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.0d
+			y: -6.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "49A92198F2CA7358"
+			tasks: [{
+				id: "25FEE34E5A4D4162"
+				type: "item"
+				item: "botania:grass_seeds"
+			}]
+			rewards: [{
+				id: "4A4FA3A9B207DD36"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.0d
+			y: -7.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "7D78AC31064D7B6F"
+			tasks: [{
+				id: "55C8BE4F420932D6"
+				type: "item"
+				item: "botania:podzol_seeds"
+			}]
+			rewards: [{
+				id: "77614A59F3AD3171"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.0d
+			y: -7.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "0FBB6C1C8AA9E567"
+			tasks: [{
+				id: "79FA64C8AB9A2251"
+				type: "item"
+				item: "botania:mycelium_seeds"
+			}]
+			rewards: [{
+				id: "4763A238FF023D11"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.5d
+			y: -4.5d
+			dependencies: ["49A92198F2CA7358"]
+			id: "4A0665E3DA0DE6D7"
+			tasks: [{
+				id: "20B079DA0FCD40E3"
+				type: "item"
+				item: "botania:infused_seeds"
+			}]
+			rewards: [{
+				id: "71F2620DC07C0BA1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 17.5d
+			y: -5.0d
+			dependencies: ["49A92198F2CA7358"]
+			id: "1C40318495715807"
+			tasks: [{
+				id: "7339981DA1E78E8A"
+				type: "item"
+				item: "botania:mutated_seeds"
+			}]
+			rewards: [{
+				id: "782F9DC64DD56A57"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: -5.0d
+			dependencies: ["49A92198F2CA7358"]
+			id: "66108D71785A79C5"
+			tasks: [{
+				id: "73FB401F24C99325"
+				type: "item"
+				item: "botania:dry_seeds"
+			}]
+			rewards: [{
+				id: "303EFCFE4161B62F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -4.0d
+			dependencies: ["49A92198F2CA7358"]
+			id: "127803F40CF00E0A"
+			tasks: [{
+				id: "55DE3FFEE3E6A8E2"
+				type: "item"
+				item: "botania:golden_seeds"
+			}]
+			rewards: [{
+				id: "0094CC1B6576FC6B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -4.5d
+			dependencies: ["49A92198F2CA7358"]
+			id: "53873CBCFB987BF4"
+			tasks: [{
+				id: "451588DB7B016F23"
+				type: "item"
+				item: "botania:vivid_seeds"
+			}]
+			rewards: [{
+				id: "057FC34A7AF47FAC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: -4.0d
+			dependencies: ["49A92198F2CA7358"]
+			id: "0368D2751E7230A0"
+			tasks: [{
+				id: "67C56CBD3800B12F"
+				type: "item"
+				item: "botania:scorched_seeds"
+			}]
+			rewards: [{
+				id: "736094FC0CBBC6CC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: -16.5d
+			dependencies: ["3CE3DE068CD5EC01"]
+			id: "6169A7AC671E2B0E"
+			tasks: [{
+				id: "59D882428FE1E93F"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "58DD407B88208D80"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: -15.5d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "2BE9290B32CB3CA6"
+			tasks: [{
+				id: "04E5E6E7D9F7EF57"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "5EBDFC2029826043"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: -15.5d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "6DAEBFE3EB81B2A5"
+			tasks: [{
+				id: "2F18B80246E7B815"
+				type: "item"
+				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "35ED6E70B9AA2744"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: -16.5d
+			dependencies: ["3CE3DE068CD5EC01"]
+			id: "40B8FFD9ED7FC967"
+			tasks: [{
+				id: "4CE47DD671D7B5C7"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "26E5DBEB52BB008B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 13.0d
+			y: -16.5d
+			dependencies: ["3CE3DE068CD5EC01"]
+			id: "4A550EBCABEF7FC3"
+			tasks: [{
+				id: "579714061494CD38"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "1A5199C6B9784CDC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -16.5d
+			dependencies: ["3CE3DE068CD5EC01"]
+			id: "53F1A219E108D90B"
+			tasks: [{
+				id: "4A8BD53486EE6A8D"
+				type: "item"
+				item: {
+					id: "botania:tornado_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "284162B78D84C03E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -15.5d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "402813A7BA3DD5A8"
+			tasks: [{
+				id: "1C131CFC9006C056"
+				type: "item"
+				item: "botania:fire_rod"
+			}]
+			rewards: [{
+				id: "4A849043E03A869A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: -14.5d
+			dependencies: ["201C51D543D84245"]
+			id: "6B74839EF720C321"
+			tasks: [{
+				id: "23C20E708984704D"
+				type: "item"
+				item: "botania:divining_rod"
+			}]
+			rewards: [{
+				id: "412404D14C889CF6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -14.5d
+			dependencies: ["63B7D1BBE87BAB85"]
+			id: "2F4FECCCF555BA44"
+			tasks: [{
+				id: "7ABC17111C80F99A"
+				type: "item"
+				item: "botania:smelt_rod"
+			}]
+			rewards: [{
+				id: "60931AFA7CC1A4F8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: -14.5d
+			dependencies: ["73F91C326046F2F2"]
+			id: "6F3B53AE546008EA"
+			tasks: [{
+				id: "59510EC0EF3162DB"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2AEADF618BE3E32E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: -13.5d
+			dependencies: ["745B991667372CE8"]
+			id: "028B015AB31D37BA"
+			tasks: [{
+				id: "2DB37A78CB7D7D29"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "5F23AFE6C6F8351C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: -13.5d
+			dependencies: ["5020DB616698F559"]
+			id: "115D50CD898B574A"
+			tasks: [{
+				id: "71F3CEAD63885682"
+				type: "item"
+				item: {
+					id: "botania:gravity_rod"
+					Count: 1b
+					tag: {
+						dist: -1.0d
+						ticksCooldown: 0
+						ticksTillExpire: -1
+						target: -1
+					}
+				}
+			}]
+			rewards: [{
+				id: "63CA94A8C5C78F95"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -13.5d
+			dependencies: ["601DC060A317BA31"]
+			id: "39C578E437DAE1C3"
+			tasks: [{
+				id: "2DDC17373F7E24A2"
+				type: "item"
+				item: "botania:missile_rod"
+			}]
+			rewards: [{
+				id: "0AD17BAEF4812B95"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.5d
+			y: 2.0d
+			dependencies: ["2589AAE8F358C7F5"]
+			id: "09ECCCDD0D67A41C"
+			tasks: [{
+				id: "546071DBC3E5AD8C"
+				type: "item"
+				item: {
+					id: "botania:elementium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "06332FC4B7A1899F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.5d
+			y: 3.0d
+			dependencies: ["2589AAE8F358C7F5"]
+			id: "2A52906DD238B4B9"
+			tasks: [{
+				id: "0AE3A8878212DA31"
+				type: "item"
+				item: {
+					id: "botania:elementium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "089F0E59DC5B66DA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.5d
+			y: 4.0d
+			dependencies: ["2589AAE8F358C7F5"]
+			id: "14CFF491BAE5ACEC"
+			tasks: [{
+				id: "174739051AA1CED2"
+				type: "item"
+				item: {
+					id: "botania:elementium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "08A79C13E8BCCE45"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.5d
+			y: 5.0d
+			dependencies: ["2589AAE8F358C7F5"]
+			id: "269693A29B7B40CC"
+			tasks: [{
+				id: "10668063FA1E9E0C"
+				type: "item"
+				item: {
+					id: "botania:elementium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "54CA6EF2A9A175CF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			subtitle: "Botanist's Robes"
+			description: [
+				"While providing little protection, the Manaweave Robes grant reduced mana cost on all usable equipment."
+				""
+				"Set Bonus: Greatly reduces mana costs"
+			]
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "0B2C1FC0A766B22F"
+			tasks: [{
+				id: "4573D37499F81D9D"
+				type: "item"
+				item: "botania:manaweave_cloth"
+			}]
+			rewards: [{
+				id: "6B35A1FFF6AF2D80"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["0B2C1FC0A766B22F"]
+			id: "4E0B72AF29B72F80"
+			tasks: [{
+				id: "7F72DCFEAB584409"
+				type: "item"
+				item: {
+					id: "botania:manaweave_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DB70CFBE67040C7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			dependencies: ["0B2C1FC0A766B22F"]
+			id: "661D98D9D23968C7"
+			tasks: [{
+				id: "39DD27CD0CA5A287"
+				type: "item"
+				item: {
+					id: "botania:manaweave_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D8B60B7F1C5D3EB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			dependencies: ["0B2C1FC0A766B22F"]
+			id: "2A6E7814184120D3"
+			tasks: [{
+				id: "008E2DAFEB96CF3E"
+				type: "item"
+				item: {
+					id: "botania:manaweave_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E70AE90315E2438"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			dependencies: ["0B2C1FC0A766B22F"]
+			id: "6D2F2B973ACC647C"
+			tasks: [{
+				id: "79BF85D181D5640C"
+				type: "item"
+				item: {
+					id: "botania:manaweave_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "357E2F21AB7E4AA6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.0d
+			y: -9.5d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "250F5E07684FDF7E"
+			tasks: [{
+				id: "265C097B8D1B3FC7"
+				type: "item"
+				item: "botania:horn_grass"
+			}]
+			rewards: [{
+				id: "08B9CC295612E743"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: -8.5d
+			dependencies: ["250F5E07684FDF7E"]
+			id: "0744E76A74B18360"
+			tasks: [{
+				id: "7916E04CF3E9146B"
+				type: "item"
+				item: "botania:horn_leaves"
+			}]
+			rewards: [{
+				id: "3E95E7F0354AEE82"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -8.5d
+			dependencies: ["250F5E07684FDF7E"]
+			id: "04A11ADF3F2351F3"
+			tasks: [{
+				id: "3660178F87D6C791"
+				type: "item"
+				item: "botania:horn_snow"
+			}]
+			rewards: [{
+				id: "550780FA0131449B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "538F6B5B271458C0"
+			tasks: [{
+				id: "1694DE0F53994C16"
+				type: "item"
+				item: {
+					id: "botania:livingwood_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B6F9A4F57DEC8B6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			dependencies: [
+				"538F6B5B271458C0"
+				"004607C35E41C0CD"
+			]
+			id: "33E51530680DD4A1"
+			tasks: [{
+				id: "385070AFEEB59454"
+				type: "item"
+				item: {
+					id: "botania:crystal_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "114BC391C1AB92C2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			dependencies: ["22CC1BC9645437A7"]
+			id: "5B55E874D028D0F8"
+			tasks: [{
+				id: "17BED27B88C525BA"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "230EF0497D469497"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			dependencies: ["22CC1BC9645437A7"]
+			id: "74DF9BDCC8998B6A"
+			tasks: [{
+				id: "3BAC69FBC234517E"
+				type: "item"
+				item: {
+					id: "botania:terra_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D6F22D14A253D83"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.0d
+			dependencies: ["22CC1BC9645437A7"]
+			id: "062B1C0372682B45"
+			tasks: [{
+				id: "0714B19C8CB48265"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "298EDBDC49817379"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.0d
+			y: -1.0d
+			dependencies: [
+				"062B1C0372682B45"
+				"2589AAE8F358C7F5"
+			]
+			id: "653251D417223CF0"
+			tasks: [{
+				id: "5679946D2AA4218F"
+				type: "item"
+				item: {
+					id: "botania:star_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D5BC6722B0FC90F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.0d
+			y: -1.0d
+			dependencies: [
+				"062B1C0372682B45"
+				"2589AAE8F358C7F5"
+			]
+			id: "5DD1F91A710C8AED"
+			tasks: [{
+				id: "302DF1B0B612316F"
+				type: "item"
+				item: {
+					id: "botania:thunder_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E76F2C7C85177F5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			dependencies: ["0673E6B7DB43030E"]
+			id: "45720B780BE854E0"
+			tasks: [{
+				id: "2D7739EB707C091B"
+				type: "item"
+				item: "botania:thorn_chakram"
+			}]
+			rewards: [{
+				id: "62FB1F9E56D7564C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["45720B780BE854E0"]
+			id: "4DADD82E2AA043CA"
+			tasks: [{
+				id: "0CB34512EC55B21E"
+				type: "item"
+				item: "botania:flare_chakram"
+			}]
+			rewards: [{
+				id: "1D42DC9750A6E123"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 29.0d
+			y: -7.5d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "38EEB8C0473ECDE1"
+			tasks: [{
+				id: "5975190A881472D0"
+				type: "item"
+				item: {
+					id: "botania:crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 559.79944f
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C46DAD564A86E2A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 29.0d
+			y: -6.5d
+			dependencies: [
+				"38EEB8C0473ECDE1"
+				"186FC53FE0375088"
+			]
+			id: "62ED67221A335D77"
+			tasks: [{
+				id: "5C2CCAB3388F665B"
+				type: "item"
+				item: {
+					id: "botania:auto_crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 559.79944f
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B4A495F2D791C05"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.0d
+			subtitle: "Sometimes you don't need the big guns."
+			description: [
+				"Stone of Temperance will limit the ability of an empowered Terra Shatterer to a simple 3x3 region, regardless of the mana within the tool."
+				"This also works with the Terra Truncator"
+			]
+			dependencies: ["5B55E874D028D0F8"]
+			id: "7AAA021AFE0B342B"
+			tasks: [{
+				id: "36BAC97C89F5D07A"
+				type: "item"
+				item: {
+					id: "botania:temperance_stone"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "522320DACF4DDC51"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			dependencies: ["65F5D8334153FB1B"]
+			id: "20ED8606997F34A4"
+			tasks: [{
+				id: "09C425C77DB7A8CA"
+				type: "item"
+				item: {
+					id: "botania:ender_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D16515FD02E86B1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.5d
+			y: -9.5d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "4E1A6AC0DC67B129"
+			tasks: [{
+				id: "66F3F89F42D6A55F"
+				type: "item"
+				item: "botania:obedience_stick"
+			}]
+			rewards: [{
+				id: "510D77A49A007D3A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: [
+				"7CE6825391C07E25"
+				"64D6136659D3D1A4"
+				"5C3FD999EBEF7AC1"
+			]
+			id: "37D6EA82E26B8504"
+			tasks: [{
+				id: "0860161E1935772C"
+				type: "item"
+				item: {
+					id: "botania:mana_gun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "28321CDF971F60D3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["37D6EA82E26B8504"]
+			id: "01ACEC3A780A0DD1"
+			tasks: [{
+				id: "55730AA6C17AA601"
+				type: "item"
+				item: "botania:clip"
+			}]
+			rewards: [{
+				id: "222468C1B43DFED0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: -14.5d
+			dependencies: [
+				"3E42F1EF6664DBDB"
+				"3D6B7294671D4365"
+			]
+			id: "25C77962EC2D9E06"
+			tasks: [{
+				id: "32970DF12A94F62F"
+				type: "item"
+				item: "botania:spawner_mover"
+			}]
+			rewards: [{
+				id: "74F1FB5D3E2E38CB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 26.0d
+			y: -16.5d
+			dependencies: ["7BA72C3085BEE40C"]
+			id: "55B76AC0C635D7CF"
+			tasks: [{
+				id: "42CB4756634C360B"
+				type: "item"
+				item: "botania:ender_hand"
+			}]
+			rewards: [{
+				id: "72A9EA0BEE74E48A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 26.5d
+			y: -15.5d
+			dependencies: ["745B991667372CE8"]
+			id: "7CDBEE39479DBA37"
+			tasks: [{
+				id: "11210E05190B385E"
+				type: "item"
+				item: {
+					id: "botania:black_hole_talisman"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "78D87DBBE6DED149"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 26.0d
+			y: -18.5d
+			dependencies: ["37238B4A644CE574"]
+			id: "05D8C847941B2094"
+			tasks: [{
+				id: "7D870080890A5FC4"
+				type: "item"
+				item: {
+					id: "botania:cacophonium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "22F4FCFDAE0FFEB1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: -16.5d
+			dependencies: ["0673E6B7DB43030E"]
+			id: "1C2564BD143BB0D4"
+			tasks: [{
+				id: "1F840FEDDF877551"
+				type: "item"
+				item: {
+					id: "botania:slime_bottle"
+					Count: 1b
+					tag: {
+						active: 0b
+					}
+				}
+			}]
+			rewards: [{
+				id: "6011C8AA6ACB2ED6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: -18.5d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "71510AE9A5423231"
+			tasks: [{
+				id: "0ECDB1403E594038"
+				type: "item"
+				item: "botania:sextant"
+			}]
+			rewards: [{
+				id: "79D328CC783D69B8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 28.5d
+			y: -15.5d
+			dependencies: ["745B991667372CE8"]
+			id: "31EC4EC7B8BB849C"
+			tasks: [{
+				id: "1E0D07F1F30AA259"
+				type: "item"
+				item: {
+					id: "botania:astrolabe"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1B71DCC09CF8791A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: -17.5d
+			dependencies: ["3A98CF3F5D697435"]
+			id: "4E8BCD52A86EA4A9"
+			tasks: [{
+				id: "5D0D3BF6AACD90C0"
+				type: "item"
+				item: {
+					id: "botania:itemfinder"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0E68A5A00F0D2519"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 28.0d
+			y: -16.5d
+			dependencies: ["186FC53FE0375088"]
+			id: "516CAE84B5BE28E2"
+			tasks: [{
+				id: "28F35FAA3726AAD4"
+				type: "item"
+				item: {
+					id: "botania:goddess_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "63CE7AFCA355E01D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 27.5d
+			y: -15.5d
+			dependencies: ["745B991667372CE8"]
+			id: "26955E2F2FB19274"
+			tasks: [{
+				id: "028A677C6BC3677D"
+				type: "item"
+				item: "botania:open_bucket"
+			}]
+			rewards: [{
+				id: "45BC9ECAF3591EDD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 28.0d
+			y: -18.5d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "5F9FBBCECE6E5D62"
+			tasks: [{
+				id: "3F16D1D0A1A98A51"
+				type: "item"
+				item: {
+					id: "botania:tiny_planet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "331F3308D2E7B454"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 29.0d
+			y: -8.5d
+			subtitle: "Curios storage"
+			dependencies: ["186FC53FE0375088"]
+			id: "28F5E4499C0581D3"
+			tasks: [{
+				id: "367F87C2715B99F0"
+				type: "item"
+				item: "botania:bauble_box"
+			}]
+			rewards: [{
+				id: "3D07D88EA04FE242"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: [
+				"6ACC6454CC492FC3"
+				"7CE6825391C07E25"
+			]
+			id: "30AF806507B638DC"
+			tasks: [{
+				id: "25B1D62DB14BF847"
+				type: "item"
+				item: {
+					id: "botania:lens_bounce"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "244C44E84A11B71A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: [
+				"0A60613708A2C770"
+				"7CE6825391C07E25"
+			]
+			id: "4D062E3C51D2289B"
+			tasks: [{
+				id: "11B9C8F6D7308FBB"
+				type: "item"
+				item: {
+					id: "botania:lens_gravity"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "27A440A0E5BFC445"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: [
+				"44C83AE747BA6538"
+				"7CE6825391C07E25"
+			]
+			id: "277DF74A9C02B815"
+			tasks: [{
+				id: "07742CA43A88CA69"
+				type: "item"
+				item: {
+					id: "botania:lens_mine"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7ADDC087A41EA120"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: [
+				"3E42F1EF6664DBDB"
+				"7CE6825391C07E25"
+			]
+			id: "45A0F023C3B9E96C"
+			tasks: [{
+				id: "3221D3A9A8825D0C"
+				type: "item"
+				item: {
+					id: "botania:lens_damage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5C36B95D56A06A6F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: [
+				"5C3FD999EBEF7AC1"
+				"7CE6825391C07E25"
+			]
+			id: "685409625FBE90B4"
+			tasks: [{
+				id: "706918D6377CD575"
+				type: "item"
+				item: {
+					id: "botania:lens_phantom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "10571F0DAF26C538"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: [
+				"117D1755A2DF85E9"
+				"7CE6825391C07E25"
+			]
+			id: "65C35BAEAC4B0461"
+			tasks: [{
+				id: "7B4EF18B1A29FA65"
+				type: "item"
+				item: {
+					id: "botania:lens_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "08075F9450C10256"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: [
+				"3E42F1EF6664DBDB"
+				"7CE6825391C07E25"
+			]
+			id: "5712E8D47DF3ED71"
+			tasks: [{
+				id: "1E659D9F6A4B42B8"
+				type: "item"
+				item: {
+					id: "botania:lens_explosive"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "624BF44051397404"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: [
+				"64D6136659D3D1A4"
+				"7CE6825391C07E25"
+			]
+			id: "1E9EA3878FB897D0"
+			tasks: [{
+				id: "573F8F351407A092"
+				type: "item"
+				item: {
+					id: "botania:lens_influence"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "285140CC1ADB3DD8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: [
+				"64D6136659D3D1A4"
+				"7CE6825391C07E25"
+			]
+			id: "596B17EB9DA457CE"
+			tasks: [{
+				id: "6FB2A89978A71588"
+				type: "item"
+				item: {
+					id: "botania:lens_weight"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "61C13701DBA188ED"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: [
+				"745B991667372CE8"
+				"7CE6825391C07E25"
+			]
+			id: "542D5B38C930DB22"
+			tasks: [{
+				id: "7CC8A7D00D23ACA2"
+				type: "item"
+				item: {
+					id: "botania:lens_paint"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4E082C02014A0307"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: [
+				"63B7D1BBE87BAB85"
+				"7CE6825391C07E25"
+			]
+			id: "56345350C11F215B"
+			tasks: [{
+				id: "21812D97ADF7E0CA"
+				type: "item"
+				item: {
+					id: "botania:lens_fire"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5844EBA228F2E21E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: [
+				"63B7D1BBE87BAB85"
+				"7CE6825391C07E25"
+			]
+			id: "66812FB36AB7AD56"
+			tasks: [{
+				id: "400B19AA046BBFBB"
+				type: "item"
+				item: {
+					id: "botania:lens_light"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "32E8B178813008E0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: [
+				"44C83AE747BA6538"
+				"7CE6825391C07E25"
+			]
+			id: "0E70425C5537C624"
+			tasks: [{
+				id: "7376322D8A4FAC6B"
+				type: "item"
+				item: {
+					id: "botania:lens_piston"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00D73F7540108019"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: [
+				"3E42F1EF6664DBDB"
+				"7CE6825391C07E25"
+			]
+			id: "2B20D03610AB8C83"
+			tasks: [{
+				id: "0E388A9EC2613ED5"
+				type: "item"
+				item: {
+					id: "botania:lens_warp"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57764BCE5DFBC01B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: [
+				"745B991667372CE8"
+				"7CE6825391C07E25"
+			]
+			id: "6AB4E92B790C5718"
+			tasks: [{
+				id: "1EA336D96AD7F517"
+				type: "item"
+				item: {
+					id: "botania:lens_redirect"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7EC1011BD34F34F9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: [
+				"745B991667372CE8"
+				"7CE6825391C07E25"
+			]
+			id: "30135B48A752B8C4"
+			tasks: [{
+				id: "4439321061B85A82"
+				type: "item"
+				item: {
+					id: "botania:lens_firework"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7DBAA76700424CA9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: [
+				"745B991667372CE8"
+				"7CE6825391C07E25"
+			]
+			id: "08AD785932007E96"
+			tasks: [{
+				id: "77CBFE0B939C5ECA"
+				type: "item"
+				item: {
+					id: "botania:lens_flare"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "526251F3460349CE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: [
+				"5C3FD999EBEF7AC1"
+				"7CE6825391C07E25"
+			]
+			id: "4991856C65968AB3"
+			tasks: [{
+				id: "56565EEDADFED35C"
+				type: "item"
+				item: {
+					id: "botania:lens_messenger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6FA816FC8CE143D2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: [
+				"745B991667372CE8"
+				"7CE6825391C07E25"
+			]
+			id: "4EC18DA41CF0B753"
+			tasks: [{
+				id: "544EB0A242975022"
+				type: "item"
+				item: {
+					id: "botania:lens_tripwire"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6882B79037152FA1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 25.5d
+			y: -15.5d
+			dependencies: ["745B991667372CE8"]
+			id: "59A2C71C990AB402"
+			tasks: [{
+				id: "4158672DC75B05A3"
+				type: "item"
+				item: "botania:spawner_claw"
+			}]
+			rewards: [{
+				id: "6C321110152CB3F0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -9.5d
+			dependencies: ["3CE3DE068CD5EC01"]
+			id: "525FCB92512B7D2A"
+			tasks: [{
+				id: "255B606A0E29720F"
+				type: "item"
+				item: "botania:open_crate"
+			}]
+			rewards: [{
+				id: "49CC3C9381B3E1E7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: -11.0d
+			dependencies: ["186FC53FE0375088"]
+			id: "024F8B078A8139B0"
+			tasks: [{
+				id: "06B5157F0083DB0C"
+				type: "item"
+				item: "botania:hourglass"
+			}]
+			rewards: [{
+				id: "3BD13034914952A5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -11.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "050589C255FF1005"
+			tasks: [{
+				id: "7A29E820EFFF183E"
+				type: "item"
+				item: "botania:teru_teru_bozu"
+			}]
+			rewards: [{
+				id: "215401E6A83D7E6F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "7CE6825391C07E25"
+			tasks: [{
+				id: "4123368F85C8075E"
+				type: "item"
+				item: {
+					id: "botania:lens_normal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7776AF2C93797A52"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: [
+				"7CE6825391C07E25"
+				"64D6136659D3D1A4"
+			]
+			id: "5C5180BA75C70A27"
+			tasks: [{
+				id: "794C480EECC2277E"
+				type: "item"
+				item: {
+					id: "botania:lens_speed"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "23173B35B902B039"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: [
+				"7CE6825391C07E25"
+				"64D6136659D3D1A4"
+			]
+			id: "3853A821E14AD74D"
+			tasks: [{
+				id: "19A215EB46D269EA"
+				type: "item"
+				item: {
+					id: "botania:lens_power"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "29FFB8F467B88D85"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: [
+				"7CE6825391C07E25"
+				"64D6136659D3D1A4"
+			]
+			id: "1BC78CC61E35A6EB"
+			tasks: [{
+				id: "5566D5A7209A9B0F"
+				type: "item"
+				item: {
+					id: "botania:lens_time"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "674AC1E6AB706B5B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: [
+				"7CE6825391C07E25"
+				"64D6136659D3D1A4"
+			]
+			id: "3E7747049B218DF6"
+			tasks: [{
+				id: "44C2AA6E0ADD9D63"
+				type: "item"
+				item: {
+					id: "botania:lens_efficiency"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "44952594458ED7E9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -9.5d
+			subtitle: "Redstone-activated Mana Spreader"
+			dependencies: ["3DBFAF9D41A22576"]
+			id: "720C358F180A5EBB"
+			tasks: [{
+				id: "18870CB919B19B1D"
+				type: "item"
+				item: "botania:redstone_spreader"
+			}]
+			rewards: [{
+				id: "46DBC0981EBF0CF8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			disable_toast: true
+			x: 15.5d
+			y: 0.5d
+			subtitle: "One of the best they've got"
+			description: [
+				"One of the best sets for defense."
+				""
+				"Set Bonus: Reduces mana costs; Regens while hungry; Passive mana regen"
+			]
+			dependencies: ["01EFE69DFC60C612"]
+			id: "22CC1BC9645437A7"
+			tasks: [{
+				id: "31F5044FE98F3359"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "1BEF7D39B04EBB53"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			disable_toast: true
+			x: 18.5d
+			y: 0.5d
+			subtitle: "Pretty Please"
+			description: [
+				"Good defensive armor, grants additional bonuses to Pixies from the Great Fairy Ring"
+				""
+				"Set Bonus: Slightly reduced mana costs; Chance for Pixies to apply potion effects"
+			]
+			dependencies: ["745B991667372CE8"]
+			id: "2589AAE8F358C7F5"
+			tasks: [{
+				id: "3F764F75B61FF6FA"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "66A8A47209B039EC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			disable_toast: true
+			x: 12.5d
+			y: 0.5d
+			subtitle: "Good all-around armor set"
+			description: [
+				"Uses mana to repair itself."
+				""
+				"Set Bonus: Slightly reduced mana costs"
+			]
+			dependencies: ["5C3FD999EBEF7AC1"]
+			id: "65F5D8334153FB1B"
+			tasks: [{
+				id: "690D84B3C51F2F1A"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "13F8844406E10B9C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

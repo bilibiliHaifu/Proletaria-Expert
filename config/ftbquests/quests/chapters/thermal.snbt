@@ -1,0 +1,878 @@
+{
+	id: "2B687F93B0244466"
+	group: "1DFE3EE269C0174B"
+	order_index: 10
+	filename: "thermal"
+	title: "Thermal"
+	icon: "thermal:machine_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "44F58CF1831471BC"
+			tasks: [{
+				id: "5D3880CEC5646687"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "37F3CD4D4CCBD222"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "4DD057FD391BD65B"
+			tasks: [{
+				id: "6579E6F90FC3965A"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "7D73B877ED5FC3DB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["611EA53A24632D4F"]
+			id: "22A91145AFDF4D88"
+			tasks: [{
+				id: "7C9ED7CCD95C1C7F"
+				type: "item"
+				item: "thermal:energy_cell_frame"
+			}]
+			rewards: [{
+				id: "0CE18802566F9724"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["611EA53A24632D4F"]
+			id: "1AFA1C6F187ED427"
+			tasks: [{
+				id: "1C0F3286D310D532"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+			}]
+			rewards: [{
+				id: "540BD504AC5A0476"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "5633E6B985EEEE17"
+			tasks: [{
+				id: "2216ACE5BCFE3612"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "6B67A7BAA824A2E9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "75F0725EFC493EC8"
+			tasks: [{
+				id: "1DDBC1481AD1BB68"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "0F923CFC36B6314B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "098462E5A05DCC82"
+			tasks: [{
+				id: "0B7B94EB6363720F"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "3CE979EBE797B9CB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "4515DC1E3F15EDDC"
+			tasks: [{
+				id: "7F75458955714DAB"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [{
+				id: "2810E54C5EB8CCFD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "6B4BD0893BF577E4"
+			tasks: [{
+				id: "3ACD0A274FC31312"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "6BEDF714B580210F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "47C7DCEB54216272"
+			tasks: [{
+				id: "3AA26265BB2D404D"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "10B3B82C7093B695"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "7CE2B59CC54DEAAC"
+			tasks: [{
+				id: "4E3BA8BA18F070CC"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "67C8A335573C1E9B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "5F07D3E240DC393F"
+			tasks: [{
+				id: "788651F0F0DE1372"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "1AE7075ACFF57B91"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "3A3F2DB58708D081"
+			tasks: [{
+				id: "3943B0501DE78F84"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "4E4870FA58AA54D0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "4FEE5C5A39F812AC"
+			tasks: [{
+				id: "2E8BD46FD7FB3553"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [{
+				id: "03995970EF65F8B8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "45B7AEF41AF17A92"
+			tasks: [{
+				id: "2B7E030A778BDA0E"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "266AF4A10E07DDCF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "3EE9BA50A90931DF"
+			tasks: [{
+				id: "1B197D554CB0CEF0"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "6B4F97DF0A333D79"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "7834E7BD83BC4F24"
+			tasks: [
+				{
+					id: "49330CDD4B7160D8"
+					type: "item"
+					item: "thermal:machine_chiller"
+				}
+				{
+					id: "6CD8D1A2F084C9E4"
+					type: "item"
+					item: "thermal:chiller_ingot_cast"
+				}
+			]
+			rewards: [{
+				id: "10DD5E83E9312523"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["2864A4D4BB134D23"]
+			id: "7719925F38B7E47E"
+			tasks: [{
+				id: "1A0DC9275A5F7B97"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "00C4BBD8F0911E3C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["7719925F38B7E47E"]
+			id: "6CAE111246BBA983"
+			tasks: [{
+				id: "495157AEA40D2C66"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "70F21F920F006695"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["6CAE111246BBA983"]
+			id: "3F6472A17C70FC07"
+			tasks: [{
+				id: "31E9823AF56E1EB1"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "53F7189D4BCF4356"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["68A4225B2D8E25F7"]
+			id: "5C059E533C9A5B83"
+			tasks: [{
+				id: "614CB86781CB49CF"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5FC6C32A9DF06F19"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["117D1755A2DF85E9"]
+			id: "0A2FCF9C379D179F"
+			tasks: [{
+				id: "566F8CEE4745E55E"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [{
+				id: "0B26FB51D2D4744B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["73142C08921C7417"]
+			id: "09EBD84FF15EF442"
+			tasks: [
+				{
+					id: "726EE9E503D669ED"
+					type: "item"
+					item: "thermal:slime_tnt"
+				}
+				{
+					id: "0394E547126C4641"
+					type: "item"
+					item: "thermal:redstone_tnt"
+				}
+				{
+					id: "5A9E69711AD04D58"
+					type: "item"
+					item: "thermal:glowstone_tnt"
+				}
+				{
+					id: "61927CE0B6F4F850"
+					type: "item"
+					item: "thermal:ender_tnt"
+				}
+				{
+					id: "7E139388E24BD3C0"
+					type: "item"
+					item: "thermal:earth_tnt"
+				}
+				{
+					id: "40376A1C8F6C925E"
+					type: "item"
+					item: "thermal:fire_tnt"
+				}
+				{
+					id: "001BA6693129BE5E"
+					type: "item"
+					item: "thermal:ice_tnt"
+				}
+				{
+					id: "7BF4518E473F0FBE"
+					type: "item"
+					item: "thermal:lightning_tnt"
+				}
+			]
+			rewards: [{
+				id: "39C88DD827C46AC2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["0EFE8AF0D5AC7B2B"]
+			id: "77B4962429A978BC"
+			tasks: [{
+				id: "495BE67BDFCBE062"
+				type: "item"
+				item: "thermal:redprint"
+			}]
+			rewards: [{
+				id: "41AE59CC10028944"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["68A4225B2D8E25F7"]
+			id: "758C96FDF27A9815"
+			tasks: [
+				{
+					id: "278DBA662ECF94EA"
+					type: "item"
+					item: {
+						id: "thermal:rf_potato"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "33BE3D8A04C305DC"
+					type: "item"
+					item: {
+						id: "thermal:flux_capacitor"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "69B2FFF77AF9F921"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["68A4225B2D8E25F7"]
+			id: "77DE16F4DE15B728"
+			tasks: [{
+				id: "6417394CD04AF8AB"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1A93D55DAE6E1F3D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["2864A4D4BB134D23"]
+			id: "192DAAA8B418A3F3"
+			tasks: [{
+				id: "25722C6B00C094E7"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5F96FC941036FFEF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["63B7D1BBE87BAB85"]
+			id: "29FCDBB3B4E4AE3B"
+			tasks: [{
+				id: "59381F1DFBB76C30"
+				type: "item"
+				item: {
+					id: "thermal:potion_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "22530A23A7DECCED"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["63B7D1BBE87BAB85"]
+			id: "52A6E524EEA1DF5E"
+			tasks: [{
+				id: "54412A4C3B2600A1"
+				type: "item"
+				item: {
+					id: "thermal:potion_quiver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4F7A002C85255466"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["186FC53FE0375088"]
+			id: "614F22494788E8B9"
+			tasks: [
+				{
+					id: "711B091932F13313"
+					type: "item"
+					item: {
+						id: "thermal:flux_saw"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "24CD2C4D623D1A80"
+					type: "item"
+					item: {
+						id: "thermal:flux_drill"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "553D2EFBFA7D0343"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			dependencies: ["186FC53FE0375088"]
+			id: "55EA6D3BD4A0643D"
+			tasks: [
+				{
+					id: "167551D7DD318C2E"
+					type: "item"
+					item: {
+						id: "thermal:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1284435BE6A6F3BA"
+					type: "item"
+					item: {
+						id: "thermal:diving_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D1012B757442007"
+					type: "item"
+					item: {
+						id: "thermal:diving_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								9191428
+								1099120791
+								-1665853221
+								651818956
+							]
+						}
+					}
+				}
+				{
+					id: "6FB6F20CA8CA945D"
+					type: "item"
+					item: {
+						id: "thermal:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "67561855B950E95E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["117D1755A2DF85E9"]
+			id: "492B7128E3C0F54C"
+			tasks: [
+				{
+					id: "6A60D4FDE604082A"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F90A46336A7378E"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F85EF27D428A664"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "017D7407B8C6AA02"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7A6A64B0AF911311"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			dependencies: ["73142C08921C7417"]
+			id: "209514A3C35E9F6C"
+			tasks: [{
+				id: "229FDE8A53A784FC"
+				type: "item"
+				item: "thermal:explosive_grenade"
+			}]
+			rewards: [{
+				id: "6A8FC5790977D456"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["209514A3C35E9F6C"]
+			id: "11CB4EE612ACB460"
+			tasks: [
+				{
+					id: "561B90D0252A02AE"
+					type: "item"
+					item: "thermal:slime_grenade"
+				}
+				{
+					id: "20D047F70EBB6015"
+					type: "item"
+					item: "thermal:redstone_grenade"
+				}
+				{
+					id: "773D300771EC9898"
+					type: "item"
+					item: "thermal:glowstone_grenade"
+				}
+				{
+					id: "584CCE3A0B814517"
+					type: "item"
+					item: "thermal:ender_grenade"
+				}
+				{
+					id: "7A6672669178B937"
+					type: "item"
+					item: "thermal:earth_grenade"
+				}
+				{
+					id: "4478566C7A21900F"
+					type: "item"
+					item: "thermal:fire_grenade"
+				}
+				{
+					id: "624DC16EC0DDD5CC"
+					type: "item"
+					item: "thermal:ice_grenade"
+				}
+				{
+					id: "64E47D109243D6B2"
+					type: "item"
+					item: "thermal:lightning_grenade"
+				}
+			]
+			rewards: [{
+				id: "561826B879604B85"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["2654F1403E8D5C41"]
+			id: "73142C08921C7417"
+			tasks: [{
+				id: "263D65020A163F09"
+				type: "item"
+				item: "thermal:detonator"
+			}]
+			rewards: [{
+				id: "0C2143B29C35E8BE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["117D1755A2DF85E9"]
+			id: "069BA7D401FB5407"
+			tasks: [{
+				id: "573815ECE8052E1C"
+				type: "item"
+				item: "thermal:satchel"
+			}]
+			rewards: [{
+				id: "7D839EBA93563B1F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["2654F1403E8D5C41"]
+			id: "1DB18D59839900BB"
+			tasks: [{
+				id: "4A2E2A21D055B24B"
+				type: "item"
+				item: "thermal:lock"
+			}]
+			rewards: [{
+				id: "1ADFC317CF18BB1A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["0EFE8AF0D5AC7B2B"]
+			id: "6C8718DDD2C882D8"
+			tasks: [{
+				id: "252BBC857C9049C3"
+				type: "item"
+				item: {
+					id: "thermal:xp_crystal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5905870525B5F78F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

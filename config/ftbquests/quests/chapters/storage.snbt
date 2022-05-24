@@ -1,0 +1,1409 @@
+{
+	id: "322317E4337328EE"
+	group: "053C5D3100185318"
+	order_index: 0
+	filename: "storage"
+	title: "Storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -4.5d
+			dependencies: ["3CF78DDBB39B1F06"]
+			id: "1886F3CC4687B30F"
+			tasks: [{
+				id: "2C63E46F65547548"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "4E2D398F02EC308C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Copper chest/upgrade"
+			x: -8.5d
+			y: -3.5d
+			dependencies: ["1886F3CC4687B30F"]
+			id: "32E61E964CE89281"
+			tasks: [{
+				id: "5B5B35F7BC8F0763"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:copper_chest"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:wood_to_copper"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "40044A0CB76BC9A6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Iron chest/upgrade"
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["32E61E964CE89281"]
+			id: "25DD7A6AF3E9321E"
+			tasks: [{
+				id: "3E32A39C7F444553"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:iron_chest"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:copper_to_iron"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "208CE7825A74E15D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Silver chest/upgrade"
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["25DD7A6AF3E9321E"]
+			id: "7BD3AAF7E133CE5D"
+			tasks: [{
+				id: "0E665B56312A413B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:silver_chest"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:iron_to_silver"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E9DF3135D213CE2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Gold chest/upgrade"
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["7BD3AAF7E133CE5D"]
+			id: "459DC8E8A7FA5934"
+			tasks: [{
+				id: "1D12D80753248CFB"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:gold_chest"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:silver_to_gold"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DD81473B724D2A2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Diamond chest/upgrade"
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["459DC8E8A7FA5934"]
+			id: "43614DB048B58010"
+			tasks: [{
+				id: "6D1A3B7C9F809C3F"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:diamond_chest"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:gold_to_diamond"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "74FF94B326BFCCAF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Obsidian chest/upgrade"
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["43614DB048B58010"]
+			id: "7C6FCD936324805A"
+			tasks: [{
+				id: "2FAF276F22582578"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:obsidian_chest"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:diamond_to_obsidian"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "38BC8DA36507BF12"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Crystal chest/upgrade"
+			x: -6.5d
+			y: 2.5d
+			dependencies: ["43614DB048B58010"]
+			id: "1124E0A6D2F5400C"
+			tasks: [{
+				id: "639715525D1B27C4"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:crystal_chest"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:diamond_to_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "20963172894F877E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			id: "3CF78DDBB39B1F06"
+			tasks: [{
+				id: "6C8A326FA8076881"
+				type: "item"
+				item: "ironchest:dirt_chest"
+			}]
+			rewards: [{
+				id: "04C65A71C841CCE3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["3CF78DDBB39B1F06"]
+			id: "6FEF0C604E9AAFB5"
+			tasks: [{
+				id: "0A99ED711C9826EB"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+			rewards: [{
+				id: "4A4FA80076F64A8B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Iron barrel/upgrade"
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["3E93A03C47DB5171"]
+			id: "29DFB1A614F491C8"
+			tasks: [{
+				id: "6A792189E56F1D42"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "metalbarrels:iron_barrel"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:copper_to_iron"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "154EE0F4FC39FC86"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Gold barrel/upgrade"
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["7E4C6B4D2B4182A7"]
+			id: "5FC0322942E086E0"
+			tasks: [{
+				id: "7819C8785317814B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "metalbarrels:gold_barrel"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:silver_to_gold"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5917FC0E37F9ADE3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Diamond barrel/upgrade"
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["5FC0322942E086E0"]
+			id: "40AF6C5420AFD7F0"
+			tasks: [{
+				id: "13FD9A4CF2FE250A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "metalbarrels:diamond_barrel"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:gold_to_diamond"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "49F72DD61EB8912D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Obsidian barrel/upgrade"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["40AF6C5420AFD7F0"]
+			id: "1FE6F2E204FCEC7D"
+			tasks: [{
+				id: "37DCA5A1A70D507A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "metalbarrels:obsidian_barrel"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:diamond_to_obsidian"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "590E87131B7DAC67"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Crystal barrel/upgrade"
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["40AF6C5420AFD7F0"]
+			id: "5C4B40A040361044"
+			tasks: [{
+				id: "43D097B982642536"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "metalbarrels:crystal_barrel"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:diamond_to_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1230208B46E0D070"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["0B80A4C28D65E247"]
+			id: "13294C104B3AB766"
+			tasks: [{
+				id: "06EDEEAC2BABA0F6"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "5773F8C86A9A409F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["6FEF0C604E9AAFB5"]
+			id: "2BF1103D7CE613D2"
+			tasks: [{
+				id: "046A4C1F95A58A8E"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [{
+				id: "3A012614E16F6DF1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.5d
+			dependencies: ["1886F3CC4687B30F"]
+			id: "684459AA4822D4A5"
+			tasks: [{
+				id: "7F0FDCC39A43CF7C"
+				type: "item"
+				title: "Any Storage Drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B984F8624D4908B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["2BF1103D7CE613D2"]
+			id: "2EFC0F660A3946FE"
+			tasks: [{
+				id: "4E3BAE80E7AEB077"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+			rewards: [{
+				id: "433593C0A2B461D3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["2BF1103D7CE613D2"]
+			id: "557C2C2ADFCCC0B0"
+			tasks: [{
+				id: "4A139F0D4A283314"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+			rewards: [{
+				id: "1AC3941919725533"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			dependencies: ["2BF1103D7CE613D2"]
+			id: "643BBA7F651EA2D5"
+			tasks: [{
+				id: "531523A07BAB83D3"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+			rewards: [{
+				id: "7AC262A0BEE659E7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["2BF1103D7CE613D2"]
+			id: "299113BD4FBCA888"
+			tasks: [{
+				id: "01D911306BEAE963"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "05179259000813B3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["299113BD4FBCA888"]
+			id: "6581E98397143971"
+			tasks: [{
+				id: "44719C4F18494D77"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6C5FA0BB0DAE4560"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["6581E98397143971"]
+			id: "3F51AA10A3DE2E70"
+			tasks: [{
+				id: "3422763371D343D2"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+				count: 4L
+			}]
+			rewards: [{
+				id: "561511AA7D353CCE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["3F51AA10A3DE2E70"]
+			id: "0B80A4C28D65E247"
+			tasks: [{
+				id: "1B653B1B69D5A757"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+				count: 6L
+			}]
+			rewards: [{
+				id: "4021ABCFD5193961"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["0B80A4C28D65E247"]
+			id: "3CC5D99B95E9ED16"
+			tasks: [{
+				id: "54E2CC65D119356D"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+				count: 8L
+			}]
+			rewards: [{
+				id: "2C06467BEA62F22A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Copper barrel/upgrade"
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["6FEF0C604E9AAFB5"]
+			id: "3E93A03C47DB5171"
+			tasks: [{
+				id: "52C31D3FBAD1BF06"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "metalbarrels:copper_barrel"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:wood_to_copper"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C086459B83E0EAF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Silver barrel/upgrade"
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["29DFB1A614F491C8"]
+			id: "7E4C6B4D2B4182A7"
+			tasks: [{
+				id: "4C931ED417ACD6F6"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "metalbarrels:silver_barrel"
+								Count: 1b
+							}
+							{
+								id: "metalbarrels:iron_to_silver"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "466F1EC3D26B5B42"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["1FE6F2E204FCEC7D"]
+			id: "2E32405B125BE0B6"
+			tasks: [{
+				id: "0009F45E4DA96EDC"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+			rewards: [{
+				id: "7A32F8125A4426D1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["3E93A03C47DB5171"]
+			dependency_requirement: "one_completed"
+			id: "7956EDA233C68C95"
+			tasks: [{
+				id: "5071CB912B895DE6"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "2FA1AAF07979D6E2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: [
+				"7956EDA233C68C95"
+				"7E4C6B4D2B4182A7"
+			]
+			dependency_requirement: "one_completed"
+			id: "134A2A377C4687E1"
+			tasks: [{
+				id: "46648655E915FF4C"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "676F03213B695DCA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: [
+				"134A2A377C4687E1"
+				"5FC0322942E086E0"
+			]
+			dependency_requirement: "one_completed"
+			id: "2FC7B4EF53519EE3"
+			tasks: [{
+				id: "3089A07680BADEA2"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "4C40DCB321197326"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: [
+				"2FC7B4EF53519EE3"
+				"40AF6C5420AFD7F0"
+			]
+			dependency_requirement: "one_completed"
+			id: "686EE747D01079E8"
+			tasks: [{
+				id: "578930CF78CD9522"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "7073671DA778A6EC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: [
+				"2E32405B125BE0B6"
+				"686EE747D01079E8"
+			]
+			id: "368C8985BB45E0CB"
+			tasks: [{
+				id: "09B296943165FB8D"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "5E7442B202284AF6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			dependencies: ["6341BDBCED7A8C20"]
+			id: "752390A16CE74D77"
+			tasks: [{
+				id: "5D08622924778C79"
+				type: "item"
+				item: "refinedpipes:basic_item_pipe"
+			}]
+			rewards: [{
+				id: "64F21715FA523C37"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			dependencies: ["2E45EA3DA431B36D"]
+			id: "20EE29396DEDB313"
+			tasks: [{
+				id: "7A71E6510D4088D7"
+				type: "item"
+				item: "refinedpipes:basic_fluid_pipe"
+			}]
+			rewards: [{
+				id: "2BCB0FCE642B025A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["3A98CF3F5D697435"]
+			id: "412F15B4D8299A99"
+			tasks: [{
+				id: "0D49D805D40A5603"
+				type: "item"
+				item: "refinedpipes:basic_energy_pipe"
+			}]
+			rewards: [{
+				id: "0A05264ADD47161C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			dependencies: ["3A98CF3F5D697435"]
+			id: "6341BDBCED7A8C20"
+			tasks: [{
+				id: "194E2E61F230F763"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+			rewards: [{
+				id: "72BD0D78728EA034"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			dependencies: ["3A98CF3F5D697435"]
+			id: "2E45EA3DA431B36D"
+			tasks: [{
+				id: "2ACB6EB0F9E72A51"
+				type: "item"
+				item: "ppfluids:fluid_pipe"
+			}]
+			rewards: [{
+				id: "3B4D401DE85689AD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["752390A16CE74D77"]
+			id: "4D26D892545355C5"
+			tasks: [{
+				id: "572A17258C4AA0CC"
+				type: "item"
+				item: "refinedpipes:improved_item_pipe"
+			}]
+			rewards: [{
+				id: "1D63B06194786AE2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			dependencies: ["4D26D892545355C5"]
+			id: "175E692954DBC018"
+			tasks: [{
+				id: "045330C8A8FA17AE"
+				type: "item"
+				item: "refinedpipes:advanced_item_pipe"
+			}]
+			rewards: [{
+				id: "2A9D13C534AC14C1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			dependencies: ["20EE29396DEDB313"]
+			id: "44A90EF590A00C98"
+			tasks: [{
+				id: "71919F65E18E3969"
+				type: "item"
+				item: "refinedpipes:improved_fluid_pipe"
+			}]
+			rewards: [{
+				id: "2C08D5743E91583D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["44A90EF590A00C98"]
+			id: "42FED10893FD2D8F"
+			tasks: [{
+				id: "39D85741C486BE30"
+				type: "item"
+				item: "refinedpipes:advanced_fluid_pipe"
+			}]
+			rewards: [{
+				id: "347D7EB783C96FC6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["42FED10893FD2D8F"]
+			id: "2817BD842D13AE93"
+			tasks: [{
+				id: "7DD7B95E1E42F8B0"
+				type: "item"
+				item: "refinedpipes:elite_fluid_pipe"
+			}]
+			rewards: [{
+				id: "1ACDD0246A3BB62D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["2817BD842D13AE93"]
+			id: "09AF6B6C9F0F0BE0"
+			tasks: [{
+				id: "667CDAC8C5DFFDEF"
+				type: "item"
+				item: "refinedpipes:ultimate_fluid_pipe"
+			}]
+			rewards: [{
+				id: "12058B7425128F58"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["412F15B4D8299A99"]
+			id: "3F9BD8E27939CE58"
+			tasks: [{
+				id: "7E0F18EB9931AA71"
+				type: "item"
+				item: "refinedpipes:improved_energy_pipe"
+			}]
+			rewards: [{
+				id: "3ED47E982B89C219"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: ["3F9BD8E27939CE58"]
+			id: "73E2C4DDFE09D216"
+			tasks: [{
+				id: "4E02B2265DC2E3B3"
+				type: "item"
+				item: "refinedpipes:advanced_energy_pipe"
+			}]
+			rewards: [{
+				id: "3E1D8AFD74049444"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["73E2C4DDFE09D216"]
+			id: "5716ABB7D1DFA5C3"
+			tasks: [{
+				id: "18C0BA10D6FFFA28"
+				type: "item"
+				item: "refinedpipes:elite_energy_pipe"
+			}]
+			rewards: [{
+				id: "42CC5B5C169D7431"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["5716ABB7D1DFA5C3"]
+			id: "6D56D134215AFD60"
+			tasks: [{
+				id: "12D9D05E6CEEC9D1"
+				type: "item"
+				item: "refinedpipes:ultimate_energy_pipe"
+			}]
+			rewards: [{
+				id: "05C58E5E32AF9478"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			dependencies: ["684459AA4822D4A5"]
+			id: "1AD7B66C2743FD70"
+			tasks: [{
+				id: "0626F235FD3C794D"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [{
+				id: "476CAEC5383CBD4B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.5d
+			dependencies: ["1AD7B66C2743FD70"]
+			id: "6F440F6F5C17F295"
+			tasks: [{
+				id: "75B5717320C9BE8C"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+			rewards: [{
+				id: "7F13E9FC07B9D644"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			dependencies: ["6F440F6F5C17F295"]
+			id: "3F0176609076E98E"
+			tasks: [{
+				id: "0D47F0E654F46960"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+			rewards: [{
+				id: "6E2E6CEC6CDA1E67"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: -0.5d
+			dependencies: ["3F0176609076E98E"]
+			id: "74468B6CF7A30CF8"
+			tasks: [{
+				id: "6348817FBCAC33CF"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+			rewards: [{
+				id: "1F8B9AF4021CFF86"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			dependencies: ["74468B6CF7A30CF8"]
+			id: "1144DCD49339F872"
+			tasks: [{
+				id: "75DDCE8CC0C40E5D"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [{
+				id: "16DFB81ADBCFC537"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: ["3CE3DE068CD5EC01"]
+			id: "5CF2E5665B8E22BF"
+			tasks: [{
+				id: "7A2FEBC260D12D44"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+			rewards: [{
+				id: "3D179DBF7FCE716C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["72122385A25C0A08"]
+			id: "5B56F676C0A40AD0"
+			tasks: [{
+				id: "177D2E69B57671D3"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+			rewards: [{
+				id: "430F51A0D9772928"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["091EE46C2CD110E4"]
+			id: "17535A6010D929D1"
+			tasks: [{
+				id: "7F2AA8FAD533896F"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+			rewards: [{
+				id: "49BF760A85E8F51C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["17535A6010D929D1"]
+			id: "09F1EDA71B894541"
+			tasks: [{
+				id: "7CDC2FA05543968B"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [{
+				id: "5E4FEF8E93441915"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["09F1EDA71B894541"]
+			id: "17B17007A5D73580"
+			tasks: [{
+				id: "1EDE77262E0560D8"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [{
+				id: "13E1EB5B33AA2A96"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["5CF2E5665B8E22BF"]
+			id: "72122385A25C0A08"
+			tasks: [{
+				id: "191507EDD15735FF"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+			rewards: [{
+				id: "09377024CD947BF7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["5B56F676C0A40AD0"]
+			id: "2EB98BEC90C9C10B"
+			tasks: [{
+				id: "2887DA8F446EC919"
+				type: "item"
+				item: "pneumaticcraft:medium_tank"
+			}]
+			rewards: [{
+				id: "0458CD0FCC5CD96A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["2EB98BEC90C9C10B"]
+			id: "31FB5C88684042BB"
+			tasks: [{
+				id: "698A57A51FEB433C"
+				type: "item"
+				item: "pneumaticcraft:large_tank"
+			}]
+			rewards: [{
+				id: "061C776013A256E6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["31FB5C88684042BB"]
+			id: "091EE46C2CD110E4"
+			tasks: [{
+				id: "7F63F64EC73CD0A2"
+				type: "item"
+				item: "pneumaticcraft:huge_tank"
+			}]
+			rewards: [{
+				id: "63A1BE36592BF4A9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["32E61E964CE89281"]
+			id: "633E8EA3FDE4628F"
+			tasks: [{
+				id: "731A56D65589C924"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["633E8EA3FDE4628F"]
+			id: "187D7ED7FDD2B51C"
+			tasks: [{
+				id: "0183D3862BAB405F"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["187D7ED7FDD2B51C"]
+			id: "1C7F0EEF6B28ADA0"
+			tasks: [{
+				id: "4B065CDDBD132AA7"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["1C7F0EEF6B28ADA0"]
+			id: "55DD8D2240FB12CF"
+			tasks: [{
+				id: "2B2B841D1E6F5FC3"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["55DD8D2240FB12CF"]
+			id: "1312D9C85D80FB69"
+			tasks: [{
+				id: "3EFCCB9063EB6555"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["1312D9C85D80FB69"]
+			id: "0FA6E77143ABEACE"
+			tasks: [{
+				id: "7050714BBE138DBD"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: ["0FA6E77143ABEACE"]
+			id: "00CFB2D860D229A4"
+			tasks: [{
+				id: "36BD1D9FD8731810"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+		}
+	]
+}

@@ -1,0 +1,660 @@
+{
+	id: "0CEF5616D8EF5F5D"
+	group: "1DFE3EE269C0174B"
+	order_index: 8
+	filename: "pneumaticcraft"
+	title: "Pneumaticcraft"
+	icon: "pneumaticcraft:pressure_gauge"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "6B78016466781353"
+			tasks: [{
+				id: "0B17E0E7515218E9"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DB68937A6482C26"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "1A1883A82BBF3CF9"
+			tasks: [{
+				id: "242B801CCBE78A0A"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A6EB3772877064B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "26C9A83A229D5073"
+			tasks: [{
+				id: "289470205B34EBF4"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F2198867DE545C7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "40B5174E9EDF1452"
+			tasks: [{
+				id: "442A5C0109DC92C3"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "35B0B6A4613B29AC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["6B78016466781353"]
+			id: "05B3FC8DC5F7EC51"
+			tasks: [{
+				id: "36A14F5C8776CB4A"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "77DB148D62F4ABFC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["1A1883A82BBF3CF9"]
+			id: "7D8E5C0B6F1C81A0"
+			tasks: [{
+				id: "66C64BD810866F88"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4759A8457C531460"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["26C9A83A229D5073"]
+			id: "7FDF7F01AC2BEB00"
+			tasks: [{
+				id: "589E034D34742534"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "193EB179ED3A4CA2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["40B5174E9EDF1452"]
+			id: "2EA9FC02964BAD2F"
+			tasks: [{
+				id: "3349CA56BD30CF61"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6288CDE801E27A89"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "2A03E1CB62D80B69"
+			tasks: [{
+				id: "25753BC4AB5E6F38"
+				type: "item"
+				item: "pneumaticcraft:vortex_tube"
+			}]
+			rewards: [{
+				id: "7379C0D2490B17F0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["46FD2806812A7291"]
+			id: "7B344E58705EAA9A"
+			tasks: [{
+				id: "258A11546264988E"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+			rewards: [{
+				id: "7909906EF8E489E8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["7B344E58705EAA9A"]
+			id: "0454055CDE9C29C6"
+			tasks: [{
+				id: "7C338F6DCF0F31DB"
+				type: "item"
+				item: "pneumaticcraft:medium_tank"
+			}]
+			rewards: [{
+				id: "4BF3435FE35F6848"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["0454055CDE9C29C6"]
+			id: "60145FA14AE42475"
+			tasks: [{
+				id: "38C3910C2633811B"
+				type: "item"
+				item: "pneumaticcraft:large_tank"
+			}]
+			rewards: [{
+				id: "5DAE23959732334C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["60145FA14AE42475"]
+			id: "5C8053432732C5D9"
+			tasks: [{
+				id: "0BA69AB78B8159F5"
+				type: "item"
+				item: "pneumaticcraft:huge_tank"
+			}]
+			rewards: [{
+				id: "51059F0D161C1D1C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["08B94D4FA709362B"]
+			id: "65C15796F42EF5C7"
+			tasks: [{
+				id: "57F2F833F2359633"
+				type: "item"
+				item: "pneumaticcraft:memory_stick"
+			}]
+			rewards: [{
+				id: "1C7E4567FEBD454A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "0DED35B5A3C49404"
+			tasks: [{
+				id: "58AFB9DBA7E5234A"
+				type: "item"
+				item: "pneumaticcraft:crop_support"
+			}]
+			rewards: [{
+				id: "7E62362ADBC2AE7C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["639AB9AA5FF81F12"]
+			id: "03C045D85DDF39A6"
+			tasks: [{
+				id: "54F4DA611F74C7EF"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge"
+			}]
+			rewards: [{
+				id: "36A41245D2B617D3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["03C045D85DDF39A6"]
+			id: "6627A1BF89497DD7"
+			tasks: [{
+				id: "1E5CFCB545C7211D"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+			rewards: [{
+				id: "2BD88791F660A4A4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["03C045D85DDF39A6"]
+			id: "64DA5951394261EF"
+			tasks: [{
+				id: "733112B587F89CB5"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge_module"
+			}]
+			rewards: [{
+				id: "1C02A1669545C22D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "4F43E5EACD289A07"
+			tasks: [{
+				id: "4E5847FA20ACD06E"
+				type: "item"
+				item: "pneumaticcraft:volume_upgrade"
+			}]
+			rewards: [{
+				id: "53C0A8F188BA128E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["75D7B84AFEFDA79A"]
+			id: "778C6B2B1619DC41"
+			tasks: [{
+				id: "4DEC9477DDB19068"
+				type: "item"
+				item: "pneumaticcraft:upgrade_matrix"
+			}]
+			rewards: [{
+				id: "44BFC75A39F903D0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "128DD0B751CF3DFD"
+			tasks: [{
+				id: "4B64B362669A8CE7"
+				type: "item"
+				item: "pneumaticcraft:entity_tracker_upgrade"
+			}]
+			rewards: [{
+				id: "2A3427D06BC080C3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "1A01D20E18C2AF30"
+			tasks: [{
+				id: "1F591730B60B27FC"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			rewards: [{
+				id: "1EF78421072FC3CD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "2A89D7D9A82EF639"
+			tasks: [{
+				id: "1B9E1B17EAF3F308"
+				type: "item"
+				item: "pneumaticcraft:range_upgrade"
+			}]
+			rewards: [{
+				id: "272FD5C975B256A8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "63FE851D4B18FA8C"
+			tasks: [{
+				id: "71EB45C81A672E90"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
+			rewards: [{
+				id: "40B7664F9DBB4F30"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "178AE38B64B9055B"
+			tasks: [{
+				id: "3579383D93B09ED0"
+				type: "item"
+				item: "pneumaticcraft:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "6084A33CCB645522"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "4FDF75A140A0AD3A"
+			tasks: [{
+				id: "0E2B4DFE74D7CEF3"
+				type: "item"
+				item: "pneumaticcraft:charging_upgrade"
+			}]
+			rewards: [{
+				id: "061D9FF4AE78DD02"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "4077474333D3C1B0"
+			tasks: [{
+				id: "1E59C29D5A2A57D4"
+				type: "item"
+				item: "pneumaticcraft:armor_upgrade"
+			}]
+			rewards: [{
+				id: "45123FD29C565DE2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "27EDC8E736DB73CF"
+			tasks: [
+				{
+					id: "6937DFEFD9735D1B"
+					type: "item"
+					item: "pneumaticcraft:jet_boots_upgrade_1"
+				}
+				{
+					id: "169B0EBCCB3ED948"
+					type: "item"
+					item: "pneumaticcraft:jet_boots_upgrade_2"
+				}
+				{
+					id: "6E5533DBF59188DC"
+					type: "item"
+					item: "pneumaticcraft:jet_boots_upgrade_3"
+				}
+				{
+					id: "38C7D4C024D73B15"
+					type: "item"
+					item: "pneumaticcraft:jet_boots_upgrade_4"
+				}
+				{
+					id: "52266265DC383052"
+					type: "item"
+					item: "pneumaticcraft:jet_boots_upgrade_5"
+				}
+			]
+			rewards: [{
+				id: "2438A5D823014E02"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "116BE838F40E9493"
+			tasks: [{
+				id: "78ED5087D451DD48"
+				type: "item"
+				item: "pneumaticcraft:night_vision_upgrade"
+			}]
+			rewards: [{
+				id: "3335B5694873B587"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "043D2C009C1A828D"
+			tasks: [{
+				id: "683B05AF754C1685"
+				type: "item"
+				item: "pneumaticcraft:scuba_upgrade"
+			}]
+			rewards: [{
+				id: "0FACDB615365C72D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "0D538329AB1E0009"
+			tasks: [{
+				id: "6033A96080A4B248"
+				type: "item"
+				item: "pneumaticcraft:inventory_upgrade"
+			}]
+			rewards: [{
+				id: "6AB6309F1E56DADA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "361044FC05278119"
+			tasks: [
+				{
+					id: "6E688A460FAC1300"
+					type: "item"
+					item: "pneumaticcraft:jumping_upgrade_1"
+				}
+				{
+					id: "653CF91C6D084DA9"
+					type: "item"
+					item: "pneumaticcraft:jumping_upgrade_2"
+				}
+				{
+					id: "1550B7D83D0C6055"
+					type: "item"
+					item: "pneumaticcraft:jumping_upgrade_3"
+				}
+				{
+					id: "2CB40BDA3D68F375"
+					type: "item"
+					item: "pneumaticcraft:jumping_upgrade_4"
+				}
+			]
+			rewards: [{
+				id: "00F751DFEB4CB8A1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["778C6B2B1619DC41"]
+			id: "7A65C2078930E3E4"
+			tasks: [{
+				id: "2A401A74684CE3AD"
+				type: "item"
+				item: "pneumaticcraft:flippers_upgrade"
+			}]
+			rewards: [{
+				id: "17956734933A7FB9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

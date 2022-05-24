@@ -1,0 +1,354 @@
+{
+	id: "7AF7AEBAC95EA1E7"
+	group: "1DFE3EE269C0174B"
+	order_index: 9
+	filename: "small_ships"
+	title: "Small Ships"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Rowing Boat"
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["075C0290C0F62A3F"]
+			id: "61289A20B17B95A4"
+			tasks: [{
+				id: "78F8D4EC4DB621F9"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "smallships:oak_rowboat"
+								Count: 1b
+							}
+							{
+								id: "smallships:spruce_rowboat"
+								Count: 1b
+							}
+							{
+								id: "smallships:birch_rowboat"
+								Count: 1b
+							}
+							{
+								id: "smallships:jungle_rowboat"
+								Count: 1b
+							}
+							{
+								id: "smallships:acacia_rowboat"
+								Count: 1b
+							}
+							{
+								id: "smallships:dark_oak_rowboat"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E9679E5B02FA766"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Cog"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["61289A20B17B95A4"]
+			id: "4CBAE5806F44F16D"
+			tasks: [{
+				id: "2A99FF03B6BE2334"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "smallships:oak_cog"
+								Count: 1b
+							}
+							{
+								id: "smallships:spruce_cog"
+								Count: 1b
+							}
+							{
+								id: "smallships:birch_cog"
+								Count: 1b
+							}
+							{
+								id: "smallships:jungle_cog"
+								Count: 1b
+							}
+							{
+								id: "smallships:acacia_cog"
+								Count: 1b
+							}
+							{
+								id: "smallships:dark_oak_cog"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C2133665543C49B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Galley"
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["61289A20B17B95A4"]
+			id: "49081F07EFE4E616"
+			tasks: [{
+				id: "07FC0EBD974B2995"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "smallships:oak_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:spruce_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:birch_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:jungle_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:acacia_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:dark_oak_galley"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "79A7098B78BCEC8B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "War Galley"
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["61289A20B17B95A4"]
+			id: "722D6C59E48A1C66"
+			tasks: [{
+				id: "0BB7441C57406DB3"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "smallships:oak_war_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:spruce_war_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:birch_war_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:jungle_war_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:acacia_war_galley"
+								Count: 1b
+							}
+							{
+								id: "smallships:dark_oak_war_galley"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4844192B55686DBF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Drakkar"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["61289A20B17B95A4"]
+			id: "7BE090D2D346BAEF"
+			tasks: [{
+				id: "3F3FCE3A3C5C033F"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "smallships:oak_drakkar"
+								Count: 1b
+							}
+							{
+								id: "smallships:spruce_drakkar"
+								Count: 1b
+							}
+							{
+								id: "smallships:birch_drakkar"
+								Count: 1b
+							}
+							{
+								id: "smallships:jungle_drakkar"
+								Count: 1b
+							}
+							{
+								id: "smallships:acacia_drakkar"
+								Count: 1b
+							}
+							{
+								id: "smallships:dark_oak_drakkar"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "37674AE1A11B5A87"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Brigg"
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["61289A20B17B95A4"]
+			id: "3D44E6EC98FE6DA6"
+			tasks: [{
+				id: "325D1E5A1FC018AD"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "smallships:oak_brigg"
+								Count: 1b
+							}
+							{
+								id: "smallships:spruce_brigg"
+								Count: 1b
+							}
+							{
+								id: "smallships:birch_brigg"
+								Count: 1b
+							}
+							{
+								id: "smallships:jungle_brigg"
+								Count: 1b
+							}
+							{
+								id: "smallships:acacia_brigg"
+								Count: 1b
+							}
+							{
+								id: "smallships:dark_oak_brigg"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AD36CD64ECFE5B3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Dhow"
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["61289A20B17B95A4"]
+			id: "5BCC0BE57874D2B5"
+			tasks: [{
+				id: "39A699E055423D18"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "smallships:oak_dhow"
+								Count: 1b
+							}
+							{
+								id: "smallships:spruce_dhow"
+								Count: 1b
+							}
+							{
+								id: "smallships:birch_dhow"
+								Count: 1b
+							}
+							{
+								id: "smallships:jungle_dhow"
+								Count: 1b
+							}
+							{
+								id: "smallships:acacia_dhow"
+								Count: 1b
+							}
+							{
+								id: "smallships:dark_oak_dhow"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "67590E511A77131E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

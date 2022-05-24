@@ -1,0 +1,1107 @@
+{
+	id: "7E81EF21E8DE2940"
+	group: "053C5D3100185318"
+	order_index: 1
+	filename: "mob_killer"
+	title: "Mob Killer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			tags: ["repeat"]
+			x: -5.5d
+			y: -4.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "172B52F78E411BC1"
+			tasks: [{
+				id: "40176A4A463B11B9"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 50L
+			}]
+			rewards: [{
+				id: "3CF7CA305040D22A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -6.5d
+			y: -4.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "1E731B0ACA83CDAC"
+			tasks: [{
+				id: "61C671286075F261"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 50L
+			}]
+			rewards: [{
+				id: "47CCA9EDEE9C4818"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "54C31A29A78150B4"
+			tasks: [{
+				id: "6C6421C4B2EA5338"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 15L
+			}]
+			rewards: [{
+				id: "6DCD6CE8294B2DA3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["63C26B05E4B5FABE"]
+			optional: true
+			id: "0661E9DF051277DA"
+			tasks: [{
+				id: "46B16A9EEAC02EB6"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 10L
+			}]
+			rewards: [{
+				id: "18BE75A2D09CF047"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "61F39161457A0F21"
+			tasks: [{
+				id: "1155B95F11C53C4E"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 20L
+			}]
+			rewards: [{
+				id: "6B1580C473E24E7D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			disable_toast: true
+			x: -5.5d
+			y: -5.5d
+			id: "42CFA6A52E641A25"
+			tasks: [{
+				id: "71D0E388272B8333"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: -5.5d
+			id: "76E0ABA319A498C3"
+			tasks: [{
+				id: "147A7928533A6CEA"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: -5.5d
+			id: "63C26B05E4B5FABE"
+			tasks: [{
+				id: "6E353272C56F9AB3"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["63C26B05E4B5FABE"]
+			optional: true
+			id: "37F8DE6D825176A8"
+			tasks: [{
+				id: "593DB0380A0D10A4"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 2L
+			}]
+			rewards: [{
+				id: "5C4FB24838AF1053"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -8.5d
+			y: -4.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "236ACFD055C7DA28"
+			tasks: [{
+				id: "26EC6EE325E7BAC7"
+				type: "kill"
+				entity: "minecraft:cave_spider"
+				value: 50L
+			}]
+			rewards: [{
+				id: "1377B94E10646171"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "34FFF9CBD8AB784D"
+			tasks: [{
+				id: "3F9305E0D6EE063B"
+				type: "kill"
+				entity: "minecraft:drowned"
+				value: 50L
+			}]
+			rewards: [{
+				id: "4C0A9CCFAB48A29E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "3360D28AECB69646"
+			tasks: [{
+				id: "4974F485D227A590"
+				type: "kill"
+				entity: "minecraft:elder_guardian"
+				value: 3L
+			}]
+			rewards: [{
+				id: "4A5EF51BD358734A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["63C26B05E4B5FABE"]
+			optional: true
+			id: "0C6A698012C400B3"
+			tasks: [{
+				id: "5CACFE6D1FC49611"
+				type: "kill"
+				entity: "minecraft:endermite"
+				value: 15L
+			}]
+			rewards: [{
+				id: "162D81DEC22A7F21"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "2FB19373EDEFEDDF"
+			tasks: [{
+				id: "2D389F815C185E5C"
+				type: "kill"
+				entity: "minecraft:evoker"
+				value: 10L
+			}]
+			rewards: [{
+				id: "390BB734D8A6AD18"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "4EA29F86D443421F"
+			tasks: [{
+				id: "53C70609615049D9"
+				type: "kill"
+				entity: "minecraft:ghast"
+				value: 15L
+			}]
+			rewards: [{
+				id: "41EBAB4085A8B69F"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "04B399B0D930F625"
+			tasks: [{
+				id: "220AF024E1E8C636"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 2L
+			}]
+			rewards: [{
+				id: "294991C6F40D058B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "38B2939BC030BB9D"
+			tasks: [{
+				id: "60F1655A0E56F89E"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 20L
+			}]
+			rewards: [{
+				id: "669189DB2B1DA4EA"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "37E62AE3CFB44444"
+			tasks: [{
+				id: "7FCC044D5499F22A"
+				type: "kill"
+				entity: "minecraft:guardian"
+				value: 20L
+			}]
+			rewards: [{
+				id: "5D7ECD250A8F9E6A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "3D77BF20A57B73CE"
+			tasks: [{
+				id: "1D54173214B9C869"
+				type: "kill"
+				entity: "minecraft:hoglin"
+				value: 15L
+			}]
+			rewards: [{
+				id: "58C1CC42ACBF3AB8"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "5A89D4F564487D6D"
+			tasks: [{
+				id: "36766E1853959039"
+				type: "kill"
+				entity: "minecraft:husk"
+				value: 20L
+			}]
+			rewards: [{
+				id: "499799752EC3FABB"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -5.5d
+			y: -0.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "2E3532AB28E0E79D"
+			tasks: [{
+				id: "45F2AEAA27CFAFD0"
+				type: "kill"
+				entity: "minecraft:illusioner"
+				value: 5L
+			}]
+			rewards: [{
+				id: "378FB4934B941C12"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "32990C011E606A18"
+			tasks: [{
+				id: "4977F868980491D8"
+				type: "kill"
+				entity: "minecraft:magma_cube"
+				value: 20L
+			}]
+			rewards: [{
+				id: "1F91756D5470F1A3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -9.5d
+			y: -4.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "1FE4B09AB28A08BD"
+			tasks: [{
+				id: "4D6C1F18172CED7B"
+				type: "kill"
+				entity: "minecraft:phantom"
+				value: 50L
+			}]
+			rewards: [{
+				id: "2E165A4E3F3C7465"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "63862CF940B76C02"
+			tasks: [{
+				id: "415184983C9F5990"
+				type: "kill"
+				entity: "minecraft:piglin"
+				value: 15L
+			}]
+			rewards: [{
+				id: "617FAA36234CE7DB"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "6EEB09A3EEF7CF03"
+			tasks: [{
+				id: "39CAF6FBA6B677EB"
+				type: "kill"
+				entity: "minecraft:piglin_brute"
+				value: 10L
+			}]
+			rewards: [{
+				id: "13DB75CEFF471A79"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "1F9355F84D41F4D1"
+			tasks: [{
+				id: "54853F0170357A24"
+				type: "kill"
+				entity: "minecraft:pillager"
+				value: 15L
+			}]
+			rewards: [{
+				id: "7829CA2F8F79D4EE"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -6.5d
+			y: -0.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "7BF9C2E9D3ABCD4D"
+			tasks: [{
+				id: "0657BD0F9A8D1568"
+				type: "kill"
+				entity: "minecraft:ravager"
+				value: 5L
+			}]
+			rewards: [{
+				id: "3F849C7A4D7BB14B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["63C26B05E4B5FABE"]
+			optional: true
+			id: "3D7C646621991A5A"
+			tasks: [{
+				id: "269B795CE7EF0AEE"
+				type: "kill"
+				entity: "minecraft:shulker"
+				value: 50L
+			}]
+			rewards: [{
+				id: "17E41853F66BE42A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -7.5d
+			y: -1.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "4812C5FA26F56E1C"
+			tasks: [{
+				id: "49C23F769B851DEA"
+				type: "kill"
+				entity: "minecraft:silverfish"
+				value: 10L
+			}]
+			rewards: [{
+				id: "3F91CAEF87B8F406"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -7.5d
+			y: -4.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "78E329804804D18F"
+			tasks: [{
+				id: "6B8A93C0EBAD49BC"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 50L
+			}]
+			rewards: [{
+				id: "6727FB7177F83796"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "4C11B8CCD80B5571"
+			tasks: [{
+				id: "1A14AD823CAE6F08"
+				type: "kill"
+				entity: "minecraft:slime"
+				value: 20L
+			}]
+			rewards: [{
+				id: "3576D20E6A86E69C"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -10.5d
+			y: -4.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "3E18385AD17DA960"
+			tasks: [{
+				id: "39F17518577EAB4B"
+				type: "kill"
+				entity: "minecraft:stray"
+				value: 50L
+			}]
+			rewards: [{
+				id: "5CB5BF5EAD894BF6"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "6C44A16AF5965BCE"
+			tasks: [{
+				id: "230B817A31C500F6"
+				type: "kill"
+				entity: "minecraft:vex"
+				value: 10L
+			}]
+			rewards: [{
+				id: "558DBCDCEB822B7A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "57B5488A2DC4EF7A"
+			tasks: [{
+				id: "57988DAD78CFF65E"
+				type: "kill"
+				entity: "minecraft:vindicator"
+				value: 15L
+			}]
+			rewards: [{
+				id: "43ED77C77EFC4EDF"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "4DCC03CFC0D47BE9"
+			tasks: [{
+				id: "349E2E60D1A07CAB"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 15L
+			}]
+			rewards: [{
+				id: "2B5EE4B9F7D9435B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "1CBEC20B5D5CA9DD"
+			tasks: [{
+				id: "137ADBA01768604C"
+				type: "kill"
+				entity: "minecraft:zoglin"
+				value: 5L
+			}]
+			rewards: [{
+				id: "12F4F688B0D2E84B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "17E05FA87AFF467C"
+			tasks: [{
+				id: "0FF9AF0CEA6982C9"
+				type: "kill"
+				entity: "minecraft:zombie_villager"
+				value: 10L
+			}]
+			rewards: [{
+				id: "4900488AF6D4D87D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["76E0ABA319A498C3"]
+			optional: true
+			id: "338D575E8548AFED"
+			tasks: [{
+				id: "2D98FF2B9F084DC4"
+				type: "kill"
+				entity: "minecraft:zombified_piglin"
+				value: 10L
+			}]
+			rewards: [{
+				id: "0432E71FFB40CFAD"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["42CFA6A52E641A25"]
+			optional: true
+			id: "73D7D3DE90000752"
+			tasks: [{
+				id: "272ECAE44A738922"
+				type: "kill"
+				entity: "tconstruct:sky_slime"
+				value: 20L
+			}]
+			rewards: [{
+				id: "5E0B77CA8741F930"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["63C26B05E4B5FABE"]
+			optional: true
+			id: "2BD72A7DE3281B1B"
+			tasks: [{
+				id: "2D833BF7CA4627DE"
+				type: "kill"
+				entity: "tconstruct:ender_slime"
+				value: 20L
+			}]
+			rewards: [{
+				id: "013445F4DF5F413D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			disable_toast: true
+			x: 6.5d
+			y: -5.5d
+			id: "2A9157A43C3FC6D3"
+			tasks: [{
+				id: "240B8F44A90E8BFE"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "2E54003F3ABDF6EE"
+			tasks: [{
+				id: "6C4D26E0C5B37FF0"
+				type: "kill"
+				entity: "atum:bonestorm"
+				value: 50L
+			}]
+			rewards: [{
+				id: "57AF57B7E94C3EC3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 5.5d
+			y: -3.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "12BC361ADE5C5794"
+			tasks: [{
+				id: "702830C452923955"
+				type: "kill"
+				entity: "atum:mummy"
+				value: 20L
+			}]
+			rewards: [{
+				id: "29D27AEE6312DCC3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "03DD2D03FA25043A"
+			tasks: [{
+				id: "425FC7BE934C9643"
+				type: "kill"
+				entity: "atum:wraith"
+				value: 20L
+			}]
+			rewards: [{
+				id: "1D9C5BB99A5A63D7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "3249E196B9DA7DD3"
+			tasks: [{
+				id: "49924381782CF648"
+				type: "kill"
+				entity: "atum:forsaken"
+				value: 20L
+			}]
+			rewards: [{
+				id: "45678DD0963ED65D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 6.5d
+			y: -4.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "65451F8F4EECE233"
+			tasks: [{
+				id: "091B346B4B40C2C6"
+				type: "kill"
+				entity: "atum:barbarian"
+				value: 50L
+			}]
+			rewards: [{
+				id: "2AA6B7A809D180CD"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 8.5d
+			y: -3.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "1EE6884EFE9A8100"
+			tasks: [{
+				id: "114523A2485FDBC6"
+				type: "kill"
+				entity: "atum:desert_wolf"
+				value: 20L
+			}]
+			rewards: [{
+				id: "4E36A1343ED8EA9D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "0FF269EA2ECAE9EF"
+			tasks: [{
+				id: "55FF4C685DE331A0"
+				type: "kill"
+				entity: "atum:sergeant"
+				value: 10L
+			}]
+			rewards: [{
+				id: "6D1D46BF65FEF3BF"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 8.5d
+			y: -4.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "00C244E92B805DD4"
+			tasks: [{
+				id: "5B6B0237A808CFA6"
+				type: "kill"
+				entity: "atum:nomad"
+				value: 50L
+			}]
+			rewards: [{
+				id: "63E4BA9A3D42E220"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "1BEE2C6955247F8E"
+			tasks: [{
+				id: "43031410B583071F"
+				type: "kill"
+				entity: "atum:pharaoh"
+				value: 3L
+			}]
+			rewards: [{
+				id: "1C511C849D5F2ACD"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 7.5d
+			y: -4.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "0E8820728BAD5A0E"
+			tasks: [{
+				id: "34AFEFD0D4930EB0"
+				type: "kill"
+				entity: "atum:brigand"
+				value: 50L
+			}]
+			rewards: [{
+				id: "4F3607872EF4B7B2"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: 9.5d
+			y: -4.5d
+			dependencies: ["2A9157A43C3FC6D3"]
+			optional: true
+			id: "6EA1D4937EE1BAA1"
+			tasks: [{
+				id: "252940FB1CBCA552"
+				type: "kill"
+				entity: "atum:tarantula"
+				value: 50L
+			}]
+			rewards: [{
+				id: "3BEBF812D1FEDA3C"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "kubejs:pro_coin"
+				count: 10
+			}]
+		}
+	]
+}

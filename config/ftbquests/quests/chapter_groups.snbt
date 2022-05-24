@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "5BC5B0C01671D322", title: "Main Questline" }
+		{ id: "1DFE3EE269C0174B", title: "Specific Mods" }
+		{ id: "053C5D3100185318", title: "Misc" }
+		{ id: "1B43E39131B2A05D", title: "Shop" }
+	]
+}

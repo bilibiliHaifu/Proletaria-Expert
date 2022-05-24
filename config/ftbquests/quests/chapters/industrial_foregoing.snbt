@@ -1,0 +1,1591 @@
+{
+	id: "1359DDEE1E3CF79E"
+	group: "1DFE3EE269C0174B"
+	order_index: 6
+	filename: "industrial_foregoing"
+	title: "Industrial Foregoing"
+	icon: "industrialforegoing:dissolution_chamber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["12AF10052E381004"]
+			id: "5425A7ED2249C8BA"
+			tasks: [{
+				id: "11EB1A3D5B74419E"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [{
+				id: "1B56268DF7722EA1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["46FD2806812A7291"]
+			id: "12AF10052E381004"
+			tasks: [{
+				id: "5A8DDBC1777BECCF"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [{
+				id: "62DDB1D283B4C078"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["12AF10052E381004"]
+			id: "34661FB435F11F87"
+			tasks: [{
+				id: "20A0966D0920F83C"
+				type: "item"
+				item: "industrialforegoing:block_breaker"
+			}]
+			rewards: [{
+				id: "2F4F86024ABCFDD8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["12AF10052E381004"]
+			id: "5C8D8FE9C5A37D7F"
+			tasks: [{
+				id: "373B0AB1B59B7C85"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+			rewards: [{
+				id: "1ADE03DF9FC58B5F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			dependencies: ["12AF10052E381004"]
+			id: "635ECCA10AE9E965"
+			tasks: [{
+				id: "5939F44B1FC35F03"
+				type: "item"
+				item: "industrialforegoing:fluid_collector"
+			}]
+			rewards: [{
+				id: "56003543265AE206"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			dependencies: ["12AF10052E381004"]
+			id: "7BFACB55690ECF4F"
+			tasks: [{
+				id: "6837733578581623"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			rewards: [{
+				id: "5CE77DEB67601BA2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["12AF10052E381004"]
+			id: "35340544605F1B5C"
+			tasks: [{
+				id: "6C841B530E83E541"
+				type: "item"
+				item: "industrialforegoing:dye_mixer"
+			}]
+			rewards: [{
+				id: "4605B82416627729"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			dependencies: ["12AF10052E381004"]
+			id: "46D781C1C621A5E5"
+			tasks: [{
+				id: "76D7D382F6C7016D"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+			rewards: [{
+				id: "19B2DEC6EEB04CAD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			dependencies: ["12AF10052E381004"]
+			id: "1489176BE7A45268"
+			tasks: [{
+				id: "2D538664BE60D1A8"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+			rewards: [{
+				id: "7A40DFD8410A99B9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["12AF10052E381004"]
+			id: "3A144DC472DA8C1A"
+			tasks: [{
+				id: "7DAC58E26B22F34C"
+				type: "item"
+				item: "industrialforegoing:spores_recreator"
+			}]
+			rewards: [{
+				id: "5790197D4D996380"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["12AF10052E381004"]
+			id: "523305201492B6DB"
+			tasks: [{
+				id: "225DBCF18FF59463"
+				type: "item"
+				item: "industrialforegoing:water_condensator"
+			}]
+			rewards: [{
+				id: "06A0F7143FB860FD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: ["422CD5407954B87F"]
+			id: "79806C258A73B301"
+			tasks: [{
+				id: "37FF07FCFE8BD6C4"
+				type: "item"
+				item: "industrialforegoing:sludge_refiner"
+			}]
+			rewards: [{
+				id: "32890EB30A3357EB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["12AF10052E381004"]
+			id: "422CD5407954B87F"
+			tasks: [{
+				id: "432A3EE4DFBE6B25"
+				type: "item"
+				item: "industrialforegoing:resourceful_furnace"
+			}]
+			rewards: [{
+				id: "32E80C94186E23B1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["12AF10052E381004"]
+			id: "3CEE1DAEEAFEF4B3"
+			tasks: [{
+				id: "27794ACFF2611A87"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+			rewards: [{
+				id: "19C81F2956ADD853"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			dependencies: ["12AF10052E381004"]
+			id: "796900EF1A5B2238"
+			tasks: [{
+				id: "667940C780976969"
+				type: "item"
+				item: "industrialforegoing:fluid_placer"
+			}]
+			rewards: [{
+				id: "5FC5EF06B9DEE32F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			dependencies: ["12AF10052E381004"]
+			id: "41321732AA70E369"
+			tasks: [{
+				id: "484FC3582FCE9950"
+				type: "item"
+				item: "industrialforegoing:block_placer"
+			}]
+			rewards: [{
+				id: "5C6FF9F1959F6ECB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["12AF10052E381004"]
+			id: "64A381F2D90AAA34"
+			tasks: [
+				{
+					id: "001C4643D5D2500F"
+					type: "item"
+					item: "industrialforegoing:world_transporter_type"
+					count: 2L
+				}
+				{
+					id: "1814BFF40608F89E"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+					count: 2L
+				}
+				{
+					id: "0FAD42E554E0525E"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "668A38CBCFB0585A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			dependencies: ["12AF10052E381004"]
+			id: "569A4C04F381AA9F"
+			tasks: [{
+				id: "030CCDD7B266B14F"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			rewards: [{
+				id: "1B2F1C240EB9255B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: -4.0d
+			dependencies: ["48CFE0BFE3360604"]
+			id: "205D5C857F8EC4FB"
+			tasks: [{
+				id: "5778D5262D065CA6"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [{
+				id: "59001A7DEE454109"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			disable_toast: true
+			x: 6.5d
+			y: -9.5d
+			dependencies: ["602026820EB7E457"]
+			id: "6AA6CE05CC763922"
+			tasks: [{
+				id: "3EF6116DD24BDDB4"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "4A947212A3B88FCE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -11.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "458139703AC4B4D2"
+			tasks: [
+				{
+					id: "483B78B3B22B9F74"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon0"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "28EA1D70E9711E66"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon1"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 1.0f
+							}
+						}
+					}
+				}
+				{
+					id: "286AE58FCFC9129F"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 2.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "72D8A3BA927CE0BB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -10.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "15DA61E82D054EDE"
+			tasks: [{
+				id: "64D62BC4629D67BB"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CF1F899067EB4B9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "3B118016B5216C4F"
+			tasks: [{
+				id: "2C2BABF5B64A7CDC"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5562BE4EAD10933E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -8.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "72F42E391DB00476"
+			tasks: [{
+				id: "3C4B41BFD8D9D210"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5ABA9BE24BF80F78"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -9.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "05F81333D55733CA"
+			tasks: [{
+				id: "491E56A0E3B2A16F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_nuke"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "28977CFD01FC3F98"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -10.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "3BA3B45EE4F6E21B"
+			tasks: [{
+				id: "38B2A0DD584CDA4D"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "472F790BE55EBB5F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "6C900BB8B2054549"
+			tasks: [{
+				id: "7FEC0A0FE6B3EBB8"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+			rewards: [{
+				id: "564D69FADB9B415A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -11.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "07FD989E8C5C7CBA"
+			tasks: [{
+				id: "58A3330C39CC9120"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3538F48495A841AC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "1FDF7A6C7FC55996"
+			tasks: [
+				{
+					id: "659526886F84C23D"
+					type: "item"
+					item: {
+						id: "industrialforegoing:speed_addon_1"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Speed: 2.0f
+							}
+						}
+					}
+				}
+				{
+					id: "6629FB7729F6FD0C"
+					type: "item"
+					item: {
+						id: "industrialforegoing:speed_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4CF99E4C4D02893B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -11.5d
+			dependencies: ["458139703AC4B4D2"]
+			id: "5B307B24D59E52DA"
+			tasks: [
+				{
+					id: "5838C2A06064F62D"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon3"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 3.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0E56532ED5560C85"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon4"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 4.0f
+							}
+						}
+					}
+				}
+				{
+					id: "7C8B17C75A2BE83B"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon5"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 5.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A0BCD09060C1D3D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -11.5d
+			dependencies: ["5B307B24D59E52DA"]
+			id: "40D573281BB92E89"
+			tasks: [
+				{
+					id: "6367A4B8DEF4CDBC"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon6"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 6.0f
+							}
+						}
+					}
+				}
+				{
+					id: "308148243C215161"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon7"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 7.0f
+							}
+						}
+					}
+				}
+				{
+					id: "453ACD73A70665EC"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon8"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 8.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "03CD575C62D4FB1F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			dependencies: ["40D573281BB92E89"]
+			id: "6C74CC3312869E1F"
+			tasks: [
+				{
+					id: "433368943760F039"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon9"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 9.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0EA903618B152BA5"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon10"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 10.0f
+							}
+						}
+					}
+				}
+				{
+					id: "45BF5B1E67A85D05"
+					type: "item"
+					item: {
+						id: "industrialforegoing:range_addon11"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 11.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "695076FEFA825B6C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "695AE2DEB2319D59"
+			tasks: [
+				{
+					id: "77D1FD0D5067C873"
+					type: "item"
+					item: {
+						id: "industrialforegoing:efficiency_addon_1"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.9f
+							}
+						}
+					}
+				}
+				{
+					id: "38A7F1935ED3320B"
+					type: "item"
+					item: {
+						id: "industrialforegoing:efficiency_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1E3B21E7A4E72C48"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			dependencies: ["6AA6CE05CC763922"]
+			id: "309E1FA144601849"
+			tasks: [
+				{
+					id: "2F8982E79E70CB10"
+					type: "item"
+					item: {
+						id: "industrialforegoing:processing_addon_1"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Processing: 2.0f
+							}
+						}
+					}
+				}
+				{
+					id: "00DC3CCDF1F59826"
+					type: "item"
+					item: {
+						id: "industrialforegoing:processing_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6261BF71C64BE099"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.5d
+			dependencies: ["58575FCAF4133B22"]
+			id: "247A478730A28BC5"
+			tasks: [{
+				id: "764CFEB195BA0F00"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [{
+				id: "73C512C4159DC5C8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			dependencies: ["12AF10052E381004"]
+			id: "74FE9D52EA684A1B"
+			tasks: [{
+				id: "323535AEAFAB4A05"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "157168124F3CAFAD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "2C93DF596DD63181"
+			tasks: [{
+				id: "6B8FF85416EB6AA5"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+			rewards: [{
+				id: "6AFDC16CAA91698C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "6F3D9F7AEC0D0BAA"
+			tasks: [{
+				id: "77A0EFDB5FCEB937"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [{
+				id: "49B9A3FE6BA7DEC0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "49A670464D5FA004"
+			tasks: [{
+				id: "33B4591891CDDBA3"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [{
+				id: "71430302651560EB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "771D6D02DE339988"
+			tasks: [{
+				id: "239068C219F4D931"
+				type: "item"
+				item: "industrialforegoing:fermentation_station"
+			}]
+			rewards: [{
+				id: "41B8CA7F2D8B6ED8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.5d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "714F3EB3C19A7023"
+			tasks: [{
+				id: "3A4E0C761FA7B1CC"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+			rewards: [{
+				id: "65FB07B67647D633"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "2AF8A0FF3A8D28E2"
+			tasks: [{
+				id: "77645D6C6083527D"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+			rewards: [{
+				id: "6957975F0A5E06C2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.5d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "05D803E31384EEF6"
+			tasks: [{
+				id: "4E202E7722B78219"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+			rewards: [{
+				id: "1B54F5DD01CF02E5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "79B8BC96AF4D263B"
+			tasks: [{
+				id: "303BEB8DD68A3AB8"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [{
+				id: "6AB1DDE82BAB5799"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 17.0d
+			y: -2.5d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "611EA53A24632D4F"
+			tasks: [{
+				id: "0398198CAF1CB7D9"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "1A8D80573A973C9F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "08C02AB35703367F"
+			tasks: [{
+				id: "0C6322FE2E0D3565"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+			rewards: [{
+				id: "4CDED4B2C5BBCF05"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			dependencies: ["74FE9D52EA684A1B"]
+			id: "5B895731649D5CA9"
+			tasks: [{
+				id: "6A950E9A505CAB18"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+			rewards: [{
+				id: "7E2DA6A383E0871F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 17.0d
+			y: -6.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "6C1946AB8511B331"
+			tasks: [{
+				id: "7A93D3D064D4060A"
+				type: "item"
+				item: "industrialforegoing:enchantment_sorter"
+			}]
+			rewards: [{
+				id: "1C5F595DE131B1D4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "1AFEB55AB9B1070F"
+			tasks: [{
+				id: "62C8F1965CEC48D3"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [{
+				id: "6AA2FFD6A8108C82"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.0d
+			y: -6.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "72764B3E80A4F156"
+			tasks: [{
+				id: "5D308EFE9AAA2FCA"
+				type: "item"
+				item: "industrialforegoing:enchantment_applicator"
+			}]
+			rewards: [{
+				id: "7580506E1B58FBF6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "2FFE82BD5C8EB2CA"
+			tasks: [{
+				id: "2B97593D9AA58E1C"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [{
+				id: "0A932B444F1447C3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "651D988F1E69D0D8"
+			tasks: [{
+				id: "5C2B1CA1E7D58B32"
+				type: "item"
+				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+			rewards: [{
+				id: "48E2A3F92979F6AA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: -5.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "341DA5890028A44F"
+			tasks: [{
+				id: "5E0969BD9733FFCC"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+			rewards: [{
+				id: "19CCEA3E936FDCC7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: -6.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "108A9D9B923E35BC"
+			tasks: [{
+				id: "2664544294C68A13"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			rewards: [{
+				id: "667B503FA7583695"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "34BDE5CFB45E493F"
+			tasks: [{
+				id: "2BCF980DCC75D418"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [{
+				id: "48AC0DA2F17758B4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.0d
+			y: -5.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "16F97C08BEC9BCEF"
+			tasks: [{
+				id: "31D2CC2D6426ABD5"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+			rewards: [{
+				id: "6172BC52724FE01E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 17.0d
+			y: -5.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "4D2AD1E7307263DE"
+			tasks: [{
+				id: "1272F7C26B8EC79F"
+				type: "item"
+				item: "industrialforegoing:enchantment_factory"
+			}]
+			rewards: [{
+				id: "1E3693763FC95FBA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "6A306FC03EB82596"
+			tasks: [{
+				id: "4E66907DC5F1C95E"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [{
+				id: "760723B5CE17A464"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "3749801BE12294E7"
+			tasks: [{
+				id: "5A62951BB01874E7"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+			rewards: [{
+				id: "4A80CD159BC03C2F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.5d
+			y: 0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "05901021B13E083D"
+			tasks: [{
+				id: "2C356C107B903470"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [{
+				id: "0176BF39B5C5B55A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.0d
+			y: -5.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "591B9A29145BE668"
+			tasks: [{
+				id: "2E7A6339B92070A2"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [{
+				id: "427EBC5935522366"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.0d
+			y: -0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "7A498FE6056E0B1C"
+			tasks: [{
+				id: "569B1B2B046D143C"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+			rewards: [{
+				id: "18E50876287FD246"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 19.0d
+			y: -6.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "6A8F2E4F22C69A39"
+			tasks: [{
+				id: "55D3A0674659B89B"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "2F7B0DEEEB68F94A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.0d
+			y: -0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "342EEFBD4D374DF9"
+			tasks: [{
+				id: "64043B30EE3CF7DA"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+			rewards: [{
+				id: "7398D1A98AF038C5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -5.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "127006BFF56DC35C"
+			tasks: [{
+				id: "7A3874F1DA42E734"
+				type: "item"
+				item: "industrialforegoing:washing_factory"
+			}]
+			rewards: [{
+				id: "5C336B071C7A7AD0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: -0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "13FE2F082F20A7E2"
+			tasks: [{
+				id: "099C90A6B6C91D0B"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [{
+				id: "4EE6253BD59AC2F7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 18.0d
+			y: -5.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "6909E1E8926CA7B1"
+			tasks: [{
+				id: "208CF1F374CC1C51"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+			rewards: [{
+				id: "6BC80B438C774101"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 17.0d
+			y: -0.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "20365E88201F1FF6"
+			tasks: [{
+				id: "26B0DC95066A8105"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [{
+				id: "5A7CBE77C0BDE83D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -2.5d
+			dependencies: ["611EA53A24632D4F"]
+			id: "48CFE0BFE3360604"
+			tasks: [{
+				id: "35DBD57E460205E7"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [{
+				id: "37B315BF63AD2228"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -4.0d
+			dependencies: ["48CFE0BFE3360604"]
+			id: "370800E89B3FAD53"
+			tasks: [{
+				id: "7DDA854543A9BF75"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [{
+				id: "36AC0E4427D92A45"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: -0.5d
+			dependencies: ["48CFE0BFE3360604"]
+			id: "563268032314D501"
+			tasks: [{
+				id: "4D37AA73F8D722FC"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+			rewards: [{
+				id: "677118ACDD5D4D34"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 21.5d
+			y: -0.5d
+			dependencies: ["48CFE0BFE3360604"]
+			id: "751FC2F38B061237"
+			tasks: [{
+				id: "3714CFEA1A84B569"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+			rewards: [{
+				id: "5FCDB30873DF021A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: -0.5d
+			dependencies: ["48CFE0BFE3360604"]
+			id: "1B5D6A2312E6A201"
+			tasks: [{
+				id: "34FB01EFB44B60A0"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [{
+				id: "423741BC8139ACA9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 23.5d
+			y: -2.5d
+			dependencies: ["48CFE0BFE3360604"]
+			id: "47C388B1E0E14C6C"
+			tasks: [{
+				id: "750205B83D0B672E"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [{
+				id: "5940CE15F46488CB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

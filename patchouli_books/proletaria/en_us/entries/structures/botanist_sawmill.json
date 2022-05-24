@@ -1,0 +1,63 @@
+{
+  "name": "Botanist's Sawmill",
+  "icon": "masterfulmachinery:mysticwood_controller",
+  "category": "patchouli:multiblock_structures",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "masterfulmachinery:mysticwood_controller",
+      "title": "Botanist's Sawmill",
+      "link_recipe": true,
+      "text": "This is the Botanist Sawmill, it will allow you to cut special items."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "botanist_sawmill",
+      "multiblock": {
+        "pattern": [
+          [
+            "222",
+            "222",
+            "222",
+            "222",
+            "222"
+          ],
+          [
+            "*-C",
+            "+.1",
+            "+.1",
+            "+.1",
+            ",/0"
+          ],
+          [
+            ")))",
+            ")))",
+            ")))",
+            ")))",
+            ")))"
+          ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          ")": "kubejs:mysticwood_planks",
+          "*": "masterfulmachinery:mysticwood_default_port_fluids_input",
+          "+": "create:gearbox",
+          ",": "masterfulmachinery:mysticwood_default_port_create_rotation_input",
+          "-": "masterfulmachinery:mysticwood_default_port_items_input",
+          ".": "create:mechanical_saw[axis_along_first=true, facing=south]",
+          "/": "masterfulmachinery:mysticwood_default_port_items_output",
+          "C": "masterfulmachinery:mysticwood_default_port_botania_mana_input",
+          "1": "#forge:glass",
+          "2": "kubejs:mysticwood_planks_slab[type=bottom]",
+          "0": "masterfulmachinery:mysticwood_controller[facing=south]"
+        },
+        "symmetrical": false,
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}

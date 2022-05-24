@@ -1,0 +1,64 @@
+{
+  "name": "Overworld",
+  "icon": "emendatusenigmatica:copper_chunk",
+  "category": "patchouli:ores",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "emendatusenigmatica:copper_chunk",
+      "title": "Copper Ore",
+      "link_recipe": true,
+      "text": "Copper ore can be found between Y150 and Y20 in the overworld, or there is a chance it can spawn when using the Botania orechid"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "emendatusenigmatica:zinc_chunk",
+      "title": "Zinc ore",
+      "link_recipe": true,
+      "text": "Zinc ore can be found between Y135 and Y5 in the overworld, or there is a chance it can spawn when using the Botania orechid"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone",
+      "title": "Redstone ore",
+      "link_recipe": true,
+      "text": "Redstone ore can be found between Y28 and Y4 in the overworld"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lapis_lazuli",
+      "title": "Lapis ore",
+      "link_recipe": true,
+      "text": "Lapis ore can be found between Y36 and Y12 in the overworld"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:emerald",
+      "title": "Emerald ore",
+      "link_recipe": true,
+      "text": "Emerald ore can be found between Y52 and Y12 in the overworld"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:coal",
+      "title": "Coal ore",
+      "link_recipe": true,
+      "text": "Coal ore can be found between Y160 and Y1 in the overworld, or there is a chance it can spawn when using the Botania orechid"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "emendatusenigmatica:bitumen_gem",
+      "title": "Bitumen ore",
+      "link_recipe": true,
+      "text": "Bitumen ore can be found between Y160 and Y40 in the overworld"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "thermal:apatite",
+      "title": "Apatite ore",
+      "link_recipe": true,
+      "text": "Apatite ore can be found between Y128 and Y64 in the overworld"
+    }
+  ]
+}

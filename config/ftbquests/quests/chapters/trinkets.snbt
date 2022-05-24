@@ -1,0 +1,2010 @@
+{
+	id: "75780A41061216EE"
+	group: "1B43E39131B2A05D"
+	order_index: 4
+	filename: "trinkets"
+	title: "Shop - Trinkets"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Piggy Trinket"
+			icon: "losttrinkets:piggy"
+			tags: ["repeat"]
+			x: -1.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"37D8FDD39302D560"
+				"7A67C84FB331B413"
+			]
+			optional: true
+			id: "463B0F09A8FFE7C9"
+			tasks: [{
+				id: "5E41E47FBE35BB69"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22DFE1F3FE01502D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:piggy"
+			}]
+		}
+		{
+			title: "Creepo Trinket"
+			icon: "losttrinkets:creepo"
+			tags: ["repeat"]
+			x: 3.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "291CB4267B3F880E"
+			tasks: [{
+				id: "06CC24A62DF25EE8"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3D90067D239D75FD"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:creepo"
+			}]
+		}
+		{
+			title: "Horseshoe Trinket"
+			icon: "losttrinkets:horseshoe"
+			tags: ["repeat"]
+			x: 0.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"37D8FDD39302D560"
+				"7A67C84FB331B413"
+			]
+			optional: true
+			id: "180075F710AE946C"
+			tasks: [{
+				id: "4919ADE66B4BFFF9"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7B7BFB43E0D71FA3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:horseshoe"
+			}]
+		}
+		{
+			title: "Butcher's Cleaver Trinket"
+			icon: "losttrinkets:butchers_cleaver"
+			tags: ["repeat"]
+			x: 1.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"37D8FDD39302D560"
+				"7A67C84FB331B413"
+			]
+			optional: true
+			id: "3D2187134A5AE0B3"
+			tasks: [{
+				id: "0693B2F658B2D029"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F086AF76E09B829"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:butchers_cleaver"
+			}]
+		}
+		{
+			title: "Slingshot Trinket"
+			icon: "losttrinkets:slingshot"
+			tags: ["repeat"]
+			x: -1.0d
+			y: -3.5d
+			shape: "circle"
+			dependencies: [
+				"37D8FDD39302D560"
+				"7A67C84FB331B413"
+			]
+			optional: true
+			id: "0F10A4CA078549D3"
+			tasks: [{
+				id: "1ABFC5A02BEC5C3E"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "34ED2FC624FB6911"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:slingshot"
+			}]
+		}
+		{
+			title: "Magneto Trinket"
+			icon: "losttrinkets:magneto"
+			tags: ["repeat"]
+			x: 0.0d
+			y: -3.5d
+			shape: "circle"
+			dependencies: [
+				"37D8FDD39302D560"
+				"7A67C84FB331B413"
+			]
+			optional: true
+			id: "7446DF5FED32064C"
+			tasks: [{
+				id: "27D1EFEE85FD9C7F"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "429BF83F3AE11630"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:magneto"
+			}]
+		}
+		{
+			title: "Rock Candy Trinket"
+			icon: "losttrinkets:rock_candy"
+			tags: ["repeat"]
+			x: 4.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "5238A4F3F8E96878"
+			tasks: [{
+				id: "0B040F3BED3F35CD"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0FA3F1378EDDA6BB"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:rock_candy"
+			}]
+		}
+		{
+			title: "Lunch Bag Trinket"
+			icon: "losttrinkets:lunch_bag"
+			tags: ["repeat"]
+			x: 5.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "78C55738DE774A86"
+			tasks: [{
+				id: "0705199B0751917C"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4FEC0CEE56F74E1E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:lunch_bag"
+			}]
+		}
+		{
+			title: "Luck Coin Trinket"
+			icon: "losttrinkets:luck_coin"
+			tags: ["repeat"]
+			x: 3.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "47B02D5AB264DD66"
+			tasks: [{
+				id: "77048F5869224F5A"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78F381AF7D0D1042"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:luck_coin"
+			}]
+		}
+		{
+			title: "Ice Shard Trinket"
+			icon: "losttrinkets:ice_shard"
+			tags: ["repeat"]
+			x: 3.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "755FDB9B7A2A7E71"
+			tasks: [{
+				id: "2BCE4A7D79B8BBFE"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5964D971766DA64A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:ice_shard"
+			}]
+		}
+		{
+			title: "Empty Amulet Trinket"
+			icon: "losttrinkets:empty_amulet"
+			tags: ["repeat"]
+			x: 1.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "39CAD28FE8D6938D"
+			tasks: [{
+				id: "40BC51B9DAE816DA"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5BC3E7487ECF72ED"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:empty_amulet"
+			}]
+		}
+		{
+			title: "Tha Spider Trinket"
+			icon: "losttrinkets:tha_spider"
+			tags: ["repeat"]
+			x: 2.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "0CD38D086326A6F0"
+			tasks: [{
+				id: "281C405592BF276D"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7EB0D990CF62CE0C"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tha_spider"
+			}]
+		}
+		{
+			title: "Glass Shard Trinket"
+			icon: "losttrinkets:glass_shard"
+			tags: ["repeat"]
+			x: 4.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "1AA51661021E6068"
+			tasks: [{
+				id: "0D2F74A86475070E"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20F908DCCDFE2F7B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:glass_shard"
+			}]
+		}
+		{
+			title: "Blaze Heart Trinket"
+			icon: "losttrinkets:blaze_heart"
+			tags: ["repeat"]
+			x: 3.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "6BBA45C49A814E30"
+			tasks: [{
+				id: "32AD4D413ADE9965"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "390FA3814393851B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:blaze_heart"
+			}]
+		}
+		{
+			title: "Tha Ghost Trinket"
+			icon: "losttrinkets:tha_ghost"
+			tags: ["repeat"]
+			x: 2.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "29B9ACAA5EDCB683"
+			tasks: [{
+				id: "5B0CA16FE5B80D03"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7BFACCF3C459DE39"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tha_ghost"
+			}]
+		}
+		{
+			title: "Treble Hooks Trinket"
+			icon: "losttrinkets:treble_hooks"
+			tags: ["repeat"]
+			x: -5.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "5B57B79A92F15996"
+			tasks: [{
+				id: "53BCEA7810D055C9"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "51E3097E6AD5C5F7"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:treble_hooks"
+			}]
+		}
+		{
+			title: "Tha Wizard Trinket"
+			icon: "losttrinkets:tha_wizard"
+			tags: ["repeat"]
+			x: 3.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "7C3B67CBDCB3061E"
+			tasks: [{
+				id: "43EBB00F2697120D"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "511D837751B68B91"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tha_wizard"
+			}]
+		}
+		{
+			title: "Tha Bat Trinket"
+			icon: "losttrinkets:tha_bat"
+			tags: ["repeat"]
+			x: 4.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "75C358571723BC36"
+			tasks: [{
+				id: "0F3844C7BC47C35B"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22169BA3A953AB2F"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tha_bat"
+			}]
+		}
+		{
+			title: "Blank Eyes Trinket"
+			icon: "losttrinkets:blank_eyes"
+			tags: ["repeat"]
+			x: 5.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "39B8737BB8A667B4"
+			tasks: [{
+				id: "0A9ACD302477CB52"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "012AF1EFEB9E32E3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:blank_eyes"
+			}]
+		}
+		{
+			title: "Tha Cloud Trinket"
+			icon: "losttrinkets:tha_cloud"
+			tags: ["repeat"]
+			x: 4.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "684CA1B51DFC06A4"
+			tasks: [{
+				id: "3E2FD40EFAC49680"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "26A2D69351AA52D3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tha_cloud"
+			}]
+		}
+		{
+			title: "Miner's Pick Trinket"
+			icon: "losttrinkets:miners_pick"
+			tags: ["repeat"]
+			x: 3.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "460EAEEA709FA99F"
+			tasks: [{
+				id: "19CD48EABA2B72EF"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1C741929815EB4BA"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:miners_pick"
+			}]
+		}
+		{
+			title: "Big Foot Trinket"
+			icon: "losttrinkets:big_foot"
+			tags: ["repeat"]
+			x: 1.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "630533365A5D88F9"
+			tasks: [{
+				id: "1A2F308A0A8604AA"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "14900ACF5F69108B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:big_foot"
+			}]
+		}
+		{
+			title: "Book O'Enchanting Trinket"
+			icon: "losttrinkets:book_o_enchanting"
+			tags: ["repeat"]
+			x: -5.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "3D05FAF79E24FC5C"
+			tasks: [{
+				id: "1C930CB4B408DDC8"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4F776346EBEF7719"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:book_o_enchanting"
+			}]
+		}
+		{
+			title: "Warm Void Trinket"
+			icon: "losttrinkets:warm_void"
+			tags: ["repeat"]
+			x: -4.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "450C90AF68A2A069"
+			tasks: [{
+				id: "580AD96B862F607A"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3FBB734DC3094265"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:warm_void"
+			}]
+		}
+		{
+			title: "Golden Melon Trinket"
+			icon: "losttrinkets:golden_melon"
+			tags: ["repeat"]
+			x: -3.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "411975A4A97F07D4"
+			tasks: [{
+				id: "415DA4E318907565"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70138FF49600794D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:golden_melon"
+			}]
+		}
+		{
+			title: "Turtle Shell Trinket"
+			icon: "losttrinkets:turtle_shell"
+			tags: ["repeat"]
+			x: 5.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "4AEA53288AA52798"
+			tasks: [{
+				id: "1574B669A5C9BD89"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60FBBD33CF2A6AEE"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:turtle_shell"
+			}]
+		}
+		{
+			title: "Wither Nail Trinket"
+			icon: "losttrinkets:wither_nail"
+			tags: ["repeat"]
+			x: -2.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "083E627D78C009A0"
+			tasks: [{
+				id: "47670B2E8BB134B6"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C23E92948CD04AE"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:wither_nail"
+			}]
+		}
+		{
+			title: "Serpent Tooth Trinket"
+			icon: "losttrinkets:serpent_tooth"
+			tags: ["repeat"]
+			x: -4.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "6D8076A191103C20"
+			tasks: [{
+				id: "03D069A4EAAEE7A8"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C083737C77D0B1E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:serpent_tooth"
+			}]
+		}
+		{
+			title: "Mad Piggy Trinket"
+			icon: "losttrinkets:mad_piggy"
+			tags: ["repeat"]
+			x: 4.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "47B901E2CFF5592E"
+			tasks: [{
+				id: "5B2F959245A08ED4"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70F3D81AC6D96D0D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:mad_piggy"
+			}]
+		}
+		{
+			title: "Mind's Eye Trinket"
+			icon: "losttrinkets:minds_eye"
+			tags: ["repeat"]
+			x: 4.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "4F0D1D8A2B07CAA1"
+			tasks: [{
+				id: "7A32488471BEF8E8"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22C7DE00467D642E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:minds_eye"
+			}]
+		}
+		{
+			title: "Golden Swatter Trinket"
+			icon: "losttrinkets:golden_swatter"
+			tags: ["repeat"]
+			x: 5.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "6581956E49D22A95"
+			tasks: [{
+				id: "6692D3F43807BB66"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D8B8D06BB64D447"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:golden_swatter"
+			}]
+		}
+		{
+			title: "Sticky Mind Trinket"
+			icon: "losttrinkets:sticky_mind"
+			tags: ["repeat"]
+			x: 1.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "4B19E03C4DE9DD28"
+			tasks: [{
+				id: "62434B07D66402E4"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A3747173BC5A8D7"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:sticky_mind"
+			}]
+		}
+		{
+			title: "Fire Mind Trinket"
+			icon: "losttrinkets:fire_mind"
+			tags: ["repeat"]
+			x: -1.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "0F0D0E77F7BAA062"
+			tasks: [{
+				id: "48F0BF04CDEF53E4"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "16B7F8DF320CFE21"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:fire_mind"
+			}]
+		}
+		{
+			title: "Tha Golem Trinket"
+			icon: "losttrinkets:tha_golem"
+			tags: ["repeat"]
+			x: 2.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "5DD3C7E17AE92E31"
+			tasks: [{
+				id: "6D554A6295D73F25"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54B5516BE66216A6"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tha_golem"
+			}]
+		}
+		{
+			title: "Dragon Breath Trinket"
+			icon: "losttrinkets:dragon_breath"
+			tags: ["repeat"]
+			x: -1.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "429E3D5E614059E9"
+			tasks: [{
+				id: "2D078124B9F5D8A9"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "09DB63EA0AA8D7BA"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:dragon_breath"
+			}]
+		}
+		{
+			title: "Karma Trinket"
+			icon: "losttrinkets:karma"
+			tags: ["repeat"]
+			x: -5.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "5B8BD5D6DDF60764"
+			tasks: [{
+				id: "482410F0CEF5152F"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "56BC1068F4614A54"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:karma"
+			}]
+		}
+		{
+			title: "Dark Dagger Trinket"
+			icon: "losttrinkets:dark_dagger"
+			tags: ["repeat"]
+			x: -3.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "2E5E304E154B9AA7"
+			tasks: [{
+				id: "444B2FC54E5235B7"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "52E699EC595BE6A5"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:dark_dagger"
+			}]
+		}
+		{
+			title: "Starfish Trinket"
+			icon: "losttrinkets:starfish"
+			tags: ["repeat"]
+			x: -2.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "6227486EEA37019E"
+			tasks: [{
+				id: "1550199A71CC0B4C"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "17A790236AA72D98"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:starfish"
+			}]
+		}
+		{
+			title: "Drop Spindle Trinket"
+			icon: "losttrinkets:drop_spindle"
+			tags: ["repeat"]
+			x: -5.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "1E9C2CDC47363504"
+			tasks: [{
+				id: "1C0B14EC61293591"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "61D4222672E50703"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:drop_spindle"
+			}]
+		}
+		{
+			title: "Ember Trinket"
+			icon: "losttrinkets:ember"
+			tags: ["repeat"]
+			x: -2.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "17B0280A626801FB"
+			tasks: [{
+				id: "330AA0AB51AB50F2"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "198359C6500A0DA9"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:ember"
+			}]
+		}
+		{
+			title: "Tea Leaf Trinket"
+			icon: "losttrinkets:tea_leaf"
+			tags: ["repeat"]
+			x: -3.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "79D8088DD1D2BC72"
+			tasks: [{
+				id: "0552AE1F9F8ED5A8"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "643A3AEC0CE03EDC"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tea_leaf"
+			}]
+		}
+		{
+			title: "Coffee Bean Trinket"
+			icon: "losttrinkets:coffee_bean"
+			tags: ["repeat"]
+			x: -5.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "7AC19C3F09BCCCB7"
+			tasks: [{
+				id: "59FF9CAAC63480C6"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1FA6340CBA6AE88B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:coffee_bean"
+			}]
+		}
+		{
+			title: "Oxalis Trinket"
+			icon: "losttrinkets:oxalis"
+			tags: ["repeat"]
+			x: -5.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "062D043B44A74759"
+			tasks: [{
+				id: "1919F14D13BB36A9"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E28BB7F255D01EE"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:oxalis"
+			}]
+		}
+		{
+			title: "Golden Skull Trinket"
+			icon: "losttrinkets:golden_skull"
+			tags: ["repeat"]
+			x: -4.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "383600503368D8B0"
+			tasks: [{
+				id: "37CD04CCDBB934EE"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48EE705467C5035B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:golden_skull"
+			}]
+		}
+		{
+			title: "Dark Egg Trinket"
+			icon: "losttrinkets:dark_egg"
+			tags: ["repeat"]
+			x: -3.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "719B2B5FE4FB7E8A"
+			tasks: [{
+				id: "63B38E050DF5434F"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "030D32814B407321"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:dark_egg"
+			}]
+		}
+		{
+			title: "Pillow Of Secrets Trinket"
+			icon: "losttrinkets:pillow_of_secrets"
+			tags: ["repeat"]
+			x: -4.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "560D7F1C803B04CA"
+			tasks: [{
+				id: "3B6E331222FC7D51"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "72E3E7C77520889A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:pillow_of_secrets"
+			}]
+		}
+		{
+			title: "Tha Spirit Trinket"
+			icon: "losttrinkets:tha_spirit"
+			tags: ["repeat"]
+			x: -3.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			hide_text_until_complete: false
+			id: "06BF888DB465877E"
+			tasks: [{
+				id: "78ACF8CD360290C4"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0C7DF6C7E8F1596C"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:tha_spirit"
+			}]
+		}
+		{
+			title: "Mirror Shard Trinket"
+			icon: "losttrinkets:mirror_shard"
+			tags: ["repeat"]
+			x: -3.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "2D8C6DE0E82A350A"
+			tasks: [{
+				id: "34A018B5FBE0D171"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7F11B7D6066BDF48"
+				type: "item"
+				team_reward: true
+				item: "losttrinkets:mirror_shard"
+			}]
+		}
+		{
+			title: "Mossy Ring Trinket"
+			icon: "losttrinkets:mossy_ring"
+			tags: ["repeat"]
+			x: -5.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "4B8CFE2CA2AFBCAA"
+			tasks: [{
+				id: "6D3B74FC1C2C2DAA"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "06862FAA75A6970E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:mossy_ring"
+			}]
+		}
+		{
+			title: "Mossy Belt Trinket"
+			icon: "losttrinkets:mossy_belt"
+			tags: ["repeat"]
+			x: -4.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "5ABC20B72C027723"
+			tasks: [{
+				id: "49D15AC7041A18FA"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2FFC5E7C970147BB"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:mossy_belt"
+			}]
+		}
+		{
+			title: "Treasure Ring Trinket"
+			icon: "losttrinkets:treasure_ring"
+			tags: ["repeat"]
+			x: -4.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "7EBF3D70294444F3"
+			tasks: [{
+				id: "17251E04627C873C"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7002240E07343828"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:treasure_ring"
+			}]
+		}
+		{
+			title: "Octopick Trinket"
+			icon: "losttrinkets:octopick"
+			tags: ["repeat"]
+			x: 3.5d
+			y: 6.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "031B0409794963F4"
+			tasks: [{
+				id: "52AEABE6D8B66668"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "115AE3BBE6D6C973"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:octopick"
+			}]
+		}
+		{
+			title: "Silver Nail Trinket"
+			icon: "losttrinkets:silver_nail"
+			tags: ["repeat"]
+			x: -3.5d
+			y: 6.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "3BA554E15CFE17BF"
+			tasks: [{
+				id: "5749AD5446631B27"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1D518B6120992D1A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:silver_nail"
+			}]
+		}
+		{
+			title: "Glory Shards Trinket"
+			icon: "losttrinkets:glory_shards"
+			tags: ["repeat"]
+			x: -6.5d
+			y: -0.5d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "67E877346FF00904"
+			tasks: [{
+				id: "37C9EB802C20B2A8"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6BE4D4511DA7EE3E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:glory_shards"
+			}]
+		}
+		{
+			title: "Ash Gloves Trinket"
+			icon: "losttrinkets:ash_gloves"
+			tags: ["repeat"]
+			x: 3.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "6E4A805FC6884531"
+			tasks: [{
+				id: "23A12527A015224C"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58F074C45BD6F894"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:ash_gloves"
+			}]
+		}
+		{
+			title: "Ruby Heart Trinket"
+			icon: "losttrinkets:ruby_heart"
+			tags: ["repeat"]
+			x: 4.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "5C8A3B8911D3D07C"
+			tasks: [{
+				id: "3E158FDEC23DF701"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73C477A27E89BD83"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:ruby_heart"
+			}]
+		}
+		{
+			title: "Golden Horseshoe Trinket"
+			icon: "losttrinkets:golden_horseshoe"
+			tags: ["repeat"]
+			x: 5.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "70414D9E7C7F75B3"
+			tasks: [{
+				id: "460DA3E01F3B26C1"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "111549347D8B73E1"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:golden_horseshoe"
+			}]
+		}
+		{
+			title: "Golden Tooth Trinket"
+			icon: "losttrinkets:golden_tooth"
+			tags: ["repeat"]
+			x: -1.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "458B5012BD8FA49D"
+			tasks: [{
+				id: "69EF47FB1949FD85"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2E7E51C81F31B915"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:golden_tooth"
+			}]
+		}
+		{
+			title: "Broken Heart 1 Trinket"
+			icon: "losttrinkets:broken_heart_1"
+			tags: ["repeat"]
+			x: 1.0d
+			y: -3.5d
+			shape: "circle"
+			dependencies: [
+				"37D8FDD39302D560"
+				"7A67C84FB331B413"
+			]
+			optional: true
+			id: "3B54DCE93841C2DD"
+			tasks: [{
+				id: "7EE8139EC2611041"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00F1D8B7F2F77D92"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:broken_heart_1"
+			}]
+		}
+		{
+			title: "Broken Heart 2 Trinket"
+			icon: "losttrinkets:broken_heart_2"
+			tags: ["repeat"]
+			x: 5.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "18B1A98DF75D6641"
+			tasks: [{
+				id: "7D890964611F73A5"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4F1F3E2A2D6EBE55"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:broken_heart_2"
+			}]
+		}
+		{
+			title: "Broken Heart 3 Trinket"
+			icon: "losttrinkets:broken_heart_3"
+			tags: ["repeat"]
+			x: 5.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["21E617AEC1EA21E6"]
+			optional: true
+			id: "5AF6CBEBFD4FE24E"
+			tasks: [{
+				id: "771F9BAF3E7624B7"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7134DB7F8EECCDAE"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:broken_heart_3"
+			}]
+		}
+		{
+			title: "Broken Heart 4 Trinket"
+			icon: "losttrinkets:broken_heart_4"
+			tags: ["repeat"]
+			x: 4.5d
+			y: 6.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "4416D74D608BB8F3"
+			tasks: [{
+				id: "19D2CCA85D4C4B61"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "21004D60C2CA561C"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:broken_heart_4"
+			}]
+		}
+		{
+			title: "Broken Heart 5 Trinket"
+			icon: "losttrinkets:broken_heart_5"
+			tags: ["repeat"]
+			x: -2.5d
+			y: 6.5d
+			shape: "circle"
+			dependencies: ["63AC93D930C8DE4C"]
+			optional: true
+			id: "7E2ED30A7F85F275"
+			tasks: [{
+				id: "3E820373F381A241"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "089AB136DCD0F96E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:broken_heart_5"
+			}]
+		}
+		{
+			title: "Octopus Leg Trinket"
+			icon: "losttrinkets:octopus_leg"
+			tags: ["repeat"]
+			x: -4.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "18CA6134D2379D85"
+			tasks: [{
+				id: "69E51DF290B1D606"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "31515FBE79AB6E37"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:octopus_leg"
+			}]
+		}
+		{
+			title: "Magical Herbs Trinket"
+			icon: "losttrinkets:magical_herbs"
+			tags: ["repeat"]
+			x: -3.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["106156FBAB3895E6"]
+			optional: true
+			id: "5D40E6D67380CFCC"
+			tasks: [{
+				id: "7D9D41EC44688D7A"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 250L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48D00D94B3D30EC5"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:magical_herbs"
+			}]
+		}
+		{
+			title: "Mad Aura Trinket"
+			icon: "losttrinkets:mad_aura"
+			tags: ["repeat"]
+			x: 1.5d
+			y: 6.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "7FD58970D977EB91"
+			tasks: [{
+				id: "6938C7F2FCAC89B3"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "338159D139233220"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:mad_aura"
+			}]
+		}
+		{
+			title: "Broken Totem Trinket"
+			icon: "losttrinkets:broken_totem"
+			tags: ["repeat"]
+			x: 2.5d
+			y: 6.5d
+			shape: "circle"
+			dependencies: ["7AD08CEEDB76BD1E"]
+			optional: true
+			id: "3CAEE1149521776D"
+			tasks: [{
+				id: "133C99B32C145AF0"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0546A8EA896C7355"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "losttrinkets:broken_totem"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -2.0d
+			id: "7A67C84FB331B413"
+			tasks: [{
+				id: "74A2DE573930E1F2"
+				type: "gamestage"
+				title: "Stage 1"
+				icon: "minecraft:oak_log"
+				stage: "stage_1"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["7A67C84FB331B413"]
+			id: "21E617AEC1EA21E6"
+			tasks: [{
+				id: "052642D662F0CCF2"
+				type: "gamestage"
+				title: "Stage 2"
+				icon: "botania:orechid"
+				stage: "stage_2"
+			}]
+			rewards: [
+				{
+					id: "01EB47FA8A5F962F"
+					type: "command"
+					title: "Bracelet +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add bracelet @p"
+					player_command: false
+				}
+				{
+					id: "27129B54335C6A21"
+					type: "command"
+					title: "Charm +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add charm @p"
+					player_command: false
+				}
+				{
+					id: "7B1941EA0711F3E3"
+					type: "command"
+					title: "Necklace +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add necklace @p"
+					player_command: false
+				}
+				{
+					id: "16DB08E94A99824D"
+					type: "command"
+					title: "Ring +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add ring @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["21E617AEC1EA21E6"]
+			id: "7AD08CEEDB76BD1E"
+			tasks: [{
+				id: "48C7D39D93FE4BA4"
+				type: "gamestage"
+				title: "Stage 3"
+				icon: "atum:scarab"
+				stage: "stage_3"
+			}]
+			rewards: [
+				{
+					id: "34E06F3B8F478CB6"
+					type: "command"
+					title: "Bracelet +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add bracelet @p"
+					player_command: false
+				}
+				{
+					id: "03B404E2F35D05AC"
+					type: "command"
+					title: "Charm +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add charm @p"
+					player_command: false
+				}
+				{
+					id: "54CDA8703737C14F"
+					type: "command"
+					title: "Ring +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add ring @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["7AD08CEEDB76BD1E"]
+			id: "63AC93D930C8DE4C"
+			tasks: [{
+				id: "5F5496334FFCC388"
+				type: "gamestage"
+				title: "Stage 4"
+				icon: "minecraft:dragon_head"
+				stage: "stage_4"
+			}]
+			rewards: [
+				{
+					id: "734C6CD75A0244B1"
+					type: "command"
+					title: "Ring +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add ring @p"
+					player_command: false
+				}
+				{
+					id: "20D4EB6024E11899"
+					type: "command"
+					title: "Bracelet +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add bracelet @p"
+					player_command: false
+				}
+				{
+					id: "7216E5AC255DDD3E"
+					type: "command"
+					title: "Charm +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add charm @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "angelring:itemring"
+			disable_toast: true
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["63AC93D930C8DE4C"]
+			id: "106156FBAB3895E6"
+			tasks: [{
+				id: "58C1939187D6F38C"
+				type: "gamestage"
+				title: "Stage 5"
+				icon: "angelring:itemring"
+				stage: "stage_5"
+			}]
+			rewards: [
+				{
+					id: "4E5BAD1E0D16BD42"
+					type: "command"
+					title: "Head +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add head @p"
+					player_command: false
+				}
+				{
+					id: "2623CF4F468D2263"
+					type: "command"
+					title: "Back +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add back @p"
+					player_command: false
+				}
+				{
+					id: "50D7F85C774079B1"
+					type: "command"
+					title: "Body +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add body @p"
+					player_command: false
+				}
+				{
+					id: "578AEFB626724EE3"
+					type: "command"
+					title: "Hands +2"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add hands @p 2"
+					player_command: false
+				}
+				{
+					id: "038F6DD8ED512549"
+					type: "command"
+					title: "Belt +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add belt @p"
+					player_command: false
+				}
+				{
+					id: "5F790A3CBF69F415"
+					type: "command"
+					title: "Charm +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add charm @p"
+					player_command: false
+				}
+				{
+					id: "4B55F9A0417B0A55"
+					type: "command"
+					title: "Feet +1"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add feet @p"
+					player_command: false
+				}
+				{
+					id: "2025A61CC6A43FAB"
+					type: "command"
+					title: "Ring +5"
+					team_reward: false
+					auto: "invisible"
+					command: "/curios add ring @p 5"
+					player_command: false
+				}
+			]
+		}
+	]
+}

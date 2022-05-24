@@ -1,0 +1,68 @@
+{
+	id: "274EE0CBA31E9AE6"
+	order_index: 1
+	title: "constellation_papers"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Aevitas"
+			item: {
+				id: "astralsorcery:constellation_paper"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellationName: "astralsorcery:aevitas"
+					}
+				}
+			}
+		}
+		{
+			title: "Vicio"
+			item: {
+				id: "astralsorcery:constellation_paper"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellationName: "astralsorcery:vicio"
+					}
+				}
+			}
+		}
+		{
+			title: "Armara"
+			item: {
+				id: "astralsorcery:constellation_paper"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellationName: "astralsorcery:armara"
+					}
+				}
+			}
+		}
+		{
+			title: "Discidia"
+			item: {
+				id: "astralsorcery:constellation_paper"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellationName: "astralsorcery:discidia"
+					}
+				}
+			}
+		}
+		{
+			title: "Evorsio"
+			item: {
+				id: "astralsorcery:constellation_paper"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellationName: "astralsorcery:evorsio"
+					}
+				}
+			}
+		}
+	]
+}

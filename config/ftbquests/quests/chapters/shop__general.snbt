@@ -1,0 +1,494 @@
+{
+	id: "03364781E531E11E"
+	group: "1B43E39131B2A05D"
+	order_index: 2
+	filename: "shop__general"
+	title: "Shop - General"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -4.0d
+			y: -4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/filled_map.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cooked_beef.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Ocean Temple Map"
+			icon: "minecraft:prismarine"
+			tags: ["repeat"]
+			x: -4.5d
+			y: -2.5d
+			subtitle: "ONLY CLAIM THE REWARD IF YOU ARE IN THE OVERWORLD"
+			dependencies: ["42CFA6A52E641A25"]
+			id: "1D4094CD6BD77F56"
+			tasks: [
+				{
+					id: "7A50E85953DE7714"
+					type: "item"
+					item: "minecraft:lapis_block"
+					consume_items: true
+				}
+				{
+					id: "4D0149201BA41494"
+					type: "item"
+					item: "minecraft:tropical_fish"
+					consume_items: true
+				}
+				{
+					id: "4503CCADE1866767"
+					type: "item"
+					item: "minecraft:pufferfish"
+					consume_items: true
+				}
+				{
+					id: "3BC9D3488FFF457E"
+					type: "item"
+					item: "minecraft:cyan_dye"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6C1BDDDF7936CB1E"
+				type: "command"
+				title: "Ocean Monument Map"
+				icon: {
+					id: "minecraft:filled_map"
+					Count: 1b
+					tag: {
+						map: 1
+					}
+				}
+				team_reward: true
+				command: "/execute at @p run loot spawn ~ ~ ~ loot proletaria:ocean_monument_map"
+				player_command: false
+			}]
+		}
+		{
+			title: "Girafi Tomb exploration map"
+			icon: "atum:idol_of_labor"
+			tags: ["repeat"]
+			x: -3.5d
+			y: -2.5d
+			subtitle: "ONLY CLAIM THE REWARD IF YOUR IN THE ATUM DIMENSION"
+			dependencies: ["6233041CE3AB0D9D"]
+			optional: true
+			id: "5389057126174250"
+			tasks: [
+				{
+					id: "1C90D751BE7D7F0E"
+					type: "item"
+					title: "Any Sapphire Relic"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "atum:relic_sapphire_idol"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_sapphire_necklace"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_sapphire_ring"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_sapphire_brooch"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_sapphire_bracelet"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3EF0EE943716A69F"
+					type: "item"
+					title: "Any Ruby Relic"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "atum:relic_ruby_idol"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_ruby_necklace"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_ruby_ring"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_ruby_brooch"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_ruby_bracelet"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2B4D2022347DA8F5"
+					type: "item"
+					title: "Any Emerald Relic"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "atum:relic_emerald_idol"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_emerald_necklace"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_emerald_ring"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_emerald_brooch"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_emerald_bracelet"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7228EF71CEBFCF58"
+					type: "item"
+					title: "Any Diamond Relic"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "atum:relic_diamond_necklace"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_diamond_brooch"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_diamond_idol"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_diamond_ring"
+									Count: 1b
+								}
+								{
+									id: "atum:relic_diamond_bracelet"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "40D9E9517CD5AFCA"
+				type: "command"
+				title: "Girafi Tomb exploration map"
+				icon: {
+					id: "minecraft:filled_map"
+					Count: 1b
+					tag: {
+						map: 17
+					}
+				}
+				team_reward: true
+				command: "/execute at @p run loot spawn ~ ~ ~ loot proletaria:girafi_tomb_map"
+				player_command: false
+			}]
+		}
+		{
+			title: "Cooked Salmon"
+			icon: "minecraft:cooked_salmon"
+			tags: ["repeat"]
+			x: -1.5d
+			y: -2.5d
+			optional: true
+			id: "302F6F9254FCC5AB"
+			tasks: [{
+				id: "1FDFDDDCFD564B4A"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4071730980F6D465"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "minecraft:cooked_salmon"
+			}]
+		}
+		{
+			title: "Cooked Mutton"
+			icon: "minecraft:cooked_mutton"
+			tags: ["repeat"]
+			x: -1.5d
+			y: -1.5d
+			optional: true
+			id: "652BDD151DB27894"
+			tasks: [{
+				id: "06D233D488475C86"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E47FE3D4447F027"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "minecraft:cooked_mutton"
+			}]
+		}
+		{
+			title: "Cooked Camel"
+			icon: "atum:camel_cooked"
+			tags: ["repeat"]
+			x: -1.5d
+			y: -0.5d
+			optional: true
+			id: "74015BC0F0505DBD"
+			tasks: [{
+				id: "0B7CA45E94433C89"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B799613239DE360"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "atum:camel_cooked"
+			}]
+		}
+		{
+			title: "Cooked Joshua Fruit"
+			icon: "byg:joshua_fruit"
+			tags: ["repeat"]
+			x: -1.5d
+			y: 0.5d
+			optional: true
+			id: "1625A3AF366293A7"
+			tasks: [{
+				id: "19D16AB60D94FEB3"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "658C1CE4C33642F3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "byg:cooked_joshua_fruit"
+			}]
+		}
+		{
+			title: "Cooked Quail"
+			icon: "atum:quail_cooked"
+			tags: ["repeat"]
+			x: -0.5d
+			y: -0.5d
+			optional: true
+			id: "61E6C113E37CC949"
+			tasks: [{
+				id: "75A81121D5BFB46C"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "676BC50891BFA969"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "atum:quail_cooked"
+			}]
+		}
+		{
+			title: "Cooked Rabbit"
+			icon: "minecraft:cooked_rabbit"
+			tags: ["repeat"]
+			x: -0.5d
+			y: -1.5d
+			optional: true
+			id: "5A2B61423968BBE6"
+			tasks: [{
+				id: "220D8041FCB917A4"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3A85AEE7F29F2815"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "minecraft:cooked_rabbit"
+			}]
+		}
+		{
+			title: "Cooked Cod"
+			icon: "minecraft:cooked_cod"
+			tags: ["repeat"]
+			x: -0.5d
+			y: -2.5d
+			optional: true
+			id: "43F8859DD4DB8573"
+			tasks: [{
+				id: "594B0611D3835E2A"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "03D87BC82CE44587"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "minecraft:cooked_cod"
+			}]
+		}
+		{
+			title: "Cooked Porkchop"
+			icon: "minecraft:cooked_porkchop"
+			tags: ["repeat"]
+			x: 0.5d
+			y: -2.5d
+			optional: true
+			id: "27D9D0BD9DFF16A4"
+			tasks: [{
+				id: "25D03BF2F469E92E"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "081A2FCDBF703FA3"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "minecraft:cooked_porkchop"
+			}]
+		}
+		{
+			title: "Cooked Chicken"
+			icon: "minecraft:cooked_chicken"
+			tags: ["repeat"]
+			x: 0.5d
+			y: -1.5d
+			optional: true
+			id: "1435468EC7D4E815"
+			tasks: [{
+				id: "1FBB7B191C95EDDB"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0C2F8C235078DB9A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "minecraft:cooked_chicken"
+			}]
+		}
+		{
+			title: "Cooked Rice 250 gram"
+			icon: {
+				id: "sushigocrafting:cooked_rice"
+				Count: 1b
+				tag: {
+					Amount: 2000
+				}
+			}
+			tags: ["repeat"]
+			x: 0.5d
+			y: -0.5d
+			optional: true
+			id: "5D8DBB06FBEC73CF"
+			tasks: [{
+				id: "31EBAC8D6B1D64D1"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C3E1C224152BEDD"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: {
+					id: "sushigocrafting:cooked_rice"
+					Count: 1b
+					tag: {
+						Amount: 250
+					}
+				}
+			}]
+		}
+	]
+}

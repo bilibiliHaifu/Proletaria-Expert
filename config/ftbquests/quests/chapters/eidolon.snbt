@@ -1,0 +1,403 @@
+{
+	id: "76A3C14B9EA22913"
+	group: "1DFE3EE269C0174B"
+	order_index: 4
+	filename: "eidolon"
+	title: "Eidolon"
+	icon: "eidolon:worktable"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			disable_toast: true
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["1980E267019B7A96"]
+			id: "1121B5F849FD2288"
+			tasks: [{
+				id: "6E892D0BC8A8467F"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [{
+				id: "3A0BA2D0CE932003"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			disable_toast: true
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Consult the ritual page of your Ars Ecclesia on how to craft the Sanguine Items"
+			dependencies: ["3222D3893BC54B97"]
+			id: "61F4B112DB326FF7"
+			tasks: [{
+				id: "2C2D1FD1AAB78F98"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [{
+				id: "7F767A7343A789E3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["61F4B112DB326FF7"]
+			id: "0C1A4A753F6065AC"
+			tasks: [{
+				id: "3B9A62A56C0DC65B"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "24B49889F4BFB1BD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["61F4B112DB326FF7"]
+			id: "4E93E60AF92E2A1A"
+			tasks: [{
+				id: "3442B58AC2A872C7"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+			rewards: [{
+				id: "03234A0F67707874"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "19B15E7126043610"
+			tasks: [{
+				id: "1DFE5C4CE053AABB"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2FEABA511B8823C4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "4357AF1B7C8AA192"
+			tasks: [{
+				id: "6205620DE15793A3"
+				type: "item"
+				item: {
+					id: "eidolon:bonechill_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D53B835ECC919DD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["1121B5F849FD2288"]
+			id: "5530D0348D616888"
+			tasks: [{
+				id: "35589A772CE296CD"
+				type: "item"
+				item: "eidolon:basic_belt"
+			}]
+			rewards: [{
+				id: "4E9517A314A81C75"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["1121B5F849FD2288"]
+			id: "0E3FF43C3268CE29"
+			tasks: [{
+				id: "2CCEAC73624F061D"
+				type: "item"
+				item: "eidolon:basic_amulet"
+			}]
+			rewards: [{
+				id: "3DAA887999043F73"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["5530D0348D616888"]
+			id: "1B6683591A050B26"
+			tasks: [{
+				id: "6C8B4B207A5F994D"
+				type: "item"
+				item: "eidolon:gravity_belt"
+			}]
+			rewards: [{
+				id: "6697311DA9EEF0BB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["5530D0348D616888"]
+			id: "56B00F7F7830CD6A"
+			tasks: [{
+				id: "52AB1D0B39B9036C"
+				type: "item"
+				item: "eidolon:resolute_belt"
+			}]
+			rewards: [{
+				id: "6854D7F52E446CE5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["0E3FF43C3268CE29"]
+			id: "3E00444CD1D7F9A4"
+			tasks: [{
+				id: "7D30BF9B76DEBF05"
+				type: "item"
+				item: "eidolon:void_amulet"
+			}]
+			rewards: [{
+				id: "692A17CA27FFF7A6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["0E3FF43C3268CE29"]
+			id: "32A2F999BFBFCDFA"
+			tasks: [{
+				id: "55904559B2BD4C9C"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+			rewards: [{
+				id: "50EEA8495977108D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "030A782025CD9914"
+			tasks: [{
+				id: "792B303475331AB5"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+			rewards: [{
+				id: "069B57C2D7B1F3E6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["1121B5F849FD2288"]
+			id: "2482B752F48ABD64"
+			tasks: [{
+				id: "74389D02149470D9"
+				type: "item"
+				item: "eidolon:warded_mail"
+			}]
+			rewards: [{
+				id: "08EE063E92110340"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "08999ABB7A471691"
+			tasks: [{
+				id: "3AE598BC246FF77B"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+			rewards: [{
+				id: "0CBF9D32C39A3F36"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "1DC334EB92BC72B1"
+			tasks: [{
+				id: "5CE72C458FB1CF3D"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F451C49EBE35D99"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "6EF440E4D32C4655"
+			tasks: [{
+				id: "7A8A1B257304AEF6"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A0B58A7CF537C71"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "4835E75FC6FF3B21"
+			tasks: [{
+				id: "0ED651FF657B5685"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D2A4F331EF6E0CE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "33413AC19E77B85C"
+			tasks: [{
+				id: "5CC6BF2C43851DA8"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_cloak"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FAF64CBB953DA96"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["1121B5F849FD2288"]
+			id: "0087A8A87FBF1953"
+			tasks: [{
+				id: "245DE3008CA4B445"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "096737DAE1807EBC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+	]
+}

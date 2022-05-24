@@ -1,0 +1,723 @@
+{
+	id: "535EE7A8B7D57D4D"
+	group: "5BC5B0C01671D322"
+	order_index: 1
+	filename: "02_technical_progression"
+	title: "02 - Technical Progression"
+	icon: "atum:scarab"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: 23.0d
+			shape: "gear"
+			subtitle: "Refer to your BEIB for more information on how to build the Atum Portal"
+			dependencies: [
+				"602026820EB7E457"
+				"2C094E32ABFB194F"
+			]
+			size: 2.0d
+			id: "6233041CE3AB0D9D"
+			tasks: [{
+				id: "2419AA3ED69CDEAC"
+				type: "item"
+				item: "atum:scarab"
+			}]
+			rewards: [
+				{
+					id: "654EFE721C0F8877"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 100
+				}
+				{
+					id: "4EAC2B11D4347303"
+					type: "item"
+					item: "curios:knuckles"
+				}
+				{
+					id: "3CEFBFB246F47511"
+					type: "advancement"
+					team_reward: false
+					auto: "invisible"
+					advancement: "proletaria:gamestages/obtain_scarab"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Juicy Tree Sap"
+			x: 4.0d
+			y: 16.0d
+			description: ["Place log in front to extract Latex"]
+			dependencies: ["2A4FE2014D1CCDD1"]
+			id: "053BEAD38B8AE0FF"
+			tasks: [{
+				id: "5C258148952F8885"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [
+				{
+					id: "2EE906C451E4ED64"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "0F8FEA2D8F2AD425"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Iron and Tin"
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["65704449FB9EC609"]
+			id: "117D1755A2DF85E9"
+			tasks: [
+				{
+					id: "7231C655D83EABB0"
+					type: "item"
+					item: "emendatusenigmatica:iron_chunk"
+				}
+				{
+					id: "0E13FE4656F4D0D0"
+					type: "item"
+					item: "emendatusenigmatica:tin_chunk"
+				}
+			]
+			rewards: [{
+				id: "6DC9F3054B5BCADB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Botanist's Blaster"
+			x: 4.061224489795926d
+			y: 2.2857142857142847d
+			shape: "circle"
+			subtitle: "Refer to your BEIB for more information on how to build it"
+			description: [
+				"You can upgrade your existing Botanist's smelter by changing the sheetmetal blocks to iron sheetmetal"
+				"Botanist's Blaster is an upgrade to the Botanist's Smelter which allows you to make alloys"
+			]
+			dependencies: [
+				"19762D650369ACDC"
+				"117D1755A2DF85E9"
+			]
+			size: 1.5d
+			id: "0D3CDF7833CB5998"
+			tasks: [
+				{
+					id: "64DAD8E978E76B04"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "3D87402B9CB7FD99"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 18L
+				}
+				{
+					id: "7A0C569690532519"
+					type: "item"
+					item: "immersiveengineering:chute_iron"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "071BE3BBCABFF78D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Alloys!"
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["0D3CDF7833CB5998"]
+			id: "3A98CF3F5D697435"
+			tasks: [
+				{
+					id: "41F9606A8295E06A"
+					type: "item"
+					item: "emendatusenigmatica:brass_ingot"
+					count: 2L
+				}
+				{
+					id: "44E5680183AC879C"
+					type: "item"
+					item: "emendatusenigmatica:bronze_ingot"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "761DA5C4A078A53C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Advanced Smelting"
+			x: 2.5d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["3A98CF3F5D697435"]
+			optional: true
+			id: "5963723B88989DEE"
+			tasks: [
+				{
+					id: "0A69CC15EA8F1C8E"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "460EB27FC5D358D1"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 15L
+				}
+				{
+					id: "376FA98014F5ABCC"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 2L
+				}
+				{
+					id: "1355559A87648715"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "0E664A68BFB197C9"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "635C0B2AC5BEEBF1"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "699C0DD7106ED338"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [{
+				id: "71D7F8D3F59AAEE3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Transportation Overload"
+			x: 5.5d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["3A98CF3F5D697435"]
+			optional: true
+			id: "4C22FC06CACD2C78"
+			tasks: [{
+				id: "2596D66B64FAA0B5"
+				type: "item"
+				item: "prettypipes:pipe"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "786552DE7BA9E1EA"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "60560A9C49006F3B"
+					type: "item"
+					item: "prettypipes:wrench"
+				}
+			]
+		}
+		{
+			title: "Leaky (PP) Fluids"
+			x: 7.0d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["4C22FC06CACD2C78"]
+			optional: true
+			id: "022B7D84C8BF8680"
+			tasks: [{
+				id: "481B3EF4857389DC"
+				type: "item"
+				item: "ppfluids:fluid_pipe"
+			}]
+			rewards: [{
+				id: "276A7D53148E3686"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Alloyed Machines"
+			x: 5.5d
+			y: 8.5d
+			dependencies: ["3A98CF3F5D697435"]
+			id: "46FD2806812A7291"
+			tasks: [{
+				id: "5CBB883E5C19D14F"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "7C76D90B00B9A533"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Rotational Destruction"
+			x: 7.0d
+			y: 8.5d
+			shape: "circle"
+			dependencies: ["46FD2806812A7291"]
+			id: "748A56A4A75B173A"
+			tasks: [{
+				id: "26637BA9FB16AEDA"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "1C3FCEDD04916D9F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Coke Oven"
+			icon: "immersiveengineering:coke_oven"
+			x: 2.5d
+			y: 10.0d
+			subtitle: "Read the Engineer's Manual for info on how to construct this structure."
+			dependencies: ["64D6136659D3D1A4"]
+			id: "117E98EA5942B297"
+			tasks: [
+				{
+					id: "1AE8FCEDCBAE3DE7"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "276A29E67BEFCE7B"
+					type: "item"
+					item: "botania:rune_fire"
+					count: 27L
+				}
+				{
+					id: "4240C93332F7DA9F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1FB5327C1CF7BD83"
+					type: "observation"
+					icon: "immersiveengineering:coke_oven"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:coke_oven"
+				}
+			]
+			rewards: [
+				{
+					id: "6EE157EB47235C00"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "2A745EF51C14C34C"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+			]
+		}
+		{
+			title: "Slippery Mess"
+			x: 2.5d
+			y: 11.5d
+			dependencies: [
+				"117E98EA5942B297"
+				"7382B92227295FD5"
+			]
+			id: "580EBD898CD0069B"
+			tasks: [{
+				id: "310BE46722E6DA3B"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "42AE6AF3D95C8A5C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Careful Treatment"
+			x: 2.5d
+			y: 14.5d
+			dependencies: ["37595C7F784FAF24"]
+			id: "44C83AE747BA6538"
+			tasks: [{
+				id: "4A6F57A166D2A13A"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 9L
+			}]
+			rewards: [{
+				id: "02E8FF41A0BF6918"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Processing Planks"
+			x: 2.5d
+			y: 13.0d
+			dependencies: ["580EBD898CD0069B"]
+			id: "37595C7F784FAF24"
+			tasks: [{
+				id: "73CC68CD86CDC1BE"
+				type: "item"
+				item: "kubejs:mysticwood_planks"
+				count: 9L
+			}]
+			rewards: [{
+				id: "0495F2445378FB15"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Wire Milling"
+			x: 5.5d
+			y: 10.5d
+			dependencies: ["46FD2806812A7291"]
+			id: "7ACE1F323DFBB950"
+			tasks: [{
+				id: "0E5EB4A7EE590802"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "52BE9D7D7E7F0327"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Rotational Power"
+			x: 5.5d
+			y: 14.5d
+			dependencies: ["25D6D970FCC4B411"]
+			id: "3DD9ABFC6CB64B4D"
+			tasks: [{
+				id: "0DA5CD93A2C19ACE"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "374E510149FCCDFB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "First Electrical Power"
+			x: 4.0d
+			y: 14.5d
+			shape: "diamond"
+			dependencies: [
+				"44C83AE747BA6538"
+				"756A3BC942D34945"
+				"3DD9ABFC6CB64B4D"
+			]
+			size: 1.5d
+			id: "2A4FE2014D1CCDD1"
+			tasks: [{
+				id: "34D9FA668B384810"
+				type: "item"
+				item: "immersiveengineering:watermill"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5C16389AE1EB22DD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Parts of a whole"
+			x: 4.0d
+			y: 8.5d
+			dependencies: ["64D6136659D3D1A4"]
+			id: "756A3BC942D34945"
+			tasks: [
+				{
+					id: "31E9B24BD4739CC7"
+					type: "item"
+					item: "immersiveengineering:waterwheel_segment"
+					count: 12L
+				}
+				{
+					id: "6E852940BDF7731B"
+					type: "item"
+					item: "botania:rune_water"
+				}
+			]
+			rewards: [{
+				id: "642750C0B5C9E852"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Putting magical byproducts to good use"
+			x: 1.5d
+			y: 11.5d
+			shape: "circle"
+			description: ["The mystical coal you have been getting from creating Mystical Lubricant can also help you get Coal Coke and Creosote Oil"]
+			dependencies: [
+				"487CD160D4E4D76C"
+				"65704449FB9EC609"
+			]
+			optional: true
+			id: "7382B92227295FD5"
+			tasks: [{
+				id: "6D7F2DD9654F32E4"
+				type: "item"
+				item: "kubejs:mystical_coal"
+			}]
+			rewards: [{
+				id: "08D8B30322FA1429"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "It just works :O"
+			x: 5.5d
+			y: 16.0d
+			shape: "circle"
+			description: ["First free (good) supply of Create's Rotation!"]
+			dependencies: ["2A4FE2014D1CCDD1"]
+			size: 1.2d
+			id: "474238A43565EE04"
+			tasks: [{
+				id: "49E1FC92C1B1FE9C"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "61477B690FC15846"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Rubber Production"
+			x: 4.0d
+			y: 17.5d
+			dependencies: ["053BEAD38B8AE0FF"]
+			id: "55AB5E0D43CDB8AB"
+			tasks: [{
+				id: "0EE08AF01A4CB2B3"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+			rewards: [{
+				id: "5BFCD58F1047CD8D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Dry and Gooey"
+			x: 4.0d
+			y: 19.0d
+			dependencies: ["55AB5E0D43CDB8AB"]
+			id: "585A0DEC28E10094"
+			tasks: [
+				{
+					id: "6F5809AD2CEC34AF"
+					type: "item"
+					item: "industrialforegoing:tinydryrubber"
+					count: 9L
+				}
+				{
+					id: "4C37FD2D3AEF4744"
+					type: "item"
+					item: "industrialforegoing:dryrubber"
+				}
+			]
+			rewards: [{
+				id: "74F78FDC4D883BD5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 20.5d
+			dependencies: ["585A0DEC28E10094"]
+			id: "2B18BEFF52CE535E"
+			tasks: [{
+				id: "7248337809328529"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [{
+				id: "26A67CEAE4A48D44"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mechanical Infusion!"
+			x: 5.0d
+			y: 21.5d
+			dependencies: ["2B18BEFF52CE535E"]
+			id: "602026820EB7E457"
+			tasks: [{
+				id: "7D92E669EDEFAA59"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "61BC63F2F888708D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Runic Infusion"
+			x: 2.5d
+			y: 8.5d
+			dependencies: ["3A98CF3F5D697435"]
+			id: "64D6136659D3D1A4"
+			tasks: [{
+				id: "71BC7AC252E1B343"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "626FCE2066B459EE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Slaughter House"
+			x: 3.0d
+			y: 21.5d
+			description: ["Slaughter animals to gain Pink Slime"]
+			dependencies: ["2B18BEFF52CE535E"]
+			id: "2C094E32ABFB194F"
+			tasks: [{
+				id: "0CEC709EB3492448"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "38A4AA25B4FC6C3D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Don't let the bird sit on them..."
+			x: 5.5d
+			y: 12.5d
+			dependencies: ["7ACE1F323DFBB950"]
+			id: "25D6D970FCC4B411"
+			tasks: [{
+				id: "0A19DD97C48FE831"
+				type: "item"
+				item: "immersiveengineering:wire_copper"
+				count: 4L
+			}]
+			rewards: [{
+				id: "788BED523E7F21E3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			shape: "circle"
+			dependencies: ["64D6136659D3D1A4"]
+			optional: true
+			id: "20DD7F85F2283AFF"
+			tasks: [{
+				id: "5D7D3CFC7735EF41"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A8CEBCD8EAFE635"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

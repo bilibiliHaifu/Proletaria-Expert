@@ -1,0 +1,57 @@
+{
+  "name": "Mystical Refinery",
+  "icon": "masterfulmachinery:livingwood_controller",
+  "category": "patchouli:multiblock_structures",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "masterfulmachinery:livingwood_controller",
+      "title": "Mystical Refinery",
+      "link_recipe": true,
+      "text": "This is the Mystical Refinery, it will convert an item plus a fluid into our stage one gating fluid."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "mystical_refinery",
+      "multiblock": {
+        "pattern": [
+          [
+            ")2 ",
+            ")1 ",
+            ")2 "
+          ],
+          [
+            ")D1",
+            ") 0",
+            ")D1"
+          ],
+          [
+            ")+.",
+            "*,,",
+            ")-/"
+          ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "masterfulmachinery:livingwood_controller[facing=south]",
+          "D": "botania:drum_wild",
+          "1": "botania:livingwood_planks_stairs[facing=north]",
+          "2": "botania:livingrock_stairs[facing=north]",
+          ")": "botania:livingrock_bricks",
+          "*": "masterfulmachinery:livingwood_default_port_botania_mana_input",
+          "+": "masterfulmachinery:livingwood_default_port_fluids_input",
+          ",": "botania:livingwood_planks",
+          "-": "masterfulmachinery:livingwood_default_port_fluids_output",
+          ".": "masterfulmachinery:livingwood_default_port_items_input",
+          "/": "masterfulmachinery:livingwood_default_port_items_output"
+        },
+        "symmetrical": false,
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}

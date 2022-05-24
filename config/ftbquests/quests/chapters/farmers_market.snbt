@@ -1,0 +1,657 @@
+{
+	id: "2F66DDA0F88D8D12"
+	group: "1B43E39131B2A05D"
+	order_index: 1
+	filename: "farmers_market"
+	title: "Market - Sushi"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -3.0d
+			optional: true
+			id: "04C424D10AAF0BAA"
+			tasks: [{
+				id: "2D4AFA815B9BD2BB"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:salmon_maki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6628378919F6523B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			optional: true
+			id: "7BDD5791AB014A2A"
+			tasks: [{
+				id: "699CEA4D470B2122"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tuna_maki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5F4E693A7872BFDA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			optional: true
+			id: "28640F4125B38467"
+			tasks: [{
+				id: "390C7849488B1A04"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:avocado_maki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4D3316C547983D96"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			optional: true
+			id: "75C3BF46E9F3B890"
+			tasks: [{
+				id: "224C1753E58F87A4"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:cucumber_maki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73926C380262F3C0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			optional: true
+			id: "280064F7D1947E9B"
+			tasks: [{
+				id: "50007E56F6F13A7C"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:crab_maki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5941DB10547DF8B4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			optional: true
+			id: "1440D21476D878EC"
+			tasks: [{
+				id: "7A3AFE0AE95FED11"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:salmon_gunkan"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1640DEDD087CF1BC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			optional: true
+			id: "4D9D4D3FF47B6914"
+			tasks: [{
+				id: "3FA23F774A616760"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tuna_gunkan"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "45E05D3A8137C931"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			optional: true
+			id: "4639BA2CF3A9EB07"
+			tasks: [{
+				id: "7FDC84A5927546DF"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:wakame_gunkan"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1A8CA19CB999E92E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			optional: true
+			id: "2F3C235355493134"
+			tasks: [{
+				id: "017A5A19353B3F2A"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_tuna_cucumber_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1974F073884AFB4B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			optional: true
+			id: "7B1EEF668EC6C36D"
+			tasks: [{
+				id: "5F45E5BF86F9686A"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_tuna_cheese_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "33FFAA495D204147"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			optional: true
+			id: "471AE40ABB1F79F4"
+			tasks: [{
+				id: "3DD4FE4C22389266"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_tuna_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3CF76861EEE95186"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			optional: true
+			id: "36DE80AEC35CC70A"
+			tasks: [{
+				id: "658F72B890762384"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_salmon_cucumber_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "749CE89EBFF5B5FA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			optional: true
+			id: "6FD1178F5BCBB90B"
+			tasks: [{
+				id: "4D2EFC587BA2538D"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_salmon_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6893A9A0D73940D6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			optional: true
+			id: "6A7754D052FDA958"
+			tasks: [{
+				id: "210E4D39FF4204C7"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_salmon_cheese_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "623279C9D7F2B525"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			optional: true
+			id: "65139B5ED64D6E06"
+			tasks: [{
+				id: "408198C6787249B4"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_crab_cucumber_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7A42FEF35FC173AE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			optional: true
+			id: "436E2C76164985B8"
+			tasks: [{
+				id: "6C3549C7C036C277"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_crab_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3E3CF02881943CEE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			optional: true
+			id: "5CAC075AF8B6199C"
+			tasks: [{
+				id: "4F8EB5CFD6DE44BE"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tobiko_crab_cheese_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2A076BEA5D148A5F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			optional: true
+			id: "6C2EE8B7A9C5B1B8"
+			tasks: [{
+				id: "55AFFE5FE2C25841"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tuna_cucumber_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7D2FEB362D31DECC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			optional: true
+			id: "3C1B1D3C507FB733"
+			tasks: [{
+				id: "608D12C4439FA57B"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tuna_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73E6DFBBBE014800"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			optional: true
+			id: "2E2E142CC5903F0C"
+			tasks: [{
+				id: "15A441A2597D5D55"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tuna_cheese_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "75F4F67D3732CC25"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			optional: true
+			id: "0349A8168AA8E65B"
+			tasks: [{
+				id: "0B9AD657FF0581E2"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:salmon_cucumber_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3EE9E25A846BEA8D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			optional: true
+			id: "022FF76E3F445430"
+			tasks: [{
+				id: "29CC6626A1DC0FA7"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:salmon_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "55D2A3EC6B497DA5"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			optional: true
+			id: "35A5CBDED49CC44F"
+			tasks: [{
+				id: "1280318343473378"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:salmon_cheese_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "08B8C1EF66986A43"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			optional: true
+			id: "2C5D4F484CC5BBEF"
+			tasks: [{
+				id: "74843373403AC324"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:crab_cucumber_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2B918F1D5A579B45"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			optional: true
+			id: "67353B1DB6538A86"
+			tasks: [{
+				id: "0F08150985434335"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:crab_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7EE677054316B4D3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			optional: true
+			id: "315C7EFF69C83724"
+			tasks: [{
+				id: "4AF6E00B3BD6FB30"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:crab_cheese_california"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5C246490E072D07A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			optional: true
+			id: "25911748EBA05EEE"
+			tasks: [{
+				id: "2E2DDA9D6FAE5EF7"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:salmon_nigiri"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D605D0520CF30DE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			optional: true
+			id: "36E3CCD629200C9D"
+			tasks: [{
+				id: "716C5D7C9A4293F0"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tuna_nigiri"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "091D64554A8D89E4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			optional: true
+			id: "79DAD1665058F014"
+			tasks: [{
+				id: "39BEAADE808EA0DD"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:shrimp_nigiri"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22D1C0DCDF370548"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			optional: true
+			id: "4621E0C3CA8DA04A"
+			tasks: [{
+				id: "0C7589E27CCABE61"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:onigiri"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "52A874F0905E1A2B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			optional: true
+			id: "0E7D92C83458249F"
+			tasks: [{
+				id: "31A67899E4B803FD"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:salmon_temaki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F0DAC339E9CDB93"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			optional: true
+			id: "04376229CD1DCA93"
+			tasks: [{
+				id: "7E0A944359CE3EC9"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:tuna_temaki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "69819C402819897D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			optional: true
+			id: "5D8F54215540DE9B"
+			tasks: [{
+				id: "06663DF085C56CAB"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:shrimp_temaki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F644CF9C19AE211"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			optional: true
+			id: "3CADF64B93749E38"
+			tasks: [{
+				id: "54F745B912EA49C1"
+				type: "item"
+				disable_toast: true
+				item: "sushigocrafting:chicken_temaki"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "34FE18D856A32EE3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4
+			}]
+		}
+	]
+}

@@ -1,0 +1,1508 @@
+{
+	id: "1D13DC95ED846720"
+	group: "5BC5B0C01671D322"
+	order_index: 3
+	filename: "04_the_outer_lands"
+	title: "04 - The Outer Lands"
+	icon: "industrialforegoing:ore_laser_base"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["252180425E1A6C0A"]
+			id: "57E1A37786DEB9BD"
+			tasks: [{
+				id: "3D132F0374CE4034"
+				type: "item"
+				item: "emendatusenigmatica:cinnabar_gem"
+			}]
+			rewards: [{
+				id: "63B996F669FB4221"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["57E1A37786DEB9BD"]
+			id: "54DB45BEEE301541"
+			tasks: [{
+				id: "56CA5E9C331E40D8"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "6D8DFA8F5F8C00D8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["54DB45BEEE301541"]
+			id: "46EEBA115304696C"
+			tasks: [{
+				id: "644BF698E8E26C05"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "77D6C54445B00A11"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mechanical Crafting"
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["46EEBA115304696C"]
+			id: "21CBDF24FD5C93BF"
+			tasks: [{
+				id: "042C267CF0128E66"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 45L
+			}]
+			rewards: [
+				{
+					id: "69C1BED3FCFD002B"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "765702971E6F9131"
+					type: "item"
+					item: "create:crafter_slot_cover"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Crushing Potential"
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["21CBDF24FD5C93BF"]
+			id: "68FC6F56E779AEA5"
+			tasks: [{
+				id: "5D6652417BC5C17C"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "01560E9B0770A202"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["68FC6F56E779AEA5"]
+			id: "0119FB6A7E6DBB84"
+			tasks: [{
+				id: "6ADCFD813CFC3226"
+				type: "item"
+				item: "emendatusenigmatica:potassium_nitrate_dust"
+			}]
+			rewards: [{
+				id: "4946C45035513E7A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			icon: "immersiveengineering:blast_furnace"
+			x: 6.5d
+			y: 5.5d
+			subtitle: "Read the Engineer's Manual for info on how to construct this structure."
+			description: [
+				"Constructed similar to the Coke Oven, except using Blast Bricks."
+				""
+				"Insert Thallasium Ingots to turn them into Steel"
+			]
+			dependencies: ["0119FB6A7E6DBB84"]
+			id: "6740AB00171E9E7B"
+			tasks: [
+				{
+					id: "7DFEF25138869282"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "2BD702B9FA15269D"
+					type: "observation"
+					title: "Blast Furnace"
+					icon: "immersiveengineering:blast_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:blast_furnace"
+				}
+			]
+			rewards: [{
+				id: "403974BF4A54DB7A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			dependencies: ["6740AB00171E9E7B"]
+			id: "2864A4D4BB134D23"
+			tasks: [{
+				id: "06D2CAA8073AEA4B"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
+			rewards: [{
+				id: "2E418CE86F139BE9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 9.5d
+			dependencies: ["2864A4D4BB134D23"]
+			id: "2D72D740D0AD838A"
+			tasks: [{
+				id: "415A4B492C6725FA"
+				type: "item"
+				item: "emendatusenigmatica:steel_plate"
+			}]
+			rewards: [{
+				id: "695837FA35B2F24D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			dependencies: ["2864A4D4BB134D23"]
+			id: "745EAA9A46827BC3"
+			tasks: [{
+				id: "23AB5EF2D9D09B0E"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "21EE63F4C492AD44"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			dependencies: ["745EAA9A46827BC3"]
+			id: "623FD7C27F2599AD"
+			tasks: [{
+				id: "59EB499559221253"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "2FFA34F60C4FA8FF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 11.0d
+			dependencies: [
+				"2D72D740D0AD838A"
+				"06CD11B82A85BA18"
+			]
+			id: "417BB258D594ECFC"
+			tasks: [{
+				id: "4F6E58978E872E5A"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [
+				{
+					id: "10763238C27C8380"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "686EDF2F8850DAAD"
+					type: "item"
+					item: "astralsorcery:tome"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 11.0d
+			dependencies: ["2CD8D5B969AEA66A"]
+			id: "06CD11B82A85BA18"
+			tasks: [{
+				id: "77CB0F2D40B94E45"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [{
+				id: "65C87CA146C10363"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 12.5d
+			dependencies: ["417BB258D594ECFC"]
+			id: "5102CA899F7AE4A0"
+			tasks: [{
+				id: "6ECE323BFF6F8B32"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "28691C146742B3E8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 14.0d
+			dependencies: ["5102CA899F7AE4A0"]
+			id: "0F7483187D4EB0B2"
+			tasks: [{
+				id: "6E2F715E036B021B"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "6C8B0518EEA3A9D9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 15.5d
+			dependencies: ["0F7483187D4EB0B2"]
+			id: "756533ED36804EB6"
+			tasks: [{
+				id: "087562591669C504"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "5C3BC54AD1FB43EA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 17.0d
+			dependencies: ["756533ED36804EB6"]
+			id: "3A96FEA14AACDC84"
+			tasks: [
+				{
+					id: "0ACBCC2C999DC809"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "7327BE9D86883939"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+			]
+			rewards: [{
+				id: "5585F2904A6CEE9B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 18.5d
+			subtitle: "Look at the Astral Tome to know how to build the structure around the altar"
+			dependencies: [
+				"3A96FEA14AACDC84"
+				"199FF0FAADDA3599"
+			]
+			id: "05012031D65139DC"
+			tasks: [{
+				id: "6F3EED25471E17CD"
+				type: "observation"
+				icon: "astralsorcery:altar_attunement"
+				timer: 0L
+				observe_type: 0
+				to_observe: "astralsorcery:altar_attunement"
+			}]
+			rewards: [{
+				id: "6D3EC4A457463A4B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 14.0d
+			dependencies: ["57342F39B9896BDA"]
+			id: "2654F1403E8D5C41"
+			tasks: [{
+				id: "4F50CE0B3AC4F9B2"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "7A5535ECF6D12FA0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 14.0d
+			dependencies: ["2654F1403E8D5C41"]
+			id: "24792C79799F982D"
+			tasks: [{
+				id: "79B04212D6740086"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+			}]
+			rewards: [{
+				id: "0F795236DB857981"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			dependencies: ["2864A4D4BB134D23"]
+			id: "4BF671E7E122467E"
+			tasks: [{
+				id: "24BA3EECBDFB9BB4"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			rewards: [{
+				id: "0C0D0F0AE742D838"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			icon: "immersiveengineering:metal_press"
+			x: 4.0d
+			y: 10.5d
+			subtitle: "Consult the Engineer's Manual on how to build the machine"
+			dependencies: ["4BF671E7E122467E"]
+			id: "148D8808AC69150C"
+			tasks: [
+				{
+					id: "42222B9392B02CBD"
+					type: "observation"
+					title: "Metal Press"
+					icon: "immersiveengineering:metal_press"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
+				}
+				{
+					id: "4B972AA8E65F3F34"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "399B194CEC1D7050"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "115D3C42195AE8C0"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3F1807E15D4F37FE"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "0B42D332E03C6431"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "20D537FB8026748D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			icon: "immersiveengineering:crusher"
+			x: 3.0d
+			y: 9.5d
+			subtitle: "Consult the Engineer's Manual on how to build the machine"
+			dependencies: ["4BF671E7E122467E"]
+			id: "1140E1D36DAEC60F"
+			tasks: [
+				{
+					id: "485CB8118A680EC1"
+					type: "observation"
+					title: "Crusher"
+					icon: "immersiveengineering:crusher"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:crusher"
+				}
+				{
+					id: "1E2E5E59561E4E54"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "233E9B31B391069F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "7D57934B46A4EB66"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "290C7F27EC134B0F"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "2C322A3FB246F059"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "5B9E4D4D7FF9B911"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Coal Coke Dust"
+			x: 2.0d
+			y: 9.5d
+			dependencies: ["1140E1D36DAEC60F"]
+			id: "3D3D2F9DC44D869D"
+			tasks: [{
+				id: "6F91F09398B4FFA0"
+				type: "item"
+				title: "Coal Coke Dust"
+				item: "emendatusenigmatica:coke_dust"
+			}]
+			rewards: [{
+				id: "060B25C882A6BA08"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			icon: "immersiveengineering:squeezer"
+			x: 3.0d
+			y: 10.5d
+			subtitle: "Consult the Engineer's Manual on how to build the machine"
+			dependencies: ["4BF671E7E122467E"]
+			id: "55323E399918FB32"
+			tasks: [
+				{
+					id: "27EFEEFCEA3DB8AF"
+					type: "observation"
+					title: "Industrial Squeezer"
+					icon: "immersiveengineering:squeezer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:squeezer"
+				}
+				{
+					id: "4D097F63860F18A6"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "1CBEF6B842E3810D"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "765403078C4F2049"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "3E5C4AD2BF8D0B1E"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "091AC863A35A831B"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "0E2A8B33B9B5C2C3"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "27F9566B2AE381DF"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "084B37F20AAA2167"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			dependencies: [
+				"55323E399918FB32"
+				"3D3D2F9DC44D869D"
+			]
+			id: "556DDCFFCC047396"
+			tasks: [{
+				id: "0AACDDC26EB42C5D"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+			rewards: [{
+				id: "2C29EC9EC934CF03"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 17.0d
+			subtitle: "Consult the Engineer's Manual on how to build the machine"
+			dependencies: [
+				"4BF671E7E122467E"
+				"62A09800CDC929A3"
+			]
+			id: "440DF47BA11911B6"
+			tasks: [
+				{
+					id: "72EA14F99042B9CF"
+					type: "observation"
+					title: "Arc Furnace"
+					icon: "immersiveengineering:arc_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:arc_furnace"
+				}
+				{
+					id: "14A326EC7D2D6804"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "7A6260DF0B68CD61"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "5EBFAF7277B444BC"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "711363F1DB63C7D4"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "4DC966B8151C58DF"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "562E7683E6FB609F"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "2ACC50723427FF0C"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "6877943DB1393692"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "7EE8691A702C9AFD"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [{
+				id: "3463BA129202C983"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.5d
+			dependencies: [
+				"148D8808AC69150C"
+				"556DDCFFCC047396"
+			]
+			id: "62A09800CDC929A3"
+			tasks: [{
+				id: "41EB19D8A4912302"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "5EBA12941F0D1915"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 15.5d
+			dependencies: [
+				"170AE279F1FD48FC"
+				"7680BF56C69C161B"
+			]
+			id: "08341D5CB3451F40"
+			tasks: [{
+				id: "5F7079E122FB7A7A"
+				type: "item"
+				item: "tconstruct:queens_slime_ingot"
+			}]
+			rewards: [{
+				id: "79B334D06367709A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 17.0d
+			dependencies: [
+				"170AE279F1FD48FC"
+				"52B613FB073E0AFC"
+			]
+			id: "29CA2275E716654C"
+			tasks: [{
+				id: "545AC76C12023F6A"
+				type: "item"
+				item: "tconstruct:hepatizon_ingot"
+			}]
+			rewards: [{
+				id: "48A755A87211E475"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 18.5d
+			dependencies: [
+				"170AE279F1FD48FC"
+				"1121198A2811C69B"
+			]
+			id: "2CD633B3DE790D78"
+			tasks: [{
+				id: "799F909C66AD3835"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+			}]
+			rewards: [{
+				id: "215AB0FF53B407B8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 21.5d
+			dependencies: [
+				"2CD633B3DE790D78"
+				"2905A895098DFE41"
+			]
+			id: "01EFE69DFC60C612"
+			tasks: [{
+				id: "106902696302C75E"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "58BADD3F94CE064B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 20.0d
+			dependencies: [
+				"05012031D65139DC"
+				"1ED335913CB09D80"
+			]
+			id: "601DC060A317BA31"
+			tasks: [{
+				id: "4C05AC3FA35EA6DE"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+			rewards: [{
+				id: "0D4427D7F5E22C26"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.5d
+			dependencies: ["06CD11B82A85BA18"]
+			id: "4FF781B70F89D042"
+			tasks: [{
+				id: "4D00BA4181C928C6"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A372A1EBE0F9873"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 12.5d
+			dependencies: ["4FF781B70F89D042"]
+			id: "7ABFC5527DA31677"
+			tasks: [{
+				id: "322EA4FE24FA6FAC"
+				type: "kill"
+				entity: "occultism:afrit_wild"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0F74F99FDAC24D5D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.5d
+			dependencies: ["252180425E1A6C0A"]
+			id: "2CD8D5B969AEA66A"
+			tasks: [
+				{
+					id: "719AAFCF28CA554D"
+					type: "item"
+					item: "betterendforge:infusion_pedestal"
+				}
+				{
+					id: "3B556AF11D78C130"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "betterendforge:quartz_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:purpur_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:andesite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:diorite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:granite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:flavolite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:violecite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:sulphuric_rock_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:virid_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:azure_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:sandy_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:umbralith_pedestal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "7E500654C859C777"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 14.0d
+			dependencies: ["4FF781B70F89D042"]
+			id: "0B3FCA7C6166BE2D"
+			tasks: [
+				{
+					id: "34250888275EA6C7"
+					type: "item"
+					item: {
+						id: "occultism:infused_pickaxe"
+						Count: 1b
+						tag: {
+							spiritName: "Azakarcure"
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F5791B84206BA24"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_goggles"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "767BA238E54446B8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 20.0d
+			dependencies: ["7ABFC5527DA31677"]
+			id: "1ED335913CB09D80"
+			tasks: [{
+				id: "210078DE6C65B352"
+				type: "item"
+				item: "occultism:afrit_essence"
+			}]
+			rewards: [{
+				id: "7903936053C58F89"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 15.5d
+			dependencies: ["0B3FCA7C6166BE2D"]
+			id: "199FF0FAADDA3599"
+			tasks: [{
+				id: "32F8F5ED078D02FF"
+				type: "item"
+				item: "occultism:iesnium_ingot"
+			}]
+			rewards: [{
+				id: "38877B8454F8F965"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 21.5d
+			dependencies: ["1ED335913CB09D80"]
+			id: "13AD695704154ECE"
+			tasks: [{
+				id: "376EB363DA6AB133"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "705D89FEF5DBBE26"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 17.0d
+			dependencies: ["199FF0FAADDA3599"]
+			id: "112F6F083457E276"
+			tasks: [{
+				id: "0019A78235373D4F"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+			rewards: [{
+				id: "6D67D5D0FFC73FA0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 18.5d
+			dependencies: ["112F6F083457E276"]
+			id: "4FB09006B6BD9C16"
+			tasks: [{
+				id: "6F44DCDA24FB99A5"
+				type: "item"
+				item: {
+					id: "occultism:miner_foliot_unspecialized"
+					Count: 1b
+					tag: {
+						spiritName: "Mrokmeeark"
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7487E08A9A24E170"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 18.5d
+			dependencies: ["112F6F083457E276"]
+			id: "005BB98D2544BC2E"
+			tasks: [{
+				id: "2403AB027BCEC93D"
+				type: "item"
+				item: {
+					id: "occultism:miner_djinni_ores"
+					Count: 1b
+					tag: {
+						spiritName: "Azakzoirarc"
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EDE109607E3818F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 23.5d
+			dependencies: ["01EFE69DFC60C612"]
+			id: "5020DB616698F559"
+			tasks: [
+				{
+					id: "7309334D59EBD89E"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "39520F1A3C059185"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "58F49CC433A98CF5"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "47A3114EE0F3D424"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "6B05ADEC5583F42F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 23.5d
+			dependencies: ["5020DB616698F559"]
+			id: "745B991667372CE8"
+			tasks: [{
+				id: "0ADD5D9CF18EDFE5"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "79CDFC12D18A97D9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 25.5d
+			dependencies: ["745B991667372CE8"]
+			id: "344CF96463051213"
+			tasks: [
+				{
+					id: "0255ACD67BC4ECDE"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+				{
+					id: "38700B0C7DA4EEFA"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "386B0E5FCD423637"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 25.5d
+			dependencies: ["344CF96463051213"]
+			id: "4BC82DC315565586"
+			tasks: [{
+				id: "5DCDDD64A500F453"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+			rewards: [{
+				id: "2A155E43B4CECDCE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 27.5d
+			shape: "gear"
+			dependencies: ["4BC82DC315565586"]
+			size: 2.0d
+			id: "2BBA883B1BC6C430"
+			tasks: [
+				{
+					id: "747B40FCFB9CF503"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+				{
+					id: "736985CC2C59F606"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0C883AD040BB4344"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 200
+				}
+				{
+					id: "4A675139EA3EBF1D"
+					type: "item"
+					team_reward: false
+					item: "curios:ring"
+				}
+				{
+					id: "3114B3ADDB076B94"
+					type: "advancement"
+					team_reward: false
+					auto: "invisible"
+					advancement: "proletaria:gamestages/obtain_laser_drill"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 21.5d
+			subtitle: "Livingrock has been replaced with Chiselled or Engraved Marble"
+			dependencies: [
+				"601DC060A317BA31"
+				"13AD695704154ECE"
+			]
+			id: "2905A895098DFE41"
+			tasks: [
+				{
+					id: "31A1F44DC3E0968F"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "16772F7D7242C6AB"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "2DBDC9309FE05503"
+					type: "item"
+					title: "Engraved or Chiselled Marble"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "astralsorcery:marble_chiseled"
+									Count: 1b
+								}
+								{
+									id: "astralsorcery:marble_engraved"
+									Count: 1b
+								}
+								{
+									id: "astralsorcery:black_marble_chiseled"
+									Count: 1b
+								}
+								{
+									id: "astralsorcery:black_marble_engraved"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 5L
+				}
+				{
+					id: "0ADC8C873792664A"
+					type: "item"
+					item: "botania:spark"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "09E53CCF12A88CB1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 12.0d
+			dependencies: ["623FD7C27F2599AD"]
+			id: "57342F39B9896BDA"
+			tasks: [{
+				id: "22A20610E81B1712"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "16FA0201F04F4B10"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 17.0d
+			dependencies: ["2654F1403E8D5C41"]
+			id: "170AE279F1FD48FC"
+			tasks: [{
+				id: "1805B9AF3085F6BE"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "29B51D2EBCC9B36E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 15.5d
+			dependencies: [
+				"440DF47BA11911B6"
+				"24792C79799F982D"
+			]
+			id: "7680BF56C69C161B"
+			tasks: [{
+				id: "38349CC57AA6DD07"
+				type: "item"
+				item: "kubejs:hot_queens_slime_ingot"
+			}]
+			rewards: [{
+				id: "2F768B32D5F975C1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 17.0d
+			dependencies: [
+				"08341D5CB3451F40"
+				"440DF47BA11911B6"
+			]
+			id: "52B613FB073E0AFC"
+			tasks: [{
+				id: "306C23D7E05CC4CA"
+				type: "item"
+				item: "kubejs:hot_hepatizon_ingot"
+			}]
+			rewards: [{
+				id: "3B917ED1F6C16D60"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 18.5d
+			dependencies: [
+				"29CA2275E716654C"
+				"440DF47BA11911B6"
+			]
+			id: "1121198A2811C69B"
+			tasks: [{
+				id: "23D45459A3108E5C"
+				type: "item"
+				item: "kubejs:hot_manyullyn_ingot"
+			}]
+			rewards: [{
+				id: "1B1BCC572381EA7C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Adding Heat"
+			x: 8.0d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["0119FB6A7E6DBB84"]
+			optional: true
+			id: "46B62BE55335D22F"
+			tasks: [{
+				id: "2488D982A9251BA3"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4L
+			}]
+			rewards: [{
+				id: "540B9B0B74F3B4EC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Wireless Power Transfer"
+			x: 9.5d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["46B62BE55335D22F"]
+			optional: true
+			id: "6EB98CFCDA0D4B25"
+			tasks: [
+				{
+					id: "190CD651D39DE36E"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "29630A4D8A0C810B"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+				{
+					id: "5B8C8AA7D8837BD1"
+					type: "item"
+					item: "fluxnetworks:flux_controller"
+				}
+			]
+			rewards: [{
+				id: "2966AA03CE47E491"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.714285714285715d
+			y: 9.488095238095234d
+			shape: "circle"
+			subtitle: "Unlocks all Astral Sorcery research right away"
+			description: ["Astral Srocery research can get finnicky on servers and such if you're playing with others. Use this to unlock the entire research from the get go"]
+			dependencies: ["2D72D740D0AD838A"]
+			optional: true
+			id: "3355FE920F531ACD"
+			tasks: [{
+				id: "70303435B23F42BF"
+				type: "checkmark"
+				title: "Unlock Astral Research"
+			}]
+			rewards: [{
+				id: "60785B1D57C60257"
+				type: "command"
+				title: "Your knowledge grows"
+				icon: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				team_reward: false
+				command: "/astralsorcery maximize @p"
+				player_command: false
+			}]
+		}
+	]
+}

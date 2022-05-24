@@ -1,0 +1,1355 @@
+{
+	id: "555FEDB0F8493F58"
+	group: "1B43E39131B2A05D"
+	order_index: 3
+	filename: "shop"
+	title: "Shop - Stages"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -6.523809523809518d
+			y: -6.69047619047619d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "botania:textures/block/orechid.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "botania:textures/block/dry_grass_side.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: -6.625d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "botania:textures/block/runic_altar_side.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "immersiveengineering:textures/block/wooden_decoration/treated_wood.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5238095238095255d
+			y: -7.88095238095238d
+			width: 0.7d
+			height: 0.7d
+			rotation: 0.0d
+			image: "waystones:textures/item/warp_stone.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/netherrack.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.500000000000007d
+			y: -6.6785714285714235d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "atum:textures/block/limestone_brick_cracked.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.500000000000007d
+			y: -8.107142857142861d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "atum:textures/item/scarab.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/end_stone.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.500000000000014d
+			y: -6.7074829931972815d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "astralsorcery:textures/block/marble_pillar_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "botania:textures/item/terrasteel_ingot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "appliedenergistics2:textures/block/controller.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.506802721088434d
+			y: -6.673469387755105d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "astralsorcery:textures/block/altar_4_side.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "pneumaticcraft:textures/item/advanced_pcb.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.392857142857146d
+			y: -8.089285714285715d
+			width: 0.7d
+			height: 0.7d
+			rotation: 0.0d
+			image: "kubejs:textures/item/botanists_clay_ball.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "2x Floral fertalizer"
+			icon: "botania:fertilizer"
+			tags: ["repeat"]
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["13E0B0EF7964442D"]
+			optional: true
+			id: "0DF6EC0A0E86C208"
+			tasks: [{
+				id: "35C4134B9C0A331C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "76082B4E0E038328"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "botania:fertilizer"
+				count: 2
+			}]
+		}
+		{
+			title: "5x random Mystical flower's"
+			icon: "botania:orange_mystical_flower"
+			tags: ["repeat"]
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["5ED8F3A643F2FA98"]
+			optional: true
+			id: "52A6781F9646C326"
+			tasks: [{
+				id: "5A9410430A7D3E8F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "333F8BC25B4A563B"
+					type: "random"
+					team_reward: true
+					auto: "enabled"
+					table_id: 6073377010314442029L
+				}
+				{
+					id: "561EB21313849609"
+					type: "random"
+					team_reward: true
+					auto: "enabled"
+					table_id: 6073377010314442029L
+				}
+				{
+					id: "378D432EBB0BA478"
+					type: "random"
+					team_reward: true
+					auto: "enabled"
+					table_id: 6073377010314442029L
+				}
+				{
+					id: "7383CEA08C4AD147"
+					type: "random"
+					team_reward: true
+					auto: "enabled"
+					table_id: 6073377010314442029L
+				}
+				{
+					id: "2186F334424D9F10"
+					type: "random"
+					team_reward: true
+					auto: "enabled"
+					table_id: 6073377010314442029L
+				}
+			]
+		}
+		{
+			title: "3x Copper sheetmetal"
+			icon: "immersiveengineering:sheetmetal_copper"
+			tags: ["repeat"]
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["3CE3DE068CD5EC01"]
+			optional: true
+			id: "7958FC943E8252AB"
+			tasks: [{
+				id: "51DC6D07B8B6FCAE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5FA15BA8460EA999"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "immersiveengineering:sheetmetal_copper"
+				count: 3
+			}]
+		}
+		{
+			title: "2x Shaft's"
+			icon: "create:shaft"
+			tags: ["repeat"]
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["42A166A1C39E798A"]
+			optional: true
+			id: "3248E8DFD876EA0B"
+			tasks: [{
+				id: "3BE999550758C811"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0AF2088F4CA4CFE6"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "create:shaft"
+				count: 2
+			}]
+		}
+		{
+			title: "1x Andesite casing"
+			icon: "create:andesite_casing"
+			tags: ["repeat"]
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["5BA8EE142D4447FB"]
+			optional: true
+			id: "45E07F67A1F2F4B9"
+			tasks: [{
+				id: "11312CB748EA78BF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "046C5F2C4615EE1E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			title: "3x Copper Chunk's"
+			icon: "emendatusenigmatica:copper_chunk"
+			tags: ["repeat"]
+			x: -7.0d
+			y: -3.5d
+			dependencies: ["0EFE8AF0D5AC7B2B"]
+			optional: true
+			id: "26C9A95EA55E9818"
+			tasks: [{
+				id: "1412EA7FA8A92DF0"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4BB72F969A8FBEE1"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:copper_chunk"
+				count: 3
+			}]
+		}
+		{
+			title: "16x Grout"
+			icon: "tconstruct:grout"
+			tags: ["repeat"]
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["7B3406231D0293DC"]
+			optional: true
+			id: "484FCD98F89AD9CB"
+			tasks: [{
+				id: "7B7983FA01AE4666"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4527E29847696E5C"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "tconstruct:grout"
+				count: 16
+			}]
+		}
+		{
+			title: "2x Drum's of the wild"
+			icon: "botania:drum_wild"
+			tags: ["repeat"]
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["35F931F9711E2230"]
+			optional: true
+			id: "6D4D034BB55E42AB"
+			tasks: [{
+				id: "0AC7F1D1579F71B6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7B491F4C3C9D122F"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "botania:drum_wild"
+				count: 2
+			}]
+		}
+		{
+			title: "3x Zinc Chunk's"
+			icon: "emendatusenigmatica:zinc_chunk"
+			tags: ["repeat"]
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["0EFE8AF0D5AC7B2B"]
+			optional: true
+			id: "6C8378534C168433"
+			tasks: [{
+				id: "43DB27465919B0B7"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4F2FE350F1BC94A0"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:zinc_chunk"
+				count: 3
+			}]
+		}
+		{
+			title: "8x Compressed Iron Ingot's"
+			icon: "pneumaticcraft:ingot_iron_compressed"
+			tags: ["repeat"]
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["639AB9AA5FF81F12"]
+			optional: true
+			id: "3659793FFF1C9407"
+			tasks: [{
+				id: "744EF9AE2873F2BB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5BB921111C118F50"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 8
+			}]
+		}
+		{
+			title: "1x Starmetal Ingot"
+			icon: "astralsorcery:starmetal_ingot"
+			tags: ["repeat"]
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["271515BEEB0BFDCF"]
+			optional: true
+			id: "0E5F3AE41DA6EC51"
+			tasks: [{
+				id: "4209E739D0451ED9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "10A03478DA217756"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+		}
+		{
+			title: "2x Aluminum Ingot's"
+			icon: "emendatusenigmatica:aluminum_ingot"
+			tags: ["repeat"]
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["221023D477FDC6AD"]
+			optional: true
+			id: "1B63AF2EFB920D69"
+			tasks: [{
+				id: "19CF4D2BA89A0695"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "024DBBA581D65E72"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:aluminum_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "4x Treated Wood Planks"
+			icon: "immersiveengineering:treated_wood_horizontal"
+			tags: ["repeat"]
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["44C83AE747BA6538"]
+			optional: true
+			id: "5F60E5FD1FE8E490"
+			tasks: [{
+				id: "21E65EA0EB0E4BF2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4948002A8AA1CBDF"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 4
+			}]
+		}
+		{
+			title: "3x Tin Chunk's"
+			icon: "emendatusenigmatica:tin_chunk"
+			tags: ["repeat"]
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["117D1755A2DF85E9"]
+			optional: true
+			id: "71286EBED819AD11"
+			tasks: [{
+				id: "51415C9A85615AD3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "74C0C4783D8D098E"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:tin_chunk"
+				count: 3
+			}]
+		}
+		{
+			title: "3x Iron Chunk's"
+			icon: "emendatusenigmatica:iron_chunk"
+			tags: ["repeat"]
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["117D1755A2DF85E9"]
+			optional: true
+			id: "0444E480C74CECD1"
+			tasks: [{
+				id: "79458319BAD42FE9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19A0EA3DA70AA309"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:iron_chunk"
+				count: 3
+			}]
+		}
+		{
+			title: "2x Brass Ingot's"
+			icon: "emendatusenigmatica:brass_ingot"
+			tags: ["repeat"]
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["3A98CF3F5D697435"]
+			optional: true
+			id: "14B72F160582BF52"
+			tasks: [{
+				id: "56C2587B6840585E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B72071C52CA5548"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:brass_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Bronze Ingot's"
+			icon: "emendatusenigmatica:bronze_ingot"
+			tags: ["repeat"]
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["3A98CF3F5D697435"]
+			optional: true
+			id: "3533F0CB18B260F1"
+			tasks: [{
+				id: "349E1337526ACC24"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "44FEF146096E346F"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:bronze_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Livingrock"
+			icon: "botania:livingrock"
+			tags: ["repeat"]
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["35F931F9711E2230"]
+			optional: true
+			id: "2E5F2FA31C617E56"
+			tasks: [{
+				id: "44DD21F0193D288A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "08D0672080558623"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "botania:livingrock"
+				count: 2
+			}]
+		}
+		{
+			title: "1x Rune of Fire"
+			icon: "botania:rune_fire"
+			tags: ["repeat"]
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["64D6136659D3D1A4"]
+			optional: true
+			id: "1519B15431A48F37"
+			tasks: [{
+				id: "1DA607163AE07173"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "71B8233C3222D50D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "botania:rune_fire"
+			}]
+		}
+		{
+			title: "3x Iron Sheetmetal"
+			icon: "immersiveengineering:sheetmetal_iron"
+			tags: ["repeat"]
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["117D1755A2DF85E9"]
+			optional: true
+			id: "2E94F7F20FBFBEB5"
+			tasks: [{
+				id: "2DA0A9A10964BECF"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0259D382CBACC8E1"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "immersiveengineering:sheetmetal_iron"
+				count: 3
+			}]
+		}
+		{
+			title: "2x Livingwood"
+			icon: "botania:livingwood"
+			tags: ["repeat"]
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["35F931F9711E2230"]
+			optional: true
+			id: "7BC1B0DFBB43596D"
+			tasks: [{
+				id: "14157C9D237F741B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29F590659B01E192"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "botania:livingwood"
+				count: 2
+			}]
+		}
+		{
+			title: "1x Copper Coil Block"
+			icon: "immersiveengineering:coil_lv"
+			tags: ["repeat"]
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["3DD9ABFC6CB64B4D"]
+			optional: true
+			id: "62CCBCF23E1712A8"
+			tasks: [{
+				id: "5BDFA63AABED046E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "699976DEE2B1AAD4"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "immersiveengineering:coil_lv"
+			}]
+		}
+		{
+			title: "1x Pity Machine Frame"
+			icon: "industrialforegoing:machine_frame_pity"
+			tags: ["repeat"]
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["053BEAD38B8AE0FF"]
+			optional: true
+			id: "70DDC1D8A6FEA18F"
+			tasks: [{
+				id: "4209F1D37771684E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "465516B62A68B624"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			title: "2x I.F Plastic"
+			icon: "industrialforegoing:plastic"
+			tags: ["repeat"]
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["2B18BEFF52CE535E"]
+			optional: true
+			id: "0B80A55CCB743E34"
+			tasks: [{
+				id: "62D0643BA8E76C94"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3E691ABB5DB0983B"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "industrialforegoing:plastic"
+				count: 2
+			}]
+		}
+		{
+			title: "1x Zombie Heart"
+			icon: "eidolon:zombie_heart"
+			tags: ["repeat"]
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["5B6656FD76253CF0"]
+			optional: true
+			id: "358300A50F59D789"
+			tasks: [{
+				id: "37A01D4BD5D1F95C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A044595E0796D9A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "eidolon:zombie_heart"
+			}]
+		}
+		{
+			title: "1x Wraith Heart"
+			icon: "eidolon:wraith_heart"
+			tags: ["repeat"]
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["5B6656FD76253CF0"]
+			optional: true
+			id: "57848C9B680030EA"
+			tasks: [{
+				id: "22009950DC9F7949"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C8ACF93699AF1A7"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "eidolon:wraith_heart"
+			}]
+		}
+		{
+			title: "1x Soul Shard"
+			icon: "eidolon:soul_shard"
+			tags: ["repeat"]
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["0673E6B7DB43030E"]
+			optional: true
+			id: "7AC9D3BD82E8D50A"
+			tasks: [{
+				id: "486184587BEC95CB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6132F0F8F8418EE5"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "eidolon:soul_shard"
+			}]
+		}
+		{
+			title: "2x Enchanted Ash"
+			icon: "eidolon:enchanted_ash"
+			tags: ["repeat"]
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["04D22B55F99B2A1E"]
+			optional: true
+			id: "68AD96150A6B9A11"
+			tasks: [{
+				id: "01E1DF39AC15CB40"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2838A753B0C1DEE1"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "eidolon:enchanted_ash"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Nebu Ingot's"
+			icon: "atum:nebu_ingot"
+			tags: ["repeat"]
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["3647ED6747C38867"]
+			optional: true
+			id: "24416F596C905D9E"
+			tasks: [{
+				id: "17AEC2D234B5E7F9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "79D2D39813DE7A22"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "atum:nebu_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "8x Nether Quartz"
+			icon: "minecraft:quartz"
+			tags: ["repeat"]
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["63B7D1BBE87BAB85"]
+			optional: true
+			id: "6A6FF3D8F9B469D0"
+			tasks: [{
+				id: "4B174657F84FE670"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3DAA35650A0277E8"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "minecraft:quartz"
+				count: 8
+			}]
+		}
+		{
+			title: "2x Pewter Ingot's"
+			icon: "eidolon:pewter_ingot"
+			tags: ["repeat"]
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["02F40480CE2241C8"]
+			optional: true
+			id: "4B729C75ABE10680"
+			tasks: [{
+				id: "281372E26FAD8FB3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2BD3177E1A5089D6"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "eidolon:pewter_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Arcane Gold Ingot's"
+			icon: "eidolon:arcane_gold_ingot"
+			tags: ["repeat"]
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["5B6656FD76253CF0"]
+			optional: true
+			id: "7CC95CF074AEEE9C"
+			tasks: [{
+				id: "1C352639B8C61ECD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0682BC4FF7353735"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "eidolon:arcane_gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "4x Tattered Cloth"
+			icon: "eidolon:tattered_cloth"
+			tags: ["repeat"]
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["5B6656FD76253CF0"]
+			optional: true
+			id: "073161CE91324044"
+			tasks: [{
+				id: "755111BE37AED934"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3988C86227E5B4F1"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "eidolon:tattered_cloth"
+				count: 4
+			}]
+		}
+		{
+			title: "1x Rockcutter Blade"
+			icon: {
+				id: "immersiveengineering:rockcutter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			tags: ["repeat"]
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["21CBDF24FD5C93BF"]
+			optional: true
+			id: "1555143EF01A92EB"
+			tasks: [{
+				id: "3A644FA7E58FF532"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6CD56B3385BD8318"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: {
+					id: "immersiveengineering:rockcutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "4x Steel Ingot's"
+			icon: "emendatusenigmatica:steel_ingot"
+			tags: ["repeat"]
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["2864A4D4BB134D23"]
+			optional: true
+			id: "600CB08277AD78A1"
+			tasks: [{
+				id: "0996C8D76DC29421"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4329D335557D83BE"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 4
+			}]
+		}
+		{
+			title: "1x Afrit Essence"
+			icon: "occultism:afrit_essence"
+			tags: ["repeat"]
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["1ED335913CB09D80"]
+			optional: true
+			id: "3367AD8C58983987"
+			tasks: [{
+				id: "7A7E1E11A583E49F"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "303676AF04C48669"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "occultism:afrit_essence"
+			}]
+		}
+		{
+			title: "1x HOP Graphite Dust"
+			icon: "immersiveengineering:dust_hop_graphite"
+			tags: ["repeat"]
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["556DDCFFCC047396"]
+			optional: true
+			id: "76DD4AF1FEFBC11A"
+			tasks: [{
+				id: "7F990BCA3A698FD8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "61837F50084FC855"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "immersiveengineering:dust_hop_graphite"
+			}]
+		}
+		{
+			title: "1x Cobalt Gear"
+			icon: "emendatusenigmatica:cobalt_gear"
+			tags: ["repeat"]
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["21CBDF24FD5C93BF"]
+			optional: true
+			id: "2A95A1F11717816C"
+			tasks: [{
+				id: "254E47868263099A"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "77F23771F7728950"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "emendatusenigmatica:cobalt_gear"
+			}]
+		}
+		{
+			title: "2x Aquamarine"
+			icon: "astralsorcery:aquamarine"
+			tags: ["repeat"]
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["06CD11B82A85BA18"]
+			optional: true
+			id: "26A0A027C64C9D8B"
+			tasks: [{
+				id: "43F7162CA7914C95"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "38312A5AD659F73D"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "astralsorcery:aquamarine"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Iesnium Ingot's"
+			icon: "occultism:iesnium_ingot"
+			tags: ["repeat"]
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["199FF0FAADDA3599"]
+			optional: true
+			id: "403F2A693FFCC4E7"
+			tasks: [{
+				id: "29E6763C90B7A131"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "56CBE5A7961DCF25"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "occultism:iesnium_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "1x Simple Machine Frame"
+			icon: "industrialforegoing:machine_frame_simple"
+			tags: ["repeat"]
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["46EEBA115304696C"]
+			optional: true
+			id: "022C825821E49EBE"
+			tasks: [{
+				id: "79B6FE0F0CCE6B67"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4E9041BD9EB12C02"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			title: "2x Printed Silicon"
+			icon: "appliedenergistics2:printed_silicon"
+			tags: ["repeat"]
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["7C2BF6449AF19499"]
+			optional: true
+			id: "2102E9C8CE8A0049"
+			tasks: [{
+				id: "01FEF6C1D03C7B0C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "669A7D0A344E3D64"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "appliedenergistics2:printed_silicon"
+				count: 2
+			}]
+		}
+		{
+			title: "1x Unassembled PCB"
+			icon: "pneumaticcraft:unassembled_pcb"
+			tags: ["repeat"]
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["47F3A56B3BE23A64"]
+			optional: true
+			id: "66599FD71837D9A8"
+			tasks: [{
+				id: "3D03E4B6AEFB93D0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "349B6660A469322F"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+		}
+		{
+			title: "1x Blood Orb \\& 1x Dark Orb"
+			icon: "kubejs:blood_orb"
+			tags: ["repeat"]
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["1D64CC9C64F0502D"]
+			optional: true
+			id: "0C7FEC3C7ACB7A72"
+			tasks: [{
+				id: "2089ECAD4D4AF84E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "42453FCA6BD49587"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:blood_orb"
+				}
+				{
+					id: "48E4FC566F1BBEE6"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:dark_orb"
+				}
+			]
+		}
+		{
+			title: "2x PNCR Plastic"
+			icon: "pneumaticcraft:plastic"
+			tags: ["repeat"]
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["08B94D4FA709362B"]
+			optional: true
+			id: "299BE993A47DE7AC"
+			tasks: [{
+				id: "0D729901A7E904B6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20CC756D970C5F7A"
+				type: "item"
+				team_reward: true
+				auto: "enabled"
+				item: "pneumaticcraft:plastic"
+				count: 2
+			}]
+		}
+	]
+}

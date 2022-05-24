@@ -1,0 +1,587 @@
+{
+	id: "2AEA7DFEF206E338"
+	group: "1DFE3EE269C0174B"
+	order_index: 7
+	filename: "occultism"
+	title: "Occultism"
+	icon: {
+		id: "occultism:miner_debug_unspecialized"
+		Count: 1b
+		tag: {
+			spiritName: "Morarkark"
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["08DF17B52FC2335A"]
+			id: "1A172D3887CE9278"
+			tasks: [
+				{
+					id: "21F4D6BB4CAB617C"
+					type: "item"
+					item: "occultism:storage_controller_base"
+				}
+				{
+					id: "05C3CF5437EF5AB8"
+					type: "item"
+					item: {
+						id: "occultism:dimensional_matrix"
+						Count: 1b
+						tag: {
+							spiritName: "Madsorcred"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7E8364AC71FA2E1B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Very powerful \"digital\" storage"
+			description: ["(psst it works well with ME Network!)"]
+			dependencies: ["1A172D3887CE9278"]
+			id: "61A9BD3BDBD13E1B"
+			tasks: [{
+				id: "0002B7E49DAE4D2F"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+			rewards: [{
+				id: "51FA22B7AFA076BB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["61A9BD3BDBD13E1B"]
+			id: "3D1968ED06E926EB"
+			tasks: [{
+				id: "5EACB61AD1BB6FB9"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier1"
+			}]
+			rewards: [{
+				id: "6085F677934F71D1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["3D1968ED06E926EB"]
+			id: "3BAE5A608AFEE5F8"
+			tasks: [{
+				id: "63D4CD6026849254"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier2"
+			}]
+			rewards: [{
+				id: "04A06BB503EF33B6"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["3BAE5A608AFEE5F8"]
+			id: "6B32FAF9BA808DAE"
+			tasks: [{
+				id: "1F13EB0C4CA118A0"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier3"
+			}]
+			rewards: [{
+				id: "1A8AE3AEB25009A2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["6B32FAF9BA808DAE"]
+			id: "13FD9629D0C6C39B"
+			tasks: [{
+				id: "76FC7F06E413B7B4"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier4"
+			}]
+			rewards: [{
+				id: "08B98E72D527067D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Dimensionless storage!"
+			dependencies: ["61A9BD3BDBD13E1B"]
+			id: "77963DB833445E8E"
+			tasks: [{
+				id: "0C764ECB2B910B26"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2A5BAAE28D362B37"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["07DEBFB91DD7CE3B"]
+			id: "1E516DDA3C1B3D0E"
+			tasks: [{
+				id: "39DFE70CC54902DA"
+				type: "item"
+				item: "occultism:brush"
+			}]
+			rewards: [{
+				id: "7F831A2055A08E1E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["08DF17B52FC2335A"]
+			id: "508D1BF149F7AD75"
+			tasks: [{
+				id: "75A0C032543FA586"
+				type: "item"
+				item: {
+					id: "occultism:satchel"
+					Count: 1b
+					tag: {
+						spiritName: "Crusormur"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D43588BF17E86B2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: [
+				"0673E6B7DB43030E"
+				"07DEBFB91DD7CE3B"
+			]
+			id: "57E94B02F46F7E7D"
+			tasks: [{
+				id: "2EAB3D77C599420C"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "586701D521AE7E5C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Greedy Familiar"
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "566DED862848333C"
+			tasks: [{
+				id: "437AD014E5221347"
+				type: "observation"
+				title: "Greedy Familiar"
+				icon: "occultism:spawn_egg/familiar_greedy"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:greedy_familiar"
+			}]
+			rewards: [{
+				id: "61401686792EEC64"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			subtitle: "To unlock the familiar quests, you have to look at them!"
+			dependencies: ["08DF17B52FC2335A"]
+			id: "0450AFB074D8FCCF"
+			tasks: [{
+				id: "42B4F0A727FCEAD7"
+				type: "item"
+				item: {
+					id: "occultism:familiar_ring"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "265EAAFCE2ABCB61"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "3086754F10E741CD"
+			tasks: [{
+				id: "4A33A63622DE60C5"
+				type: "observation"
+				title: "Bat Familiar"
+				icon: "occultism:spawn_egg/familiar_bat"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:bat_familiar"
+			}]
+			rewards: [{
+				id: "5873AEF408353C87"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "0E9D544D4CBC831D"
+			tasks: [{
+				id: "5DB6DCBA9373B536"
+				type: "observation"
+				title: "Deer Familiar"
+				icon: "occultism:spawn_egg/familiar_deer"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:deer_familiar"
+			}]
+			rewards: [{
+				id: "77AD2EE63D4BE162"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "22ED5FB28D124705"
+			tasks: [{
+				id: "053500DFAB345C62"
+				type: "observation"
+				title: "Cthulhu Familiar"
+				icon: "occultism:spawn_egg/familiar_cthulhu"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:cthulhu_familiar"
+			}]
+			rewards: [{
+				id: "012A1142D4A40F18"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "34F4D0F55C5F4414"
+			tasks: [{
+				id: "758F05F85F3E23F5"
+				type: "observation"
+				title: "Devil Familiar"
+				icon: "occultism:spawn_egg/familiar_devil"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:devil_familiar"
+			}]
+			rewards: [{
+				id: "5E514A372C4D564C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "52C233E7368E0178"
+			tasks: [{
+				id: "3EF39D373A1D5333"
+				type: "observation"
+				title: "Dragon Familiar"
+				icon: "occultism:spawn_egg/familiar_dragon"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:dragon_familiar"
+			}]
+			rewards: [{
+				id: "28A5CF6D481BAB85"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "3E10899FCFB7F7DF"
+			tasks: [{
+				id: "1032D2685D977B1B"
+				type: "observation"
+				title: "Blacksmith Familiar"
+				icon: "occultism:spawn_egg/familiar_blacksmith"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:blacksmith_familiar"
+			}]
+			rewards: [{
+				id: "7F9D2879706019A7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "62F022B6CDE7E8A6"
+			tasks: [{
+				id: "357316D7DCB4E4A9"
+				type: "observation"
+				title: "Guardian Familiar"
+				icon: "occultism:spawn_egg/familiar_guardian"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:guardian_familiar"
+			}]
+			rewards: [{
+				id: "0E3D0E2365579851"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "667ABDED98918DB8"
+			tasks: [{
+				id: "594A6E85A96C71E0"
+				type: "observation"
+				title: "Headless Ratman Familiar"
+				icon: "occultism:spawn_egg/familiar_headless"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:headless_familiar"
+			}]
+			rewards: [{
+				id: "6EEE1ED2D08A1AF7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "41B522157597C346"
+			tasks: [{
+				id: "2F3D2B0ABB5FAE5E"
+				type: "observation"
+				title: "Chimera Familiar"
+				icon: "occultism:spawn_egg/familiar_chimera"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:chimera_familiar"
+			}]
+			rewards: [{
+				id: "3356E4DCBE38C04B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			subtitle: "Get The Filter"
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "117A9D462B5E82B4"
+			tasks: [{
+				id: "1B17B87538009976"
+				type: "observation"
+				title: "Goat Familiar"
+				icon: "occultism:spawn_egg/familiar_goat"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:goat_familiar"
+			}]
+			rewards: [{
+				id: "44AC04DCB35EEEA9"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "037E86508C8066CA"
+			tasks: [{
+				id: "6924E7781AD6DA80"
+				type: "observation"
+				title: "Shub Niggurath Familiar"
+				icon: "occultism:spawn_egg/familiar_shub_niggurath"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:shub_niggurath_familiar"
+			}]
+			rewards: [{
+				id: "5DDF3AE314FD4DF8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "3A6A47F5C2240F9C"
+			tasks: [{
+				id: "68732E79739E6956"
+				type: "observation"
+				title: "Beholder Familiar"
+				icon: "occultism:spawn_egg/familiar_beholder"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:beholder_familiar"
+			}]
+			rewards: [{
+				id: "448BE382B1874D74"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "0C016F55BC65BB9A"
+			tasks: [{
+				id: "735258EE856E8D93"
+				type: "observation"
+				title: "Fairy Familiar"
+				icon: "occultism:spawn_egg/familiar_fairy"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:fairy_familiar"
+			}]
+			rewards: [{
+				id: "19A2E3FC92168E5C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "58650BA9180D053B"
+			tasks: [{
+				id: "10344BC1ED26B528"
+				type: "observation"
+				title: "Mummy Familiar"
+				icon: "occultism:spawn_egg/familiar_mummy"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:mummy_familiar"
+			}]
+			rewards: [{
+				id: "03246B20D9D1A96C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["0450AFB074D8FCCF"]
+			id: "7DCC177F7A263CE5"
+			tasks: [{
+				id: "5D72341DE5ECA312"
+				type: "observation"
+				title: "Beaver Familiar"
+				icon: "occultism:spawn_egg/familiar_beaver"
+				timer: 0L
+				observe_type: 5
+				to_observe: "occultism:beaver_familiar"
+			}]
+			rewards: [{
+				id: "1ECC475B59981CD3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

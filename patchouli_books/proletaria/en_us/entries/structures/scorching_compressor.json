@@ -1,0 +1,86 @@
+{
+  "name": "Scorching Compressor",
+  "icon": "masterfulmachinery:compressor_controller",
+  "category": "patchouli:multiblock_structures",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "masterfulmachinery:compressor_controller",
+      "title": "Scorching Compressor",
+      "link_recipe": true,
+      "text": "This is the Scorching Compressor, it will allow you to create compressed iron."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "scorching_compressor",
+      "multiblock": {
+        "pattern": [
+          [
+            "     ",
+            " ))) ",
+            " )B) ",
+            " ))) ",
+            "     "
+          ],
+          [
+            " ))) ",
+            "),F 1",
+            ")G/ 1",
+            "),H 1",
+            " ))) "
+          ],
+          [
+            " )9) ",
+            "),6 1",
+            "A72 1",
+            "),5 1",
+            " )8) "
+          ],
+          [
+            " ).) ",
+            "),- 1",
+            "+D4 C",
+            "),E 1",
+            " )3) "
+          ],
+          [
+            "     ",
+            " ))) ",
+            " )*)0",
+            " ))) ",
+            "     "
+          ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "C": "masterfulmachinery:compressor_controller[facing=south]",
+          "0": "ANY",
+          "1": "pneumaticcraft:pressure_chamber_glass",
+          "2": "emendatusenigmatica:aluminum_block",
+          "3": "masterfulmachinery:compressor_default_port_items_output",
+          ")": "tconstruct:scorched_bricks",
+          "*": "minecraft:piston[extended=true, facing=up]",
+          "8": "minecraft:piston[extended=true, facing=west]",
+          "9": "minecraft:piston[extended=true, facing=east]",
+          "A": "minecraft:piston[extended=true, facing=south]",
+          "B": "minecraft:piston[extended=true, facing=down]",
+          "+": "masterfulmachinery:compressor_default_port_energy_input",
+          ",": "tconstruct:blazing_blood_fluid",
+          "-": "tconstruct:scorched_road_stairs[half=bottom,facing=west]",
+          "D": "tconstruct:scorched_road_stairs[half=bottom,facing=north]",
+          "E": "tconstruct:scorched_road_stairs[half=bottom,facing=east]",
+          "F": "tconstruct:scorched_road_stairs[half=top,facing=west]",
+          "G": "tconstruct:scorched_road_stairs[half=top,facing=north]",
+          "H": "tconstruct:scorched_road_stairs[half=top,facing=east]",
+          ".": "masterfulmachinery:compressor_default_port_items_input",
+          "/": "minecraft:piston_head[facing=down]",
+          "4": "minecraft:piston_head[facing=up]",
+          "5": "minecraft:piston_head[facing=west]",
+          "6": "minecraft:piston_head[facing=east]",
+          "7": "minecraft:piston_head[facing=south]"
+        },
+        "symmetrical": false
+      }
+    }
+  ]
+}

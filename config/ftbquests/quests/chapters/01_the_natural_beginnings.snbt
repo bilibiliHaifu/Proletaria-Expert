@@ -1,0 +1,1954 @@
+{
+	id: "464EBEA246B36F87"
+	group: "5BC5B0C01671D322"
+	order_index: 0
+	filename: "01_the_natural_beginnings"
+	title: "01 - The Natural Beginnings"
+	icon: "botania:orechid"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "How much wood..."
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Wait, we have vein-miner??"
+			description: [
+				"This pack contains &dFTB Ultimine&r which allows you to mine a number of blocks of the same type at once."
+				""
+				"To use it, hold down the key (grave key ( ` ) by default, usually located next to '1'), and destroy a block"
+			]
+			dependencies: ["6E99F4CACF47CDE2"]
+			id: "075C0290C0F62A3F"
+			tasks: [{
+				id: "4DA1FE2582607F54"
+				type: "item"
+				title: "Logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "7C9D04BEA6ACA22C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mystical Flowers"
+			x: -2.5d
+			y: -1.5d
+			description: ["You will need a bunch of these flower."]
+			dependencies: ["075C0290C0F62A3F"]
+			id: "5ED8F3A643F2FA98"
+			tasks: [{
+				id: "449972155AA5FB31"
+				type: "item"
+				title: "Mystical Flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "6BEEC8BEA5BC08CA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mystical Growth"
+			x: -2.5d
+			y: -3.0d
+			description: ["Helpful if you are missing some mystical flowers"]
+			dependencies: ["075C0290C0F62A3F"]
+			id: "13E0B0EF7964442D"
+			tasks: [{
+				id: "5BEF8A33F5078151"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "262EBF16E645B860"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Crafting Capabilities"
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["075C0290C0F62A3F"]
+			id: "5A488F66FA951BE3"
+			tasks: [
+				{
+					id: "012F5F29C5F4DCBD"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:dark_oak_log"
+						}
+					}
+				}
+				{
+					id: "0D1E97BE4DE9F9B0"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "5336A0909ACFE66E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Tool Crafters"
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["5A488F66FA951BE3"]
+			id: "5874905D11B2CFD1"
+			tasks: [
+				{
+					id: "73B76B20A4088599"
+					type: "item"
+					title: "Part Builder"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:oak_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:spruce_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:birch_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:jungle_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:acacia_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:dark_oak_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:crimson_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "minecraft:warped_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "tconstruct:greenheart_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "tconstruct:skyroot_planks"
+									}
+								}
+								{
+									id: "tconstruct:part_builder"
+									Count: 1b
+									tag: {
+										texture: "tconstruct:bloodshroom_planks"
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "7F6361A63B5ECB36"
+					type: "item"
+					title: "Tool Station"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:oak_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:spruce_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:birch_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:jungle_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:acacia_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:dark_oak_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:crimson_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "minecraft:warped_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "tconstruct:greenheart_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "tconstruct:skyroot_planks"
+									}
+								}
+								{
+									id: "tconstruct:tinker_station"
+									Count: 1b
+									tag: {
+										texture: "tconstruct:bloodshroom_planks"
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4C49F603988A43F6"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "376F4D62F651A3F3"
+					type: "item"
+					item: "tconstruct:materials_and_you"
+				}
+			]
+		}
+		{
+			title: "For your shearing pleasure"
+			x: 0.5d
+			y: 1.2000000000000002d
+			shape: "circle"
+			subtitle: "Use the Kama to shear sheep or carve a pumpkin. Any version of the Kama will complete this quest not just the wooden version."
+			description: [
+				""
+				"Kama is a mix of Hoe and Shears."
+				"Can be used to shear sheep, till farmland and carve pumpkins"
+			]
+			dependencies: ["5874905D11B2CFD1"]
+			size: 1.2d
+			id: "6C9D50B10AA8C5B3"
+			tasks: [{
+				id: "473683CC68B5E5C3"
+				type: "item"
+				title: "Kama"
+				item: {
+					id: "tconstruct:kama"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.8f
+							"tconstruct:mining_speed": 2.0f
+							"tconstruct:attack_damage": 0.75f
+							"tconstruct:harvest_level": 0.0f
+							"tconstruct:durability": 60.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hoe_transform_hidden"
+								level: 1s
+							}
+						]
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "10A14E0852F102DA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Miner's Best Friend"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Any version of the pickaxe will complete this quest not just the wooden version."
+			description: [
+				"Mining Levels:"
+				"Stone = Wooden Tools"
+				"Iron = Stone Tools"
+				"Diamond = Iron Tools"
+				"Cobalt = Diamond Tools"
+				"Tier 5+ = Special Modded Tools"
+				""
+				"The levels typically represent similarity to another ore, so Iron Level means it similar to Iron Ore, i.e. Stone Tools or above"
+			]
+			dependencies: ["5874905D11B2CFD1"]
+			id: "15AF8C343F59F68D"
+			tasks: [{
+				id: "3B6F79A648E4AA88"
+				type: "item"
+				title: "Pickaxe"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 2.0f
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:harvest_level": 0.0f
+							"tconstruct:durability": 60.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4ABE211FC6A161AE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mining Expedition"
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["15AF8C343F59F68D"]
+			id: "0EFE8AF0D5AC7B2B"
+			tasks: [
+				{
+					id: "606D51D0DE2B31E8"
+					type: "item"
+					title: "Cobblestone"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "5539228A8497F1B7"
+					type: "item"
+					item: "emendatusenigmatica:copper_chunk"
+				}
+				{
+					id: "29C9B218CFFDD802"
+					type: "item"
+					item: "emendatusenigmatica:zinc_chunk"
+				}
+			]
+			rewards: [{
+				id: "0EC6056D3DA1C58D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Hack \\& Slash"
+			x: 0.5d
+			y: -1.1392857142857151d
+			shape: "circle"
+			subtitle: "Any version of the sword will complete this quest not just the wooden version."
+			description: [""]
+			dependencies: ["5874905D11B2CFD1"]
+			size: 1.2d
+			id: "46B4A8FD1400DC49"
+			tasks: [{
+				id: "4D9C7D67429BC863"
+				type: "item"
+				title: "Sword or Knife"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:dagger"
+								Count: 1b
+								tag: {
+									tic_multipliers: {
+										"tconstruct:mining_speed": 0.75f
+										"tconstruct:attack_damage": 0.5f
+										"tconstruct:durability": 1.0f
+									}
+									tic_stats: {
+										"tconstruct:attack_speed": 2.0f
+										"tconstruct:mining_speed": 1.5f
+										"tconstruct:attack_damage": 1.0f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 45.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 2s
+										}
+										{
+											name: "tconstruct:padded"
+											level: 1s
+										}
+										{
+											name: "tconstruct:offhand_attack"
+											level: 1s
+										}
+										{
+											name: "tconstruct:silky_shears"
+											level: 1s
+										}
+									]
+									HideFlags: 3
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_volatile_data: {
+										"tconstruct:duel_wielding": 1b
+									}
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								id: "tconstruct:sword"
+								Count: 1b
+								tag: {
+									tic_multipliers: {
+										"tconstruct:mining_speed": 0.5f
+										"tconstruct:durability": 1.1f
+									}
+									tic_stats: {
+										"tconstruct:attack_speed": 1.6f
+										"tconstruct:mining_speed": 1.0f
+										"tconstruct:attack_damage": 3.0f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 66.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 3s
+										}
+										{
+											name: "tconstruct:silky_shears"
+											level: 1s
+										}
+									]
+									HideFlags: 3
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+						]
+					}
+				}
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "48BEBE99A2DEE78E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Man-made Flowers?!"
+			x: -1.0d
+			y: 7.5d
+			shape: "rsquare"
+			description: [
+				"First steps into Botania."
+				"The Petal Apothecary will be used throughout to create flora for generating and using mana."
+			]
+			dependencies: ["6E1D82728C0C382F"]
+			id: "58D898509FBB2E02"
+			tasks: [{
+				id: "083334C8B44988D3"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [
+				{
+					id: "2234788C5336FC2F"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "0ADA320B2669556D"
+					type: "item"
+					item: {
+						id: "botania:lexicon"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "First Mana Gen"
+			x: -3.0d
+			y: 7.5d
+			description: [
+				"Mana generation will become vital. You will want to look into primitive ways to automate endoflames and more advanced flowers later."
+				"{image:proletaria:textures/quests/endoflame_1.png width:186 height:131 align:1}"
+			]
+			dependencies: ["58D898509FBB2E02"]
+			id: "38A1532C9428E8B9"
+			tasks: [{
+				id: "666975F00746F453"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:hydroangeas"
+								Count: 1b
+							}
+							{
+								id: "botania:endoflame"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "74CA3AE90FE98503"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Imbuing Life"
+			x: 1.0d
+			y: 7.5d
+			shape: "diamond"
+			description: [
+				"You will need a lot of Livingwood and Livingrock. It might be in your interest to make several of these; and automate them in near future."
+				"{image:proletaria:textures/quests/pure_daisy.png width:335 height:100 align:1}"
+			]
+			dependencies: ["58D898509FBB2E02"]
+			size: 1.5d
+			id: "5A717605CD10A91F"
+			tasks: [{
+				id: "26C6877AB401FD67"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "2F667F05ED984ED7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Living Organisms"
+			x: 1.0d
+			y: 9.5d
+			dependencies: ["5A717605CD10A91F"]
+			id: "35F931F9711E2230"
+			tasks: [
+				{
+					id: "0E12873F82A3BC28"
+					type: "item"
+					item: "botania:livingrock"
+				}
+				{
+					id: "4A1C0451836871F0"
+					type: "item"
+					item: "botania:livingwood"
+				}
+			]
+			rewards: [{
+				id: "5016034C80577C98"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mana Capacity"
+			x: -1.0d
+			y: 9.5d
+			shape: "diamond"
+			dependencies: ["35F931F9711E2230"]
+			size: 1.5d
+			id: "5C3FD999EBEF7AC1"
+			tasks: [
+				{
+					id: "53D75340401B28A1"
+					type: "item"
+					item: "botania:diluted_pool"
+				}
+				{
+					id: "0B0536A6DF14DDBB"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "0EE0E47132EEA397"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6F7E9886F1E56EF4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mystical Refinery"
+			icon: "masterfulmachinery:livingwood_controller"
+			x: 1.0d
+			y: 11.0d
+			shape: "diamond"
+			subtitle: "Refer to your PIP for more information on how to build it"
+			description: ["{image:proletaria:textures/quests/mystical_refinery.png width:112 height:100 align:1}"]
+			dependencies: ["35F931F9711E2230"]
+			size: 1.5d
+			id: "487CD160D4E4D76C"
+			tasks: [
+				{
+					id: "25DF9462BA60F426"
+					type: "item"
+					item: "masterfulmachinery:livingwood_controller"
+				}
+				{
+					id: "7ECBC5A90F91F3DC"
+					type: "item"
+					item: "masterfulmachinery:livingwood_default_port_fluids_input"
+				}
+				{
+					id: "53E24C422E23A79C"
+					type: "item"
+					item: "masterfulmachinery:livingwood_default_port_fluids_output"
+				}
+				{
+					id: "4F502A3445AC8B8A"
+					type: "item"
+					item: "masterfulmachinery:livingwood_default_port_items_input"
+				}
+				{
+					id: "18D925CD066643A5"
+					type: "item"
+					item: "masterfulmachinery:livingwood_default_port_items_output"
+				}
+				{
+					id: "495785D89CAEE67E"
+					type: "item"
+					item: "masterfulmachinery:livingwood_default_port_botania_mana_input"
+				}
+				{
+					id: "0AC33A85C38E62E2"
+					type: "item"
+					item: "botania:livingwood_planks"
+					count: 2L
+				}
+				{
+					id: "37B95C6DD1806C34"
+					type: "item"
+					item: "botania:livingrock_bricks"
+					count: 8L
+				}
+				{
+					id: "60EB58E28A57C878"
+					type: "item"
+					item: "botania:livingrock_stairs"
+					count: 2L
+				}
+				{
+					id: "0C50D96270508D1C"
+					type: "item"
+					item: "botania:drum_wild"
+					count: 2L
+				}
+				{
+					id: "4BE926CA857B7AAD"
+					type: "item"
+					item: "botania:livingwood_planks_stairs"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "48B28DCA4FABB8CA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Mystic Organisms"
+			x: 4.0d
+			y: 11.0d
+			description: ["If you place the weak creosote into the world, then throw in either livingrock or livingwood to get their respective counterpart's"]
+			dependencies: ["487CD160D4E4D76C"]
+			id: "3CE3DE068CD5EC01"
+			tasks: [
+				{
+					id: "3441969B0F221DDD"
+					type: "item"
+					item: "kubejs:mysticwood"
+				}
+				{
+					id: "7364F2C3F87A8CF9"
+					type: "item"
+					item: "kubejs:mysticrock"
+				}
+			]
+			rewards: [{
+				id: "258406E9D3244B27"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Rotational Madness"
+			x: 4.0d
+			y: 13.0d
+			dependencies: ["3CE3DE068CD5EC01"]
+			id: "5BA8EE142D4447FB"
+			tasks: [{
+				id: "40537D95974616C4"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [
+				{
+					id: "475A38586EBF358A"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+				{
+					id: "65FDD34690D7CB3E"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "3ACA072DC1441DB6"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
+		}
+		{
+			title: "Botanist's Rotational Generator"
+			icon: "masterfulmachinery:mechanists_controller"
+			x: 4.0d
+			y: 15.0d
+			shape: "diamond"
+			subtitle: "Refer to your PIP for more information on how to build it"
+			description: [
+				"Botanist's Rotational Generator is your first step into powering your Create machinery. It will consume Mana and provide you with Create rotation"
+				"{image:proletaria:textures/quests/rotational_generator.png width:186 height:121 align:1}"
+			]
+			dependencies: ["5BA8EE142D4447FB"]
+			size: 1.5d
+			id: "163B268AEE887915"
+			tasks: [
+				{
+					id: "51954805134BCEF4"
+					type: "item"
+					item: "masterfulmachinery:mechanists_controller"
+				}
+				{
+					id: "50C1C8482D034A48"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 9L
+				}
+				{
+					id: "39FD7D59B7DE647D"
+					type: "item"
+					item: "masterfulmachinery:mechanists_default_port_botania_mana_input"
+				}
+				{
+					id: "27A5D9D140900A76"
+					type: "item"
+					item: "masterfulmachinery:mechanists_default_port_create_rotation_output"
+				}
+				{
+					id: "624BA7BEB58FC21B"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "6A469360138132EC"
+					type: "item"
+					title: "Any #forge:glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
+				}
+				{
+					id: "0B711A776E3700F8"
+					type: "item"
+					item: "minecraft:redstone_lamp"
+				}
+			]
+			rewards: [{
+				id: "1704868B5925A7E7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Botanist's Smelter"
+			icon: "masterfulmachinery:livingrock_controller"
+			x: -0.5d
+			y: 15.0d
+			shape: "diamond"
+			subtitle: "Refer to your PIP for more information on how to build it"
+			description: [
+				"Botanist's Smelter will be very useful in getting the most out of your ore chunks so far."
+				"You should invest some resource into making this."
+				""
+				"An upgraded version of this structure will be required later on."
+				"{image:proletaria:textures/quests/botanist_smelter.png width:236 height:173 align:1}"
+				"(Do not cook your friends. It is considered rude.)"
+			]
+			dependencies: ["163B268AEE887915"]
+			size: 1.5d
+			id: "19762D650369ACDC"
+			tasks: [
+				{
+					id: "4BB4CF6BF29ABDF5"
+					type: "item"
+					item: "masterfulmachinery:livingrock_controller"
+				}
+				{
+					id: "222C8ABF2855B914"
+					type: "item"
+					item: "masterfulmachinery:livingrock_default_port_items_input"
+				}
+				{
+					id: "0D5AACF9DC099E5B"
+					type: "item"
+					item: "masterfulmachinery:livingrock_default_port_items_output"
+				}
+				{
+					id: "7845889626261BE2"
+					type: "item"
+					item: "masterfulmachinery:livingrock_default_port_botania_mana_input"
+				}
+				{
+					id: "4F74BDE7C7D3398D"
+					type: "item"
+					item: "masterfulmachinery:livingrock_default_port_create_rotation_input"
+				}
+				{
+					id: "7D661B7C4BAA61AB"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "659A7FD590056104"
+					type: "item"
+					item: "minecraft:campfire"
+					count: 3L
+				}
+				{
+					id: "686FA196D2DB7DC5"
+					type: "item"
+					item: "immersiveengineering:chute_copper"
+					count: 2L
+				}
+				{
+					id: "62CCEE62EA94CD85"
+					type: "item"
+					title: "Any #forge:glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "6598E26EEDA9982E"
+					type: "item"
+					item: "minecraft:jack_o_lantern"
+					count: 2L
+				}
+				{
+					id: "7498DD25CA55BA97"
+					type: "item"
+					item: "botania:livingrock"
+					count: 6L
+				}
+				{
+					id: "1C52DF5ACFA5DBCD"
+					type: "item"
+					item: "botania:livingrock_stairs"
+					count: 9L
+				}
+				{
+					id: "336A0CDFFCEF315D"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "5F1F835C5583712A"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 3L
+				}
+				{
+					id: "7F320FDF287DEE56"
+					type: "item"
+					item: "create:shaft"
+					count: 2L
+				}
+				{
+					id: "6F0FAAE943C59B43"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_copper"
+					count: 18L
+				}
+				{
+					id: "1F6B41BEFF8899AE"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_copper"
+					count: 4L
+				}
+				{
+					id: "453B9E57E6B3F250"
+					type: "item"
+					item: "create:gearbox"
+				}
+			]
+			rewards: [{
+				id: "65E633DFB02AEF03"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Grinding for more!"
+			x: 6.0d
+			y: 15.0d
+			shape: "circle"
+			dependencies: ["163B268AEE887915"]
+			size: 1.2d
+			id: "3372C24EA2145E97"
+			tasks: [{
+				id: "02FA3C618CB51706"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "109752F41BF3E5EA"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Farming Trees!"
+			x: 4.0d
+			y: 17.5d
+			dependencies: ["163B268AEE887915"]
+			id: "277B3BE2AFC54306"
+			tasks: [{
+				id: "091C78FCD96FF8C8"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "39EAB2DA959373CE"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 12.0d
+			dependencies: ["5BA8EE142D4447FB"]
+			id: "42A166A1C39E798A"
+			tasks: [{
+				id: "1955EF5D34FCCA9C"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "7DCBB77924E629FD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			dependencies: ["5BA8EE142D4447FB"]
+			id: "19996FB692881D2D"
+			tasks: [{
+				id: "13495A91D8CACB60"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "02BF43BD16DF6068"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 12.0d
+			dependencies: ["5BA8EE142D4447FB"]
+			id: "54C564C9B9F4D1E8"
+			tasks: [{
+				id: "0C03449227C37BF4"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "4BF2435E03731E35"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Botanist's Sawmill"
+			icon: "masterfulmachinery:mysticwood_controller"
+			x: 1.75d
+			y: 17.50578231292515d
+			shape: "diamond"
+			subtitle: "Refer to PIP for more information on how to build it"
+			description: [
+				"This is your first way of obtaining more planks from your logs"
+				"This will also open up a way of making more advanced frames later on down the line."
+				"{image:proletaria:textures/quests/botanist_sawmill.png width:259 height:121 align:1 fit:true}"
+			]
+			dependencies: ["277B3BE2AFC54306"]
+			size: 1.5d
+			id: "4DBAB490A7F2F856"
+			tasks: [
+				{
+					id: "6AEC2D24D5E96FAC"
+					type: "item"
+					item: "masterfulmachinery:mysticwood_controller"
+				}
+				{
+					id: "7D104B97D231D325"
+					type: "item"
+					item: "masterfulmachinery:mysticwood_default_port_items_input"
+				}
+				{
+					id: "2FDDC889486B1EEF"
+					type: "item"
+					item: "masterfulmachinery:mysticwood_default_port_items_output"
+				}
+				{
+					id: "1DFA2BDCB04FCE93"
+					type: "item"
+					item: "masterfulmachinery:mysticwood_default_port_fluids_input"
+				}
+				{
+					id: "45C4EEF8863CCDB6"
+					type: "item"
+					item: "masterfulmachinery:mysticwood_default_port_botania_mana_input"
+				}
+				{
+					id: "1EE4D884169DFE11"
+					type: "item"
+					item: "masterfulmachinery:mysticwood_default_port_create_rotation_input"
+				}
+				{
+					id: "746819A119C78ABB"
+					type: "item"
+					item: "create:gearbox"
+					count: 3L
+				}
+				{
+					id: "699F03715B0F487D"
+					type: "item"
+					item: "create:mechanical_saw"
+					count: 3L
+				}
+				{
+					id: "17B63180C230308C"
+					type: "item"
+					item: "kubejs:mysticwood_planks"
+					count: 15L
+				}
+				{
+					id: "41438A84E231D548"
+					type: "item"
+					item: "kubejs:mysticwood_planks_slab"
+					count: 15L
+				}
+				{
+					id: "61C6BFB506BACE18"
+					type: "item"
+					title: "Any #forge:glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "59AD740265B407C2"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Are we making cookies?"
+			x: -0.5d
+			y: 17.5d
+			dependencies: [
+				"19762D650369ACDC"
+				"4DBAB490A7F2F856"
+			]
+			id: "664190A2BCC5049E"
+			tasks: [
+				{
+					id: "4C5A72E253C0BAC7"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "1CF965600E1E1DF7"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "44079953FD7ADFE4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "A little bit of flowering balance"
+			x: -3.0d
+			y: 9.5d
+			dependencies: [
+				"5C3FD999EBEF7AC1"
+				"38A1532C9428E8B9"
+			]
+			id: "25908AEC8189A6F3"
+			tasks: [{
+				id: "0AE4273628B8BFA8"
+				type: "item"
+				item: "kubejs:botanists_clay_ball"
+			}]
+			rewards: [{
+				id: "694A58590E9CF569"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Ahhh mystical balance"
+			x: -3.0d
+			y: 18.5d
+			dependencies: [
+				"25908AEC8189A6F3"
+				"664190A2BCC5049E"
+			]
+			id: "64F9300E5C26214B"
+			tasks: [{
+				id: "12F6825403488EA8"
+				type: "item"
+				item: "kubejs:mystical_clay_ball"
+			}]
+			rewards: [{
+				id: "47CAB295F09C5ACB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "I AM GROUT!"
+			x: -0.5d
+			y: 19.5d
+			dependencies: [
+				"664190A2BCC5049E"
+				"64F9300E5C26214B"
+			]
+			id: "7B3406231D0293DC"
+			tasks: [{
+				id: "213114DBBA8D7743"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+			rewards: [{
+				id: "38EF83392764A555"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Smelting Fundamentals"
+			x: -0.5d
+			y: 22.0d
+			dependencies: ["7B3406231D0293DC"]
+			id: "16C914DB3F8E4605"
+			tasks: [{
+				id: "05B8D62B133A67EE"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "5CCD2A1D87AE8E35"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Controlling the Heat"
+			x: -1.75d
+			y: 22.0d
+			description: [
+				"Tinker's Melter (and also the smeltery) will allow you to smelt ore chunk, and in the future build your best tools!"
+				"{image:proletaria:textures/quests/melter.png width:120 height:103 align:1}"
+			]
+			dependencies: ["16C914DB3F8E4605"]
+			id: "52DEECA7B2E360D7"
+			tasks: [
+				{
+					id: "6E9C894572876C4E"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "6EE9EF22D77A0CFC"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "368651FC47D17D4A"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "23F39BDA25138B18"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "0848D4D9AEEE8E57"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "78976D5B06C42710"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Delicate toughness"
+			x: -3.0d
+			y: 22.0d
+			dependencies: [
+				"64F9300E5C26214B"
+				"52DEECA7B2E360D7"
+			]
+			id: "12EB0BE590B05169"
+			tasks: [{
+				id: "43DEE01CBB6EF6D0"
+				type: "item"
+				item: "kubejs:orechid_petal"
+				count: 3L
+			}]
+			rewards: [{
+				id: "7F4F385A7413C862"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 24.0d
+			shape: "gear"
+			description: ["Orechids will be your entry into getting your next ores!"]
+			dependencies: ["12EB0BE590B05169"]
+			size: 2.0d
+			id: "65704449FB9EC609"
+			tasks: [{
+				id: "614C3FFF588CE438"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [
+				{
+					id: "1EB0FC42698EE1BE"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 50
+				}
+				{
+					id: "3680CED424E43E0E"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_botanist_emblem"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6E832145AEF202E0"
+					type: "advancement"
+					team_reward: false
+					auto: "invisible"
+					advancement: "proletaria:gamestages/obtain_orechid"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Processing Metals"
+			x: -1.0d
+			y: 4.5d
+			subtitle: "You can wash chunks in water by throwing them in it to gain metal nuggets"
+			dependencies: ["0EFE8AF0D5AC7B2B"]
+			id: "37238B4A644CE574"
+			tasks: [
+				{
+					id: "6BF7B0EFA045471F"
+					type: "item"
+					item: "emendatusenigmatica:copper_nugget"
+				}
+				{
+					id: "7A258ACF43B94642"
+					type: "item"
+					item: "emendatusenigmatica:zinc_nugget"
+				}
+			]
+			rewards: [{
+				id: "17921FDBAC34513B"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Story Telling"
+			x: -2.5d
+			y: 3.0d
+			shape: "circle"
+			subtitle: "You're going to want some early game food"
+			dependencies: ["0EFE8AF0D5AC7B2B"]
+			id: "7E56B86A39BC31BA"
+			tasks: [{
+				id: "04E7274B726B2D04"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "209B4981155DF04E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Moar Plates!"
+			x: 4.0d
+			y: 19.5d
+			shape: "circle"
+			subtitle: "Doesn't require a hammer"
+			description: ["Better way of making plates."]
+			dependencies: ["277B3BE2AFC54306"]
+			id: "31B2A4702602571B"
+			tasks: [{
+				id: "078879A07F3E5624"
+				type: "checkmark"
+				title: "Plates"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			dependencies: ["06118B0A512E1C38"]
+			id: "184E876126329F24"
+			tasks: [{
+				id: "743C565DC2BFD531"
+				type: "custom"
+				title: "Becoming an Itamae (Sushi Go Crafting Manual)"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "sushigocrafting:sushigocrafting"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5860F7AFB83266B2"
+					type: "item"
+					item: "sushigocrafting:cleaver_knife"
+				}
+				{
+					id: "61ECB64081A0C88B"
+					type: "item"
+					item: "kubejs:pro_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Primitive Cooking"
+			x: -4.0d
+			y: 3.0d
+			description: ["All of the accepted items can be cooked on the campfire"]
+			dependencies: ["7E56B86A39BC31BA"]
+			id: "06118B0A512E1C38"
+			tasks: [{
+				id: "60ECD3CB0ABC4CE8"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:cooked_beef"
+								Count: 1b
+							}
+							{
+								id: "minecraft:cooked_porkchop"
+								Count: 1b
+							}
+							{
+								id: "minecraft:cooked_salmon"
+								Count: 1b
+							}
+							{
+								id: "minecraft:cooked_cod"
+								Count: 1b
+							}
+							{
+								id: "minecraft:cooked_rabbit"
+								Count: 1b
+							}
+							{
+								id: "atum:quail_cooked"
+								Count: 1b
+							}
+							{
+								id: "minecraft:cooked_chicken"
+								Count: 1b
+							}
+							{
+								id: "atum:camel_cooked"
+								Count: 1b
+							}
+							{
+								id: "minecraft:dried_kelp"
+								Count: 1b
+							}
+							{
+								id: "minecraft:bread"
+								Count: 1b
+							}
+							{
+								id: "atum:emmer_bread"
+								Count: 1b
+							}
+							{
+								id: "byg:cooked_joshua_fruit"
+								Count: 1b
+							}
+							{
+								id: "minecraft:baked_potato"
+								Count: 1b
+							}
+							{
+								id: "minecraft:cooked_mutton"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "2EB67341DFCAE921"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Chop, chop, chop"
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["184E876126329F24"]
+			id: "34B14AECCC7CB78E"
+			tasks: [{
+				id: "65243CC3BDB2F69B"
+				type: "item"
+				item: "sushigocrafting:cutting_board"
+			}]
+			rewards: [{
+				id: "349D846745E4897E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Steaming business"
+			x: -7.0d
+			y: 4.5d
+			dependencies: ["34B14AECCC7CB78E"]
+			id: "508285D8B7C1F836"
+			tasks: [{
+				id: "7D4AC672E5EDA7DF"
+				type: "item"
+				item: "sushigocrafting:rice_cooker"
+			}]
+			rewards: [{
+				id: "719EFF8CC3F2D729"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Wood Chucker"
+			x: 0.5306122448979522d
+			y: 0.04693877551019626d
+			shape: "circle"
+			subtitle: "Any version of the mattock will complete this quest not just the wooden version."
+			dependencies: ["5874905D11B2CFD1"]
+			size: 1.2d
+			id: "138E4B8D7E4C3A1D"
+			tasks: [{
+				id: "68E7E11655ADF775"
+				type: "item"
+				title: "Mattock"
+				item: {
+					id: "tconstruct:mattock"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:secondary_mining": 0.65f
+							"tconstruct:mining_speed": 1.1f
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:durability": 1.25f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.9f
+							"tconstruct:secondary_mining": 0.65f
+							"tconstruct:attack_damage": 1.6500001f
+							"tconstruct:harvest_level": 0.0f
+							"tconstruct:durability": 75.0f
+							"tconstruct:mining_speed": 2.2f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:knockback"
+								level: 1s
+							}
+							{
+								name: "tconstruct:shovel_transform_hidden"
+								level: 1s
+							}
+						]
+						HideFlags: 3
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "60AE89CFD48EBF15"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "The Natural Beginnings"
+			x: -1.0d
+			y: -4.5d
+			subtitle: "Please refer to PIP for all information"
+			description: [
+				"Welcome to &5Proletaria: Expert."
+				""
+				"Use the Patchouli provided &6Proletaria Information Pamphlet (PIP)&r for additional information about the pack and the required mechanics/setups that will help you through this pack."
+			]
+			id: "6E99F4CACF47CDE2"
+			tasks: [{
+				id: "69582C3C7F30E4D5"
+				type: "checkmark"
+				title: "Welcome"
+				icon: {
+					id: "sushigocrafting:cheese"
+					Count: 1b
+					tag: {
+						Amount: 125
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61A69C293C6AB660"
+					type: "command"
+					title: "Stage 1"
+					icon: "kubejs:pro_coin"
+					auto: "invisible"
+					command: "/gamestage add @p stage_1"
+					player_command: false
+				}
+				{
+					id: "68065C1E4B68D275"
+					type: "item"
+					item: {
+						id: "sushigocrafting:cheese"
+						Count: 1b
+						tag: {
+							Amount: 125
+						}
+					}
+				}
+				{
+					id: "71A8B241BF970B94"
+					type: "command"
+					title: "Stage 1 popup"
+					team_reward: false
+					auto: "invisible"
+					command: "/title @p title {\"text\":\"The Natural Beggings\",\"color\":\"green\"}"
+					player_command: false
+				}
+				{
+					id: "2BE6ABB1C384DFC8"
+					type: "item"
+					item: "akashictome:tome"
+				}
+			]
+		}
+		{
+			title: "Mystical Flower Farm"
+			x: -4.5d
+			y: 9.5d
+			shape: "circle"
+			description: ["You can duplicate botania mystical flowers by turning them into petals then planting them petals on grass, next you bonemeal the flower to turn it into a 2 block tall flower, now break the flower with your kama, if you dont it will just void the flower."]
+			dependencies: ["25908AEC8189A6F3"]
+			optional: true
+			id: "37C601F07C0C3A05"
+			tasks: [{
+				id: "0FF35D09B559EAA9"
+				type: "item"
+				title: "Any #botania:double_mystical_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:double_mystical_flowers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "315331C2884D62FC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			tags: ["repeat"]
+			x: -2.5d
+			y: -4.5d
+			shape: "circle"
+			optional: true
+			id: "0B9E9429835CF143"
+			tasks: [{
+				id: "08268CE6539876CD"
+				type: "checkmark"
+				title: "Lost your PIP?"
+			}]
+			rewards: [{
+				id: "2221D3E12338D40A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:proletaria"
+					}
+				}
+			}]
+		}
+		{
+			title: "Halloween Spooks"
+			x: 1.7999999999999998d
+			y: 1.1999999999999997d
+			shape: "circle"
+			description: ["Use the Kama to carve a pumpkin so that you can craft a furnace if you need it"]
+			dependencies: ["6C9D50B10AA8C5B3"]
+			optional: true
+			id: "4ED9296EF8BE17DC"
+			tasks: [{
+				id: "4D633A6D29289757"
+				type: "item"
+				item: "minecraft:carved_pumpkin"
+			}]
+			rewards: [{
+				id: "7316E2F0B16E8E85"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "Burning Heat"
+			x: -1.0d
+			y: 6.0d
+			shape: "diamond"
+			subtitle: "The Kama can carve a pumpkin like shears"
+			dependencies: ["37238B4A644CE574"]
+			size: 1.5d
+			id: "6E1D82728C0C382F"
+			tasks: [
+				{
+					id: "51ADB562D14AA198"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "3716605B81AE4046"
+					type: "item"
+					item: "ceramicbucket:unfired_clay_bucket"
+				}
+				{
+					id: "1869CB18E9820CC5"
+					type: "item"
+					item: "ceramicbucket:ceramic_bucket"
+				}
+			]
+			rewards: [{
+				id: "3F225A0C950C8831"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}

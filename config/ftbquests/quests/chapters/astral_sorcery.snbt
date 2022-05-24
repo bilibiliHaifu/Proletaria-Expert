@@ -1,0 +1,825 @@
+{
+	id: "50DD48C8D0D81930"
+	group: "1DFE3EE269C0174B"
+	order_index: 1
+	filename: "astral_sorcery"
+	title: "Astral Sorcery"
+	icon: "astralsorcery:aquamarine"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			disable_toast: true
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["06CD11B82A85BA18"]
+			id: "5E8DAB558064353C"
+			tasks: [{
+				id: "1F0DE3C3B7F47E91"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "5E664C5E721F724D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			subtitle: "Hold this in your offhand and look around the world, dark blue patchs indicate a strong starlight level"
+			dependencies: ["417BB258D594ECFC"]
+			id: "0B3B07E1686F67C4"
+			tasks: [{
+				id: "14256E6A271470EF"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+							selected_upgrade: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "71B5267BFB23CC13"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["3A96FEA14AACDC84"]
+			id: "4742766068CE8566"
+			tasks: [{
+				id: "31780E09B03EBBF0"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_pickaxe"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A3090B5DB0CB2E1"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["3A96FEA14AACDC84"]
+			id: "6BA9EB68857A5942"
+			tasks: [{
+				id: "0255BB8CD5D3ED4E"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_axe"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BDD9C7C7BE74AF7"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["3A96FEA14AACDC84"]
+			id: "264BFB3D92E8E798"
+			tasks: [{
+				id: "2E83D45438AE91D6"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_sword"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1436D9960FF9F949"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["3A96FEA14AACDC84"]
+			id: "32716415407DB9FE"
+			tasks: [{
+				id: "5677B8D9030C0E1B"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_shovel"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "318D6B408683D9F0"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["76310FD1AB769B79"]
+			id: "2767464F8427AD78"
+			tasks: [{
+				id: "38D828A7B26B77DF"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "55476F8F439CA0A3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["417BB258D594ECFC"]
+			id: "76310FD1AB769B79"
+			tasks: [{
+				id: "59C105EB3F0C6B3C"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "12FFE928D64A8975"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["2767464F8427AD78"]
+			id: "166B33549B37B583"
+			tasks: [{
+				id: "7213674F159A733E"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [{
+				id: "1FFD64FF2EDDC165"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["0A6E6A4A34044D31"]
+			id: "286BE0C18C1FC4F7"
+			tasks: [{
+				id: "1D93E4C48B055A34"
+				type: "item"
+				item: "astralsorcery:tree_beacon"
+			}]
+			rewards: [{
+				id: "59F90E23FAD30A65"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["7AB3A5F5712CC43D"]
+			id: "2AB9D963C9DD8D17"
+			tasks: [{
+				id: "25A8D0605BB53D79"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [{
+				id: "4FDFF441D2414F72"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["264BFB3D92E8E798"]
+			id: "7003C67CB01D40D5"
+			tasks: [{
+				id: "62F7214944ECFF0A"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_sword"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02068690B0549F39"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["32716415407DB9FE"]
+			id: "626B6511728104FF"
+			tasks: [{
+				id: "41BF703A7F712A42"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_shovel"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DF7F6DA1695563E"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["4742766068CE8566"]
+			id: "07391F18E1648FC5"
+			tasks: [{
+				id: "66EE0537E724D075"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_pickaxe"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F2B5D7DF40A7E66"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["6BA9EB68857A5942"]
+			id: "17B4BDB83B531AB4"
+			tasks: [{
+				id: "1A34E071DC2AA915"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_axe"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "436B7A3CD3D8E4CB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["5E8DAB558064353C"]
+			id: "4A734FAFA3CABF80"
+			tasks: [{
+				id: "065717E80C47D0F1"
+				type: "item"
+				item: {
+					id: "astralsorcery:illumination_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "293F3F0BB9793D35"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["5E8DAB558064353C"]
+			id: "7331FBF3A00BA09B"
+			tasks: [{
+				id: "7874177E8A5FB0CC"
+				type: "item"
+				item: {
+					id: "astralsorcery:architect_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "2ED3B409E11FD6DD"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["5E8DAB558064353C"]
+			id: "026D5C13866F656F"
+			tasks: [{
+				id: "796C937FFE1E5052"
+				type: "item"
+				item: {
+					id: "astralsorcery:exchange_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E145314B287C350"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["5E8DAB558064353C"]
+			id: "6603CC58A581BC33"
+			tasks: [{
+				id: "7BC5F4616928D952"
+				type: "item"
+				item: "astralsorcery:grapple_wand"
+			}]
+			rewards: [{
+				id: "6BC89A4C1C46C7DC"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["5E8DAB558064353C"]
+			id: "1E85064D24153CE0"
+			tasks: [{
+				id: "7D7B830DE1506783"
+				type: "item"
+				item: {
+					id: "astralsorcery:blink_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3027610EA3BD83F8"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["7AB3A5F5712CC43D"]
+			id: "51421564D5F3D90A"
+			tasks: [{
+				id: "11FDBB69E69648C5"
+				type: "item"
+				item: {
+					id: "astralsorcery:mantle"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A9051765E5CF6C4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["05012031D65139DC"]
+			id: "3FB08F9036D05886"
+			tasks: [{
+				id: "5B19470BA70DB654"
+				type: "item"
+				item: {
+					id: "astralsorcery:knowledge_share"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "50A216C31807F6B3"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["7AB3A5F5712CC43D"]
+			id: "66EBD56485F71C2D"
+			tasks: [{
+				id: "318550EFB7B30E5F"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "09F72E58903F39C4"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["0A6E6A4A34044D31"]
+			id: "09703B903DC8353A"
+			tasks: [
+				{
+					id: "49715E6898BE037D"
+					type: "item"
+					item: "astralsorcery:refraction_table"
+				}
+				{
+					id: "61F7C40E18BB5069"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_glass"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "082CDC449146165D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["05012031D65139DC"]
+			id: "4525AC2763D9870A"
+			tasks: [{
+				id: "7FFC260B32FFCFF0"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+			rewards: [{
+				id: "7D21D23E108B7E88"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["0A6E6A4A34044D31"]
+			id: "514FFCB8BFAAFA40"
+			tasks: [{
+				id: "11574CD313C9CED1"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CBAB7FF9DC4655D"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["4EDEACE9DED0D652"]
+			id: "3D149C504FBEB7A3"
+			tasks: [{
+				id: "71A391EF4B0B953B"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+			}]
+			rewards: [{
+				id: "3E7C223A9726319C"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["05012031D65139DC"]
+			id: "4EDEACE9DED0D652"
+			tasks: [
+				{
+					id: "448DDE017DBBE356"
+					type: "item"
+					item: "astralsorcery:ritual_pedestal"
+				}
+				{
+					id: "4937BCBACEE9EDA9"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+				{
+					id: "7DA800214A328EBD"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "7E1DC7C907B037CB"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "0A8D6BC92B9245D6"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+				}
+			]
+			rewards: [{
+				id: "06B9E26F4B6E79CB"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["417BB258D594ECFC"]
+			id: "7B596F4E3371B162"
+			tasks: [{
+				id: "1AC8EDA897933E3F"
+				type: "item"
+				item: "astralsorcery:illuminator"
+			}]
+			rewards: [{
+				id: "7650471795F3BA75"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["05012031D65139DC"]
+			id: "40B5E959E694AC20"
+			tasks: [
+				{
+					id: "342AA67D03AF0713"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "44284D79B7A4F786"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 25L
+				}
+				{
+					id: "5D41BDC930C56F67"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "66ED20BADB51696F"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 4L
+				}
+				{
+					id: "394677252E314FD5"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "281734B7CC42A141"
+				type: "item"
+				item: "kubejs:pro_coin"
+				count: 2
+			}]
+		}
+	]
+}
