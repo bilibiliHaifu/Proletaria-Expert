@@ -1,0 +1,94 @@
+{
+  "name": "Botanist's Smelter",
+  "icon": "masterfulmachinery:livingrock_controller",
+  "category": "patchouli:multiblock_structures",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "masterfulmachinery:livingrock_controller",
+      "title": "Botanist's Smelter",
+      "link_recipe": true,
+      "text": "This is the Botanists Smelter, it will allow you to smelt special items.$(br2)There are a few discrepancies between the guide and the real structure; these are outlined on the next few pages."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "botanists_smelter",
+      "multiblock": {
+        "pattern": [
+          [
+            "____",
+            "36bc",
+            ")785",
+            "36ad",
+            "____"
+          ],
+          [
+            "3ebb",
+            ")  1",
+            ")  1",
+            ")  1",
+            "34aa"
+          ],
+          [
+            "))2*",
+            ")A 1",
+            ")A 1",
+            ")A 1",
+            "))/0"
+          ],
+          [
+            "))*.",
+            ")+,-",
+            ")+ *",
+            ")+,*",
+            "))**"
+          ]
+        ],
+        "mapping": {
+          ")": "immersiveengineering:sheetmetal_copper",
+          "*": "botania:livingrock",
+          "+": "minecraft:redstone_block",
+          ",": "create:shaft[axis=z]",
+          "-": "create:gearbox[axis=y]",
+          ".": "masterfulmachinery:livingrock_default_port_create_rotation_input",
+          "/": "masterfulmachinery:livingrock_default_port_items_output",
+          "A": "minecraft:campfire",
+          "1": "#forge:glass",
+          "2": "masterfulmachinery:livingrock_default_port_items_input",
+          "3": "immersiveengineering:slab_sheetmetal_copper",
+          "4": "minecraft:jack_o_lantern[facing=east]",
+          "e": "minecraft:jack_o_lantern[facing=west]",
+          "5": "botania:livingrock_stairs",
+          "a": "botania:livingrock_stairs[facing=west]",
+          "b": "botania:livingrock_stairs[facing=east]",
+          "c": "botania:livingrock_stairs[facing=east,shape=outer_left]",
+          "d": "botania:livingrock_stairs[facing=west,shape=outer_right]",
+          "6": "immersiveengineering:chute_copper",
+          "7": "botania:mana_spreader",
+          "8": "masterfulmachinery:livingrock_default_port_botania_mana_input",
+          "0": "masterfulmachinery:livingrock_controller[facing=south]"
+        },
+        "symmetrical": false,
+        "offset": [
+          -2,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "proletaria:textures/gui/patchouli_book/mm_structures/botanists_smelter_belt.png",
+        "proletaria:textures/gui/patchouli_book/mm_structures/botanists_smelter_spreader.png"
+      ],
+      "title": "Additional Images",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Additional Notes",
+      "text": "Firstly, the 2 shafts need to be connected via a Mechanical Belt.$(br)Then there is a Mana Spreader located in the empty gap next to the mana port."
+    }
+  ]
+}

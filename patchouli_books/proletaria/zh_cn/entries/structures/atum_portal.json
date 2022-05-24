@@ -1,0 +1,62 @@
+{
+  "name": "Atum Portal",
+  "icon": "atum:scarab",
+  "category": "patchouli:multiblock_structures",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "atum:scarab",
+      "title": "Atum Portal",
+      "link_recipe": true,
+      "text": "You will need a scarab from the Atum mod inorder to unlock and light the portal. You need to put water into the 3x3 hollow shape, once that is full of water you may chunk in the scarab, a noise will play then the water will turn orangey/brown, once that happens you may jump in."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "atum_portal",
+      "multiblock": {
+        "pattern": [
+          [
+            "1   1",
+            "     ",
+            "     ",
+            "     ",
+            "1   1"
+          ],
+          [
+            "1   1",
+            "     ",
+            "     ",
+            "     ",
+            "1   1"
+          ],
+          [
+            "11111",
+            "12221",
+            "12221",
+            "12221",
+            "11011"
+          ],
+          [
+            "11111",
+            "11111",
+            "11111",
+            "11111",
+            "11111"
+          ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:sandstone",
+          "1": "minecraft:sandstone",
+          "2": "minecraft:water"
+        },
+        "symmetrical": true,
+        "offset": [
+          -2,
+          -1,
+          2
+        ]
+      }
+    }
+  ]
+}

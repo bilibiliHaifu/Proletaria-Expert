@@ -1,0 +1,70 @@
+{
+    "item.kubejs.bucket_cast": "Bucket Gold Cast",
+    "item.kubejs.bucket_sand_cast": "Bucket Sand Cast",
+    "item.kubejs.bucket_red_sand_cast": "Bucket Red Sand Cast",
+
+    "item.kubejs.botanists_clay_ball": "Botanist's Clay Ball",
+    "item.kubejs.botanists_clay_ball.tooltip": "Flowering Balance",
+
+    "item.kubejs.mystical_clay_ball": "Mystical Clay Ball",
+    "item.kubejs.mystical_clay_ball.tooltip": "Magical Balance",
+
+    "item.kubejs.pro_coin": "Pro Coin",
+    "item.kubejs.pro_coin.tooltip": "The preferred currency for this modpack",
+
+    "item.kubejs.mysticwood_twig": "Mysticwood Twig",
+    "item.kubejs.mysticwood_twig.tooltip": "For all your sticky needs",
+
+    "item.kubejs.orechid_petal": "Orechid Petal",
+    "item.kubejs.rune_balance": "Rune of Balance",
+    "item.kubejs.magical_ring": "Magical Ring",
+    "item.kubejs.resistor": "Resistor",
+
+    "item.kubejs.empty_orb": "Empty Orb",
+    "item.kubejs.dark_orb": "Dark Orb",
+    "item.kubejs.blood_orb": "Blood Orb",
+
+    "item.kubejs.artifact_coupon_1": "Bronze Artifact Coupon",
+    "item.kubejs.artifact_coupon_2": "Silver Artifact Coupon",
+    "item.kubejs.artifact_coupon_3": "Gold Artifact Coupon",
+    "item.kubejs.artifact_coupon_4": "Diamond Artifact Coupon",
+
+    "item.kubejs.backpack_coupon_1": "Bronze Backpack Coupon",
+    "item.kubejs.backpack_coupon_2": "Silver Backpack Coupon",
+    "item.kubejs.backpack_coupon_3": "Gold Backpack Coupon",
+    "item.kubejs.backpack_coupon_4": "Diamond Backpack Coupon",
+
+    "item.kubejs.compressed_sky_stone_rod": "Compressed Sky Stone Rod",
+
+    "item.kubejs.incomplete_rf_coil": "Incomplete RF Coil",
+    "item.kubejs.incomplete_redstone_servo": "Incomplete Redstone Servo",
+    "item.kubejs.incomplete_fluid_encapsulator": "Incomplete Fluid Encapsulator",
+    "item.kubejs.incomplete_heat_sink": "Incomplete Heat Sink",
+    "item.kubejs.incomplete_pneumatic_cylinder": "Incomplete Pneumatic Cylinder",
+    "item.kubejs.incomplete_printed_circuit_board": "Incomplete Printed Circuit Board",
+    "item.kubejs.incomplete_advanced_pcb": "Incomplete Advanced PCB",
+    "item.kubejs.incomplete_augment_2": "Incomplete Reinforced Integral Components",
+    "item.kubejs.incomplete_linen_thread_from_scrap": "Incomplete Linen Thread from Scrap",
+    "item.kubejs.incomplete_linen_thread_from_flax": "Incomplete Linen Thread from Flax",
+
+    "item.kubejs.hot_queens_slime_ingot": "Hot Queen's Slime Ingot",
+    "item.kubejs.hot_hepatizon_ingot": "Hot Hepatizon Ingot",
+    "item.kubejs.hot_manyullyn_ingot": "Hot Manyullyn Ingot",
+
+    "item.kubejs.ender_sushi": "Ender Sushi",
+    "item.kubejs.ender_sushi.tooltip": "Eat me to unlock access to The End",
+
+    "item.kubejs.fiery_snack": "Fiery Snack",
+    "item.kubejs.fiery_snack.tooltip": "Eat me to unlock access to The Nether",
+
+    "block.kubejs.compressed_smooth_sky_stone_block": "Compressed Smooth Sky Stone Block",
+
+    "item.kubejs.mystical_lubricant_bucket": "Bucket of Mystical Lubricant",
+    "fluid.kubejs.mystical_lubricant": "Mystical Lubricant",
+
+    "item.kubejs.mystical_coal": "Mystical Coal",
+    "item.kubejs.mystical_coal.tooltip": "This magical coal has 4x the burn time of regular coal",
+    "block.kubejs.mystical_coal_block.tooltip": "This magical coal has 4x the burn time of regular coal block",
+    "block.kubejs.compressed_lapis_1x.tooltip": "81 Lapis Lazuli",
+    "block.kubejs.compressed_lapis_2x.tooltip": "729 Lapis Lazuli"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "The Nether",
+  "icon": "emendatusenigmatica:silver_chunk",
+  "category": "patchouli:ores",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "emendatusenigmatica:silver_chunk",
+      "title": "Silver Ore",
+      "link_recipe": true,
+      "text": "Silver ore can be found between Y98 and Y46 in the Nether only"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:quartz",
+      "title": "Nether Quartz Ore",
+      "link_recipe": true,
+      "text": "Nether Quartz ore can be found between Y140 and Y40 in the Nether only"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "emendatusenigmatica:sulfur_gem",
+      "title": "Sulfur Ore",
+      "link_recipe": true,
+      "text": "Sulfur ore can be found between Y46 and Y30 in the Nether only"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "emendatusenigmatica:lead_chunk",
+      "title": "Lead Ore",
+      "link_recipe": true,
+      "text": "Lead ore can be found between Y62 and Y10 in the Nether only"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Mechanist's Generator",
+  "icon": "masterfulmachinery:mechanists_controller",
+  "category": "patchouli:multiblock_structures",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "masterfulmachinery:mechanists_controller",
+      "title": "Mechanist's Generator",
+      "link_recipe": true,
+      "text": "This is the Mechanists Generator, building this multiblock will allow you to generate rotational force for the mod create. $(br)The Redstone Lamp has to be turned on for the machine to work."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "mechanists_generator",
+      "multiblock": {
+        "pattern": [
+          [
+            " ) ",
+            " 1 ",
+            " ) "
+          ],
+          [
+            ")*)",
+            "2+0",
+            "),)"
+          ],
+          [
+            " ) ",
+            " ) ",
+            " ) "
+          ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          ")": "create:andesite_casing",
+          "*": "masterfulmachinery:mechanists_default_port_botania_mana_input",
+          "+": "create:shaft[axis=x]",
+          ",": "masterfulmachinery:mechanists_default_port_create_rotation_output",
+          "0": "masterfulmachinery:mechanists_controller[facing=south]",
+          "1": "#forge:glass",
+          "2": "minecraft:redstone_lamp"
+        },
+        "symmetrical": false,
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}

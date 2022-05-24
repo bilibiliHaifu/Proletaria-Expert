@@ -1,0 +1,15 @@
+{
+  "name": "Pondering",
+  "icon": "create:gearbox",
+  "category": "patchouli:information",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "One of the main mods that we use is $(5)Create$(). It is a breathtaking mod but one thing that it lacks is in game guides. This is however overruled by its use of the mechanic called $(l)Pondering$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hold 'W' while hovering over almost any functional block in $(5)Create$() and it will bring up a visual tutorial on how that block functions and what it can be used for."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Ores",
+  "description": "Ores don't spawn the same as they always do. They are locked behind certain dimensions or contraptions.$(br2)Here is the list of said dimensions and contraptions, and what they contain!",
+  "icon": "emendatusenigmatica:copper_chunk"
+}

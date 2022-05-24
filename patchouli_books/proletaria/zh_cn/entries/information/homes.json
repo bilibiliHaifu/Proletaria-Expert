@@ -1,0 +1,15 @@
+{
+  "name": "Homes",
+  "icon": "minecraft:dark_oak_planks",
+  "category": "patchouli:information",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "We have added a function that allows you to create homes, and later, teleport to them.$(br2)To set a home, type $(6)/sethome <Name>$() into chat. When you want to teleport back, simply type $(6)/home <Name>$().$(br)To delete a home, type $(6)/delhome <Name>$()$(br2)Try it out yourself!$(br)$(c:/sethome home)Create home 'home'$(/c)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The amount of homes available to you varies with the stage that you are in.$(br2)Stage One: 1$(br)Stage Two: 2$(br)Stage Three: 3$(br)Stage Four: 4$(br)Stage Five: 4"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Pressure Former",
+  "icon": "masterfulmachinery:pressure_former_controller",
+  "category": "patchouli:multiblock_structures",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "masterfulmachinery:pressure_former_controller",
+      "title": "Pressure Former",
+      "link_recipe": true,
+      "text": "This is the Pressure Former, it will allow you to create ae2 processors."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "pressure_former",
+      "multiblock": {
+        "pattern": [
+          [
+            " ))) ",
+            "))7))",
+            "))*))",
+            "))7))",
+            " ))) "
+          ],
+          [
+            ")---)",
+            "-22 -",
+            "-29S-",
+            "-22 -",
+            ")---)"
+          ],
+          [
+            ")-*-)",
+            "-./S-",
+            "1.4 -",
+            "-.5S-",
+            ")-6-)"
+          ],
+          [
+            ")---)",
+            "+   -",
+            ").8SC",
+            ",   -",
+            ")---)"
+          ],
+          [
+            " ))) ",
+            ")))))",
+            "))*)0",
+            ")))))",
+            " ))) "
+          ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "C": "masterfulmachinery:pressure_former_controller[facing=south]",
+          ")": "appliedenergistics2:sky_stone_brick",
+          "0": "appliedenergistics2:sky_stone_brick",
+          "*": "#proletaria:pressure_former_ports_item_input",
+          "+": "masterfulmachinery:pressure_former_default_port_fluids_input",
+          ",": "masterfulmachinery:pressure_former_default_port_energy_input",
+          "-": "thermal:lumium_glass",
+          ".": "pneumaticcraft:heat_sink[facing=south]",
+          "/": "create:mechanical_piston[facing=east]",
+          "8": "create:mechanical_piston[facing=up]",
+          "9": "create:mechanical_piston[facing=down]",
+          "S": "pneumaticcraft:heat_sink[facing=north]",
+          "1": "masterfulmachinery:pressure_former_default_port_pncr_pressure_input",
+          "2": "pneumaticcraft:pressure_tube",
+          "4": "appliedenergistics2:inscriber",
+          "5": "create:sticky_mechanical_piston[facing=west]",
+          "6": "masterfulmachinery:pressure_former_default_port_items_output",
+          "7": "pneumaticcraft:pressure_chamber_valve[facing=down]"
+        },
+        "symmetrical": false
+      }
+    }
+  ]
+}
