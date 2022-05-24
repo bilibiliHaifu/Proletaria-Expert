@@ -5,9 +5,9 @@
 /***/ (() => {
 
 onEvent('jei.information', function (event) {
-  event.add('appliedenergistics2:charged_certus_quartz_crystal', ['Charged Certus Quartz can be crafted by throwing Certus Quartz into lightning.', 'You can easily create lightning by placing and lighting a Fulminating Grenades/Explosives']);
+  event.add('appliedenergistics2:charged_certus_quartz_crystal', ['将赛特斯石英水晶扔到雷击里可以制作充能赛特斯石英水晶。', 'You can easily create lightning by placing and lighting a Fulminating Grenades/Explosives']);
   event.add('betterendforge:glowing_bulb', ['Found growing in the Blossoming Spires in The End']);
-  event.add('atum:emmer_flour', ['Combine (right click) with Water to turn it into Emmer Dough']);
+  event.add('atum:emmer_flour', ['组合（右键）水将其转换为粗麦面团']);
   event.add('minecraft:ender_eye', ['§5§lReputation:§r 23', '§5Signs:§r Wicked, Mind, Soul, Mind', '§3Items:', ' Ender Pearl', ' Blaze Powder', ' Obsidian Dust', ' Soul Shard']);
   event.add('minecraft:ender_eye', ['Toss items on the ground and chant the signs.', 'Reduces your §5§lReputation§r by 3.']);
   event.add('eidolon:unholy_symbol', ['§5§lReputation:§r 4', '§5Signs:§r Wicked, Soul, Wicked, Soul', '§3Items:', ' Pewter Inlay']);
@@ -385,28 +385,28 @@ onEvent('item.tooltip', function (event) {
   }
 
   event.addAdvanced('thermal:lumium_glass', function (item, advanced, text) {
-    text.add(1, Text.red('Wither Resistant'));
+    text.add(1, Text.red('耐凋灵'));
   });
   event.addAdvanced('thermal:enderium_glass', function (item, advanced, text) {
-    text.add(1, Text.red('Wither Resistant'));
+    text.add(1, Text.red('耐凋灵'));
   });
   event.addAdvanced('astralsorcery:starmetal', function (item, advanced, text) {
-    text.add(1, Text.red('Wither Resistant'));
+    text.add(1, Text.red('耐凋灵'));
   });
   event.addAdvanced('patchouli:guide_book', function (item, advanced, text) {
     if (item.nbt['patchouli:book'] == 'patchouli:proletaria') {
-      text.add(1, Text.gold('Proletaria Information Pamphlet'));
+      text.add(1, Text.gold('Proletaria 信息小册子'));
     }
   });
   event.addAdvanced('eidolon:codex', function (item, adv, text) {
-    text.add(3, 'Some recipes were changed. Please use JEI for accurate recipes');
+    text.add(3, '部分配方已改变，请使用JEI查询准确的配方');
   });
 });
 
 function tooltip(event, tool) {
   event.addAdvanced(tool.id, function (item, advanced, text) {
-    text.add(1, Text.red('This tool is disabled and only used for crafting'));
-    text.add(2, Text.yellow('Use Tinker Tools instead'));
+    text.add(1, Text.red('此工具已禁用，仅供合成'));
+    text.add(2, Text.yellow('请使用匠魂工具替代'));
   });
 }
 ;// CONCATENATED MODULE: ./modules/client.js
