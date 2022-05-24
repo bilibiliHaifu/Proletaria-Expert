@@ -395,7 +395,7 @@ onEvent('item.tooltip', function (event) {
   });
   event.addAdvanced('patchouli:guide_book', function (item, advanced, text) {
     if (item.nbt['patchouli:book'] == 'patchouli:proletaria') {
-      text.add(1, Text.gold('Proletaria 信息小册子'));
+      text.add(1, Text.gold('Proletaria 信息手册'));
     }
   });
   event.addAdvanced('eidolon:codex', function (item, adv, text) {
