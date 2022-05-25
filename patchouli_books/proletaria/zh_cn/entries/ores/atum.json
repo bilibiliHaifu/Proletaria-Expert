@@ -1,5 +1,5 @@
 {
-  "name": "Atum",
+  "name": "阿图姆",
   "icon": "emendatusenigmatica:gold_chunk",
   "category": "patchouli:ores",
   "sortnum": 2,
@@ -7,30 +7,30 @@
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:gold_chunk",
-      "title": "Gold Ore",
+      "title": "金矿石",
       "link_recipe": true,
-      "text": "Gold ore can be found at Y32 and bellow in the Atum dimension only."
+      "text": "只能在阿图姆的32层以下找到金矿石。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:diamond",
-      "title": "Diamond Ore",
+      "title": "钻石矿石",
       "link_recipe": true,
-      "text": "Diamond ore can be found at Y16 and bellow in the Atum dimension only."
+      "text": "只能在阿图姆的16层以下找到钻石矿石。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "atum:nebu_ore",
-      "title": "Nebu Ore",
+      "title": "奈布矿石",
       "link_recipe": true,
-      "text": "Nebu ore can be found at Y64 and bellow in the Atum dimension only."
+      "text": "只能在阿图姆的64层以下找到奈布矿石。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "atum:relic_ore",
-      "title": "Relic Ore",
+      "title": "遗物化石",
       "link_recipe": true,
-      "text": "Relic ore can be found at Y64 and bellow in the Atum dimension only."
+      "text": "只能在阿图姆的64层以下找到遗物化石。"
     }
   ]
 }

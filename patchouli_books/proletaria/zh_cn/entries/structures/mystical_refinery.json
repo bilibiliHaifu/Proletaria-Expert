@@ -1,14 +1,14 @@
 {
-  "name": "Mystical Refinery",
+  "name": "魔法精炼厂",
   "icon": "masterfulmachinery:livingwood_controller",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "masterfulmachinery:livingwood_controller",
-      "title": "Mystical Refinery",
+      "title": "魔法精炼厂",
       "link_recipe": true,
-      "text": "This is the Mystical Refinery, it will convert an item plus a fluid into our stage one gating fluid."
+      "text": "这是魔法精炼厂，可以把一件物品加上一种液体转化为第一阶段所需的关键液体。"
     },
     {
       "type": "patchouli:multiblock",

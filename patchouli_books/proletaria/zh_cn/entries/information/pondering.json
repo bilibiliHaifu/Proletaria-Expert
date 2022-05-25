@@ -1,15 +1,15 @@
 {
-  "name": "Pondering",
+  "name": "思索",
   "icon": "create:gearbox",
   "category": "patchouli:information",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "One of the main mods that we use is $(5)Create$(). It is a breathtaking mod but one thing that it lacks is in game guides. This is however overruled by its use of the mechanic called $(l)Pondering$()."
+      "text": "我们使用的主要模组之一是$(5)机械动力$()。这是一个令人叹为观止的模组，但它缺乏的是游戏中的指南。然而，被它使用的名为$(l)思索$()的机制推翻了。"
     },
     {
       "type": "patchouli:text",
-      "text": "Hold 'W' while hovering over almost any functional block in $(5)Create$() and it will bring up a visual tutorial on how that block functions and what it can be used for."
+      "text": "悬停在$(5)机械动力$()中的几乎所有功能方块上时，按住'W'就会出现一个可视化的教程，介绍该方块的功能和用途。"
     }
   ]
 }

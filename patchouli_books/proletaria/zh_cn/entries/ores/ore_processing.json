@@ -1,12 +1,12 @@
 {
-  "name": "Ore Processing",
+  "name": "矿石处理",
   "icon": "emendatusenigmatica:uranium_ingot",
   "category": "patchouli:ores",
   "sortnum": -1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Just throw any 1 ore/chunk into water, to receive 1 nugget of the ore you threw in."
+      "text": "只要把任何1个矿石或矿块扔进水中，就能得到对应矿物的1个粒。"
     },
     {
       "type": "patchouli:image",
@@ -19,9 +19,9 @@
     {
       "type": "patchouli:spotlight",
       "item": "botania:mana_pool",
-      "title": "Mana Pool",
+      "title": "魔力池",
       "link_recipe": true,
-      "text": "Just throw any 1 ore/chunk into a mana pool, to receive 3 nuggets of the ore you threw in."
+      "text": "只要把任何1个矿石或矿块扔进一个魔力池中，就能得到对应矿物的3个粒。"
     },
     {
       "type": "patchouli:multiblock",
@@ -40,9 +40,9 @@
     {
       "type": "patchouli:spotlight",
       "item": "tconstruct:seared_melter",
-      "title": "Tinkers Melter",
+      "title": "匠魂熔化炉",
       "link_recipe": true,
-      "text": "Put 1 ore/chunk into the tinkers melter, each one will give you 96mb of fluid which is 6 nuggets."
+      "text": "将1个矿石或矿块放入匠魂熔化炉中，每个会给你96mb的流体，也就是6个粒。"
     },
     {
       "type": "patchouli:multiblock",
@@ -73,8 +73,8 @@
     },
     {
       "type": "patchouli:text",
-      "title": "Botanist Smelter",
-      "text": "Put 1 ore/chunk into the Botanists smelter, each ore will give you 1 full ingot."
+      "title": "植物学家的冶炼厂",
+      "text": "将1个矿石或矿块放入植物学家的冶炼厂中，每块矿石会给你1个完整的锭。"
     },
     {
       "type": "patchouli:multiblock",
@@ -144,8 +144,8 @@
     },
     {
       "type": "patchouli:text",
-      "title": "Botanist Blaster",
-      "text": "Put 1 ore/chunk into the Botanists blaster, each ore will give you 1 full ingot plus a bonus chance of getting bonus nuggets."
+      "title": "植物学家的高炉",
+      "text": "将1个矿石或矿块放入植物学家的高炉中，每块矿石会给你1个完整的锭，并有机会获得额外的粒。"
     },
     {
       "type": "patchouli:multiblock",
@@ -216,9 +216,9 @@
     {
       "type": "patchouli:spotlight",
       "item": "tconstruct:smeltery_controller",
-      "title": "Tinkers Smeltery",
+      "title": "匠魂冶炼炉",
       "link_recipe": true,
-      "text": "Put 1 ore/chunk into the Tinkers Smeltery, each ore will give you 1 full ingot useful if you want to make better tools."
+      "text": "将1个矿石或矿块放入匠魂冶炼炉中，每块矿石会给你1个完整的锭，如果你想制造更好的工具，就会很有用。"
     },
     {
       "type": "patchouli:multiblock",

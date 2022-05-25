@@ -1,14 +1,14 @@
 {
-  "name": "Botanist's Sawmill",
+  "name": "植物学家的锯木场",
   "icon": "masterfulmachinery:mysticwood_controller",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "masterfulmachinery:mysticwood_controller",
-      "title": "Botanist's Sawmill",
+      "title": "植物学家的锯木场",
       "link_recipe": true,
-      "text": "This is the Botanist Sawmill, it will allow you to cut special items."
+      "text": "这是植物学家的锯木场，它可以让你切割特殊物品。"
     },
     {
       "type": "patchouli:multiblock",

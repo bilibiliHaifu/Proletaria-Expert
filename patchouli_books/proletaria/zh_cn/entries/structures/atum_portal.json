@@ -1,14 +1,14 @@
 {
-  "name": "Atum Portal",
+  "name": "阿图姆传送门",
   "icon": "atum:scarab",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "atum:scarab",
-      "title": "Atum Portal",
+      "title": "阿图姆传送门",
       "link_recipe": true,
-      "text": "You will need a scarab from the Atum mod inorder to unlock and light the portal. You need to put water into the 3x3 hollow shape, once that is full of water you may chunk in the scarab, a noise will play then the water will turn orangey/brown, once that happens you may jump in."
+      "text": "你需要一个来自阿图姆模组的圣金甲虫，用来解锁和打开入口。你需要把水放入这个3x3的坑中，一旦装满了水，你就可以把圣金甲虫丢进去，这时会有声音响起，然后水会变成橙色/棕色，就可以跳进去了。"
     },
     {
       "type": "patchouli:multiblock",
