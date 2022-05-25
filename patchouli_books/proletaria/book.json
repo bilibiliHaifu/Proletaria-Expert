@@ -1,6 +1,6 @@
 {
   "name": "PIP",
-  "landing_text": "欢迎来到$(5)Proletaria$()$(br2)这本书将为在任务书之外，提供额外信息和特殊模组指南！",
+  "landing_text": "欢迎来到$(5)Proletaria$()$(br2)这本书将在任务书之外提供额外信息和特殊模组指南！",
   "book_texture": "patchouli:textures/gui/book_purple.png",
   "model": "patchouli:book_purple",
   "version": 1
