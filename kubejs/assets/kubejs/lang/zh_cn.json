@@ -66,5 +66,26 @@
     "item.kubejs.mystical_coal.tooltip": "这种具有魔力的煤炭燃烧时间是普通煤炭的4倍",
     "block.kubejs.mystical_coal_block.tooltip": "这种具有魔力的煤炭块燃烧时间是普通煤炭块的4倍",
     "block.kubejs.compressed_lapis_1x.tooltip": "81个青金石",
-    "block.kubejs.compressed_lapis_2x.tooltip": "729个青金石"
+    "block.kubejs.compressed_lapis_2x.tooltip": "729个青金石",
+
+    "block.kubejs.mysticwood": "神秘木",
+    "block.kubejs.mysticwood_planks": "神秘木板",
+    "block.kubejs.mysticwood_planks_stairs": "神秘木楼梯",
+    "block.kubejs.mysticwood_planks_slab": "神秘木台阶",
+    "block.kubejs.mysticwood_planks_fence": "神秘木栅栏",
+
+    "block.kubejs.mysticrock": "神秘石",
+    "block.kubejs.mysticrock_stairs": "神秘石楼梯",
+    "block.kubejs.mysticrock_slab": "神秘石台阶",
+    "block.kubejs.mysticrock_wall": "神秘石墙",
+    "block.kubejs.mysticrock_bricks": "神秘石砖",
+
+    "block.kubejs.chiseled_mysticrock_bricks": "錾制神秘石砖",
+    "block.kubejs.cracked_mysticrock_bricks": "裂纹神秘石砖",
+    "block.kubejs.mossy_mysticrock_bricks": "苔神秘石砖",
+
+    "block.kubejs.stone_casing": "石机壳",
+    "block.kubejs.zinc_casing": "锌机壳",
+
+    "block.kubejs.compressed_crafting_table": "压缩工作台"
 }
