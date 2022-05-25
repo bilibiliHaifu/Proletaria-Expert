@@ -3,7 +3,7 @@
 	group: "1DFE3EE269C0174B"
 	order_index: 10
 	filename: "thermal"
-	title: "Thermal"
+	title: "热力"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
