@@ -1,12 +1,12 @@
 {
   "controllerId": "mechanists",
-  "name": "Mechanists",
+  "name": "\u673a\u68b0\u5e08\u7684\u5f15\u64ce",
   "textureOverride": "create:block/andesite_casing",
   "ports": [
     {
       "type": "masterfulmachinery:create_rotation",
       "id": "default",
-      "name": "Rotation",
+      "name": "\u5e94\u529b",
       "data": {
         "stress": 16
       }
@@ -14,7 +14,7 @@
     {
       "type": "masterfulmachinery:botania_mana",
       "id": "default",
-      "name": "Mana",
+      "name": "\u9b54\u529b",
       "data": {
         "capacity": 100000
       }

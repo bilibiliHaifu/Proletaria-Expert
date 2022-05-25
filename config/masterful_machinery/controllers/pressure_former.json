@@ -1,12 +1,12 @@
 {
   "controllerId": "pressure_former",
-  "name": "Pressure Former",
+  "name": "\u538b\u529b\u6210\u578b\u673a",
   "textureOverride": "appliedenergistics2:block/sky_stone_brick",
   "ports": [
     {
       "type": "masterfulmachinery:items",
       "id": "default",
-      "name": "Item",
+      "name": "\u7269\u54c1",
       "data": {
         "columns": 1,
         "rows": 1
@@ -15,7 +15,7 @@
     {
       "type": "masterfulmachinery:items",
       "id": "large",
-      "name": "Item",
+      "name": "\u7269\u54c1",
       "data": {
         "columns": 2,
         "rows": 2
@@ -24,7 +24,7 @@
     {
       "type": "masterfulmachinery:fluids",
       "id": "default",
-      "name": "Fluid",
+      "name": "\u6d41\u4f53",
       "data": {
         "capacity": 64000
       }
@@ -32,7 +32,7 @@
     {
       "type": "masterfulmachinery:energy",
       "id": "default",
-      "name": "Energy",
+      "name": "\u80fd\u91cf",
       "data": {
         "capacity": 1000000
       }
@@ -40,7 +40,7 @@
     {
       "type": "masterfulmachinery:pncr_pressure",
       "id": "default",
-      "name": "Pressure",
+      "name": "\u538b\u529b",
       "data": {
         "volume": 1000,
         "dangerPressure": 20,

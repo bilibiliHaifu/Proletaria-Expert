@@ -1,12 +1,12 @@
 {
   "controllerId": "mysticwood",
-  "name": "Mysticwood",
+  "name": "\u795e\u79d8\u6728",
   "textureOverride": "kubejs:block/mysticwood_planks",
   "ports": [
     {
       "type": "masterfulmachinery:items",
       "id": "default",
-      "name": "Item",
+      "name": "\u7269\u54c1",
       "data": {
         "columns": 3,
         "rows": 3
@@ -15,7 +15,7 @@
     {
       "type": "masterfulmachinery:fluids",
       "id": "default",
-      "name": "Fluid",
+      "name": "\u6d41\u4f53",
       "data": {
         "capacity": 8000
       }
@@ -23,7 +23,7 @@
     {
       "type": "masterfulmachinery:botania_mana",
       "id": "default",
-      "name": "Mana",
+      "name": "\u9b54\u529b",
       "data": {
         "capacity": 192000
       }
@@ -31,7 +31,7 @@
     {
       "type": "masterfulmachinery:create_rotation",
       "id": "default",
-      "name": "Rotation",
+      "name": "\u5e94\u529b",
       "data": {
         "stress": 4
       }

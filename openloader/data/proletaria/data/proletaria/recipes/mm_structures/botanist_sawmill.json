@@ -2,7 +2,7 @@
   "type": "masterfulmachinery:machine_structure",
   "id": "botanist_sawmill_structure",
   "controllerId": "mysticwood",
-  "name": "Botanist's Sawmill",
+  "name": "植物学家的锯木场",
   "layout": [
     [
       ")))))",

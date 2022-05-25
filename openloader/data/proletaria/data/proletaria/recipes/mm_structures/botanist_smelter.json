@@ -2,7 +2,7 @@
   "type": "masterfulmachinery:machine_structure",
   "id": "botanist_furnace_structure",
   "controllerId": "livingrock",
-  "name": "Botanist's Smelter",
+  "name": "植物学家的冶炼厂",
   "layout": [
     [
       ")))))",

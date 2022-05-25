@@ -2,7 +2,7 @@
   "type": "masterfulmachinery:machine_structure",
   "id": "mechanist_generator_structure",
   "controllerId": "mechanists",
-  "name": "Mechanist Generator",
+  "name": "机械师的引擎",
   "layout": [
     [
       "   ",

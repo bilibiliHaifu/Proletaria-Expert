@@ -2,7 +2,7 @@
   "type": "masterfulmachinery:machine_structure",
   "id": "compressor_structure",
   "controllerId": "compressor",
-  "name": "Compressor",
+  "name": "炙热压缩机",
   "layout": [
     [
       "     ",

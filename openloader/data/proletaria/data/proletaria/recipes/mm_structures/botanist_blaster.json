@@ -2,7 +2,7 @@
   "type": "masterfulmachinery:machine_structure",
   "id": "botanist_blaster_structure",
   "controllerId": "livingrock",
-  "name": "Botanist's Blaster",
+  "name": "植物学家的高炉",
   "layout": [
     [
       ")))))",
