@@ -39,7 +39,7 @@ onEvent('item.registry', function (event) {
     food.eaten(function (e) {
       if (!e.player.stages.has('end_access')) {
         e.player.stages.add('end_access');
-        e.player.tell(text.green("You have unlocked access to The End"));
+        e.player.tell(text.green("您已解锁前往末地的权限"));
       }
     });
   }).tooltip(text.translate('item.kubejs.ender_sushi.tooltip')).glow(true);
@@ -50,7 +50,7 @@ onEvent('item.registry', function (event) {
     food.eaten(function (e) {
       if (!e.player.stages.has('nether_access')) {
         e.player.stages.add('nether_access');
-        e.player.tell(text.green("You have unlocked access to The Nether"));
+        e.player.tell(text.green("您已解锁进入下界的权限"));
       }
     });
   }).tooltip(text.translate('item.kubejs.fiery_snack.tooltip'));
@@ -489,19 +489,19 @@ onEvent('block.registry', function (event) {
   event.create('stone_casing').material('stone').hardness(0.5);
   event.create('zinc_casing').material('iron').hardness(1.0); // Casings End -----------------------------
 
-  event.create('mechanists_alloy_block').material('iron').hardness(1.0).displayName('Block of Mechanist Alloy');
-  event.create('mystical_coal_block').material('stone').hardness(1.0).displayName('Block of Mystical Coal'); // Compressed blocks --------------------------------
+  event.create('mechanists_alloy_block').material('iron').hardness(1.0).displayName('安山合金块');
+  event.create('mystical_coal_block').material('stone').hardness(1.0).displayName('神秘煤炭块'); // Compressed blocks --------------------------------
 
   event.create('compressed_crafting_table').material('wood').hardness(1.0);
   event.create('compressed_smooth_sky_stone_block').material('stone').hardness(1.0);
-  event.create('compressed_lapis_1x').material('stone').hardness(1.0).displayName('Compressed Lapis Block').item(function (builder) {
+  event.create('compressed_lapis_1x').material('stone').hardness(1.0).displayName('压缩青金石块').item(function (builder) {
     builder.tooltip(text.translate('block.kubejs.compressed_lapis_1x.tooltip'));
   });
-  event.create('compressed_lapis_2x').material('stone').hardness(1.0).displayName('Double Compressed Lapis Block').item(function (builder) {
+  event.create('compressed_lapis_2x').material('stone').hardness(1.0).displayName('二重压缩青金石块').item(function (builder) {
     builder.tooltip(text.translate('block.kubejs.compressed_lapis_2x.tooltip'));
   }); // Other --------------------------------
 
-  event.create('lapis_compressed_iron_block').material('iron').hardness(2.0).displayName('Lapis-Infused Compressed Iron Block');
+  event.create('lapis_compressed_iron_block').material('iron').hardness(2.0).displayName('青金石灌注的压缩铁块');
 });
 onEvent('fluid.registry', function (event) {
   event.create('mystical_lubricant').textureThick(0x0f97d6).bucketColor(0x0f97d6);

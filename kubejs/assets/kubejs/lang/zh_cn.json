@@ -1,40 +1,40 @@
 {
-    "item.kubejs.bucket_cast": "Bucket Gold Cast",
-    "item.kubejs.bucket_sand_cast": "Bucket Sand Cast",
-    "item.kubejs.bucket_red_sand_cast": "Bucket Red Sand Cast",
+    "item.kubejs.bucket_cast": "桶金质铸模",
+    "item.kubejs.bucket_sand_cast": "桶沙子铸模",
+    "item.kubejs.bucket_red_sand_cast": "桶红沙铸模",
 
-    "item.kubejs.botanists_clay_ball": "Botanist's Clay Ball",
-    "item.kubejs.botanists_clay_ball.tooltip": "Flowering Balance",
+    "item.kubejs.botanists_clay_ball": "植物学家的黏土球",
+    "item.kubejs.botanists_clay_ball.tooltip": "花之平衡",
 
-    "item.kubejs.mystical_clay_ball": "Mystical Clay Ball",
-    "item.kubejs.mystical_clay_ball.tooltip": "Magical Balance",
+    "item.kubejs.mystical_clay_ball": "神秘黏土球",
+    "item.kubejs.mystical_clay_ball.tooltip": "魔法平衡",
 
-    "item.kubejs.pro_coin": "Pro Coin",
-    "item.kubejs.pro_coin.tooltip": "The preferred currency for this modpack",
+    "item.kubejs.pro_coin": "无产阶级硬币",
+    "item.kubejs.pro_coin.tooltip": "该整合包的首选货币",
 
-    "item.kubejs.mysticwood_twig": "Mysticwood Twig",
-    "item.kubejs.mysticwood_twig.tooltip": "For all your sticky needs",
+    "item.kubejs.mysticwood_twig": "神秘木枝",
+    "item.kubejs.mysticwood_twig.tooltip": "满足您的所有需求",
 
-    "item.kubejs.orechid_petal": "Orechid Petal",
-    "item.kubejs.rune_balance": "Rune of Balance",
-    "item.kubejs.magical_ring": "Magical Ring",
-    "item.kubejs.resistor": "Resistor",
+    "item.kubejs.orechid_petal": "兰花花瓣",
+    "item.kubejs.rune_balance": "平衡符文",
+    "item.kubejs.magical_ring": "魔法指环",
+    "item.kubejs.resistor": "电阻",
 
-    "item.kubejs.empty_orb": "Empty Orb",
-    "item.kubejs.dark_orb": "Dark Orb",
-    "item.kubejs.blood_orb": "Blood Orb",
+    "item.kubejs.empty_orb": "空晶球",
+    "item.kubejs.dark_orb": "黑球体",
+    "item.kubejs.blood_orb": "血晶球",
 
-    "item.kubejs.artifact_coupon_1": "Bronze Artifact Coupon",
-    "item.kubejs.artifact_coupon_2": "Silver Artifact Coupon",
-    "item.kubejs.artifact_coupon_3": "Gold Artifact Coupon",
-    "item.kubejs.artifact_coupon_4": "Diamond Artifact Coupon",
+    "item.kubejs.artifact_coupon_1": "青铜奇异饰品兑换卷",
+    "item.kubejs.artifact_coupon_2": "白银奇异饰品兑换卷",
+    "item.kubejs.artifact_coupon_3": "黄金奇异饰品兑换卷",
+    "item.kubejs.artifact_coupon_4": "钻石奇异饰品兑换卷",
 
-    "item.kubejs.backpack_coupon_1": "Bronze Backpack Coupon",
-    "item.kubejs.backpack_coupon_2": "Silver Backpack Coupon",
-    "item.kubejs.backpack_coupon_3": "Gold Backpack Coupon",
-    "item.kubejs.backpack_coupon_4": "Diamond Backpack Coupon",
+    "item.kubejs.backpack_coupon_1": "青铜背包兑换券",
+    "item.kubejs.backpack_coupon_2": "白银背包兑换券",
+    "item.kubejs.backpack_coupon_3": "黄金背包兑换券",
+    "item.kubejs.backpack_coupon_4": "钻石背包兑换券",
 
-    "item.kubejs.compressed_sky_stone_rod": "Compressed Sky Stone Rod",
+    "item.kubejs.compressed_sky_stone_rod": "压缩陨石棒",
 
     "item.kubejs.incomplete_rf_coil": "Incomplete RF Coil",
     "item.kubejs.incomplete_redstone_servo": "Incomplete Redstone Servo",
@@ -47,24 +47,24 @@
     "item.kubejs.incomplete_linen_thread_from_scrap": "Incomplete Linen Thread from Scrap",
     "item.kubejs.incomplete_linen_thread_from_flax": "Incomplete Linen Thread from Flax",
 
-    "item.kubejs.hot_queens_slime_ingot": "Hot Queen's Slime Ingot",
-    "item.kubejs.hot_hepatizon_ingot": "Hot Hepatizon Ingot",
-    "item.kubejs.hot_manyullyn_ingot": "Hot Manyullyn Ingot",
+    "item.kubejs.hot_queens_slime_ingot": "热皇后史莱姆锭",
+    "item.kubejs.hot_hepatizon_ingot": "热黑色科林斯青铜锭",
+    "item.kubejs.hot_manyullyn_ingot": "热玛玉灵锭",
 
-    "item.kubejs.ender_sushi": "Ender Sushi",
-    "item.kubejs.ender_sushi.tooltip": "Eat me to unlock access to The End",
+    "item.kubejs.ender_sushi": "末影寿司",
+    "item.kubejs.ender_sushi.tooltip": "食用后获得前往末地的权限",
 
-    "item.kubejs.fiery_snack": "Fiery Snack",
-    "item.kubejs.fiery_snack.tooltip": "Eat me to unlock access to The Nether",
+    "item.kubejs.fiery_snack": "灼热零食",
+    "item.kubejs.fiery_snack.tooltip": "食用后获得进入下界的权限",
 
-    "block.kubejs.compressed_smooth_sky_stone_block": "Compressed Smooth Sky Stone Block",
+    "block.kubejs.compressed_smooth_sky_stone_block": "压缩陨石",
 
-    "item.kubejs.mystical_lubricant_bucket": "Bucket of Mystical Lubricant",
-    "fluid.kubejs.mystical_lubricant": "Mystical Lubricant",
+    "item.kubejs.mystical_lubricant_bucket": "神秘润滑油桶",
+    "fluid.kubejs.mystical_lubricant": "神秘润滑油",
 
-    "item.kubejs.mystical_coal": "Mystical Coal",
-    "item.kubejs.mystical_coal.tooltip": "This magical coal has 4x the burn time of regular coal",
-    "block.kubejs.mystical_coal_block.tooltip": "This magical coal has 4x the burn time of regular coal block",
-    "block.kubejs.compressed_lapis_1x.tooltip": "81 Lapis Lazuli",
-    "block.kubejs.compressed_lapis_2x.tooltip": "729 Lapis Lazuli"
+    "item.kubejs.mystical_coal": "神秘煤炭",
+    "item.kubejs.mystical_coal.tooltip": "这种具有魔力的煤炭燃烧时间是普通煤炭的4倍",
+    "block.kubejs.mystical_coal_block.tooltip": "这种具有魔力的煤炭块燃烧时间是普通煤炭块的4倍",
+    "block.kubejs.compressed_lapis_1x.tooltip": "81个青金石",
+    "block.kubejs.compressed_lapis_2x.tooltip": "729个青金石"
 }
