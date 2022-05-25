@@ -1,0 +1,55 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "botanist_sawmill_structure",
+  "controllerId": "mysticwood",
+  "name": "Botanist's Sawmill",
+  "layout": [
+    [
+      ")))))",
+      ")))))",
+      ")))))"
+    ],
+    [
+      "*+++,",
+      "-.../",
+      "0111C"
+    ],
+    [
+      "22222",
+      "22222",
+      "22222"
+    ]
+  ],
+  "legend": {
+    "0": {
+      "block": "masterfulmachinery:mysticwood_default_port_botania_mana_input"
+    },
+    "1": {
+      "tag": "forge:glass"
+    },
+    "2": {
+      "block": "kubejs:mysticwood_planks_slab"
+    },
+    ")": {
+      "block": "kubejs:mysticwood_planks"
+    },
+    "*": {
+      "block": "masterfulmachinery:mysticwood_default_port_fluids_input"
+    },
+    "+": {
+      "block": "create:gearbox"
+    },
+    ",": {
+      "block": "masterfulmachinery:mysticwood_default_port_create_rotation_input"
+    },
+    "-": {
+      "block": "masterfulmachinery:mysticwood_default_port_items_input"
+    },
+    ".": {
+      "block": "create:mechanical_saw"
+    },
+    "/": {
+      "block": "masterfulmachinery:mysticwood_default_port_items_output"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "mechanist_generator_structure",
+  "controllerId": "mechanists",
+  "name": "Mechanist Generator",
+  "layout": [
+    [
+      "   ",
+      ")))",
+      "   "
+    ],
+    [
+      ")2)",
+      "*+,",
+      ")C)"
+    ],
+    [
+      "   ",
+      ")1)",
+      "   "
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "create:andesite_casing"
+    },
+    "*": {
+      "block": "masterfulmachinery:mechanists_default_port_botania_mana_input"
+    },
+    "+": {
+      "block": "create:shaft"
+    },
+    ",": {
+      "block": "masterfulmachinery:mechanists_default_port_create_rotation_output"
+    },
+	"1": {
+      "tag": "forge:glass"
+    },
+    "2": {
+      "block": "minecraft:redstone_lamp",
+      "props":{
+        "lit": "true"
+      }
+    }
+  }
+}

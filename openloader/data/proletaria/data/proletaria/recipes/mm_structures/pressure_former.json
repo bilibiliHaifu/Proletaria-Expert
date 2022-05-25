@@ -1,0 +1,93 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "pressure_former_structure",
+  "controllerId": "pressure_former",
+  "name": "Pressure Former",
+  "layout": [
+    [
+      " ))) ",
+      ")))))",
+      "))*))",
+      ")))))",
+      " ))) "
+    ],
+    [
+      ")+),)",
+      "- . -",
+      "- 8 -",
+      "- 0 -",
+      ")-C-)"
+    ],
+    [
+      ")-1-)",
+      "-...-",
+      "*/456",
+      "-0 0-",
+      ")---)"
+    ],
+    [
+      ")---)",
+      "-222-",
+      "-292-",
+      "- 0 -",
+      ")---)"
+    ],
+    [
+      " ))) ",
+      ")))))",
+      ")7*7)",
+      ")))))",
+      " ))) "
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "appliedenergistics2:sky_stone_brick"
+    },
+    "*": {
+      "tag": "proletaria:pressure_former_ports_item_input"
+    },
+    "+": {
+      "block": "masterfulmachinery:pressure_former_default_port_fluids_input"
+    },
+    ",": {
+      "block": "masterfulmachinery:pressure_former_default_port_energy_input"
+    },
+    "-": {
+      "block": "thermal:lumium_glass"
+    },
+    ".": {
+      "block": "pneumaticcraft:heat_sink"
+    },
+    "/": {
+      "block": "create:mechanical_piston"
+    },
+    "8": {
+      "block": "create:mechanical_piston"
+    },
+    "9": {
+      "block": "create:mechanical_piston"
+    },
+    "0": {
+      "block": "pneumaticcraft:heat_sink"
+    },
+    "1": {
+      "block": "masterfulmachinery:pressure_former_default_port_pncr_pressure_input"
+    },
+    "2": {
+      "block": "pneumaticcraft:pressure_tube"
+    },
+    "4": {
+      "block": "appliedenergistics2:inscriber"
+    },
+    "5": {
+      "block": "create:sticky_mechanical_piston"
+    },
+    "6": {
+      "block": "masterfulmachinery:pressure_former_default_port_items_output"
+    },
+    "7": {
+      "block": "pneumaticcraft:pressure_chamber_valve"
+    }
+  }
+}

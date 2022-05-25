@@ -1,0 +1,55 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "mystical_refinery_structure",
+  "controllerId": "livingwood",
+  "name": "Mystical Refinery",
+  "layout": [
+    [
+      ")*)",
+      "+,-",
+      ".,/"
+    ],
+    [
+      ")))",
+      "0 0",
+      "1C1"
+    ],
+    [
+      ")))",
+      "212",
+      "   "
+    ]
+  ],
+  "legend": {
+    "0": {
+      "block": "botania:drum_wild"
+    },
+    "1": {
+      "block": "botania:livingwood_planks_stairs"
+    },
+    "2": {
+      "block": "botania:livingrock_stairs"
+    },
+    ")": {
+      "block": "botania:livingrock_bricks"
+    },
+    "*": {
+      "block": "masterfulmachinery:livingwood_default_port_botania_mana_input"
+    },
+    "+": {
+      "block": "masterfulmachinery:livingwood_default_port_fluids_input"
+    },
+    ",": {
+      "block": "botania:livingwood_planks"
+    },
+    "-": {
+      "block": "masterfulmachinery:livingwood_default_port_fluids_output"
+    },
+    ".": {
+      "block": "masterfulmachinery:livingwood_default_port_items_input"
+    },
+    "/": {
+      "block": "masterfulmachinery:livingwood_default_port_items_output"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "botanist_furnace_structure",
+  "controllerId": "livingrock",
+  "name": "Botanist's Smelter",
+  "layout": [
+    [
+      ")))))",
+      ")***)",
+      "+,,,+",
+      "-.+++"
+    ],
+    [
+      ")))))",
+      ")///)",
+      "0   1",
+      "+222C"
+    ],
+    [
+      "3)))3",
+      "4   4",
+      "5   5",
+      "52225"
+    ],
+    [
+      " 3)3 ",
+      " 676 ",
+      " 585 ",
+      " 555 "
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "immersiveengineering:sheetmetal_copper"
+    },
+    "*": {
+      "block": "minecraft:redstone_block"
+    },
+    "+": {
+      "block": "botania:livingrock"
+    },
+    ",": {
+      "block": "create:belt"
+    },
+    "-": {
+      "block": "masterfulmachinery:livingrock_default_port_create_rotation_input"
+    },
+    ".": {
+      "block": "create:gearbox"
+    },
+    "/": {
+      "block": "minecraft:campfire"
+    },
+    "0": {
+      "block": "masterfulmachinery:livingrock_default_port_items_input"
+    },
+    "1": {
+      "block": "masterfulmachinery:livingrock_default_port_items_output"
+    },
+    "2": {
+      "tag": "forge:glass"
+    },
+    "3": {
+      "block": "immersiveengineering:slab_sheetmetal_copper"
+    },
+    "4": {
+      "block": "minecraft:jack_o_lantern"
+    },
+    "5": {
+      "block": "botania:livingrock_stairs"
+    },
+    "6": {
+      "block": "immersiveengineering:chute_copper"
+    },
+    "7": {
+      "block": "botania:mana_spreader"
+    },
+    "8": {
+      "block": "masterfulmachinery:livingrock_default_port_botania_mana_input"
+    }
+  }
+}

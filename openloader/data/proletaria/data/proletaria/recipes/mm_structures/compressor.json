@@ -1,0 +1,78 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "compressor_structure",
+  "controllerId": "compressor",
+  "name": "Compressor",
+  "layout": [
+    [
+      "     ",
+      " ))) ",
+      " )*) ",
+      " ))) ",
+      "     "
+    ],
+    [
+      " )+) ",
+      "),-,)",
+      ".-/-0",
+      ")   )",
+      " 1C1 "
+    ],
+    [
+      " )*) ",
+      "),/,)",
+      "*/2/*",
+      ")   )",
+      " 111 "
+    ],
+    [
+      " ))) ",
+      "),-,)",
+      ")-/-)",
+      ")   )",
+      " 111 "
+    ],
+    [
+      "     ",
+      " ))) ",
+      " )*) ",
+      " ))) ",
+      "     "
+    ]
+  ],
+  "legend": {
+    "0": {
+      "block": "masterfulmachinery:compressor_default_port_items_output"
+    },
+    "1": {
+      "block": "pneumaticcraft:pressure_chamber_glass"
+    },
+    "2": {
+      "block": "emendatusenigmatica:aluminum_block"
+    },
+    ")": {
+      "block": "tconstruct:scorched_bricks"
+    },
+    "*": {
+      "block": "minecraft:piston",
+      "props": {
+        "extended": true
+      }
+    },
+    "+": {
+      "block": "masterfulmachinery:compressor_default_port_energy_input"
+    },
+    ",": {
+      "block": "tconstruct:blazing_blood_fluid"
+    },
+    "-": {
+      "block": "tconstruct:scorched_road_stairs"
+    },
+    ".": {
+      "block": "masterfulmachinery:compressor_default_port_items_input"
+    },
+    "/": {
+      "block": "minecraft:piston_head"
+    }
+  }
+}
