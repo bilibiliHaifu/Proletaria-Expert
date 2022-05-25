@@ -1,15 +1,15 @@
 {
-  "name": "Homes",
+  "name": "家",
   "icon": "minecraft:dark_oak_planks",
   "category": "patchouli:information",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "We have added a function that allows you to create homes, and later, teleport to them.$(br2)To set a home, type $(6)/sethome <Name>$() into chat. When you want to teleport back, simply type $(6)/home <Name>$().$(br)To delete a home, type $(6)/delhome <Name>$()$(br2)Try it out yourself!$(br)$(c:/sethome home)Create home 'home'$(/c)"
+      "text": "我们增加了一个功能，允许你创建家，然后传送到它们那里。$(br2)要设置一个家，在聊天中输入$(6)/sethome <名称>$()。当你想传送回来时，只需输入$(6)/home <名称>$()。$(br)要删除一个家，输入$(6)/delhome <名称>$()$(br2)自己试试吧！$(br)$(c:/sethome home)创建家 'home'$(/c)"
     },
     {
       "type": "patchouli:text",
-      "text": "The amount of homes available to you varies with the stage that you are in.$(br2)Stage One: 1$(br)Stage Two: 2$(br)Stage Three: 3$(br)Stage Four: 4$(br)Stage Five: 4"
+      "text": "你可获得的家的数量随你所处的阶段而变化。$(br2)第一阶段：1$(br)第二阶段：2$(br)第三阶段：3$(br)第四阶段：4$(br)第五阶段：4"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Overworld",
+  "name": "主世界",
   "icon": "emendatusenigmatica:copper_chunk",
   "category": "patchouli:ores",
   "sortnum": 0,
@@ -7,58 +7,58 @@
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:copper_chunk",
-      "title": "Copper Ore",
+      "title": "铜矿石",
       "link_recipe": true,
-      "text": "Copper ore can be found between Y150 and Y20 in the overworld, or there is a chance it can spawn when using the Botania orechid"
+      "text": "可以在主世界的150层和20层之间找到铜矿石，或可能被凝矿兰生成"
     },
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:zinc_chunk",
-      "title": "Zinc ore",
+      "title": "锌矿石",
       "link_recipe": true,
-      "text": "Zinc ore can be found between Y135 and Y5 in the overworld, or there is a chance it can spawn when using the Botania orechid"
+      "text": "可以在主世界的135层和5层之间找到锌矿石，或可能被凝矿兰生成"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone",
-      "title": "Redstone ore",
+      "title": "红石矿石",
       "link_recipe": true,
-      "text": "Redstone ore can be found between Y28 and Y4 in the overworld"
+      "text": "可以在主世界的28层和4层之间找到红石矿石"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:lapis_lazuli",
-      "title": "Lapis ore",
+      "title": "青金石矿石",
       "link_recipe": true,
-      "text": "Lapis ore can be found between Y36 and Y12 in the overworld"
+      "text": "可以在主世界的36层和12层之间找到青金石矿石"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:emerald",
-      "title": "Emerald ore",
+      "title": "绿宝石矿石",
       "link_recipe": true,
-      "text": "Emerald ore can be found between Y52 and Y12 in the overworld"
+      "text": "可以在主世界的52层和12层之间找到绿宝石矿石"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:coal",
-      "title": "Coal ore",
+      "title": "煤炭矿石",
       "link_recipe": true,
-      "text": "Coal ore can be found between Y160 and Y1 in the overworld, or there is a chance it can spawn when using the Botania orechid"
+      "text": "可以在主世界的160层和1层之间找到煤炭矿石，或可能被凝矿兰生成"
     },
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:bitumen_gem",
-      "title": "Bitumen ore",
+      "title": "沥青矿石",
       "link_recipe": true,
-      "text": "Bitumen ore can be found between Y160 and Y40 in the overworld"
+      "text": "可以在主世界的160层和40层之间找到沥青矿石"
     },
     {
       "type": "patchouli:spotlight",
       "item": "thermal:apatite",
-      "title": "Apatite ore",
+      "title": "磷灰石矿石",
       "link_recipe": true,
-      "text": "Apatite ore can be found between Y128 and Y64 in the overworld"
+      "text": "可以在主世界的128层和64层之间找到磷灰石矿石"
     }
   ]
 }

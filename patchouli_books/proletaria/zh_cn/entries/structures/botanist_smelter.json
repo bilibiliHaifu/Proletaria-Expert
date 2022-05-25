@@ -1,14 +1,14 @@
 {
-  "name": "Botanist's Smelter",
+  "name": "植物学家的冶炼厂",
   "icon": "masterfulmachinery:livingrock_controller",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "masterfulmachinery:livingrock_controller",
-      "title": "Botanist's Smelter",
+      "title": "植物学家的冶炼厂",
       "link_recipe": true,
-      "text": "This is the Botanists Smelter, it will allow you to smelt special items.$(br2)There are a few discrepancies between the guide and the real structure; these are outlined on the next few pages."
+      "text": "这是植物学家的冶炼厂，它可以让你冶炼特殊物品。$(br2)指南和实际的结构之间有一些差异，这些差异将在接下来的几页中描述。"
     },
     {
       "type": "patchouli:multiblock",
@@ -82,13 +82,13 @@
         "proletaria:textures/gui/patchouli_book/mm_structures/botanists_smelter_belt.png",
         "proletaria:textures/gui/patchouli_book/mm_structures/botanists_smelter_spreader.png"
       ],
-      "title": "Additional Images",
+      "title": "附加图片",
       "border": true
     },
     {
       "type": "patchouli:text",
-      "title": "Additional Notes",
-      "text": "Firstly, the 2 shafts need to be connected via a Mechanical Belt.$(br)Then there is a Mana Spreader located in the empty gap next to the mana port."
+      "title": "附加事项",
+      "text": "第一点，通过传送带连接两根传动杆。$(br)另外，在魔力接口旁边的空隙中有一个魔力发射器。"
     }
   ]
 }

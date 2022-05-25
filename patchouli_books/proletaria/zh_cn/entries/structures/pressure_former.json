@@ -1,14 +1,14 @@
 {
-  "name": "Pressure Former",
+  "name": "压力成型机",
   "icon": "masterfulmachinery:pressure_former_controller",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "masterfulmachinery:pressure_former_controller",
-      "title": "Pressure Former",
+      "title": "压力成型机",
       "link_recipe": true,
-      "text": "This is the Pressure Former, it will allow you to create ae2 processors."
+      "text": "这是压力成型机，它用于制作应用能源2的处理器。"
     },
     {
       "type": "patchouli:multiblock",

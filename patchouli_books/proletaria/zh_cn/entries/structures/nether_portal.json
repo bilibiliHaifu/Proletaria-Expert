@@ -1,14 +1,14 @@
 {
-  "name": "Nether Portal",
+  "name": "下界传送门",
   "icon": "tconstruct:flint_and_bronze",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "tconstruct:flint_and_bronze",
-      "title": "Nether Portal",
+      "title": "下界传送门",
       "link_recipe": true,
-      "text": "Standard Issue Nether Portal. You will need to progress through the pack to be able to enter The Nether."
+      "text": "标准的下界传送门，你需在整合包中发展到一定阶段才能进入下界。"
     },
     {
       "type": "patchouli:multiblock",

@@ -1,14 +1,14 @@
 {
-  "name": "Mechanist's Generator",
+  "name": "机械师的引擎",
   "icon": "masterfulmachinery:mechanists_controller",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "masterfulmachinery:mechanists_controller",
-      "title": "Mechanist's Generator",
+      "title": "机械师的引擎",
       "link_recipe": true,
-      "text": "This is the Mechanists Generator, building this multiblock will allow you to generate rotational force for the mod create. $(br)The Redstone Lamp has to be turned on for the machine to work."
+      "text": "这是机械师的引擎，建造这个多方块结构可以让你产生机械动力模组所需的应力。$(br)红石灯必须激活，机器才能工作。"
     },
     {
       "type": "patchouli:multiblock",

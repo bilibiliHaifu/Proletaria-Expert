@@ -1,5 +1,5 @@
 {
-  "name": "The Nether",
+  "name": "下界",
   "icon": "emendatusenigmatica:silver_chunk",
   "category": "patchouli:ores",
   "sortnum": 3,
@@ -7,30 +7,30 @@
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:silver_chunk",
-      "title": "Silver Ore",
+      "title": "银矿",
       "link_recipe": true,
-      "text": "Silver ore can be found between Y98 and Y46 in the Nether only"
+      "text": "只能在下界的98层和46层之间找到银矿"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:quartz",
-      "title": "Nether Quartz Ore",
+      "title": "下界石英矿",
       "link_recipe": true,
-      "text": "Nether Quartz ore can be found between Y140 and Y40 in the Nether only"
+      "text": "只能在下界的140层和40层之间找到下界石英矿"
     },
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:sulfur_gem",
-      "title": "Sulfur Ore",
+      "title": "硫矿",
       "link_recipe": true,
-      "text": "Sulfur ore can be found between Y46 and Y30 in the Nether only"
+      "text": "只能在下界的30层和46层之间找到硫矿"
     },
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:lead_chunk",
-      "title": "Lead Ore",
+      "title": "铅矿",
       "link_recipe": true,
-      "text": "Lead ore can be found between Y62 and Y10 in the Nether only"
+      "text": "只能在下界的62层和10层之间找到铅矿" 
     }
   ]
 }

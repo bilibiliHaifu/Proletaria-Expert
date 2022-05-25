@@ -1,14 +1,14 @@
 {
-  "name": "Scorching Compressor",
+  "name": "炙热压缩机",
   "icon": "masterfulmachinery:compressor_controller",
   "category": "patchouli:multiblock_structures",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "masterfulmachinery:compressor_controller",
-      "title": "Scorching Compressor",
+      "title": "炙热压缩机",
       "link_recipe": true,
-      "text": "This is the Scorching Compressor, it will allow you to create compressed iron."
+      "text": "这是炙热压缩机，它用于制作压缩铁。"
     },
     {
       "type": "patchouli:multiblock",

@@ -1,5 +1,5 @@
 {
-  "name": "The End",
+  "name": "末地",
   "icon": "emendatusenigmatica:cobalt_chunk",
   "category": "patchouli:ores",
   "sortnum": 5,
@@ -7,23 +7,23 @@
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:cinnabar_gem",
-      "title": "Cinnabar ore",
+      "title": "朱砂矿石",
       "link_recipe": true,
-      "text": "Cinnabar ore can be found between Y36 and Y24 in The End only."
+      "text": "只能在末地的36层和24层之间找到朱砂矿石"
     },
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:cobalt_chunk",
-      "title": "Cobalt ore",
+      "title": "钴矿石",
       "link_recipe": true,
-      "text": "Cobalt ore can be found between Y68 and Y36 in The End only."
+      "text": "只能在末地的68层和36层之间找到钴矿石"
     },
     {
       "type": "patchouli:spotlight",
       "item": "emendatusenigmatica:potassium_nitrate_gem",
-      "title": "Potassium Nitrate ore",
+      "title": "硝酸钾矿石",
       "link_recipe": true,
-      "text": "Potassium Nitrate ore can be found between Y52 and Y38 in The End only."
+      "text": "只能在末地的52层和38层之间找到硝酸钾矿石"
     }
   ]
 }
