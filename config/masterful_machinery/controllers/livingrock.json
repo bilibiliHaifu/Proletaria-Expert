@@ -1,0 +1,32 @@
+{
+  "controllerId": "livingrock",
+  "name": "Livingrock",
+  "textureOverride": "botania:block/livingrock",
+  "ports": [
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "id": "default",
+      "name": "Mana",
+      "data": {
+        "capacity": 20000
+      }
+    },
+    {
+      "type": "masterfulmachinery:items",
+      "id": "default",
+      "name": "Item",
+      "data": {
+        "columns": 3,
+        "rows": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:create_rotation",
+      "id": "default",
+      "name": "Rotation",
+      "data": {
+        "stress": 8
+      }
+    }
+  ]
+}

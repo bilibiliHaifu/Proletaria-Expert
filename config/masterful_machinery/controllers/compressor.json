@@ -1,0 +1,26 @@
+{
+  "controllerId": "compressor",
+  "name": "Scorching Compressor",
+  "textureOverride": "tconstruct:block/foundry/scorched/chiseled",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "id": "default",
+      "name": "Item",
+      "textureOverride": "tconstruct:block/foundry/scorched/bricks",
+      "data": {
+        "columns": 3,
+        "rows": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "id": "default",
+      "name": "Energy",
+      "textureOverride": "tconstruct:block/foundry/scorched/bricks",
+      "data": {
+        "capacity": 1000000
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "controllerId": "livingwood",
+  "name": "Livingwood",
+  "textureOverride": "botania:block/livingwood",
+  "ports": [
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "textureOverride": "botania:block/livingrock_bricks",
+      "id": "default",
+      "name": "Mana",
+      "data": {
+        "capacity": 20000
+      }
+    },
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "botania:block/mossy_livingwood_planks",
+      "id": "default",
+      "name": "Item",
+      "data": {
+        "columns": 3,
+        "rows": 1
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+	  "textureOverride": "botania:block/mossy_livingwood_planks",
+      "id": "default",
+      "name": "Fluid",
+      "data": {
+        "capacity": 8000
+      }
+    }
+  ]
+}
