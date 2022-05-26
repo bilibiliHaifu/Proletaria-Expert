@@ -1,1134 +1,1134 @@
 {
-	id: "62DE54303D47FBA7"
-	group: "1DFE3EE269C0174B"
-	order_index: 5
-	filename: "immersive_engineering"
-	title: "Immersive Engineering"
-	icon: {
-		id: "immersiveengineering:hammer"
-		Count: 1b
-		tag: {
-			Damage: 0
-		}
-	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
-	quests: [
-		{
-			icon: "immersiveengineering:diesel_generator"
-			x: 3.5d
-			y: -6.5d
-			dependencies: [
-				"4BF671E7E122467E"
-				"756A863A10CA2D12"
-			]
-			optional: true
-			id: "7833AE1DBE2E3E56"
-			tasks: [
-				{
-					id: "581DB4BFC220B86C"
-					type: "observation"
-					title: "Diesel Generator"
-					icon: "immersiveengineering:diesel_generator"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:diesel_generator"
-				}
-				{
-					id: "10D2F462C2D6A09E"
-					type: "item"
-					item: "immersiveengineering:radiator"
-					count: 9L
-				}
-				{
-					id: "296F3DB58305C2A7"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 6L
-				}
-				{
-					id: "64CC4E0DC12D1E02"
-					type: "item"
-					item: "immersiveengineering:generator"
-					count: 4L
-				}
-				{
-					id: "221B3F4BF1DABFD6"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 13L
-				}
-				{
-					id: "518965D006EC3D8D"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "57ABBF7B1E07EDB0"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 5L
-				}
-			]
-			rewards: [{
-				id: "47108FE3B8FCA528"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			title: "Distillation Tower"
-			icon: "immersivepetroleum:distillationtower"
-			x: 1.5d
-			y: -5.5d
-			dependencies: ["5079433D80A8EC31"]
-			id: "1C3A855C5D9BF2A6"
-			tasks: [
-				{
-					id: "63F14DECDBCE6B25"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 25L
-				}
-				{
-					id: "6E8062F22B3BB8EC"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 4L
-				}
-				{
-					id: "26453D74B4EA1536"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "3395ACD7F62F9C9A"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 60L
-				}
-				{
-					id: "52E38EA2E86A6EBE"
-					type: "item"
-					item: "immersiveengineering:slab_steel_scaffolding_standard"
-					count: 30L
-				}
-				{
-					id: "6C8E0A74848BE843"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 17L
-				}
-				{
-					id: "20FA5685F2369CB1"
-					type: "observation"
-					title: "Distillation Tower"
-					icon: "immersivepetroleum:distillationtower"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersivepetroleum:distillationtower"
-				}
-			]
-			rewards: [{
-				id: "739847CC4A9FFF81"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			icon: "immersivepetroleum:cokerunit"
-			x: -1.5d
-			y: -6.5d
-			dependencies: ["5079433D80A8EC31"]
-			id: "0964CF27FD0A3F9B"
-			tasks: [
-				{
-					id: "5C21077962B1C8D5"
-					type: "observation"
-					title: "Coker"
-					icon: "immersivepetroleum:cokerunit"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersivepetroleum:cokerunit"
-				}
-				{
-					id: "10436A2FAA274BF1"
-					type: "item"
-					item: "immersiveengineering:concrete"
-					count: 12L
-				}
-				{
-					id: "40E37966B03BD54B"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 98L
-				}
-				{
-					id: "5F305BADC73ECA05"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 5L
-				}
-				{
-					id: "06002F3C0A55F113"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_steel"
-				}
-				{
-					id: "73168B9CCCEF1142"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 5L
-				}
-				{
-					id: "4C9E032319E50DB0"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "525872FBE7DBB069"
-					type: "item"
-					item: "immersiveengineering:concrete_tile"
-					count: 45L
-				}
-				{
-					id: "354FE46281E94000"
-					type: "item"
-					item: "immersiveengineering:steel_fence"
-					count: 88L
-				}
-				{
-					id: "481023CFEEA3FC2C"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 162L
-				}
-				{
-					id: "39C8B14D962BD27C"
-					type: "item"
-					item: "immersiveengineering:slab_steel_scaffolding_standard"
-					count: 46L
-				}
-				{
-					id: "722ABEBF81E9DA02"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 47L
-				}
-				{
-					id: "74838B88D5F730CE"
-					type: "item"
-					item: "immersiveengineering:steel_slope"
-					count: 3L
-				}
-			]
-			rewards: [{
-				id: "6F352583A4AAC1FA"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			icon: "immersiveengineering:auto_workbench"
-			x: -1.0d
-			y: -4.5d
-			dependencies: ["5079433D80A8EC31"]
-			id: "79C0B48AB899F3EC"
-			tasks: [
-				{
-					id: "5A758C299907664F"
-					type: "observation"
-					title: "Auto Workbench"
-					icon: "immersiveengineering:auto_workbench"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:auto_workbench"
-				}
-				{
-					id: "2D0A0882EAE9189A"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 5L
-				}
-				{
-					id: "45FAFB427C8AAC2F"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 4L
-				}
-				{
-					id: "6D3E06DA691E5DE8"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "1F985CB89CF2449F"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 2L
-				}
-				{
-					id: "0FD8A90595D96C58"
-					type: "item"
-					item: "immersiveengineering:slab_treated_wood_horizontal"
-					count: 2L
-				}
-				{
-					id: "51EFC98C07177CF7"
-					type: "item"
-					item: "immersiveengineering:conveyor_basic"
-					count: 4L
-				}
-			]
-			rewards: [{
-				id: "48A20D98270011A8"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			icon: "immersiveengineering:sawmill"
-			x: -1.5d
-			y: -5.5d
-			dependencies: ["5079433D80A8EC31"]
-			id: "2FD25484F9913AE8"
-			tasks: [
-				{
-					id: "5BA61D7D72C36853"
-					type: "observation"
-					title: "Sawmill"
-					icon: "immersiveengineering:sawmill"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:sawmill"
-				}
-				{
-					id: "3F2AC1DE677A894A"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 8L
-				}
-				{
-					id: "076E4A6194A81B6C"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 6L
-				}
-				{
-					id: "0379ADC4BEC12F7B"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 4L
-				}
-				{
-					id: "263EA892E127B31A"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 2L
-				}
-				{
-					id: "12C3450318406E8E"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "7EAA3940E00B27B9"
-					type: "item"
-					item: "immersiveengineering:conveyor_basic"
-					count: 4L
-				}
-			]
-			rewards: [{
-				id: "6B35F384920A4268"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			icon: "immersiveengineering:refinery"
-			x: 2.5d
-			y: -6.5d
-			dependencies: ["7B4B80F7C4DB606B"]
-			id: "756A863A10CA2D12"
-			tasks: [
-				{
-					id: "0A8CE15968CD01EF"
-					type: "observation"
-					title: "Refinery"
-					icon: "immersiveengineering:refinery"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:refinery"
-				}
-				{
-					id: "655BA0459FD6794E"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 8L
-				}
-				{
-					id: "6200A29AEA01D56B"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
-				}
-				{
-					id: "795310B27C2D2FC2"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 2L
-				}
-				{
-					id: "095B7A03EA372569"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 16L
-				}
-				{
-					id: "0BA567F8F21FE766"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "1C9F1A09504CE868"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 5L
-				}
-			]
-			rewards: [{
-				id: "7BAFB773C68EA361"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			icon: "immersiveengineering:fermenter"
-			x: 1.5d
-			y: -6.5d
-			dependencies: ["5079433D80A8EC31"]
-			id: "7B4B80F7C4DB606B"
-			tasks: [
-				{
-					id: "2B31EE439EBCDA62"
-					type: "observation"
-					title: "Industrial Fermenter"
-					icon: "immersiveengineering:fermenter"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:fermenter"
-				}
-				{
-					id: "2A981334DF036BE4"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 6L
-				}
-				{
-					id: "73233E4CF134C780"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
-				}
-				{
-					id: "625E3C505230448D"
-					type: "item"
-					item: "minecraft:cauldron"
-					count: 4L
-				}
-				{
-					id: "246B2FC52AC75603"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "317103D0A3404898"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 4L
-				}
-				{
-					id: "779D31F719580401"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "3909EAD744E79B78"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -2.5d
-			y: -6.5d
-			dependencies: ["0964CF27FD0A3F9B"]
-			id: "7C3AA49A804E4B92"
-			tasks: [{
-				id: "56E4BBCF460692FE"
-				type: "item"
-				item: "immersivepetroleum:diesel_sulfur_bucket"
-			}]
-			rewards: [{
-				id: "305B58803F6FDE24"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.0d
-			y: -6.0d
-			dependencies: ["117D1755A2DF85E9"]
-			id: "5079433D80A8EC31"
-			tasks: [{
-				id: "06631AB111796ABA"
-				type: "item"
-				item: "immersivepetroleum:projector"
-			}]
-			rewards: [{
-				id: "7BEC958F7ED921B2"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -3.0d
-			y: -10.5d
-			dependencies: ["3DD9ABFC6CB64B4D"]
-			id: "731A1130C886D4EC"
-			tasks: [{
-				id: "4B4BF99B7EF6DA15"
-				type: "item"
-				item: {
-					id: "immersivepetroleum:speedboat"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 4
-							Items: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "0D7B38EF2FD8DEED"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -4.5d
-			y: -10.5d
-			dependencies: ["731A1130C886D4EC"]
-			id: "5DA8B6ECD1B4D5ED"
-			tasks: [{
-				id: "28A84B3A1B745919"
-				type: "item"
-				item: "immersivepetroleum:upgrade_reinforced_hull"
-			}]
-			rewards: [{
-				id: "45B54225840EA8FA"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -4.0d
-			y: -11.5d
-			dependencies: ["731A1130C886D4EC"]
-			id: "545321EC251DA31F"
-			tasks: [{
-				id: "03D01E19B539109E"
-				type: "item"
-				item: "immersivepetroleum:upgrade_icebreaker"
-			}]
-			rewards: [{
-				id: "5CBC26B707448C12"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -4.0d
-			y: -9.5d
-			dependencies: ["731A1130C886D4EC"]
-			id: "7B0BAFDD18E57C8E"
-			tasks: [{
-				id: "3C08FAD8B9FA9783"
-				type: "item"
-				item: "immersivepetroleum:upgrade_tank"
-			}]
-			rewards: [{
-				id: "6A5E102EC4ADB2ED"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -3.0d
-			y: -9.0d
-			dependencies: ["731A1130C886D4EC"]
-			id: "4B6C6E30E679179B"
-			tasks: [{
-				id: "2A2D4A72E6875D39"
-				type: "item"
-				item: "immersivepetroleum:upgrade_rudders"
-			}]
-			rewards: [{
-				id: "2AA95C5F41A65B39"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -3.0d
-			y: -12.0d
-			dependencies: ["731A1130C886D4EC"]
-			id: "1D02714D6DE803FF"
-			tasks: [{
-				id: "147920F5AEA6F379"
-				type: "item"
-				item: "immersivepetroleum:upgrade_paddles"
-			}]
-			rewards: [{
-				id: "695BD33D22B8B733"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -0.5d
-			y: -7.5d
-			dependencies: ["3DD9ABFC6CB64B4D"]
-			id: "741C1CE445E086D6"
-			tasks: [{
-				id: "24B6EA35E9A3CD45"
-				type: "item"
-				item: "immersiveengineering:cloche"
-			}]
-			rewards: [{
-				id: "7010BEE56E8D0DD8"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			icon: "immersiveengineering:windmill"
-			x: -0.5d
-			y: -8.5d
-			dependencies: ["3DD9ABFC6CB64B4D"]
-			id: "37DCABAEECA54B0B"
-			tasks: [
-				{
-					id: "02C17702C437AD56"
-					type: "item"
-					item: "immersiveengineering:windmill"
-				}
-				{
-					id: "32A80746E54C834A"
-					type: "item"
-					item: "immersiveengineering:windmill_sail"
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "1ACF23BE13030F5F"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -1.0d
-			y: -10.5d
-			hide_dependency_lines: true
-			dependencies: ["55145B86F43F14C9"]
-			id: "1D4981EE26894EBF"
-			tasks: [{
-				id: "2D228C99B6CA1493"
-				type: "item"
-				item: {
-					id: "immersiveengineering:railgun"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 3
-							Items: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "2319BCED201C79BB"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.5d
-			y: -11.5d
-			dependencies: ["2864A4D4BB134D23"]
-			id: "69BBF11C4119480E"
-			tasks: [{
-				id: "1E390D8210454EE3"
-				type: "item"
-				item: {
-					id: "immersiveengineering:chemthrower"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 4
-							Items: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "50A25BBA9744D5D9"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.0d
-			y: -12.5d
-			dependencies: ["2864A4D4BB134D23"]
-			id: "00A0306B2B439698"
-			tasks: [{
-				id: "4C1FA00E6A647A19"
-				type: "item"
-				item: {
-					id: "immersiveengineering:drill"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 5
-							Items: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7106740C8A3BB152"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.0d
-			y: -13.5d
-			dependencies: ["00A0306B2B439698"]
-			id: "4D548009FBF3BC0B"
-			tasks: [{
-				id: "2D733F8C3C5FBA76"
-				type: "item"
-				item: "immersiveengineering:drillhead_iron"
-			}]
-			rewards: [{
-				id: "6D860C24A8B26F82"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.0d
-			y: -14.5d
-			dependencies: ["4D548009FBF3BC0B"]
-			id: "5C33CCC0D92274CC"
-			tasks: [{
-				id: "3DC9323E2EE56495"
-				type: "item"
-				item: "immersiveengineering:drillhead_steel"
-			}]
-			rewards: [{
-				id: "544ECB60935131BD"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 1.0d
-			y: -10.5d
-			dependencies: ["2864A4D4BB134D23"]
-			id: "72CF9A9728C42D4E"
-			tasks: [{
-				id: "3820DDDA8F99F500"
-				type: "item"
-				item: {
-					id: "immersiveengineering:revolver"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 21
-							Items: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "3C0A4F5C8A152C99"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			icon: {
-				id: "immersiveengineering:toolbox"
-				Count: 1b
-				ForgeCaps: {
-					Parent: {
-						Size: 23
-						Items: [ ]
-					}
-				}
-			}
-			x: 0.0d
-			y: -10.5d
-			dependencies: ["117E98EA5942B297"]
-			id: "12FB5110501C3A8C"
-			tasks: [
-				{
-					id: "38A2102A3DCB3EB8"
-					type: "item"
-					item: {
-						id: "immersiveengineering:wirecutter"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "754FDBA4D494FD33"
-					type: "item"
-					item: "immersiveengineering:screwdriver"
-				}
-				{
-					id: "0B38098685F7D7D5"
-					type: "item"
-					item: "immersiveengineering:voltmeter"
-				}
-			]
-			rewards: [
-				{
-					id: "703A8DB5741524B8"
-					type: "item"
-					item: {
-						id: "immersiveengineering:toolbox"
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Size: 23
-								Items: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5D506FA30103442E"
-					type: "item"
-					item: "kubejs:pro_coin"
-					count: 2
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: -9.5d
-			dependencies: ["44C83AE747BA6538"]
-			id: "7C5D75BFACE259E5"
-			tasks: [{
-				id: "18DF0546155A0C08"
-				type: "item"
-				item: "immersiveengineering:capacitor_lv"
-			}]
-			rewards: [{
-				id: "67AFBB3E99213C2B"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -0.5d
-			y: -9.5d
-			dependencies: ["7C5D75BFACE259E5"]
-			id: "48E152FFAD295D26"
-			tasks: [{
-				id: "549D6B3A2227AAD8"
-				type: "item"
-				item: "immersiveengineering:capacitor_mv"
-			}]
-			rewards: [{
-				id: "1C1D0C2C9181C8C0"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.5d
-			y: -9.5d
-			dependencies: ["48E152FFAD295D26"]
-			id: "55145B86F43F14C9"
-			tasks: [{
-				id: "7CD9F5E9F6BB43F8"
-				type: "item"
-				item: "immersiveengineering:capacitor_hv"
-			}]
-			rewards: [{
-				id: "7522073AC7358D63"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 1.5d
-			y: -9.5d
-			dependencies: ["55145B86F43F14C9"]
-			id: "4FA88A14853FE749"
-			tasks: [{
-				id: "33E8643120251CB6"
-				type: "item"
-				item: "immersiveengineering:tesla_coil"
-			}]
-			rewards: [{
-				id: "795FBB489EDAFEFC"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: -0.5d
-			y: -11.5d
-			dependencies: ["3DD9ABFC6CB64B4D"]
-			id: "7CF5B68890C0BE5B"
-			tasks: [{
-				id: "623341D8BE351DCD"
-				type: "item"
-				item: {
-					id: "immersiveengineering:skyhook"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 2
-							Items: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "27940D11B6C977E3"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			title: "Advanced Blast Furnace"
-			icon: "immersiveengineering:advanced_blast_furnace"
-			x: 1.0d
-			y: -4.5d
-			dependencies: ["5079433D80A8EC31"]
-			id: "5A14257A3C77C084"
-			tasks: [
-				{
-					id: "5E5D8742DFFDF21A"
-					type: "item"
-					item: "immersiveengineering:blastbrick_reinforced"
-					count: 27L
-				}
-				{
-					id: "6F244E5131CF8D4C"
-					type: "item"
-					item: "minecraft:hopper"
-				}
-				{
-					id: "7AF2993667EDA649"
-					type: "observation"
-					title: "Advanced Blast Furnace"
-					icon: "immersiveengineering:advanced_blast_furnace"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:advanced_blast_furnace"
-				}
-			]
-			rewards: [{
-				id: "0F38305F6EC30419"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 2.0d
-			y: -4.5d
-			subtitle: "Faster Faster Faster"
-			dependencies: ["5A14257A3C77C084"]
-			id: "638643105BCB2C13"
-			tasks: [{
-				id: "79B31007840FDBBF"
-				type: "item"
-				item: "immersiveengineering:blastfurnace_preheater"
-				count: 2L
-			}]
-			rewards: [{
-				id: "220E97A71937DD13"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.5d
-			y: -8.5d
-			dependencies: ["3DD9ABFC6CB64B4D"]
-			id: "4366ECF97D28ACF6"
-			tasks: [{
-				id: "24ABB79371EE7C84"
-				type: "item"
-				item: "immersiveengineering:thermoelectric_generator"
-			}]
-			rewards: [{
-				id: "6136C624D377D50A"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 0.5d
-			y: -7.5d
-			dependencies: ["2864A4D4BB134D23"]
-			id: "2A481328F8F1060F"
-			tasks: [{
-				id: "282DDE7CE491D589"
-				type: "item"
-				item: "immersiveengineering:fluid_pump"
-			}]
-			rewards: [{
-				id: "598494EEEB067890"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 3.0d
-			y: -11.0d
-			dependencies: ["4FA88A14853FE749"]
-			id: "199AD065EB469A3F"
-			tasks: [{
-				id: "0F79746659C89B87"
-				type: "item"
-				item: {
-					id: "immersiveengineering:armor_faraday_head"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "29891B22B3A4CE53"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 3.0d
-			y: -10.0d
-			dependencies: ["4FA88A14853FE749"]
-			id: "072F5D8BE3260E5E"
-			tasks: [{
-				id: "26E289C29423E112"
-				type: "item"
-				item: {
-					id: "immersiveengineering:armor_faraday_chest"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "79C5F7B046396AD5"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 3.0d
-			y: -9.0d
-			dependencies: ["4FA88A14853FE749"]
-			id: "1708DAC689201B4D"
-			tasks: [{
-				id: "089661437E65CAAF"
-				type: "item"
-				item: {
-					id: "immersiveengineering:armor_faraday_legs"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "422C54E0C568D62D"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-		{
-			x: 3.0d
-			y: -8.0d
-			dependencies: ["4FA88A14853FE749"]
-			id: "5CDFF513C374E4BA"
-			tasks: [{
-				id: "43A84033DD23FAE1"
-				type: "item"
-				item: {
-					id: "immersiveengineering:armor_faraday_feet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4C18450CCAAE890B"
-				type: "item"
-				item: "kubejs:pro_coin"
-				count: 2
-			}]
-		}
-	]
+        id: "62DE54303D47FBA7"
+        group: "1DFE3EE269C0174B"
+        order_index: 5
+        filename: "immersive_engineering"
+        title: "沉浸工艺"
+        icon: {
+                id: "immersiveengineering:hammer"
+                Count: 1b
+                tag: {
+                        Damage: 0
+                }
+        }
+        default_quest_shape: ""
+        default_hide_dependency_lines: false
+        quests: [
+                {
+                        icon: "immersiveengineering:diesel_generator"
+                        x: 3.5d
+                        y: -6.5d
+                        dependencies: [
+                                "4BF671E7E122467E"
+                                "756A863A10CA2D12"
+                        ]
+                        optional: true
+                        id: "7833AE1DBE2E3E56"
+                        tasks: [
+                                {
+                                        id: "581DB4BFC220B86C"
+                                        type: "observation"
+                                        title: "柴油发电机"
+                                        icon: "immersiveengineering:diesel_generator"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersiveengineering:diesel_generator"
+                                }
+                                {
+                                        id: "10D2F462C2D6A09E"
+                                        type: "item"
+                                        item: "immersiveengineering:radiator"
+                                        count: 9L
+                                }
+                                {
+                                        id: "296F3DB58305C2A7"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_scaffolding_standard"
+                                        count: 6L
+                                }
+                                {
+                                        id: "64CC4E0DC12D1E02"
+                                        type: "item"
+                                        item: "immersiveengineering:generator"
+                                        count: 4L
+                                }
+                                {
+                                        id: "221B3F4BF1DABFD6"
+                                        type: "item"
+                                        item: "immersiveengineering:heavy_engineering"
+                                        count: 13L
+                                }
+                                {
+                                        id: "518965D006EC3D8D"
+                                        type: "item"
+                                        item: "immersiveengineering:rs_engineering"
+                                }
+                                {
+                                        id: "57ABBF7B1E07EDB0"
+                                        type: "item"
+                                        item: "immersiveengineering:fluid_pipe"
+                                        count: 5L
+                                }
+                        ]
+                        rewards: [{
+                                id: "47108FE3B8FCA528"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        title: "精馏塔"
+                        icon: "immersivepetroleum:distillationtower"
+                        x: 1.5d
+                        y: -5.5d
+                        dependencies: ["5079433D80A8EC31"]
+                        id: "1C3A855C5D9BF2A6"
+                        tasks: [
+                                {
+                                        id: "63F14DECDBCE6B25"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_scaffolding_standard"
+                                        count: 25L
+                                }
+                                {
+                                        id: "6E8062F22B3BB8EC"
+                                        type: "item"
+                                        item: "immersiveengineering:heavy_engineering"
+                                        count: 4L
+                                }
+                                {
+                                        id: "26453D74B4EA1536"
+                                        type: "item"
+                                        item: "immersiveengineering:rs_engineering"
+                                }
+                                {
+                                        id: "3395ACD7F62F9C9A"
+                                        type: "item"
+                                        item: "immersiveengineering:sheetmetal_iron"
+                                        count: 60L
+                                }
+                                {
+                                        id: "52E38EA2E86A6EBE"
+                                        type: "item"
+                                        item: "immersiveengineering:slab_steel_scaffolding_standard"
+                                        count: 30L
+                                }
+                                {
+                                        id: "6C8E0A74848BE843"
+                                        type: "item"
+                                        item: "immersiveengineering:fluid_pipe"
+                                        count: 17L
+                                }
+                                {
+                                        id: "20FA5685F2369CB1"
+                                        type: "observation"
+                                        title: "精馏塔"
+                                        icon: "immersivepetroleum:distillationtower"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersivepetroleum:distillationtower"
+                                }
+                        ]
+                        rewards: [{
+                                id: "739847CC4A9FFF81"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        icon: "immersivepetroleum:cokerunit"
+                        x: -1.5d
+                        y: -6.5d
+                        dependencies: ["5079433D80A8EC31"]
+                        id: "0964CF27FD0A3F9B"
+                        tasks: [
+                                {
+                                        id: "5C21077962B1C8D5"
+                                        type: "observation"
+                                        title: "焦化器"
+                                        icon: "immersivepetroleum:cokerunit"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersivepetroleum:cokerunit"
+                                }
+                                {
+                                        id: "10436A2FAA274BF1"
+                                        type: "item"
+                                        item: "immersiveengineering:concrete"
+                                        count: 12L
+                                }
+                                {
+                                        id: "40E37966B03BD54B"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_scaffolding_standard"
+                                        count: 98L
+                                }
+                                {
+                                        id: "5F305BADC73ECA05"
+                                        type: "item"
+                                        item: "immersiveengineering:heavy_engineering"
+                                        count: 5L
+                                }
+                                {
+                                        id: "06002F3C0A55F113"
+                                        type: "item"
+                                        item: "immersiveengineering:sheetmetal_steel"
+                                }
+                                {
+                                        id: "73168B9CCCEF1142"
+                                        type: "item"
+                                        item: "immersiveengineering:light_engineering"
+                                        count: 5L
+                                }
+                                {
+                                        id: "4C9E032319E50DB0"
+                                        type: "item"
+                                        item: "immersiveengineering:rs_engineering"
+                                }
+                                {
+                                        id: "525872FBE7DBB069"
+                                        type: "item"
+                                        item: "immersiveengineering:concrete_tile"
+                                        count: 45L
+                                }
+                                {
+                                        id: "354FE46281E94000"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_fence"
+                                        count: 88L
+                                }
+                                {
+                                        id: "481023CFEEA3FC2C"
+                                        type: "item"
+                                        item: "immersiveengineering:sheetmetal_iron"
+                                        count: 162L
+                                }
+                                {
+                                        id: "39C8B14D962BD27C"
+                                        type: "item"
+                                        item: "immersiveengineering:slab_steel_scaffolding_standard"
+                                        count: 46L
+                                }
+                                {
+                                        id: "722ABEBF81E9DA02"
+                                        type: "item"
+                                        item: "immersiveengineering:fluid_pipe"
+                                        count: 47L
+                                }
+                                {
+                                        id: "74838B88D5F730CE"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_slope"
+                                        count: 3L
+                                }
+                        ]
+                        rewards: [{
+                                id: "6F352583A4AAC1FA"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        icon: "immersiveengineering:auto_workbench"
+                        x: -1.0d
+                        y: -4.5d
+                        dependencies: ["5079433D80A8EC31"]
+                        id: "79C0B48AB899F3EC"
+                        tasks: [
+                                {
+                                        id: "5A758C299907664F"
+                                        type: "observation"
+                                        title: "自动化工程师装配台"
+                                        icon: "immersiveengineering:auto_workbench"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersiveengineering:auto_workbench"
+                                }
+                                {
+                                        id: "2D0A0882EAE9189A"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_scaffolding_standard"
+                                        count: 5L
+                                }
+                                {
+                                        id: "45FAFB427C8AAC2F"
+                                        type: "item"
+                                        item: "immersiveengineering:light_engineering"
+                                        count: 4L
+                                }
+                                {
+                                        id: "6D3E06DA691E5DE8"
+                                        type: "item"
+                                        item: "immersiveengineering:rs_engineering"
+                                }
+                                {
+                                        id: "1F985CB89CF2449F"
+                                        type: "item"
+                                        item: "immersiveengineering:heavy_engineering"
+                                        count: 2L
+                                }
+                                {
+                                        id: "0FD8A90595D96C58"
+                                        type: "item"
+                                        item: "immersiveengineering:slab_treated_wood_horizontal"
+                                        count: 2L
+                                }
+                                {
+                                        id: "51EFC98C07177CF7"
+                                        type: "item"
+                                        item: "immersiveengineering:conveyor_basic"
+                                        count: 4L
+                                }
+                        ]
+                        rewards: [{
+                                id: "48A20D98270011A8"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        icon: "immersiveengineering:sawmill"
+                        x: -1.5d
+                        y: -5.5d
+                        dependencies: ["5079433D80A8EC31"]
+                        id: "2FD25484F9913AE8"
+                        tasks: [
+                                {
+                                        id: "5BA61D7D72C36853"
+                                        type: "observation"
+                                        title: "锯木机"
+                                        icon: "immersiveengineering:sawmill"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersiveengineering:sawmill"
+                                }
+                                {
+                                        id: "3F2AC1DE677A894A"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_scaffolding_standard"
+                                        count: 8L
+                                }
+                                {
+                                        id: "076E4A6194A81B6C"
+                                        type: "item"
+                                        item: "immersiveengineering:light_engineering"
+                                        count: 6L
+                                }
+                                {
+                                        id: "0379ADC4BEC12F7B"
+                                        type: "item"
+                                        item: "immersiveengineering:sheetmetal_iron"
+                                        count: 4L
+                                }
+                                {
+                                        id: "263EA892E127B31A"
+                                        type: "item"
+                                        item: "immersiveengineering:heavy_engineering"
+                                        count: 2L
+                                }
+                                {
+                                        id: "12C3450318406E8E"
+                                        type: "item"
+                                        item: "immersiveengineering:rs_engineering"
+                                }
+                                {
+                                        id: "7EAA3940E00B27B9"
+                                        type: "item"
+                                        item: "immersiveengineering:conveyor_basic"
+                                        count: 4L
+                                }
+                        ]
+                        rewards: [{
+                                id: "6B35F384920A4268"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        icon: "immersiveengineering:refinery"
+                        x: 2.5d
+                        y: -6.5d
+                        dependencies: ["7B4B80F7C4DB606B"]
+                        id: "756A863A10CA2D12"
+                        tasks: [
+                                {
+                                        id: "0A8CE15968CD01EF"
+                                        type: "observation"
+                                        title: "炼油厂"
+                                        icon: "immersiveengineering:refinery"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersiveengineering:refinery"
+                                }
+                                {
+                                        id: "655BA0459FD6794E"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_scaffolding_standard"
+                                        count: 8L
+                                }
+                                {
+                                        id: "6200A29AEA01D56B"
+                                        type: "item"
+                                        item: "immersiveengineering:light_engineering"
+                                        count: 2L
+                                }
+                                {
+                                        id: "795310B27C2D2FC2"
+                                        type: "item"
+                                        item: "immersiveengineering:heavy_engineering"
+                                        count: 2L
+                                }
+                                {
+                                        id: "095B7A03EA372569"
+                                        type: "item"
+                                        item: "immersiveengineering:sheetmetal_iron"
+                                        count: 16L
+                                }
+                                {
+                                        id: "0BA567F8F21FE766"
+                                        type: "item"
+                                        item: "immersiveengineering:rs_engineering"
+                                }
+                                {
+                                        id: "1C9F1A09504CE868"
+                                        type: "item"
+                                        item: "immersiveengineering:fluid_pipe"
+                                        count: 5L
+                                }
+                        ]
+                        rewards: [{
+                                id: "7BAFB773C68EA361"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        icon: "immersiveengineering:fermenter"
+                        x: 1.5d
+                        y: -6.5d
+                        dependencies: ["5079433D80A8EC31"]
+                        id: "7B4B80F7C4DB606B"
+                        tasks: [
+                                {
+                                        id: "2B31EE439EBCDA62"
+                                        type: "observation"
+                                        title: "工业发酵机"
+                                        icon: "immersiveengineering:fermenter"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersiveengineering:fermenter"
+                                }
+                                {
+                                        id: "2A981334DF036BE4"
+                                        type: "item"
+                                        item: "immersiveengineering:steel_scaffolding_standard"
+                                        count: 6L
+                                }
+                                {
+                                        id: "73233E4CF134C780"
+                                        type: "item"
+                                        item: "immersiveengineering:light_engineering"
+                                        count: 2L
+                                }
+                                {
+                                        id: "625E3C505230448D"
+                                        type: "item"
+                                        item: "minecraft:cauldron"
+                                        count: 4L
+                                }
+                                {
+                                        id: "246B2FC52AC75603"
+                                        type: "item"
+                                        item: "immersiveengineering:rs_engineering"
+                                }
+                                {
+                                        id: "317103D0A3404898"
+                                        type: "item"
+                                        item: "immersiveengineering:sheetmetal_iron"
+                                        count: 4L
+                                }
+                                {
+                                        id: "779D31F719580401"
+                                        type: "item"
+                                        item: "immersiveengineering:fluid_pipe"
+                                        count: 2L
+                                }
+                        ]
+                        rewards: [{
+                                id: "3909EAD744E79B78"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -2.5d
+                        y: -6.5d
+                        dependencies: ["0964CF27FD0A3F9B"]
+                        id: "7C3AA49A804E4B92"
+                        tasks: [{
+                                id: "56E4BBCF460692FE"
+                                type: "item"
+                                item: "immersivepetroleum:diesel_sulfur_bucket"
+                        }]
+                        rewards: [{
+                                id: "305B58803F6FDE24"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.0d
+                        y: -6.0d
+                        dependencies: ["117D1755A2DF85E9"]
+                        id: "5079433D80A8EC31"
+                        tasks: [{
+                                id: "06631AB111796ABA"
+                                type: "item"
+                                item: "immersivepetroleum:projector"
+                        }]
+                        rewards: [{
+                                id: "7BEC958F7ED921B2"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -3.0d
+                        y: -10.5d
+                        dependencies: ["3DD9ABFC6CB64B4D"]
+                        id: "731A1130C886D4EC"
+                        tasks: [{
+                                id: "4B4BF99B7EF6DA15"
+                                type: "item"
+                                item: {
+                                        id: "immersivepetroleum:speedboat"
+                                        Count: 1b
+                                        ForgeCaps: {
+                                                Parent: {
+                                                        Size: 4
+                                                        Items: [ ]
+                                                }
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "0D7B38EF2FD8DEED"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -4.5d
+                        y: -10.5d
+                        dependencies: ["731A1130C886D4EC"]
+                        id: "5DA8B6ECD1B4D5ED"
+                        tasks: [{
+                                id: "28A84B3A1B745919"
+                                type: "item"
+                                item: "immersivepetroleum:upgrade_reinforced_hull"
+                        }]
+                        rewards: [{
+                                id: "45B54225840EA8FA"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -4.0d
+                        y: -11.5d
+                        dependencies: ["731A1130C886D4EC"]
+                        id: "545321EC251DA31F"
+                        tasks: [{
+                                id: "03D01E19B539109E"
+                                type: "item"
+                                item: "immersivepetroleum:upgrade_icebreaker"
+                        }]
+                        rewards: [{
+                                id: "5CBC26B707448C12"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -4.0d
+                        y: -9.5d
+                        dependencies: ["731A1130C886D4EC"]
+                        id: "7B0BAFDD18E57C8E"
+                        tasks: [{
+                                id: "3C08FAD8B9FA9783"
+                                type: "item"
+                                item: "immersivepetroleum:upgrade_tank"
+                        }]
+                        rewards: [{
+                                id: "6A5E102EC4ADB2ED"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -3.0d
+                        y: -9.0d
+                        dependencies: ["731A1130C886D4EC"]
+                        id: "4B6C6E30E679179B"
+                        tasks: [{
+                                id: "2A2D4A72E6875D39"
+                                type: "item"
+                                item: "immersivepetroleum:upgrade_rudders"
+                        }]
+                        rewards: [{
+                                id: "2AA95C5F41A65B39"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -3.0d
+                        y: -12.0d
+                        dependencies: ["731A1130C886D4EC"]
+                        id: "1D02714D6DE803FF"
+                        tasks: [{
+                                id: "147920F5AEA6F379"
+                                type: "item"
+                                item: "immersivepetroleum:upgrade_paddles"
+                        }]
+                        rewards: [{
+                                id: "695BD33D22B8B733"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -0.5d
+                        y: -7.5d
+                        dependencies: ["3DD9ABFC6CB64B4D"]
+                        id: "741C1CE445E086D6"
+                        tasks: [{
+                                id: "24B6EA35E9A3CD45"
+                                type: "item"
+                                item: "immersiveengineering:cloche"
+                        }]
+                        rewards: [{
+                                id: "7010BEE56E8D0DD8"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        icon: "immersiveengineering:windmill"
+                        x: -0.5d
+                        y: -8.5d
+                        dependencies: ["3DD9ABFC6CB64B4D"]
+                        id: "37DCABAEECA54B0B"
+                        tasks: [
+                                {
+                                        id: "02C17702C437AD56"
+                                        type: "item"
+                                        item: "immersiveengineering:windmill"
+                                }
+                                {
+                                        id: "32A80746E54C834A"
+                                        type: "item"
+                                        item: "immersiveengineering:windmill_sail"
+                                        count: 2L
+                                }
+                        ]
+                        rewards: [{
+                                id: "1ACF23BE13030F5F"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -1.0d
+                        y: -10.5d
+                        hide_dependency_lines: true
+                        dependencies: ["55145B86F43F14C9"]
+                        id: "1D4981EE26894EBF"
+                        tasks: [{
+                                id: "2D228C99B6CA1493"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:railgun"
+                                        Count: 1b
+                                        ForgeCaps: {
+                                                Parent: {
+                                                        Size: 3
+                                                        Items: [ ]
+                                                }
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "2319BCED201C79BB"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.5d
+                        y: -11.5d
+                        dependencies: ["2864A4D4BB134D23"]
+                        id: "69BBF11C4119480E"
+                        tasks: [{
+                                id: "1E390D8210454EE3"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:chemthrower"
+                                        Count: 1b
+                                        ForgeCaps: {
+                                                Parent: {
+                                                        Size: 4
+                                                        Items: [ ]
+                                                }
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "50A25BBA9744D5D9"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.0d
+                        y: -12.5d
+                        dependencies: ["2864A4D4BB134D23"]
+                        id: "00A0306B2B439698"
+                        tasks: [{
+                                id: "4C1FA00E6A647A19"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:drill"
+                                        Count: 1b
+                                        ForgeCaps: {
+                                                Parent: {
+                                                        Size: 5
+                                                        Items: [ ]
+                                                }
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "7106740C8A3BB152"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.0d
+                        y: -13.5d
+                        dependencies: ["00A0306B2B439698"]
+                        id: "4D548009FBF3BC0B"
+                        tasks: [{
+                                id: "2D733F8C3C5FBA76"
+                                type: "item"
+                                item: "immersiveengineering:drillhead_iron"
+                        }]
+                        rewards: [{
+                                id: "6D860C24A8B26F82"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.0d
+                        y: -14.5d
+                        dependencies: ["4D548009FBF3BC0B"]
+                        id: "5C33CCC0D92274CC"
+                        tasks: [{
+                                id: "3DC9323E2EE56495"
+                                type: "item"
+                                item: "immersiveengineering:drillhead_steel"
+                        }]
+                        rewards: [{
+                                id: "544ECB60935131BD"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 1.0d
+                        y: -10.5d
+                        dependencies: ["2864A4D4BB134D23"]
+                        id: "72CF9A9728C42D4E"
+                        tasks: [{
+                                id: "3820DDDA8F99F500"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:revolver"
+                                        Count: 1b
+                                        ForgeCaps: {
+                                                Parent: {
+                                                        Size: 21
+                                                        Items: [ ]
+                                                }
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "3C0A4F5C8A152C99"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        icon: {
+                                id: "immersiveengineering:toolbox"
+                                Count: 1b
+                                ForgeCaps: {
+                                        Parent: {
+                                                Size: 23
+                                                Items: [ ]
+                                        }
+                                }
+                        }
+                        x: 0.0d
+                        y: -10.5d
+                        dependencies: ["117E98EA5942B297"]
+                        id: "12FB5110501C3A8C"
+                        tasks: [
+                                {
+                                        id: "38A2102A3DCB3EB8"
+                                        type: "item"
+                                        item: {
+                                                id: "immersiveengineering:wirecutter"
+                                                Count: 1b
+                                                tag: {
+                                                        Damage: 0
+                                                }
+                                        }
+                                }
+                                {
+                                        id: "754FDBA4D494FD33"
+                                        type: "item"
+                                        item: "immersiveengineering:screwdriver"
+                                }
+                                {
+                                        id: "0B38098685F7D7D5"
+                                        type: "item"
+                                        item: "immersiveengineering:voltmeter"
+                                }
+                        ]
+                        rewards: [
+                                {
+                                        id: "703A8DB5741524B8"
+                                        type: "item"
+                                        item: {
+                                                id: "immersiveengineering:toolbox"
+                                                Count: 1b
+                                                ForgeCaps: {
+                                                        Parent: {
+                                                                Size: 23
+                                                                Items: [ ]
+                                                        }
+                                                }
+                                        }
+                                }
+                                {
+                                        id: "5D506FA30103442E"
+                                        type: "item"
+                                        item: "kubejs:pro_coin"
+                                        count: 2
+                                }
+                        ]
+                }
+                {
+                        x: -1.5d
+                        y: -9.5d
+                        dependencies: ["44C83AE747BA6538"]
+                        id: "7C5D75BFACE259E5"
+                        tasks: [{
+                                id: "18DF0546155A0C08"
+                                type: "item"
+                                item: "immersiveengineering:capacitor_lv"
+                        }]
+                        rewards: [{
+                                id: "67AFBB3E99213C2B"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -0.5d
+                        y: -9.5d
+                        dependencies: ["7C5D75BFACE259E5"]
+                        id: "48E152FFAD295D26"
+                        tasks: [{
+                                id: "549D6B3A2227AAD8"
+                                type: "item"
+                                item: "immersiveengineering:capacitor_mv"
+                        }]
+                        rewards: [{
+                                id: "1C1D0C2C9181C8C0"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.5d
+                        y: -9.5d
+                        dependencies: ["48E152FFAD295D26"]
+                        id: "55145B86F43F14C9"
+                        tasks: [{
+                                id: "7CD9F5E9F6BB43F8"
+                                type: "item"
+                                item: "immersiveengineering:capacitor_hv"
+                        }]
+                        rewards: [{
+                                id: "7522073AC7358D63"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 1.5d
+                        y: -9.5d
+                        dependencies: ["55145B86F43F14C9"]
+                        id: "4FA88A14853FE749"
+                        tasks: [{
+                                id: "33E8643120251CB6"
+                                type: "item"
+                                item: "immersiveengineering:tesla_coil"
+                        }]
+                        rewards: [{
+                                id: "795FBB489EDAFEFC"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: -0.5d
+                        y: -11.5d
+                        dependencies: ["3DD9ABFC6CB64B4D"]
+                        id: "7CF5B68890C0BE5B"
+                        tasks: [{
+                                id: "623341D8BE351DCD"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:skyhook"
+                                        Count: 1b
+                                        ForgeCaps: {
+                                                Parent: {
+                                                        Size: 2
+                                                        Items: [ ]
+                                                }
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "27940D11B6C977E3"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        title: "强化高炉"
+                        icon: "immersiveengineering:advanced_blast_furnace"
+                        x: 1.0d
+                        y: -4.5d
+                        dependencies: ["5079433D80A8EC31"]
+                        id: "5A14257A3C77C084"
+                        tasks: [
+                                {
+                                        id: "5E5D8742DFFDF21A"
+                                        type: "item"
+                                        item: "immersiveengineering:blastbrick_reinforced"
+                                        count: 27L
+                                }
+                                {
+                                        id: "6F244E5131CF8D4C"
+                                        type: "item"
+                                        item: "minecraft:hopper"
+                                }
+                                {
+                                        id: "7AF2993667EDA649"
+                                        type: "observation"
+                                        title: "强化高炉"
+                                        icon: "immersiveengineering:advanced_blast_furnace"
+                                        timer: 0L
+                                        observe_type: 0
+                                        to_observe: "immersiveengineering:advanced_blast_furnace"
+                                }
+                        ]
+                        rewards: [{
+                                id: "0F38305F6EC30419"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 2.0d
+                        y: -4.5d
+                        subtitle: "快，更快！"
+                        dependencies: ["5A14257A3C77C084"]
+                        id: "638643105BCB2C13"
+                        tasks: [{
+                                id: "79B31007840FDBBF"
+                                type: "item"
+                                item: "immersiveengineering:blastfurnace_preheater"
+                                count: 2L
+                        }]
+                        rewards: [{
+                                id: "220E97A71937DD13"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.5d
+                        y: -8.5d
+                        dependencies: ["3DD9ABFC6CB64B4D"]
+                        id: "4366ECF97D28ACF6"
+                        tasks: [{
+                                id: "24ABB79371EE7C84"
+                                type: "item"
+                                item: "immersiveengineering:thermoelectric_generator"
+                        }]
+                        rewards: [{
+                                id: "6136C624D377D50A"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 0.5d
+                        y: -7.5d
+                        dependencies: ["2864A4D4BB134D23"]
+                        id: "2A481328F8F1060F"
+                        tasks: [{
+                                id: "282DDE7CE491D589"
+                                type: "item"
+                                item: "immersiveengineering:fluid_pump"
+                        }]
+                        rewards: [{
+                                id: "598494EEEB067890"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 3.0d
+                        y: -11.0d
+                        dependencies: ["4FA88A14853FE749"]
+                        id: "199AD065EB469A3F"
+                        tasks: [{
+                                id: "0F79746659C89B87"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:armor_faraday_head"
+                                        Count: 1b
+                                        tag: {
+                                                Damage: 0
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "29891B22B3A4CE53"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 3.0d
+                        y: -10.0d
+                        dependencies: ["4FA88A14853FE749"]
+                        id: "072F5D8BE3260E5E"
+                        tasks: [{
+                                id: "26E289C29423E112"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:armor_faraday_chest"
+                                        Count: 1b
+                                        tag: {
+                                                Damage: 0
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "79C5F7B046396AD5"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 3.0d
+                        y: -9.0d
+                        dependencies: ["4FA88A14853FE749"]
+                        id: "1708DAC689201B4D"
+                        tasks: [{
+                                id: "089661437E65CAAF"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:armor_faraday_legs"
+                                        Count: 1b
+                                        tag: {
+                                                Damage: 0
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "422C54E0C568D62D"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+                {
+                        x: 3.0d
+                        y: -8.0d
+                        dependencies: ["4FA88A14853FE749"]
+                        id: "5CDFF513C374E4BA"
+                        tasks: [{
+                                id: "43A84033DD23FAE1"
+                                type: "item"
+                                item: {
+                                        id: "immersiveengineering:armor_faraday_feet"
+                                        Count: 1b
+                                        tag: {
+                                                Damage: 0
+                                        }
+                                }
+                        }]
+                        rewards: [{
+                                id: "4C18450CCAAE890B"
+                                type: "item"
+                                item: "kubejs:pro_coin"
+                                count: 2
+                        }]
+                }
+        ]
 }
